@@ -23,41 +23,56 @@
 	
 	<url>
 		<loc>https://example.com/estatewatch/about/</loc>
-		<lastmod>2024-08-06</lastmod>
+		<lastmod>2024-08-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/estatewatch/blog/</loc>
-		<lastmod>2024-08-06</lastmod>
+		<lastmod>2024-08-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/estatewatch/estates/aberfeldy/</loc>
+		<lastmod>2024-08-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/estatewatch/estates/achilles/</loc>
+		<lastmod>2024-08-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/estatewatch/</loc>
-		<lastmod>2024-08-06</lastmod>
+		<lastmod>2024-08-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/estatewatch/tags/</loc>
-		<lastmod>2024-08-06</lastmod>
+		<lastmod>2024-08-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/estatewatch/tags/another-tag/</loc>
-		<lastmod>2024-08-06</lastmod>
+		<lastmod>2024-08-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/estatewatch/tags/number-2/</loc>
-		<lastmod>2024-08-06</lastmod>
+		<lastmod>2024-08-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/estatewatch/tags/second-tag/</loc>
-		<lastmod>2024-08-06</lastmod>
+		<lastmod>2024-08-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/estatewatch/tags/posts-with-two-tags/</loc>
-		<lastmod>2024-08-06</lastmod>
+		<lastmod>2024-08-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/estatewatch/tags/estates/</loc>
+		<lastmod>2024-08-21</lastmod>
 	</url>
 </urlset>
