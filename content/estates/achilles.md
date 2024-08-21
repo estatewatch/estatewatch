@@ -21,6 +21,8 @@ total: 87
 ballot: Approved
 planning: Pending
 ---
+![ach10](https://github.com/user-attachments/assets/d24925e5-83a6-4bef-a15a-2c5b9b9de50c)
+
 87 homes and 17 shops are earmarked for demolition as part of Lewisham's regeneration of the Achilles Street area in New Cross.
 
 The ballot of residents held in October 2019, [failed](https://achillesstreetstopandlisten.wordpress.com/2019/10/22/no-vote-for-business-owners-regarding-the-demolition-of-their-businesses-on-new-cross-road/) to give the 17 business owners a say in the plans and [failed](https://achillesstreetstopandlisten.wordpress.com/2019/10/10/for-immediate-release/) to offer refurbishment as an option. 
