@@ -12,6 +12,7 @@ const pluginImages = require("./eleventy.config.images.js");
 
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = function(eleventyConfig) {
+	
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
     // Get only content that matches a tag
@@ -39,6 +40,9 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginBundle);
+
+	// add custom function to extract the first image in each estate page 
+	eleventyConfig.addShortcode('first_image', estate => extractFirstImage(estate));
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
@@ -145,3 +149,21 @@ module.exports = function(eleventyConfig) {
 		pathPrefix: "/estatewatch/",
 	};
 };
+
+function extractFirstImage(doc) {
+	if (!doc.hasOwnProperty('templateContent')) {
+	  console.warn('❌ Failed to extract image: Document has no property `templateContent`.');
+	  return;
+	}
+  
+	const content = doc.templateContent;
+  
+	if (content.includes('<img')) {
+	  const imgTagBegin = content.indexOf('<img');
+	  const imgTagEnd = content.indexOf('>', imgTagBegin);
+  
+	  return content.substring(imgTagBegin, imgTagEnd + 1);
+	}
+  
+	return '';
+  }

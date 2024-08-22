@@ -1,0 +1,10 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Estates Under Threat
+  order: 2
+---
+<h1>Estates Under Threat</h1>
+
+{% set estateslist = collections.estates %}
+{% include "estateslist.njk" %}

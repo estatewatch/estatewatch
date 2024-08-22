@@ -21,7 +21,7 @@ total: 87
 ballot: Approved
 planning: Pending
 ---
-![ach10](https://github.com/user-attachments/assets/d24925e5-83a6-4bef-a15a-2c5b9b9de50c)
+{% image "src/images/ach10.jpg", "alt text" %}
 
 87 homes and 17 shops are earmarked for demolition as part of Lewisham's regeneration of the Achilles Street area in New Cross.
 
