@@ -11,6 +11,12 @@ img {
  filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
 }
 
+/* Keep images within the border */
+ul {
+	list-style-image: url("../handouticon.png");
+  }
+  
+
 /* Theme colors */
 :root {
 	--color-gray-20: #e0e0e0;
