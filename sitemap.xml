@@ -23,61 +23,56 @@
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/about/</loc>
-		<lastmod>2024-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://estatewatch.london/estatewatch/blog/</loc>
-		<lastmod>2024-08-22</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://estatewatch.london/estatewatch/estates/</loc>
-		<lastmod>2024-08-22</lastmod>
+		<lastmod>2024-08-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/estates/aberfeldy/</loc>
-		<lastmod>2024-08-22</lastmod>
+		<lastmod>2024-08-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/estates/achilles/</loc>
-		<lastmod>2024-08-22</lastmod>
+		<lastmod>2024-08-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/</loc>
-		<lastmod>2024-08-22</lastmod>
+		<lastmod>2024-08-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://estatewatch.london/estatewatch/resources/</loc>
+		<lastmod>2024-08-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/</loc>
-		<lastmod>2024-08-22</lastmod>
+		<lastmod>2024-08-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/another-tag/</loc>
-		<lastmod>2024-08-22</lastmod>
+		<lastmod>2024-08-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/number-2/</loc>
-		<lastmod>2024-08-22</lastmod>
+		<lastmod>2024-08-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/second-tag/</loc>
-		<lastmod>2024-08-22</lastmod>
+		<lastmod>2024-08-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/posts-with-two-tags/</loc>
-		<lastmod>2024-08-22</lastmod>
+		<lastmod>2024-08-23</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/estates/</loc>
-		<lastmod>2024-08-22</lastmod>
+		<lastmod>2024-08-23</lastmod>
 	</url>
 </urlset>

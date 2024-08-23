@@ -9,24 +9,6 @@
 		<link rel="alternate" href="/estatewatch/feed/feed.json" type="application/json" title="ESTATE WATCH">
 		
 		<style>.postlist { counter-reset: start-from 3 }
-/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
-
-	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
-}
 * { box-sizing: border-box; }
 /* Defaults */
 :root {
@@ -40,6 +22,12 @@ img {
  height: auto;
  filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
 }
+
+/* Keep images within the border */
+ul {
+	list-style-image: url("../handouticon.png");
+  }
+  
 
 /* Theme colors */
 :root {
@@ -310,32 +298,20 @@ h2 + .header-anchor {
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<img class="img-fluid rounded-circle" alt="Estate Watch Icon" src="ewicon.png" loading="lazy" width="40" height="40">
+			<img class="img-fluid rounded-circle" alt="Estate Watch Icon" src="https://estatewatch.london/estatewatch/ewicon.png" loading="lazy" width="40" height="40">
 			<a href="/estatewatch/" class="home-link">ESTATE WATCH</a>
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
-					<li class="nav-item"><a href="/estatewatch/">Home</a></li>
-					<li class="nav-item"><a href="/estatewatch/blog/">Archive</a></li>
-					<li class="nav-item"><a href="/estatewatch/estates/">Estates Under Threat</a></li>
-					<li class="nav-item"><a href="/estatewatch/about/">About Me</a></li>
+					<li class="nav-item"><a href="/estatewatch/">Estates Under Threat</a></li>
+					<li class="nav-item"><a href="/estatewatch/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/estatewatch/about/">About Us</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<main id="skip">
-			<!-- Delete this message, it will also remove the component CSS from the bundle -->
-<div class="message-box">
-	<ol>
-		<li>Edit the <code>_data/metadata.js</code> with your blog’s information.</li>
-		<li>(Optional) Edit <code>eleventy.config.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-		<li>Delete this message from <code>_includes/layouts/home.njk</code>.</li>
-	</ol>
-	<p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-</div>
-<!-- Stop deleting -->
-
-<h1>Tagged “second tag”</h1>
+			<h1>Tagged “second tag”</h1>
 
 
 
@@ -361,6 +337,6 @@ h2 + .header-anchor {
 
 		<footer></footer>
 
-		<!-- This page `/estatewatch/tags/second-tag/` was built on 2024-08-22T09:09:32.316Z -->
+		<!-- This page `/estatewatch/tags/second-tag/` was built on 2024-08-23T10:25:16.854Z -->
 	</body>
 </html>
