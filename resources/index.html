@@ -8,7 +8,25 @@
 		<link rel="alternate" href="/estatewatch/feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
 		<link rel="alternate" href="/estatewatch/feed/feed.json" type="application/json" title="ESTATE WATCH">
 		
-		<style>* { box-sizing: border-box; }
+		<style>/* Message Box */
+.message-box {
+	--color-message-box: #ffc;
+
+	display: block;
+	background-color: var(--color-message-box);
+	color: var(--color-gray-90);
+	padding: 1em 0.625em; /* 16px 10px /16 */
+}
+.message-box ol {
+	margin-top: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	.message-box {
+		--color-message-box: #082840;
+	}
+}
+* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -21,11 +39,6 @@ img {
  height: auto;
  filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
 }
-
-/* Keep images within the border */
-ul {
-	list-style-image: url("../handouticon.png");
-  }
   
 
 /* Theme colors */
@@ -311,30 +324,104 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			<h1>Resources</h1>
-<p>Below are some resources for tenants and residents facing the redevelopment of their estates. Feel free to use them on your estate as they are, or copy the content to use in your own newsletters or campaigning factsheets.</p>
-<ul>
-<li>
-<p>Seven reasons to be wary of 'estate regeneration'</p>
-</li>
-<li>
-<p>Resident-led regeneration: proposing alternatives to demolition</p>
-</li>
-<li>
-<p>Demolition ballots: 10 questions to ask before you cast your vote</p>
-</li>
-<li>
-<p>CPO guide for leaseholders on estates earmarked for demolition</p>
-</li>
-<li>
-<p><a href="/estatewatch/estates/src/images/alternative-good-practice-guide-to-estate-regeneration.pdf">Our Alternative Good Practice Guide to estate regeneration</a></p>
-</li>
-</ul>
+<div class="message-box">
+We have produced five guides for tenants and residents facing the redevelopment of their estates. Feel free to use them on your estate as they are, or copy the content to use in your own newsletters or campaigning factsheets.
+</div>
+<h2 id="our-guides" tabindex="-1">Our Guides <a class="header-anchor" href="#our-guides">#</a></h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:left"></th>
+<th style="text-align:right"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../handouticon.png" alt=""></td>
+<td style="text-align:left"><a href="../Handout_1.pdf">Seven reasons to be wary of 'estate regeneration'</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><img src="../handouticon.png" alt=""></td>
+<td style="text-align:left"><a href="../Handout_3.pdf">Resident-led regeneration: proposing alternatives to demolition</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><img src="../handouticon.png" alt=""></td>
+<td style="text-align:left"><a href="../Handout_4.pdf">Demolition ballots: 10 questions to ask before you cast your vote</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><img src="../handouticon.png" alt=""></td>
+<td style="text-align:left"><a href="../cpoguide.pdf">CPO guide for leaseholders on estates earmarked for demolition</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><img src="../handouticon.png" alt=""></td>
+<td style="text-align:left"><a href="../alternative-good-practice-guide-to-estate-regeneration.pdf">Our Alternative Good Practice Guide to estate regeneration</a></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="making-the-case-for-refurbishment" tabindex="-1">Making the case for refurbishment <a class="header-anchor" href="#making-the-case-for-refurbishment">#</a></h2>
+<p>The <a href="https://www.ucl.ac.uk/engineering-exchange/">Engineering Exchange at UCL</a> have produced a series of factsheets, videos and a peer-reviewed report, which show that refurbishment is the better option socially and environmentally.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:left"></th>
+<th style="text-align:right"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../uclreport.png" width="100"></td>
+<td style="text-align:left"><a href="../https:/www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/report-refurbishment-demolition-social-housing_1.pdf">Demolition or refurbishment of social housing - a review of the evidence</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><img src="../embodiedcarbonfactsheet.png" width="100"></td>
+<td style="text-align:left"><a href="https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/fact-sheet-embodied-carbon-social-housing.pdf">Embodied Carbon: Factsheet</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><img src="../uclwellbeing.png" width="100"></td>
+<td style="text-align:left"><a href="https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/fact-sheet-health-and-wellbeing-social-housing.pdf">Health and Well-being: Factsheet</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><img src="../lifespan.png" width="100"></td>
+<td style="text-align:left"><a href="https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/fact-sheet-lifespan-and-decisions-social-housing.pdf">Lifespans and Decisions: Factsheet</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><img src="../policybriefing.png" width="100"></td>
+<td style="text-align:left"><a href="https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/policy_brief_refurbishment_and_demolition_of_social_housing.pdf">Policy Briefing: Making decisions on demolition or refurbishment of social housing</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><img src="../toolkit.png" width="100"></td>
+<td style="text-align:left"><a href="https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/ucl150_a4-demolition-toolkit_v4_online.pdf">Refurbishment and Demolition: Community Toolkit</a></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jFo_aFlg41Y?si=hI3fy1e0dJBFLwbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VwO5lyUiZpc?si=R-XQMe2FVTSXUQaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A1OaRsFgg-E?si=E8rZ_b6wJ9-umqDB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
 
 		</main>
 
-		<footer></footer>
+		<footer>
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"></path>
+</svg>
+		      <a href="https://github.com/estatewatch/estatewatch/blob/main/./content/resources.md">Edit this page on GitHub</a>
+		</footer>
 
-		<!-- This page `/estatewatch/resources/` was built on 2024-08-23T10:25:16.853Z -->
+		
 	</body>
 </html>

@@ -8,7 +8,43 @@
 		<link rel="alternate" href="/estatewatch/feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
 		<link rel="alternate" href="/estatewatch/feed/feed.json" type="application/json" title="ESTATE WATCH">
 		
-		<style>* { box-sizing: border-box; }
+		<style>/* Message Box */
+.message-box {
+	--color-message-box: #ffc;
+
+	display: block;
+	background-color: var(--color-message-box);
+	color: var(--color-gray-90);
+	padding: 1em 0.625em; /* 16px 10px /16 */
+}
+.message-box ol {
+	margin-top: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	.message-box {
+		--color-message-box: #082840;
+	}
+}
+/* Message Box Green */
+.message-box-green {
+	--color-message-box: rgb(76, 221, 209);
+
+	display: block;
+	background-color: var(--color-message-box);
+	color: var(--color-gray-90);
+	padding: 1em 0.625em; /* 16px 10px /16 */
+}
+.message-box-green ol {
+	margin-top: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	.message-box-green {
+		--color-message-box: #082840;
+	}
+}
+* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -21,11 +57,6 @@ img {
  height: auto;
  filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
 }
-
-/* Keep images within the border */
-ul {
-	list-style-image: url("../handouticon.png");
-  }
   
 
 /* Theme colors */
@@ -311,17 +342,27 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			<h1 id="about-us" tabindex="-1">About Us <a class="header-anchor" href="#about-us">#</a></h1>
-<p>We are a network of tenants and residents’ groups and individuals whose estates are at risk of demolition or are in the process of demolition. Supported by London Tenants Federation and Just Space, we provide help and guidance to residents living on estates earmarked for demolition.
-We support residents engaging in discussion to make their own decisions about what might work best on their estates. We have created a number of factsheets, handouts and guides and also hold quarterly meetings for residents where we exchange experiences and advice. Read more about us and how to get involved here.</p>
+<div class="message-box">
+We are a network of tenants and residents’ groups and individuals whose estates are at risk of demolition or are in the process of demolition. Supported by <a href="https://justspace.org.uk"> Just Space</a>, we provide help and guidance to residents living on estates earmarked for demolition.
+We support residents engaging in discussion to make their own decisions about what might work best on their estates. We have created a number of factsheets, handouts and guides and also hold meetings for residents where we exchange experiences and advice. 
+</div>
 <p>The project was initially kickstarted in 2020 by <a href="https://justspace.org.uk/"><u> Just Space</u></a> and <a href="https://londontenants.org/">The London Tenants Federation</a> working together with the University of Leicester and King’s College London on a research project that has provided detailed evidence since 1997 of the displacement of London council tenants and leaseholders through regeneration schemes.</p>
-<p>As part of this research, 120 in-depth interviews were carried out with tenants and residents on 6 different council estates undergoing regeneration: Aylesbury (Southwark), Gascoigne (Barking and Dagenham), Ocean (Tower Hamlets), Love Lane (Haringey), Pepys (Lewisham) and Carpenters estate (Newham). The interviews showed that many residents were forced out of their neighbourhoods leaving behind that precious network of friends, relatives and neighbours. The research has also shed light on the conditions many residents have been forced to live in - with essential repairs often neglected by the Council for years - and the uncertainty about the future, which created high level of anxiety and stress.</p>
 <p>As the research project drew to a close, this website was developed as a resource for communities on estates facing regeneration, to know their rights and to ensure that tenants and residents’ choices will be respected. We want to monitor each scheme as it progresses and make space for residents to add updated information about their estate in real time. This can be a precious tool to hold Councils across London and the Mayor to account and make sure that future regeneration schemes benefit existing local communities.</p>
+<div class="message-box-green">
+The Estate Watch website is now maintained as an open-source project and is being kept up to date by voluntary contributors via its Github interface. If you would like to get involved then read our <a href="/estatewatch/guide/"> Guide</a> on how to submit edits for review via Github.
+</div>	
 <p><b>You can contact us at <a href="mailto:info@estatewatch.london">info@estatewatch.london</a></b></p>
 
 		</main>
 
-		<footer></footer>
+		<footer>
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"></path>
+</svg>
+		      <a href="https://github.com/estatewatch/estatewatch/blob/main/./content/about/index.md">Edit this page on GitHub</a>
+		</footer>
 
-		<!-- This page `/estatewatch/about/` was built on 2024-08-23T10:25:16.845Z -->
+		
 	</body>
 </html>
