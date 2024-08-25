@@ -14,6 +14,15 @@ layout: layouts/base.njk
 	{%- endfor %}
 </ul>
 
+{% highlight "yaml" %}
+Homes under threat: {{ total }}
+Landlord: {{ landlord }}
+Developer: {{ developer }}
+Ballot Status: {{ ballot }}
+Planning Status: {{ planning }}
+Architect: Levitt Bernstein
+{% endhighlight %}
+
 {{ content | safe }}
 
 {%- if collections.posts %}

@@ -25,14 +25,6 @@ architect: Levitt Bernstein
 ---
 {% image "src/images/ach10.jpg", "alt text" %}
 
-```golang
-Landlord: {{ landlord }}
-Developer: {{ developer }}
-Ballot Status: {{ ballot }}
-Planning Status: {{ planning }}
-Architect: Levitt Bernstein
-```
-
 87 homes and 17 shops are earmarked for demolition as part of Lewisham's regeneration of the Achilles Street area in New Cross.
 
 The ballot of residents held in October 2019, [failed](https://achillesstreetstopandlisten.wordpress.com/2019/10/22/no-vote-for-business-owners-regarding-the-demolition-of-their-businesses-on-new-cross-road/) to give the 17 business owners a say in the plans and [failed](https://achillesstreetstopandlisten.wordpress.com/2019/10/10/for-immediate-release/) to offer refurbishment as an option. 
