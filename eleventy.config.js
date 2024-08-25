@@ -72,6 +72,11 @@ module.exports = function(eleventyConfig) {
 		return Math.min.apply(null, numbers);
 	});
 
+	// create the 'estates' collection from the 'estates' folder
+    eleventyConfig.addCollection("estates", function(collectionApi) {
+		return collectionApi.getFilteredByGlob("content/estates/*.md");
+	  });
+
 	// Return all the tags used in a collection
 	eleventyConfig.addFilter("getAllTags", collection => {
 		let tagSet = new Set();

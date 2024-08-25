@@ -1,6 +1,7 @@
 ---
-name: Achilles Street area 
+name: Achilles Street area
 borough: lewisham
+tags: lewisham
 thumb: /images/ach1thumb.jpg
 images:
   - src/images/ach1.jpg
@@ -15,13 +16,22 @@ images:
   - src/images/ach10.jpg
 location: '{"type":"Point","coordinates":[-0.035341,51.476452]}'
 landlord: Lewisham Council
-developer:
+developer: Lewisham Homes
 itla:
 total: 87
 ballot: Approved
 planning: Pending
+architect: Levitt Bernstein
 ---
 {% image "src/images/ach10.jpg", "alt text" %}
+
+```golang
+Landlord: {{ landlord }}
+Developer: {{ developer }}
+Ballot Status: {{ ballot }}
+Planning Status: {{ planning }}
+Architect: Levitt Bernstein
+```
 
 87 homes and 17 shops are earmarked for demolition as part of Lewisham's regeneration of the Achilles Street area in New Cross.
 
@@ -34,9 +44,13 @@ Campaingers have also [revealed](https://achillesstreetstopandlisten.wordpress.c
 
 {% image "src/images/achillesplan.png", "alt text" %}
 
-The Council's ['Landlord Offer'](You will receive compensation for having to move and be given help with the cost of moving.) describes the proposed tenure mix of the 450 new homes to built on the site as follows:
+The Council's ['Landlord Offer'](http://councilmeetings.lewisham.gov.uk/documents/s67637/Appendix%20A%20-%20Achilles%20Street%20Landlord%20Offer.pdf) describes the proposed tenure mix of the 450 new homes to built on the site as follows:
 
 {% image "src/images/aslo.png", "alt text" %}
+
+In December 2023, Lewisham Council was [reported](https://www.insidehousing.co.uk/news/council-puts-development-programme-sites-on-hold-amid-challenging-conditions-84505) to have put a number of its development sites on hold following financing issues highlighted by a review.
+
+Whilst the Achilles St scheme itself wasn't put on hold, the review report highlighted risks associated with the redevelopment of the Achilles Street estate. 
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: Aberfeldy estate (West)
 borough: towerhamlets
+tags: towerhamlets
 location: '{"type":"Point","coordinates":[-0.004851,51.512950]}'
 ballot: Approved
 landlord: Poplar HARCA
@@ -17,7 +18,7 @@ planning: Approved
 ---
 225 homes remain under threat of demolition at Poplar HARCA's redevelopment of the Aberfeldy estate in Tower Hamlets.
 
-The estate was transferred from Tower Hamlets to Poplar HARCA in 2007 under a stock transfer agreement.
+The estate was transferred from Tower Hamlets to Poplar HARCA in 2007 under a borough-wide stock transfer agreement.
 
 The estate borders the River Lea to the East, Balfron Tower to the West and the Robin Hood Gardens estate to the South. Poplar HARCA have already come under [criticism](https://www.theguardian.com/cities/2019/sep/19/balfron-20-how-goldfingers-utopian-tower-became-luxury-flats) for its privatisation of Balfron Tower.
 
