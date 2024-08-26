@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ESTATE WATCH</title>
+		<meta name="description" content="A resource for residents on London estates under threat of demolition.">
+		<link rel="alternate" href="/estatewatch/feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
+		<link rel="alternate" href="/estatewatch/feed/feed.json" type="application/json" title="ESTATE WATCH">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
+}
+  
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<img class="img-fluid rounded-circle" alt="Estate Watch Icon" src="https://estatewatch.london/estatewatch/ewicon.png" loading="lazy" width="40" height="40">
+			<a href="/estatewatch/" class="home-link">ESTATE WATCH</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/estatewatch/">Estates Under Threat</a></li>
+					<li class="nav-item"><a href="/estatewatch/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/estatewatch/about/">About Us</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1>Douglas Bader Park estate</h1>
+
+<ul class="post-metadata">
+</ul>
+
+<pre class="language-yaml" tabindex="0"><code class="language-yaml"><span class="token key atrule">Homes under threat</span><span class="token punctuation">:</span> <span class="token number">271</span>
+<span class="token key atrule">Landlord</span><span class="token punctuation">:</span> Home Group (Housing Association)
+<span class="token key atrule">Developer</span><span class="token punctuation">:</span> Home/Hill Group
+<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Approved
+<span class="token key atrule">Planning Status</span><span class="token punctuation">:</span> Approved
+Architect<span class="token punctuation">:</span></code></pre>
+
+<p>271 homes are earmarked for demolition on Barnet's Douglas Bader Park estate in Colindale.</p>
+<p>The estate is owned by housing association <a href="http://homegroup.org.uk">Home Group</a> and housebuilder <a href="http://hill.co.uk">Hill Group</a>.</p>
+<p>In May 2019, residents were balloted on the redevelopment options for the estate, but were <a href="/estatewatch/images/DouglasBaderParkBallot.pdf">told</a> that if they voted against full redevelopment then only essential repairs would be carried out on their homes:</p>
+<p><picture><source type="image/avif" srcset="/estatewatch/img/QbHbVPVBY8-1116.avif 1116w"><source type="image/webp" srcset="/estatewatch/img/QbHbVPVBY8-1116.webp 1116w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/QbHbVPVBY8-1116.png" width="1116" height="200"></picture></p>
+<p>This is slowly <a href="/estatewatch/approved/ballotexemptions/">becoming standard practice</a> in the ballot process - residents are faced with the choice of redevelopment or continued neglect and disinvestment; the option of having their homes refurbished is simply not on the table.</p>
+<p>In January 2021, a <a href="https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=QLUOGJJI09100">planning application</a> was submitted for redevelopment of the estate.</p>
+<p>In February 2021, the Mayor has published his <a href="https://gla.force.com/pr/s/planning-application/a0i4J000002fSv8QAE/20210141?tabset-c2f3b=2">'stage 1' planning report</a> giving in principle approval to the <a href="https://estatewatch.london/estates/barnet/douglasbaderpark/">redevelopment of Barnet's Douglas Bader Park estate</a>.</p>
+<p>The estate is owned by housing association <a href="https://homegroup.org.uk">'Home Group'</a>, which is one of the Mayor's <a href="https://www.insidehousing.co.uk/news/news/six-partnerships-announced-as-490m-grant-allocated-59289">strategic partners</a> in receipt of £46m GLA funding for agreeing to provide at least 60% affordable housing across its pipeline (see para 3.17 of the Mayor's <a href="https://www.london.gov.uk/sites/default/files/smha_offer_2019.pdf">funding guidance</a> for more info).</p>
+<p>The Mayor's report confirms that the estate's 271 existing homes will be replaced by 753 new homes of which 272 will be affordable in a mix of social rent and London Affordable Rent. While it praises the <em>'like for like replacement of social rent accommodation'</em>, it conflates social rent with London Affordable Rent and is silent on the application's failure to meet the Mayor's minimum 50% affordable housing requirement for estate regenerations.</p>
+<p>The Mayor's report is also silent on how the affordable housing offer (36% by unit/40% by habitable room) complies with the strategic partnership commitment of 60% affordable housing.</p>
+<p>Neither does it say anything about the Mayor's requirement to show that alternatives to demolition have been properly considered. It is therefore impossible to know whether the Mayoral funding might have been better spent elsewhere, building new social rented homes rather than replacements.</p>
+<p><picture><source type="image/avif" srcset="/estatewatch/img/64RinZzVJU-985.avif 985w"><source type="image/webp" srcset="/estatewatch/img/64RinZzVJU-985.webp 985w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/64RinZzVJU-985.png" width="985" height="362"></picture></p>
+<p><picture><source type="image/avif" srcset="/estatewatch/img/jm-_4dS1Sx-990.avif 990w"><source type="image/webp" srcset="/estatewatch/img/jm-_4dS1Sx-990.webp 990w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/jm-_4dS1Sx-990.png" width="990" height="460"></picture></p>
+<p>The estate is located directly adjacent to another of Barnet's large scale estate redevelopments - the <a href="https://estatewatch.london/estates/barnet/grahamepark/">Grahame Park estate</a>.</p>
+<p>In September 2021, Barnet's planning committee narrowly approved the planning application, with four Labour councillors and a Liberal Democrat member voting against the plan. Five Conservatives voted in favour, and committee chairman Cllr Eva Greenspan used her casting vote to approve the scheme.</p>
+<p><strong>Links:</strong>
+Planning application and supporting documents: <a href="https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=QLUOGJJI09100">https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=QLUOGJJI09100</a> (ref: 20/6277/FUL)</p>
+<p>Planning officer report for the rejected planning application: <a href="https://barnet.moderngov.co.uk/documents/s65028/Douglas%20Bader%20Park%20Estate.pdf">https://barnet.moderngov.co.uk/documents/s65028/Douglas%20Bader%20Park%20Estate.pdf</a></p>
+<p>The Mayor's stage 1 report: <a href="https://gla.force.com/pr/s/planning-application/a0i4J000002fSv8QAE/20210141?tabset-c2f3b=2">https://gla.force.com/pr/s/planning-application/a0i4J000002fSv8QAE/20210141?tabset-c2f3b=2</a></p>
+
+
+		</main>
+
+		<footer>
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"></path>
+</svg>
+		      <a href="https://github.com/estatewatch/estatewatch/blob/main/./content/estates/douglasbaderpark.md">Edit this page on GitHub</a>
+		</footer>
+
+		
+	</body>
+</html>
