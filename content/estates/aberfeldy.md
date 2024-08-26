@@ -8,17 +8,14 @@ landlord: Poplar HARCA
 developer: Ecoworld
 itla: PPCR
 total: 225
-thumb: /images/af1thumb.jpg
-images:
-  - src/images/af1.jpg
-  - src/images/af2.png
-  - src/images/af3.png
-  - src/images/afbrochure.png
 planning: Approved
+architect: Levitt Bernstein
 ---
+{% image "src/images/af2.png", "Aberfeldy estate" %}
+
 225 homes remain under threat of demolition at Poplar HARCA's redevelopment of the Aberfeldy estate in Tower Hamlets.
 
-The estate was transferred from Tower Hamlets to Poplar HARCA in 2007 under a borough-wide stock transfer agreement.
+The estate was transferred from Tower Hamlets to Poplar HARCA in 2007 under a stock transfer agreement.
 
 The estate borders the River Lea to the East, Balfron Tower to the West and the Robin Hood Gardens estate to the South. Poplar HARCA have already come under [criticism](https://www.theguardian.com/cities/2019/sep/19/balfron-20-how-goldfingers-utopian-tower-became-luxury-flats) for its privatisation of Balfron Tower.
 
@@ -34,7 +31,7 @@ The scheme is being progressed in six phases in a joint venture with Malaysian i
 
 The estate originally comprised 297 homes but 72 homes were demolished in phases 1-3, which are currently approaching completion.
 
-A ballot for the remaining 3 phases or 'Aberfeldy West' was approved in October 2020, with the majority of eligible residents voting in favour of full redevelopment. The scheme is being [funded](/approved/funding) by the Mayor.
+A ballot for the remaining 3 phases or 'Aberfeldy West' was approved in October 2020, with the majority of eligible residents voting in favour of full redevelopment. The scheme is being [funded](https://www.london.gov.uk/programmes-strategies/housing-and-land/homes-londoners/estate-regeneration/estate-regeneration-data) by the Mayor.
 
 Compulsory purchase orders were [issued in 2016](https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Aberfeldy_SoR_140616.pdf) and confirmed in 2017 for the remaining three phases.
 
@@ -46,8 +43,11 @@ In August 2021, [pre-application advice](https://democracy.towerhamlets.gov.uk/d
 
 This resulted in a planning application which was refused by Tower Hamlets in 2022 on the basis that the affordable housing offer of 38% was too low. In May 2023, the Mayor called in the application for him to determine himself.
 
+Despite failing to conform with his minimum policy requirement for 50% affordable in estate redevelopments, the Mayor granted final planning approval in January 2024. It remains unclear what the final tenure mix will be. The Mayor's stage 2 report says that 89.2% of the 38% affordable housing will be _'low cost rented accommodation (comprising a mix of social rent, London Affordable Rent, Tower Hamlets Living Rent)_' and the remainder will be intermediate tenures (including shared ownership). 
+
+---
 __Links:__
-[Mayor's stage 1 and stage 2 reports](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/aberfeldy-estate-0)
+[Mayor's stage 1 and stage 2 reports](https://planapps.london.gov.uk/planningapps/PA-21-02377)
 
 [Planning application documents (phases 1-3)](https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=DCAPR_100784)
 

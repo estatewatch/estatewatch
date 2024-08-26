@@ -24,6 +24,16 @@ Click the green 'fork this repository' button and you will then be taken to the 
 
 > **Note:** You will only have to fork the repository once - the first time you make an edit.
 
+Once you have been redirected to the source text page, you will see something like the screenshot below. You will need to click on the pencil icon at the top right of the page to enter editing mode:
+
+{% image "./githubedit.png", "A screenshot of github" %}
+
+Once in editing mode, you can add or amend the text accordingly and also add images or files by simply copying and pasting them or dragging and dropping them into the editing page.
+
+The text editor differs from most word processing environments in that it uses 'Markdown' -  lightweight markup language for creating formatted text using a plain-text editor. You can read a brief guide on using Markdown here: <https://piccalil.li/blog/a-quick-and-easy-guide-to-markdown/>
+
+When you have finished editing, click on the green 'Commit Changes' button on the top right corner of the page. This will submit your proposed changes for review by a moderator before being published.
+
 
 
 

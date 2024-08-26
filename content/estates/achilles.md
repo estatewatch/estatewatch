@@ -2,18 +2,6 @@
 name: Achilles Street area
 borough: lewisham
 tags: lewisham
-thumb: /images/ach1thumb.jpg
-images:
-  - src/images/ach1.jpg
-  - src/images/ach2.jpg
-  - src/images/ach3.jpg
-  - src/images/ach4.jpg
-  - src/images/ach5.jpg
-  - src/images/ach6.jpg
-  - src/images/ach7.jpg
-  - src/images/ach8.jpg
-  - src/images/ach9.jpg
-  - src/images/ach10.jpg
 location: '{"type":"Point","coordinates":[-0.035341,51.476452]}'
 landlord: Lewisham Council
 developer: Lewisham Homes
@@ -55,3 +43,11 @@ The Council's [Achilles St Landlord offer](http://councilmeetings.lewisham.gov.u
 [Deptford is Changing](https://www.yumpu.com/en/document/view/63260301/deptford-is-changing-a-creative-exploration-of-gentrification) book by local resident and PhD student Anita Strasser.
 
 [Lewisham Council's web page for the scheme](https://lewisham.gov.uk/organizations/achilles-street-redevelopment)
+
+---
+
+{% image "src/images/ach7.jpg", "alt text" %}
+
+{% image "src/images/ach5.jpg", "alt text" %}
+
+{% image "src/images/ach8.jpg", "alt text" %}
