@@ -1,6 +1,7 @@
 ---
 name: Avenue Road estate
 borough: walthamforest
+tags: walthamforest
 location: '{"type":"Point","coordinates":[-0.002466,51.554350]}'
 thumb: /images/avenueroadthumb.jpg
 images:
