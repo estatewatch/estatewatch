@@ -305,7 +305,68 @@ a[href].header-anchor:focus,
 
 h2 + .header-anchor {
 	font-size: 1.5em;
-}</style>
+}
+.glitch-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFFF;
+ }
+ 
+ .glitch {
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    color: #070707;
+    letter-spacing: 3px;
+    z-index: 1;
+ }
+ 
+ .glitch:before,
+ .glitch:after {
+    display: block;
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+ }
+ 
+ .glitch:before {
+    animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: #00FFFF;
+    z-index: -1;
+ }
+ 
+ .glitch:after {
+    animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    color: #FF00FF;
+    z-index: -2;
+ }
+ 
+ @keyframes glitch-it {
+    0% {
+       transform: translate(0);
+    }
+    20% {
+       transform: translate(-2px, 2px);
+    }
+    40% {
+       transform: translate(-2px, -2px);
+    }
+    60% {
+       transform: translate(2px, 2px);
+    }
+    80% {
+       transform: translate(2px, -2px);
+    }
+    to {
+       transform: translate(0);
+    }
+ }</style>
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
@@ -317,14 +378,64 @@ h2 + .header-anchor {
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
 					<li class="nav-item"><a href="/estatewatch/">Estates Under Threat</a></li>
-					<li class="nav-item"><a href="/estatewatch/resources/" aria-current="page">Resources</a></li>
-					<li class="nav-item"><a href="/estatewatch/about/">About Us</a></li>
+					<li class="nav-item"><a href="/estatewatch/resources/" aria-current="page">FAQ/Resources</a></li>
+					<li class="nav-item"><a href="/estatewatch/about/">About</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<main id="skip">
-			<h1>Resources</h1>
+			<div class="message-box">
+<details>
+<summary>What is wrong with redeveloping London's housing estates?</summary>
+<ul>
+<li>Despite best intentions, replacement housing is largely privately owned and invariably ends up in a loss of council and social rented housing.</li>
+<li>Long-standing communities suffer uncertainty, disruption and are dispersed.</li>
+<li>Structurally sound buildings are needlessly demolished and replaced, creating a significant carbon impact.</li>
+</ul>
+</details>
+</div>
+<hr>
+<div class="message-box">
+<details>
+<summary>But the private housing cross subsidises the replacement social housing doesn't it?</summary>
+<p>Despite best intentions, the cost of replacement social housing and demolition/rehousing is subsidised mainly via local authorities, grant funding or by increasing the rents on replacement affordable housing. See [here] and [here] for examples.</p>
+</details>
+</div>
+<hr>
+<div class="message-box">
+<details>
+<summary>But maintenance costs on these old estates are a burden on councils and RSLs aren't they? </summary>
+<p>Despite their age and lack of investment, evidence shows that most estates actually provide a surplus when rental income is compared to maintenance costs. See [here] and [here] for examples.</p>
+</details>
+</div>
+<hr>
+<div class="message-box">
+<details>
+<summary>But residents have voted for the demolition of their own estates, why shouldn't their wishes be respected?</summary>
+<p>There are a number of problems with the current ballot process.</p>
+<ol>
+<li>Refurbishment is never an option on the ballot paper. Residents are faced with the option of demolition or managed decline.</li>
+</ol>
+</details>
+</div>
+<hr>
+<div class="message-box">
+<details>
+<summary>London needs more homes, why shouldn't estates be rebuilt with increased density to house both existing social tenants and increase overall housing stock? </summary>
+<p>Many estates earmarked for demolition are already high density. They tend to be selected not on low density but rather on architectural fashions (grey, concrete, 'monolithic' etc).</p>
+<p>In general, redeveloped estates do provide more homes but they tend to be smaller (1 &amp; 2 bed, rather than the family size homes they are often replacing). See the Aylesbury estate for example.</p>
+</details>
+</div>
+<hr>
+<div class="message-box">
+<details>
+<summary>Tips for collapsed sections</summary>
+<p>You can add text within a collapsed section.</p>
+</details>
+</div>
+<hr>
+<h1>Resources</h1>
 <div class="message-box">
 We have produced five guides for tenants and residents facing the redevelopment of their estates. Feel free to use them on your estate as they are, or copy the content to use in your own newsletters or campaigning factsheets.
 </div>

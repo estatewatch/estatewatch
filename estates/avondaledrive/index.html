@@ -455,7 +455,68 @@ a[href].header-anchor:focus,
 
 h2 + .header-anchor {
 	font-size: 1.5em;
-}</style>
+}
+.glitch-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFFF;
+ }
+ 
+ .glitch {
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    color: #070707;
+    letter-spacing: 3px;
+    z-index: 1;
+ }
+ 
+ .glitch:before,
+ .glitch:after {
+    display: block;
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+ }
+ 
+ .glitch:before {
+    animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: #00FFFF;
+    z-index: -1;
+ }
+ 
+ .glitch:after {
+    animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    color: #FF00FF;
+    z-index: -2;
+ }
+ 
+ @keyframes glitch-it {
+    0% {
+       transform: translate(0);
+    }
+    20% {
+       transform: translate(-2px, 2px);
+    }
+    40% {
+       transform: translate(-2px, -2px);
+    }
+    60% {
+       transform: translate(2px, 2px);
+    }
+    80% {
+       transform: translate(2px, -2px);
+    }
+    to {
+       transform: translate(0);
+    }
+ }</style>
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
@@ -467,8 +528,8 @@ h2 + .header-anchor {
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
 					<li class="nav-item"><a href="/estatewatch/">Estates Under Threat</a></li>
-					<li class="nav-item"><a href="/estatewatch/resources/">Resources</a></li>
-					<li class="nav-item"><a href="/estatewatch/about/">About Us</a></li>
+					<li class="nav-item"><a href="/estatewatch/resources/">FAQ/Resources</a></li>
+					<li class="nav-item"><a href="/estatewatch/about/">About</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -478,6 +539,7 @@ h2 + .header-anchor {
 <h1>Avondale Drive estate</h1>
 
 <ul class="post-metadata">
+	<li><a href="/estatewatch/tags/hillingdon/" class="post-tag">Hillingdon</a></li>
 </ul>
 
 <pre class="language-yaml" tabindex="0"><code class="language-yaml"><span class="token key atrule">Homes under threat</span><span class="token punctuation">:</span> <span class="token number">144</span>
@@ -488,6 +550,7 @@ h2 + .header-anchor {
 <span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Approved
 <span class="token key atrule">Planning Status</span><span class="token punctuation">:</span> Approved</code></pre>
 
+<p><picture><source type="image/avif" srcset="/estatewatch/img/Wu_5BHEmZZ-874.avif 874w"><source type="image/webp" srcset="/estatewatch/img/Wu_5BHEmZZ-874.webp 874w"><img alt="image of Avondale Drive estate" loading="lazy" decoding="async" src="/estatewatch/img/Wu_5BHEmZZ-874.png" width="874" height="693"></picture></p>
 <p>144 homes are under threat on Hillingdon's Avondale Drive estate in Hayes (117 Council and 27 leasehold).</p>
 <p>The estate consists of three 12 storey point blocks located adjacent to Hitherbourne Park around 1 mile North of Hayes &amp; Hillingdon train station (new crossrail station).</p>
 <p>In March 2016, Hillingdon Council <a href="https://modgov.hillingdon.gov.uk/ieIssueDetails.aspx?IId=21017&amp;Opt=3">applied</a> to the Mayor to establish Hayes Town Centre as a 'Housing Zone'. The application contained a list of potential development sites for new housing (appendix 5). The Avondale Drive estate was listed as one of them along with the Austin Road estate.</p>
@@ -495,14 +558,16 @@ h2 + .header-anchor {
 <p>The Savills report recommended demolition and rebuild on the basis that the estate has high investment needs, requiring an estimated expenditure of £59,726 (per unit) in maintenance costs over the next 30 years compared to a London average of £30,160.</p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/0YP60r61u2-804.avif 804w"><source type="image/webp" srcset="/estatewatch/img/0YP60r61u2-804.webp 804w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/0YP60r61u2-804.png" width="804" height="400"></picture></p>
 <p>But the £57,631 figure includes 'additional expenditure' of £11,603 per unit for other works like installing sprinkler systems.</p>
-<p>In addition, the Savills report fails to provide any underlying data supporting its claim that the London average estimate is £30,160. Savills' own figures elsewhere contradict this; in 2015 Savills undertook an <a href="https://moderngov.southwark.gov.uk/documents/s55626/Appendix%204%20Savills%20Evaluation.pdf">appraisal</a> of Southwark Council's stock and estimated that it required £55,942 per unit expenditure on average (see para 1.8).</p>
 <p>On 22 October 2020, Hillingdon Council <a href="https://modgov.hillingdon.gov.uk/ieListDocuments.aspx?CId=115&amp;MeetingId=3834">resolved</a> to proceed with a residents' ballot on demolition in line with the recommendations of the Savills report.</p>
 <p>The ballot was held in March 2021, with 94% in favour of redevelopment on an 85% turnout.</p>
-<p>In 2022, Hillingdon granted itself planning permission for a total of 240 new homes in its redevelopment of the estate, 54% of which affordable.</p>
+<p>In 2022, Hillingdon granted itself planning permission for a total of 240 new homes in its redevelopment of the estate, 54% of which 'affordable' but only 117 will be social rented homes.</p>
 <p>Hillingdon subsequently signed a joint venture agreement with developer Higgins for the redevelopment of the estate.</p>
+<p>The Council then served a Compulsory Purchase Order on the estate's residents, which was confirmed in March 2022. The CPO's <a href="https://www.hillingdon.gov.uk/media/7717/Statement-of-Reasons/pdf/6aStatement_of_Reasons_-_Avondale_Drive_-_c.pdf?m=1638202424067">Statement of Reasons</a> states the following reasons for justifying demolition of the estate:</p>
+<p><picture><source type="image/avif" srcset="/estatewatch/img/cZIyNWn3L--817.avif 817w"><source type="image/webp" srcset="/estatewatch/img/cZIyNWn3L--817.webp 817w"><img alt="avondale drive cpo" loading="lazy" decoding="async" src="/estatewatch/img/cZIyNWn3L--817.png" width="817" height="382"></picture></p>
+<hr>
 <p><strong>Links:</strong><br>
 <a href="/estatewatch/images/AD_Estate_Landlord_Offer.pdf">Landlord Offer document</a></p>
-<p>GLA <a href="https://gla.force.com/pr/s/planning-application/a0i4J000006cNtqQAE/20220211?tabset-c2f3b=2">planning report</a></p>
+<p>GLA <a href="https://planapps.london.gov.uk/planningapps/76551-APP-2021-4502">planning reports</a></p>
 
 
 		</main>
