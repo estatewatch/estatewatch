@@ -1,19 +1,7 @@
 ---
 name: Aylesbury estate 
 borough: southwark
-thumb: /images/aylesburyiconthumb.jpg
-images:
-  - src/images/aylesburyicon.jpg
-  - src/images/aylesbury1.jpg
-  - src/images/aylesburyimage.jpg
-  - src/images/fdsgreenspace.jpg
-  - src/images/aylesburypadbury.jpg
-  - src/images/aylesburyphoto.jpg
-  - src/images/aylesburyblair.jpg
-  - src/images/aylesburyrooftops.jpg
-  - src/images/aylesburywendover.jpg
-  - src/images/aylesburydemolition.jpg
-  - src/images/aylesburyident.png
+tags: southwark
 location: '{"type":"Point","coordinates":[-0.084806,51.485789]}'
 landlord: Southwark Council
 developer: Notting Hill Genesis
@@ -21,7 +9,10 @@ itla:
 total: 2000
 ballot: Exempt
 planning: Approved
+architect: HTA
 ---
+{% image "src/images/aylesburywendover.jpg", "Aylesbury image of wendover block" %}
+
 Circa 2,000 homes remain earmarked for demolition on the remaining 3 phases of Southwark's Aylesbury estate redevelopment.
 
 Two early 'demonstration' phases were completed in 2014 on the corner of the estate. Demolition of the first main phase was completed in June 2020 and is now under construction.
@@ -46,14 +37,24 @@ In September 2016, after a [protracted public inquiry](http://35percent.org/2016
 
 In July 2020, Southwark resolved to step in and [stump up £193m](http://35percent.org/2020-07-12-aylesbury-estate-fds-variation/) to help its development partner complete the first phase of the Aylesbury estate redevelopment, in what has been [termed as a bail out](https://www.southwarknews.co.uk/news/housing-chief-denies-aylesbury-estate-deal-is-bail-out-for-notting-hill-genesis/) after its development partner was [forced to scale back its development plans](https://www.insidehousing.co.uk/news/news/notting-hill-genesis-scales-back-development-plans-amid-changing-market-conditions-62506) by the Social Housing Regulator.
 
-In May 2021, Southwark's [Cabinet member for Climate Emergency and Sustainable Development](https://www.southwark.gov.uk/council-and-democracy/councillors-and-mps/leader-of-the-council-and-cabinet-members?chapter=6) [announced](https://twitter.com/helendennis80/status/1395336950962327552) that 80 homes on remaining phases of the [Aylesbury estate](https://www.estatewatch.london/estates/southwark/aylesbury/) have been [refurbished to be let out as temporary accommodation](https://www.southwark.gov.uk/news/2021/may/southwark-council-to-provide-temporary-housing-for-80-homeless-people-on-aylesbury-estate-while-581-council-homes-are-being-built) to families on the Council's housing waiting list.
+In 2021, Southwark replaced the boilers and upgraded the estate's district heating network (often cited as one of the reasons to demolish the estate) and its [Cabinet member for Climate Emergency and Sustainable Development](https://www.southwark.gov.uk/council-and-democracy/councillors-and-mps/leader-of-the-council-and-cabinet-members?chapter=6) [announced](https://twitter.com/helendennis80/status/1395336950962327552) that 80 homes on remaining phases of the [Aylesbury estate](https://www.estatewatch.london/estates/southwark/aylesbury/) have been [refurbished to be let out as temporary accommodation](https://www.southwark.gov.uk/news/2021/may/southwark-council-to-provide-temporary-housing-for-80-homeless-people-on-aylesbury-estate-while-581-council-homes-are-being-built) to families on the Council's housing waiting list.
 
 {% image "src/images/hdtweet.png", "alt text" %}
 
 The homes have been refurbished to [Southwark Good Homes Standard](https://www.southwark.gov.uk/news/2021/mar/new-southwark-council-good-homes-standard-for-temporary-accommodation) and will be available to let from July until the phase of the estate is 'decanted'. The Aylesbury estate is London's largest estate redevelopment and is set to take 15 years to complete. Approximately 700 of the estate's 2,759 homes have been demolished to date and phase 1 of 4 is currently under construction.
 
-Southwark Council has spent at least £50m on the Aylesbury scheme to date with a further £193m of council funds committed to phase 1 alone, with no net increase in the number of social rented homes.
+This begs an obvious question: if remaining homes on the estate can be refurbished to acceptable standards for habitation for [under £10k per dwelling](https://www.whatdotheyknow.com/request/830572/response/2021635/attach/3/FOI%201820226%20Southwak%20Response%20letter.pdf), why are they still earmarked demolition?
 
-This begs an obvious question: if these homes can be refurbished to acceptable standards for habitation for [under £10k per dwelling](https://www.whatdotheyknow.com/request/830572/response/2021635/attach/3/FOI%201820226%20Southwak%20Response%20letter.pdf), why are they being knocked down?
+---
 
-The Aylesbury estate features as one of the [case studies](/casestudies/aylesbury) in the research section of this website, which provides more detailed information about the regeneration.
+__Links:__
+
+[LA - Planning application documents](https://planning.southwark.gov.uk/online-applications/applicationDetails.do?keyVal=ZZZV1BKBWR660&activeTab=summary)
+
+[GLA - Planning reports](https://planapps.london.gov.uk/?planAppFilters=%255B%257B%2522or%2522%253A%255B%257B%2522name%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%252C%257B%2522glaReference%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%252C%257B%2522reference%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%252C%257B%2522postcode%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%255D%257D%252C%257B%2522project_id%2522%253A%257B%2522eq%2522%253A%2522637e245db0b8894bb2cb3034%2522%257D%257D%255D%2526planAppValues%253D%257B%2522general%2522%253A%2522aylesbury%2520estate%2522%257D)
+
+---
+
+{% image "src/images/fdsgreenspace.jpg", "Aylesbury estate FDS green space" %}
+
+{% image "src/images/aylesburyident.png", "Aylesbury estate alternative ident" %}

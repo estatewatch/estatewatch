@@ -3,23 +3,16 @@ name: Avenue Road estate
 borough: walthamforest
 tags: walthamforest
 location: '{"type":"Point","coordinates":[-0.002466,51.554350]}'
-thumb: /images/avenueroadthumb.jpg
-images:
-  - src/images/avenueroad.jpg
-  - src/images/Avenue_R1.jpg
-  - src/images/Avenue_R2.jpg
-  - src/images/Avenue_R3.jpg
-  - src/images/Avenue_R4.jpg
-  - src/images/Avenue_R5.jpg
-  - src/images/Avenue_R6.jpg
-  - src/images/Avenue_R7.jpg
 landlord: Waltham Forest Council
-developer:
+developer: Bellway Homes
 itla: Newman Francis
 total: 258
 ballot: Approved
-planning: Pending
+planning: Approved
+architect: HTA
 ---
+{% image "src/images/avenueroad.jpg", "first image of Avenue Rd estate" %}
+
 258 homes in 4 blocks of the Avenue Road estate have been <a href="https://walthamforest.gov.uk/content/regeneration-avenue-road-estate-leytonstone">earmarked</a> for demolition (Blackthorn Ct, Gean Ct, Mulberry Ct, Rosewood Ct).
 
 The estate was one of 11 estates [identified](https://democracy.walthamforest.gov.uk/documents/s10654/4.2.%20LSP%20report%20-%20Estates%20Review.pdf) for possible redevelopment in a 2010 Estates Capacity Study.
@@ -34,6 +27,14 @@ In January 2021, Waltham Forest Council held a ballot in which 161 of the 269 el
 
 In February 2021, the Council [resolved](https://democracy.walthamforest.gov.uk/documents/s77115/Avenue%20Road%20Estate%20Regeneration%20Project%20Update%20Report.pdf) to initiate CPO proceedings and serve a demolition notice. Again, the appendix to this report setting out the financial implications of the scheme were witheld on grounds of commercial sensitivity.
 
+In 2023, the Council approved its application for demolition and construction of 617 new homes of which just 242 for social rent. There will be 8 affordable rent and 23 shared ownership and the remainder private for sale homes.
+
+{% image "src/images/avenueroadtenuremix.png", "avenue road tenure mix" %}
+
+In October 2023, it was [confirmed](https://www.london.gov.uk/who-we-are/what-london-assembly-does/questions-mayor/find-an-answer/bellway-homes-and-avenue-road-estate-e11-1) that Bellway Homes had pulled out of the scheme and that Waltham Forest was in the process of _'assessing alternative routes to deliver the scheme'_.
+
+---
+
 ## Links
 <a href="https://democracy.walthamforest.gov.uk/documents/s68553/Avenue%20Rd%20Regeneration%20Update%20Final.pdf">July 2019 Council report</a>.
 
@@ -47,3 +48,7 @@ In February 2021, the Council [resolved](https://democracy.walthamforest.gov.uk/
 [February 2021 Cabinet report](https://democracy.walthamforest.gov.uk/documents/s77115/Avenue%20Road%20Estate%20Regeneration%20Project%20Update%20Report.pdf).
 
 Waltham Forest's [Landlord Offer](https://www.avenue-road-estate-regeneration.co.uk/storage/app/media/lwf-arl-hta-g-landlord-offer-main-webspreads.pdf) to residents ahead of the ballot.
+
+[Planning application documents](https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=110198)
+
+{% image "src/images/Avenue_R5.jpg", "image of Avenue Road estate" %}
