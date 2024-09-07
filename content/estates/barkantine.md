@@ -1,21 +1,18 @@
 ---
 name: Barkantine estate
 borough: towerhamlets
+tags: towerhamlets
 location: '{"type":"Point","coordinates":[-0.024181,51.498528]}'
 ballot: Approved 
 landlord: One Housing Group
-developer: null
+developer: Mount Anvil
 itla: Open Communities
 total: 72
-thumb: /images/barkantine1thumb.jpg
-images:
-  - src/images/barkantine1.jpg
-  - src/images/barkantine2.png
-  - src/images/barkantine3.png
-  - src/images/barkantine4.png
 planning: Pending
 ---
-72 homes are under threat on the Barkantine estate in Tower Hamlets. 
+{% image "src/images/kedge.png", "Kedge house" %}
+
+72 homes are under threat in Kedge House, Starboard Way and Winch House on the Barkantine estate in Tower Hamlets. 
 
 As a result of stock transfer in 2005, [One Housing Group](https://onehousing.co.uk) currently owns 2,027 former council homes across four estates on the Isle of Dogs. 
 
@@ -48,7 +45,9 @@ In April 2021, One Housing published its [Landlord Offer](https://www.onehousing
 
 The Landlord offer proposes a total of 280 new homes, of which 72 are supposedly replacements for those residents who wish to return, 32 social rent, 39 shared ownership and 137 for private sale.
 
-The scheme is now in design stage ahead of a planning application being submitted.
+The scheme is now in design stage ahead of a planning application being submitted in late 2024.
+
+---
 
 __Links:__  
 One Housing's Landlord Offer - [https://www.onehousing.co.uk/__data/assets/pdf_file/0011/26300/Kedge-House,-Starboard-Way-and-Winch-House-Our-offer-to-residents.pdf](https://www.onehousing.co.uk/__data/assets/pdf_file/0011/26300/Kedge-House,-Starboard-Way-and-Winch-House-Our-offer-to-residents.pdf)
@@ -56,3 +55,12 @@ One Housing's Landlord Offer - [https://www.onehousing.co.uk/__data/assets/pdf_f
 One Housing's website - [https://onehousing.co.uk/about-us/what-we-do/development-and-regeneration/isle-of-dogs](https://onehousing.co.uk/about-us/what-we-do/development-and-regeneration/isle-of-dogs)
 
 The [4 Estates Forum](http://4estatesforum.org.uk)
+
+---
+
+{% image "src/images/barkantine3.png", "barkantine estate" %}
+
+{% image "src/images/barkantine2.png", "barkantine estate" %}
+
+
+

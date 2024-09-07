@@ -9,26 +9,13 @@ eleventyNavigation:
 
 <details>
 
-<summary>What is wrong with redeveloping London's housing estates?</summary>
+<summary><b>What is wrong with redeveloping London's housing estates?</b></summary>
 
-* Despite best intentions, replacement housing is largely privately owned and invariably ends up in a loss of council and social rented housing.
-* Long-standing communities suffer uncertainty, disruption and are dispersed.
-* Structurally sound buildings are needlessly demolished and replaced, creating a significant carbon impact.
+> Despite best intentions, replacement housing invariably ends up in a loss of council and social rented housing. 
 
-</details>
-</div>
+> Schemes are routinely subjected to delays, sometimes lasting decades and long-standing communities suffer uncertainty, disruption and displacement.
 
----
-
-{%- css %}{% include "public/css/message-box.css" %}{% endcss %}
-<div class="message-box">
-
-<details>
-
-<summary>But the private housing cross subsidises the replacement social housing doesn't it?</summary>
-
-Despite best intentions, the cost of replacement social housing and demolition/rehousing is subsidised mainly via local authorities, grant funding or by increasing the rents on replacement affordable housing. See [here] and [here] for examples. 
-
+> Structurally sound homes are needlessly demolished and replaced, creating a significant uneccessary carbon impact on the environment.
 
 </details>
 </div>
@@ -40,27 +27,9 @@ Despite best intentions, the cost of replacement social housing and demolition/r
 
 <details>
 
-<summary>But maintenance costs on these old estates are a burden on councils and RSLs aren't they? </summary>
+<summary><b>Maintenance costs on these old estates are a burden on councils - isn't it more cost effective to replace them?</b></summary>
 
-Despite their age and lack of investment, evidence shows that most estates actually provide a surplus when rental income is compared to maintenance costs. See [here] and [here] for examples. 
-
-
-</details>
-</div>
-
----
-
-{%- css %}{% include "public/css/message-box.css" %}{% endcss %}
-<div class="message-box">
-
-<details>
-
-<summary>But residents have voted for the demolition of their own estates, why shouldn't their wishes be respected?</summary>
-
-There are a number of problems with the current ballot process.
-
-1. Refurbishment is never an option on the ballot paper. Residents are faced with the option of demolition or managed decline.
-
+> Despite their age and lack of investment, evidence shows that most estates actually provide a surplus when rental income is compared to maintenance costs. See [here](https://x.com/NunheadTRA/status/1667809201882636288) for some examples. 
 
 </details>
 </div>
@@ -72,12 +41,9 @@ There are a number of problems with the current ballot process.
 
 <details>
 
-<summary>London needs more homes, why shouldn't estates be rebuilt with increased density to house both existing social tenants and increase overall housing stock? </summary>
+<summary><b>But new private housing cross subsidises the replacement social housing doesn't it?</b></summary>
 
-Many estates earmarked for demolition are already high density. They tend to be selected not on low density but rather on architectural fashions (grey, concrete, 'monolithic' etc).
-
-In general, redeveloped estates do provide more homes but they tend to be smaller (1 & 2 bed, rather than the family size homes they are often replacing). See the Aylesbury estate for example. 
-
+> Despite best intentions, the cost of replacement social housing and demolition/rehousing is subsidised mainly by local authorities, grant funding or by increasing the rents on replacement affordable housing. See [here] and [here] for examples. 
 
 </details>
 </div>
@@ -89,9 +55,27 @@ In general, redeveloped estates do provide more homes but they tend to be smalle
 
 <details>
 
-<summary>Tips for collapsed sections</summary>
+<summary><b>But residents have voted for the demolition of their own estates, why shouldn't their wishes be respected?</b></summary>
 
-You can add text within a collapsed section. 
+> There are a number of problems with the current ballot process. Not least the fact that refurbishment is never an option on the ballot paper. Read our full review of the flaws in the ballot process [here](/ballots/).
+
+{% image "estates/src/images/ballot_paper1.jpg", "alt text" %}
+
+</details>
+</div>
+
+---
+
+{%- css %}{% include "public/css/message-box.css" %}{% endcss %}
+<div class="message-box">
+
+<details>
+
+<summary><b>London needs more homes, why shouldn't estates be rebuilt with increased density to house both existing social tenants and increase overall housing stock? </b></summary>
+
+> Many estates earmarked for demolition are already high density. They tend to be selected not on their propensity to increase density but rather on architectural fashions (grey, concrete, 'monolithic' etc).
+
+> In general, redeveloped estates do provide more homes but they tend to be smaller (1 & 2 bed, rather than the family size homes they are often replacing). See the Aylesbury estate for example. 
 
 
 </details>
