@@ -171,7 +171,7 @@ header {
 .nav {
 	display: flex;
 	padding: 0;
-	margin: 0;
+	margin-left: auto;
 	list-style: none;
 }
 .nav-item {
