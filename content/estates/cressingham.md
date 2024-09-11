@@ -1,12 +1,7 @@
 ---
 name: Cressingham Gardens estate 
 borough: lambeth
-thumb: /images/cressinghamthumb.jpg
-images:
-  - src/images/cressingham.jpg
-  - src/images/cressingham2.jpg
-  - src/images/cressingham3.jpg
-  - src/images/cressingham4.jpeg
+tags: lambeth
 location: '{"type":"Point","coordinates":[-0.111587,51.446517]}'
 landlord: Lambeth Council
 developer:
@@ -15,6 +10,8 @@ total: 306
 ballot: Required
 planning: Pending
 ---
+{% image "src/images/cressingham.jpg", "cressingham gardens estate" %}
+
 306 homes are earmarked for demolition on Lambeth's Cressingham Gardens estate at Brockwell Park.
 
 In 2016, Lambeth Council [took the decision](https://moderngov.lambeth.gov.uk/documents/s80093/Cabinet%20Report%20-%20March%202016%20v8.pdf) to demolish the estate based on fact that refurbishment estimates were £14,000 higher per dwelling than the rest of its estates and this represents 'poor value for money':
@@ -42,6 +39,18 @@ In July 2019, they [had their application approved](http://www.brixtonbuzz.com/2
 Lambeth's [shared equity](https://moderngov.lambeth.gov.uk/documents/s87368/Appendix%20A2%20-%20HOMEOWNERS%20v5%20B.pdf) offer for leaseholders requires a minimum 60% equity, which may result in them having to invest personal savings or take out mortgages. This was [deemed unlawful](https://www.theguardian.com/society/2016/sep/16/government-blocks-controversial-plan-to-force-out-housing-estate-residents) by the Secretary of State at the 2015 Aylesbury estate CPO inquiry and required Southwark to [amend its policy](http://moderngov.southwarksites.com/documents/s74901/Report%20Amending%20the%20shared%20equity%20rehousing%20policy%20for%20qualifying%20homeowners%20affected%20by%20regenerati.pdf) and reduce the requirement from 50% to 25%.
 
 In early 2023, Lambeth Council announced that is was pausing the redevelopment of Cressingham Gardens and two other estates (Fenwick and Central Hill) after a critical report recommended a ‘fundamental reset’ to the way it handles the long-running projects.
+
+In September 2024, Lambeth published a report highlighting the Council’s plans to reset key estate renewal projects and regain control of properties previously under HfL’s management.
+
+The Kerslake Review, which took place in December 2022, was a pivotal moment for the Council’s housing strategy.
+
+Two primary recommendations emerged: first, to dissolve Homes for Lambeth and return the Council’s social housing delivery to in-house management, and second, to address long-standing failures in engaging with residents.
+
+These recommendations have led to a fundamental reshaping of Lambeth’s estate regeneration plans, effectively putting many estates back to square one.
+
+The Overview and Scrutiny report indicates that estates such as Central Hill, Cressingham Gardens, and Fenwick are facing a complete reset.
+
+---
 
 __Links:__
 

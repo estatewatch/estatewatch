@@ -19,6 +19,8 @@ total: 431
 ballot: Required
 planning: Pending
 ---
+{% image "src/images/fw7.jpg", "central hill header photo" %}
+
 431 homes are earmarked for demolition on Lambeth's Fenwick estate in Clapham.
 
 Fenwick is one of the largest of Lambeth's [five estates](/underthreat/lambeth) earmarked for demolition.
@@ -43,11 +45,32 @@ In November 2020, Lambeth approved a 'kick-start' phase involving the redevelopm
 
 In early 2023, Lambeth Council announced that is was pausing the redevelopment of the Fenwick estate and two other estates (Central Hill and Cressingham Gardens) after a critical report recommended a ‘fundamental reset’ to the way it handles the long-running projects.
 
+In September 2024, Lambeth published a report highlighting the Council’s plans to reset key estate renewal projects and regain control of properties previously under HfL’s management.
+
+The Kerslake Review, which took place in December 2022, was a pivotal moment for the Council’s housing strategy.
+
+Two primary recommendations emerged: first, to dissolve Homes for Lambeth and return the Council’s social housing delivery to in-house management, and second, to address long-standing failures in engaging with residents.
+
+These recommendations have led to a fundamental reshaping of Lambeth’s estate regeneration plans, effectively putting many estates back to square one.
+
+The Overview and Scrutiny report indicates that estates such as Central Hill, Cressingham Gardens, and Fenwick are facing a complete reset.
+
+---
+
 __Links:__
 
 [Fenwick Against Demolition campaign - (Twitter link)](https://twitter.com/fenwick_place)
 
 Fenwick info page on Lambeth Council's [website](http://engage.homesforlambeth.co.uk/what_s_happening_on_fenwick_estate).
+
+---
+
+{% image "src/images/fw1.jpg", "fenwick estate" %}
+
+{% image "src/images/fwick.png", "fenwick estate" %}
+
+{% image "src/images/fw4.jpg", "fenwick estate" %}
+
 
 
 

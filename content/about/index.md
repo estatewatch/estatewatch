@@ -7,8 +7,7 @@ eleventyNavigation:
 # About Us
 {%- css %}{% include "public/css/message-box.css" %}{% endcss %}
 <div class="message-box">
-We are a network of tenants and residents’ groups and individuals whose estates are at risk of demolition or are in the process of demolition. Supported by <a href="https://justspace.org.uk"> Just Space</a>, we provide help and guidance to residents living on estates earmarked for demolition.
-We support residents engaging in discussion to make their own decisions about what might work best on their estates. We have created a number of factsheets, handouts and guides and also hold meetings for residents where we exchange experiences and advice. 
+Supported by <a href="https://justspace.org.uk"> Just Space</a>, we provide help and guidance to residents living on estates earmarked for demolition.
 </div>
 
 The project was initially kickstarted in 2020 by <a href="https://justspace.org.uk/"><u> Just Space</u></a> and <a href="https://londontenants.org/">The London Tenants Federation</a> working together with the University of Leicester and King’s College London on a research project that has provided detailed evidence since 1997 of the displacement of London council tenants and leaseholders through regeneration schemes.

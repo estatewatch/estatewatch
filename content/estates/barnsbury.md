@@ -1,12 +1,7 @@
 ---
 name: Barnsbury estate 
 borough: islington
-thumb: /images/barnsburythumb.jpg
-images:
-  - src/images/barnsbury1.png
-  - src/images/barnsbury2.png
-  - src/images/barnsbury3.png
-  - src/images/barnsbury4.png
+tags: islington
 location: '{"type":"Point","coordinates":[-0.114844,51.536269]}'
 landlord: Newlon Housing Association
 developer: Mount Anvil
@@ -15,6 +10,8 @@ total: 371
 ballot: Approved
 planning: Approved
 ---
+{% image "src/images/barnsbury1.png", "Barnsbury estate" %}
+
 371 homes are under threat of demolition on Islington's Barnsbury estate.
 
 The former Council estate was transferred to Newlon Housing association in 1999 under Islington's stock transfer policy.
@@ -33,6 +30,8 @@ In 2018, residents [accused](https://www.islingtongazette.co.uk/news/has-newlon-
 
 Planning permission was granted in 2022 for 950 new homes of which 50% affordable.
 
+---
+
 __Links:__  
 
 Newlon's website for the scheme: [https://betterbarnsbury.org.uk](https://betterbarnsbury.org.uk)
@@ -40,3 +39,9 @@ Newlon's website for the scheme: [https://betterbarnsbury.org.uk](https://better
 Newlon's [Landlord Offer](/images/BansburyOffer.pdf)
 
 GLA [planning report](https://planning.london.gov.uk/pr/s/planning-application/a0i4J000006ceumQAA/20220438?tabset-c2f3b=2)
+
+---
+
+{% image "src/images/barnsbury2.png", "second barnsbury image" %}
+{% image "src/images/barnsbury3.png", "third barnsbury image" %}
+{% image "src/images/barnsbury4.png", "fourth barnsbury image" %}

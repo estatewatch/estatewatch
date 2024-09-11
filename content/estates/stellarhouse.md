@@ -18,4 +18,4 @@ Circa 300 homes at Atlair Close including Stellar House have been earmarked for 
 
 They have been identified for redevelopment in Haringey's [Tottenham Area Action Plan](https://www.haringey.gov.uk/sites/haringeygovuk/files/final_haringey_tottenham_aap_dtp_online.pdf) (site NT3). 
 
-<img src="/images/stellar2.png" class="img-fluid rounded img-thumbnail">
+{% image "src/images/stellar2.png", "stellar image" %}

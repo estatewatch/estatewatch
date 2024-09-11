@@ -28,11 +28,11 @@ Planning permission for the redevelopment was granted in March 2018 and the Mayo
 
 The [Mayor's report](https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_469672///south_lambeth_estate_report.pdf) approving the scheme says that _"The replacement social rented homes will be occupied at Lambeth Tenancy Strategy rent levels"_.
 
-<img src="/images/slbrents.png" class="img-fluid rounded img-thumbnail">
+{% image "src/images/slbrents.png", "south lambeth image" %}
 
 Lambeth's [Tenancy Strategy](https://www.lambeth.gov.uk/sites/default/files/ho-tenancy-strategy.pdf) says that family homes (3 beds+) must be let at target rents but 1 and 2-bed homes can be let at affordable rent up to local LHA rate levels. [LHA rates](https://lha-direct.voa.gov.uk/SearchResults.aspx?LocalAuthorityId=22&LHACategory=999&Month=6&Year=2020&SearchPageParameters=true) for Lambeth are currently as follows:
 
-<img src="/images/cressinghamlharates.png" class="img-fluid rounded img-thumbnail">
+{% image "src/images/cressinghamlharates.png", "cressingham lha rates" %}
 
 In November 2020, residents [complained](https://www.wandsworthguardian.co.uk/news/19119129.south-lambeth-estate-residents-suffering-constant-works/) about ongoing disturbance from demolition works on the first phase of the scheme.
 

@@ -22,7 +22,7 @@ stage: Proposal
 
 This is the second phase of Peabody's redevelopment of the Bexley side of the Thamesmead estate. In 2017, Bexley approved the [first phase](/estates/bexley/thamesmeadsouth) highlighted below in orange:
 
-<img src="/images/thamemeadsouthphase1.png" class="img-fluid rounded img-thumbnail">
+{% image "src/images/thamemeadsouthphase1.png", "lesnes image" %}
 
 The whole of the Bexley side of the Thamesmead estate has been earmarked for redevelopment in [this capacity study](https://www.bexley.gov.uk/sites/bexley-cms/files/2017-11/London-Borough-of-Bexley-DIFS-Higher-Growth-Report.pdf) commissioned by Bexley Council. 
 
@@ -34,7 +34,7 @@ The result saw 65.4% of eligible residents taking part in the ballot, with 70.2%
 
 This is despite tenants being told that the rents of the new homes will increase above their current levels - albeit tiered over a period of 10 years.
 
-<img src="/images/lesnesrent.png" class="img-fluid rounded img-thumbnail">
+{% image "src/images/lesnesrent.png", "lesnes rent" %}
 
 In its [ballot offer to residents](https://www.thamesmeadnow.org.uk/media/3337/lesnes-estate_landlord-offer-document.pdf), Peabody also makes it clear that if residents vote against the proposals there will be no refurbishment. Instead Peabody says _'We would maintain the homes on Lesnes Estate as best we can and a new proposal would be put together with feedback from residents.'_
 
@@ -48,7 +48,7 @@ Peabody wants to triple the density, replacing the estate with 1,950 new homes o
 
 There is nothing in the application to explain why it fails to comply with the [Mayor's policy requirement](https://www.london.gov.uk/sites/default/files/better-homes-for-local-people-the-mayors-good-practice-guide-to-estate-regeneration.pdf) of 50% affordable housing and no net loss of social rented homes.
 
-<img src="https://www.estatewatch.london/images/wolvercoteaerial.jpg" class="img-fluid rounded img-thumbnail" width="60%">
+{% image "src/images/wolvercoteaerial.jpg", "wolvercote aerial" %}
 
 Neither is there any explanation as to how the scheme complies with the Mayor's requirement that alternatives to demolition have been explored and demolition is being pursued as a last resort.
 

@@ -1,13 +1,7 @@
 ---
-category: underthreat
-stage: Proposal
 name: Kingsbridge estate
-borough: towerhamlets 
-thumb: /images/kingsbridge-estatethumb.jpg
-images:
-  - src/images/kingsbridge-estate.jpg
-  - src/images/kingsbridge2.png
-  - src/images/kingsbridge3.png
+borough: towerhamlets
+tags: towerhamlets
 location: '{"type":"Point","coordinates":[-0.025874,51.493200]}'
 landlord: One Housing Group
 developer:
@@ -16,6 +10,8 @@ total: 134
 ballot: Approved
 planning: Pending
 ---
+{% image "src/images/kbridge.jpg", "kingsbridge estate" %}
+
 134 homes are under threat on the Kingsbridge estate in Tower Hamlets.
 
 As a result of stock transfer in 2005, [One Housing Group](https://onehousing.co.uk) currently owns 2,027 former council homes across four estates on the Isle of Dogs.
@@ -43,9 +39,9 @@ The Mayor has designated the Isle of Dogs as an 'opportunity area' and his [plan
 
 In 2019, One Housing Group created a residents steering group on the Kingsbridge estate to consider different options for the possible regeneration of 134 homes in Michigan House, Montrose House and Montcalm House.
 
-The latest [newsletter (Feb 2020)](https://www.onehousing.co.uk/__data/assets/pdf_file/0019/17731/New-Mill-Newsletter-February-2020.pdf) says that an options appraisal is being drawn up to present to residents in order to select a preferred option.
-
 In December 2022, a ballot was held for residents to vote if the regeneration proposals to demolish the existing blocks and build new homes should go ahead. A turnout of 75.6% of eligible voters took part in the ballot, of which 85.4% voted ‘yes’ and 14.6% voted ‘no’.
+
+---
 
 __Links:__  
 Feb 2020 newsletter from One Housing - [https://www.onehousing.co.uk/__data/assets/pdf_file/0019/17731/New-Mill-Newsletter-February-2020.pdf](https://www.onehousing.co.uk/__data/assets/pdf_file/0019/17731/New-Mill-Newsletter-February-2020.pdf)
@@ -53,3 +49,8 @@ Feb 2020 newsletter from One Housing - [https://www.onehousing.co.uk/__data/asse
 One Housing Group's website - [https://www.onehousing.co.uk/about-us/what-we-do/development-and-regeneration/isle-of-dogs](https://www.onehousing.co.uk/about-us/what-we-do/development-and-regeneration/isle-of-dogs)
 
 The [4 Estates Forum](http://4estatesforum.org.uk)
+
+---
+
+{% image "src/images/kingsbridge2.png", "kingsbridge estate" %}
+{% image "src/images/kingsbridge3.png", "kingsbridge estate" %}

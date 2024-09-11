@@ -26,7 +26,7 @@ planning: Approved
 
 In July 2019, the Council's Cabinet [decided](http://democracy.camden.gov.uk/documents/s81826/12%20The%20Future%20of%20Wendling%20Estate.pdf) that its preferred option is full redevelopment and resolved to ballot residents on this option.
 
-<img src="/images/preferred.png" class="img-fluid rounded img-thumbnail">
+{% image "src/images/preferred.png", "wendling preferred options" %}
 
 The decision was the cause of some unrest among residents, reported in the local press (April 2020): 
 [http://camdennewjournal.com/article/tenants-pass-vote-of-no-confidence-in-camdens-regeneration-chief](http://camdennewjournal.com/article/tenants-pass-vote-of-no-confidence-in-camdens-regeneration-chief)
@@ -42,7 +42,7 @@ In July 2021, Camden held a ballot of Wendling estate residents in which 75% of 
 
 Camden's [Landlord Offer](/images/wendlingoffer.pdf) ahead of the ballot makes it clear that if residents vote against demolition the Council has no immediate plans to resolve the estate's ongoing maintenance issues. As has become [common practice](https://www.estatewatch.london/approved/ballotexemptions/) in estate regeneration ballots - refurbishment is not an option on the ballot paper.
 
-<img src="/images/wendlingnovote.png" class="img-fluid rounded img-thumbnail">
+{% image "src/images/wendlingnovote.png", "wendling no vote" %}
 
 Camden's pre-ballot information [booklets](/images/wendlingbooklet.pdf) go as far as saying that if residents voted against demolition, then it would be 2025 before the Council would 'consider' resuming cyclical maintenance works and that they would be _'considered against Camden's other priorities'_ at that time.
 

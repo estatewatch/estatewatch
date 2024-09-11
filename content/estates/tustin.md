@@ -40,7 +40,7 @@ Southwark Council will now progress plans to build between 800 and 850 new homes
 
 The [summary](/images/tustinfvasummary.pdf) of the council's viability assessment that it commissioned for the scheme, shows that the estimated cost of the scheme is £303m, of which it will recoup around 50% in grant funding and sales revenue from the private flats when they are completed.
 
-<img src="/images/tustinfva.png" class="img-fluid rounded img-thumbnail">
+{% image "src/images/tustinfva.png", "tustin fva" %}
 
 This remaining £153.8m therefore represents the cost of replacing the existing Council homes and providing 249 extra council homes.
 

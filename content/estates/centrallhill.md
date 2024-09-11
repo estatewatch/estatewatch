@@ -1,13 +1,7 @@
 ---
 name: Central Hill estate 
 borough: lambeth
-thumb: /images/centrallhillthumb.jpg
-images:
-  - src/images/centrallhill.jpg
-  - src/images/central1.jpg
-  - src/images/centralhillaerial.jpg
-  - src/images/central3.jpg
-  - src/images/central4.jpg
+tags: lambeth
 location: '{"type":"Point","coordinates":[-0.085651,51.420034]}'
 landlord: Lambeth Council
 developer:
@@ -16,6 +10,8 @@ total: 476
 ballot: Required
 planning: Pending
 ---
+{% image "src/images/centrallhill.jpg", "central hill" %}
+
 476 homes are earmarked for demolition on Lambeth's Central Hill estate.
 
 Central Hill is the largest of Lambeth's [five estates](/underthreat/lambeth) earmarked for demolition.
@@ -36,5 +32,14 @@ In November 2020, Lambeth approved a 'kick-start' initial phase of redevelopment
 
 In early 2023, Lambeth Council announced that is was pausing the redevelopment of Central Hill and two other estates (Fenwick and Cressingham Gardens) after a critical report recommended a ‘fundamental reset’ to the way it handles the long-running projects.
 
-<img src="https://i0.wp.com/www.brixtonbuzz.com/images/central-hill-tents-01.jpg", "alt text" %}
+In September 2024, Lambeth published a report highlighting the Council’s plans to reset key estate renewal projects and regain control of properties previously under HfL’s management.
 
+The Kerslake Review, which took place in December 2022, was a pivotal moment for the Council’s housing strategy.
+
+Two primary recommendations emerged: first, to dissolve Homes for Lambeth and return the Council’s social housing delivery to in-house management, and second, to address long-standing failures in engaging with residents.
+
+These recommendations have led to a fundamental reshaping of Lambeth’s estate regeneration plans, effectively putting many estates back to square one.
+
+The Overview and Scrutiny report indicates that estates such as Central Hill, Cressingham Gardens, and Fenwick are facing a complete reset.
+
+{% image "src/images/centralhillaerial.jpg", "central hill estate" %}

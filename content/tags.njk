@@ -14,7 +14,7 @@ eleventyComputed:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag | slugify }}/
 ---
-<h1>Tagged “{{ tag }}”</h1>
+<h1>Tagged “{{ tag | capitalize | replace("Barkinganddagenham", "Barking & Dagenham") | replace("Cityoflondon", "City of London") | replace("Kensingtonandchelsea", "Kensington & Chelsea") | replace("Towerhamlets", "Tower Hamlets") | replace("Walthamforest", "Waltham Forest") }}”</h1>
 
 {% set estateslist = collections[ tag ] %}
 {% include "estateslist.njk" %}

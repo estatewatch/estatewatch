@@ -26,9 +26,9 @@ The redevelopment of the current proposals for the South Kilburn estate are base
 
 The first phase of the scheme has seen four sites (marked in blue below) granted planning permission and which are currently underway. As of July 2019 there remained 17 blocks in the second half of the scheme earmarked for demolition (shaded orange), but these are yet to seek planning consent  - see [this Cabinet report](http://democracy.brent.gov.uk/ieListDocuments.aspx?CId=455&MId=5355&Ver=4), item 7.
 
-<img src="/images/kilburnlist.png" class="img-fluid rounded img-thumbnail">
+{% image "src/images/kilburnlist.png", "south kilburn list" %}
 
-<img src="/images/southkilburn.png" class="img-fluid rounded img-thumbnail">
+{% image "src/images/southkilburn.png", "south kilburn image" %}
 
 A ballot of residents in the second phase of the scheme returned a positive result [in Oct 2019](https://www.kilburntimes.co.uk/news/south-kilburn-votes-yes-1-6331125).
 
