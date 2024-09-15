@@ -1,14 +1,7 @@
 ---
 name: Chaucer Gardens estate
 borough: sutton
-thumb: /images/chaucerthumb.jpg
-images:
-  - src/images/chaucer.jpg
-  - src/images/chaucer1.jpg
-  - src/images/chaucer2.jpg
-  - src/images/chaucer3.jpg
-  - src/images/chaucer6.jpg
-  - src/images/chaucer7.jpg
+tags: sutton
 location: '{"type":"Point","coordinates":[-0.2008,51.3705]}'
 landlord: Sutton Council
 developer:
@@ -17,6 +10,8 @@ total: 250
 ballot: Required
 planning: Pending
 ---
+{% image "src/images/chaucer.jpg", "chaucer gardens estate" %}
+
 Circa 250 homes have been earmarked for potential demolition on Sutton's Chaucer Gardens estate.
 
 The Chaucer estate comprises one 16-storey high-rise block (Chaucer House) surrounded by a dozen 2-4 storey maisonette blocks, situated behind Sutton High Street, near Collingwood park and West Sutton train station. 
@@ -32,5 +27,13 @@ It is also earmarked in Sutton's [Policy Map](http://sutton.addresscafe.com/app/
 {% image "src/images/suttonpolicymap.png", "alt text" %}
 
 The nearby [Collingwood estate](/estates/sutton/collingwoodestate/) was clad with the same material and also numbers among the five estates earmarked for potential redevelopment.
+
+---
+
+ {% image "src/images/chaucer1.jpg", "chaucer gardens estate" %}
+ {% image "src/images/chaucer2.jpg", "chaucer gardens estate" %}
+ {% image "src/images/chaucer3.jpg", "chaucer gardens estate" %}
+ {% image "src/images/chaucer6.jpg", "chaucer gardens estate" %}
+ {% image "src/images/chaucer7.jpg", "chaucer gardens estate" %}
 
 

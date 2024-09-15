@@ -1,11 +1,7 @@
 ---
 name: Maryon Grove estate 
 borough: greenwich
-thumb: /images/mw5thumb.jpg
-images:
-  - src/images/mw5.jpg
-  - src/images/mw6.png
-  - src/images/mw7.png
+tags: greenwich
 location: '{"type":"Point","coordinates":[0.049174,51.487680]}'
 landlord: Greenwich Council
 developer: Lovell
@@ -13,7 +9,10 @@ itla:
 total: 172
 ballot: Required
 planning: Approved
+architect: Pollard Thomas Edwards
 ---
+{% image "src/images/mw7.png", "Maryon Grove estate" %}
+
 172 homes on Greenwich's Maryon Grove estate in Charlton have been earmarked for demolition by Greenwich Council. 
 
 The estate comprises 172 homes in 16 4-storey blocks. It overlooks Maryon park to the West and the Thames barrier to the North and is adjacent to the [Morris Walk estate](https://www.estatewatch.london/estates/greenwich/morriswalk/) which is also earmarked for demolition. 
@@ -32,7 +31,15 @@ Despite being granted outline planning in 2015, detailed applications for the sc
 
 Greenwich Council's [website](https://www.royalgreenwich.gov.uk/info/200200/regeneration/142/woolwich_regeneration/2) says that it has no date for commencing the scheme and that it is 'continuing to put pressure on the developer' to bring the scheme forward.
 
-Meanwhile, as of March 2023 the vast majority of homes on the estate have been left in a derelict state and subject to vandalism, as reported [here](https://853.london/2023/03/31/derelict-maryon-grove-estate-left-open-to-the-elements-will-be-fenced-off-soon-council-insists/).
+Meanwhile, the last few homes on the estate are being demolished, having been left in a derelict state and subject to vandalism, as reported [here](https://853.london/2023/03/31/derelict-maryon-grove-estate-left-open-to-the-elements-will-be-fenced-off-soon-council-insists/) and [here](https://www.fromthemurkydepths.co.uk/2024/09/11/one-woowich-estate-project-set-to-see-cut-in-new-greenwich-council-homes/).
+
+![](https://www.fromthemurkydepths.co.uk/wp-content/uploads/2023/04/Woolwich-estate-maryon-grove-78-1024x768.jpg)*Photo credit: https://fromthemurkydepths.co.uk*
+
+{% image "src/images/maryontenure.png", "Maryon estate tenure mix" %}
+
+The Maryon Grove estate is the last of Greenwich's 'Three estates' schemes, in which 1,064 homes on three estates (The Connaught, Morris Walk and Maryon Grove estates) are being demolished and replaced with 1,600 new homes of which just 278 council homes. In September 2024, Greenwich applied to modify the planning consent and reduce this number to 241 on grounds of reduced financial viability. The [committee report](https://greenwich.moderngov.co.uk/documents/s8304/Woolwich%20Estates%20Maryon%20Road%20Grove.pdf) approving the reduction claims that refusing the application would result in the developer Lovell walking away from the scheme. 
+
+---
 
 __Links:__
 

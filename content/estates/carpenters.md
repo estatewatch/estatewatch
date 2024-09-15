@@ -1,34 +1,17 @@
 ---
 name: Carpenters estate
 borough: newham
+tags: newham
 location: '{"type":"Point","coordinates":[-0.004882,51.537846]}'
 ballot: Approved
 landlord: Newham Council
 developer: null
 itla: TPAS/Source Partnership
 total: 710
-thumb: /images/cp8thumb.jpg
-images:
-  - src/images/cp8.jpg
-  - src/images/cp1.jpg
-  - src/images/cp2.jpg
-  - src/images/cp3.jpg
-  - src/images/cp4.jpg
-  - src/images/cp5.jpg
-  - src/images/cp6.jpg
-  - src/images/cp7.jpg
-  - src/images/cp8.jpg
-  - src/images/cp9.jpg
-  - src/images/cp10.jpg
-  - src/images/cp11.jpg
-  - src/images/cp12.jpg
-  - src/images/cp13.jpg
-  - src/images/cp14.jpg
-  - src/images/cp15.jpg
-  - src/images/cp16.jpg
-  - src/images/cp17.jpg
 planning: Pending
 ---
+{% image "src/images/cp12.jpg", "carpenters estate" %}
+
 710 homes are under threat of demolition on Newham's Carpenters estate in Stratford.
 
 Plans for the estate's regeneration have been under consideration since 2000, with several buildings earmarked for demolition and the decanting of residents having started in 2005/06.  Three tower blocks on the estate have been emptied of council tenants, though some leaseholders remain.  The lower rise buildings continue to be occupied by a mixed community of council tenants, leaseholders and freeholders and this remains a strong and supportive community. 
@@ -46,26 +29,12 @@ The [Planning Inspector’s report](https://www.queenelizabetholympicpark.co.uk/
 
 Newham Council's [website](https://www.newham.gov.uk/regeneration-1/regeneration-project-carpenters-estate/2?documentId=343&categoryId=20140) says the following about its regeneration of the Carpenters estate:
 
+> "From 2005 to 2010, redevelopment proposals focused on the demolition of the high rise blocks and some central low rise blocks to be replaced with alternative housing. Then came failed discussions with the University College London to develop the estate and Newham Council ceased the procurement of a joint venture partner, as there was limited evidence that residents had been fully engaged with redevelopment proposals. Newham Council is now committed to implementing a programme of consultation and engagement with residents which will inform the Carpenters Estate redevelopment options."
 
-<div class="card box-shadow">
-          <div class="card-body">
-<i>"From 2005 to 2010, redevelopment proposals focused on the demolition of the high rise blocks and some central low rise blocks to be replaced with alternative housing. Then came failed discussions with the University College London to develop the estate and Newham Council ceased the procurement of a joint venture partner, as there was limited evidence that residents had been fully engaged with redevelopment proposals. Newham Council is now committed to implementing a programme of consultation and engagement with residents which will inform the Carpenters Estate redevelopment options."
-</i>
-</div>
-</div>
 
-<div class="card box-shadow">
-          <div class="card-body">
-<i>"In February 2020 the Council gave approval for Red Door Ventures (RDV) to provide development management services for the next stage of work for the restoration of the estate. RDV are a developer of private and affordable homes and are solely owned by the Council. RDV, working closely, with the council, now leads on discussions with residents to co-design a viable and deliverable development option."  
-</i>
-</div>
-</div>
+> "In February 2020 the Council gave approval for Red Door Ventures (RDV) to provide development management services for the next stage of work for the restoration of the estate. RDV are a developer of private and affordable homes and are solely owned by the Council. RDV, working closely, with the council, now leads on discussions with residents to co-design a viable and deliverable development option."  
 
-<div class="card box-shadow">
-          <div class="card-body">
-<i>"RDV and the Council are working closely with residents to create a detailed vision for the Carpenters Estate and turn this into a financially viable masterplan. This plan will contain a clear ambition for the future of the estate, looking at how it will ensure it is restored as a neighbourhood and how it will connect to the wider Stratford area." </i>
-</div>
-</div>
+> "RDV and the Council are working closely with residents to create a detailed vision for the Carpenters Estate and turn this into a financially viable masterplan. This plan will contain a clear ambition for the future of the estate, looking at how it will ensure it is restored as a neighbourhood and how it will connect to the wider Stratford area." 
 
 In October 2020, a [council report](https://mgov.newham.gov.uk/documents/s139593/Appraisal%20of%20Tower%20Blocks%20on%20the%20Carpenters%20Estate%20Stratford%20-%20update%20and%20next%20steps%20V8%20Cabint%20issu.pdf) submitted to Newham’s cabinet committee suggested one of the neighbourhood’s existing towers – James Riley Point – could be retained and refurbished before the start of any wider redevelopment that would require a residents’ ballot.
 
@@ -95,6 +64,13 @@ _"Eligibility criteria will be worked out via co-production within the legal pow
 
 This leaves the door open to Newham 'gatekeeping' the shared equity offer as has been seen in other schemes where leaseholders are required to undergo a financial assessment and are subsequently told that they don't qualify for shared equity and are offered only shared ownership (i.e. paying rent on the unowned part of their homes.)
 
+---
+
 __Links:__
 
 [Consultation website - https://thecarpentersestate.commonplace.is](https://thecarpentersestate.commonplace.is/)
+
+---
+
+{% image "src/images/cp15.jpg", "carpenters estate" %}
+{% image "src/images/cp10.jpg", "carpenters estate" %}

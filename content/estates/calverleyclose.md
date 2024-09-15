@@ -1,14 +1,7 @@
 ---
 name: Calverley Close estate 
 borough: bromley 
-thumb: /images/calthumb.jpg
-images:
-  - src/images/cal.png
-  - src/images/cal1.png
-  - src/images/cal2.png
-  - src/images/cal3.png
-  - src/images/cal4.png
-  - src/images/cal5.png
+tags: bromley
 location: '{"type":"Point","coordinates":[0.021422,51.419397]}'
 landlord: Riverside Housing Association
 developer:
@@ -17,6 +10,8 @@ total: 150
 ballot: Approved
 planning: Pending
 ---
+{% image "src/images/cal4.png", "Calverley Close estate" %}
+
 Circa 150 homes are earmarked for potential demolition on Bromley's Calverley Close estate in Beckenham.
 
 The estate comprises 2-4 storey low-rise maisonette blocks overlooking Beckenham Place Park.
@@ -37,4 +32,11 @@ A ballot was held in July 2021, with a majority of residents voting in favour of
 Planning permission was granted in 2023 for 275 new homes, of which 179 'affordable'.
 
 More information is available on Riverside's website here: [https://www.riverside.org.uk/redevelopment-projects/calverley-close-revitalising-your-neighbourhood/](https://www.riverside.org.uk/redevelopment-projects/calverley-close-revitalising-your-neighbourhood/)
+
+---
+
+{% image "src/images/cal1.png", "Calverley Close estate" %}
+{% image "src/images/cal3.png", "Calverley Close estate" %}
+{% image "src/images/cal5.png", "Calverley Close estate" %}
+
 

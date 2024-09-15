@@ -1,23 +1,19 @@
 ---
 name: Cambridge Road estate
 borough: kingston
+tags: kingston
 location: '{"type":"Point","coordinates":[-0.287284,51.408046]}'
 ballot: Approved
 landlord: RB Kingston
 developer: Countryside Properties
 itla: PPCR
 total: 820
-thumb: /images/cambridge1thumb.jpg
-images:
-  - src/images/cambridge1.jpg
-  - src/images/cambridge2.jpg
-  - src/images/cambridge3.jpg
-  - src/images/cambridge4.jpg
-  - src/images/croadaerial.png
 planning: Approved
 category: underthreat
 stage: Preparation
 ---
+{% image "src/images/cambridge3.jpg", "Cambridge Rd estate" %}
+
 820 homes have been earmarked for demoliton on Kingston's Cambridge Road estate. 
 In October 2016, Kingston published a [Direction of Travel document](https://www.kingston.gov.uk/downloads/download/611/direction_of_travel_for_kingston), prepared by Kingston Council in collaboration with the Mayor of London, which identified potential opportunities for growth, infrastructure and investment in the borough. The Cambridge Road estate was one of the sites identified for potential redevelopment.
 
@@ -61,3 +57,8 @@ You can view the planning application documents on Kingston's planning portal [h
 The Mayor's stage 1 report is available [here.](https://gla.force.com/pr/s/planning-application/a0i4J000002UOhyQAG/20206860?tabset-c2f3b=2)
 
 The planning application was approved in January 2022.
+
+---
+
+{% image "src/images/cambridge4.jpg", "Cambridge Rd estate" %}
+{% image "src/images/croadaerial.png", "Cambridge Rd estate aerial" %}

@@ -1,12 +1,7 @@
 ---
 name: Church Street Area
 borough: westminster
-thumb: /images/csthumb.jpg
-images:
-  - src/images/cs.jpg
-  - src/images/cs1.jpg
-  - src/images/cs2.jpg
-  - src/images/cs3.jpg
+tags: westminster
 location: '{"type":"Point","coordinates":[-0.170681,51.523316]}'
 landlord: Westminster Council
 developer:
@@ -15,6 +10,8 @@ total: 300
 ballot:
 planning: Approved
 ---
+{% image "src/images/cs.jpg", "church street estate aerial" %}
+
 300 homes on three estates in Westminster's Church Street Area are under threat of demolition.
 
 Church street Area is located in Maida Vale, situated beside the Regent's Canal and in close proximity of Regent's Park.

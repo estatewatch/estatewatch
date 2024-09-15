@@ -41,9 +41,9 @@ eleventyNavigation:
 
 <details>
 
-<summary><b>But new private housing cross subsidises the replacement social housing doesn't it?</b></summary>
+<summary><b>But new private housing cross-subsidises the replacement social housing doesn't it?</b></summary>
 
-> Despite best intentions, the cost of replacement social housing and demolition/rehousing is subsidised mainly by local authorities, grant funding or by increasing the rents on replacement affordable housing. See [here] and [here] for examples. 
+> Despite best intentions, developers' profit margins and the [viability testing loopholes](https://www.theguardian.com/cities/2015/jun/25/london-developers-viability-planning-affordable-social-housing-regeneration-oliver-wainwright) mean that the cost of replacement social housing and demolition/rehousing ends up being subsidised mainly by local authorities, grant funding or by reducing the quantum and increasing the rents of replacement affordable housing. See [here](https://www.paywallskip.com/article?url=https%3A%2F%2Fwww.insidehousing.co.uk%2Fnews%2Festate-regenerations-failed-to-replace-social-homes-due-to-cross-subsidy-model-nhf-boss-says-88513) and [here]() for evidence of this. 
 
 </details>
 </div>
