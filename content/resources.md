@@ -27,7 +27,7 @@ eleventyNavigation:
 
 <details>
 
-<summary><b>Maintenance costs on these old estates are a burden on councils - isn't it more cost effective to replace them?</b></summary>
+<summary><b>Maintenance costs on old estates are a burden - isn't it more cost effective to replace them?</b></summary>
 
 > Despite their age and lack of investment, evidence shows that most estates actually provide a surplus when rental income is compared to maintenance costs. See [here](https://x.com/NunheadTRA/status/1667809201882636288) for some examples. 
 
@@ -55,7 +55,7 @@ eleventyNavigation:
 
 <details>
 
-<summary><b>But residents have voted for the demolition of their own estates, why shouldn't their wishes be respected?</b></summary>
+<summary><b>When the majority of residents vote for the demolition of their own estates, why shouldn't their wishes be respected?</b></summary>
 
 > There are a number of problems with the current ballot process. Not least the fact that refurbishment is never an option on the ballot paper. Read our full review of the flaws in the ballot process [here](/ballots/).
 
@@ -71,7 +71,7 @@ eleventyNavigation:
 
 <details>
 
-<summary><b>London needs more homes, why shouldn't estates be rebuilt with increased density to house both existing social tenants and increase overall housing stock? </b></summary>
+<summary><b>London needs more homes, why shouldn't estates be rebuilt with increased density to house existing residents and also increase overall housing stock? </b></summary>
 
 > There are plenty of large brownfield sites in London that have stood empty for decades, having been land-banked by developers. It would be more effective to bring these forward for development before knocking down existing housing.
 
