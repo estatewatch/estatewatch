@@ -1,19 +1,17 @@
 ---
 name: Custom House regeneration
 borough: newham
+tags: newham
 location: '{"type":"Point","coordinates":[0.021314,51.510722]}'
 landlord: Newham Council
 developer: null
 itla: Newman Francis 
 total: 300
-thumb: /images/customhouse2thumb.jpg
-images:
-  - src/images/customhouse2.jpg
-  - src/images/customhouse3.png
-  - src/images/customhouse4.png
 planning: Approved
 ballot: Approved 
 ---
+{% image "src/images/customhouse4.png", " Custom house" %}
+
 Circa 300 homes remain under threat of demolition as part of Newham's regeneration of the Custom House area.
 
 A number of council estates were earmarked for redevelopment in Newham's [Custom House & Canning Town regeneration masterplan](https://www.newham.gov.uk/Documents/Environment%20and%20planning/CanningTownCustomHouseAdoptedSPD2008%5B1%5D.pdf), which set out 20 development sites.
@@ -48,5 +46,12 @@ This leaves the door open to Newham 'gatekeeping' the shared equity offer as has
 
 The estate's residents were balloted in December 2022 and a turnout of 62 percent saw 53 percent of residents vote ‘yes’ to demolition, while 47% voted against. 
 
+---
+
 __Links:__
 Newham Council's dedicated website for the Custom House scheme [(https://www.customhousee16.com)](https://www.customhousee16.com).
+
+---
+
+{% image "src/images/customhouse2.jpg", "custon house" %}
+{% image "src/images/customhouse3.png", " Custom house" %}

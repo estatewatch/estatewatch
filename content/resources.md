@@ -73,9 +73,13 @@ eleventyNavigation:
 
 <summary><b>London needs more homes, why shouldn't estates be rebuilt with increased density to house both existing social tenants and increase overall housing stock? </b></summary>
 
+> There are plenty of large brownfield sites in London that have stood empty for decades, having been land-banked by developers. It would be more effective to bring these forward for development before knocking down existing housing.
+
 > Many estates earmarked for demolition are already high density. They tend to be selected not on their propensity to increase density but rather on architectural fashions (grey, concrete, 'monolithic' etc).
 
 > In general, redeveloped estates do provide more homes but they tend to be smaller (1 & 2 bed, rather than the family size homes they are often replacing). See the Aylesbury estate for example. 
+
+> Studies have shown that in-fill development on estates can be more effective in increasing density than wholescale redevelopment. See the [St Raphael's estate](https://www.brent.gov.uk/housing/new-council-homes/where-we-are-building/st-raphaels-estate/about) in Brent for example.
 
 
 </details>

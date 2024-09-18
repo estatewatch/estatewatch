@@ -1,29 +1,25 @@
 ---
 name: Colville estate
 borough: hackney
+tags: hackney
 location: '{"type":"Point","coordinates":[-0.083684,51.536318]}'
 landlord: Hackney Council
 developer: null
 itla: PPCR
 total: 200
-thumb: /images/colville9thumb.jpg
-images:
-  - src/images/colville9.jpg
-  - src/images/coleville2.png
-  - src/images/coleville3.png
-  - src/images/coleville1.png
-  - src/images/colville8.png
-  - src/images/colvilleplans.jpg
 ballot: Exempt
 planning: Approved
+architect: Karakusevic Carson
 ---
+{% image "src/images/colville9.jpg", "Colville estate" %}
+
 Circa 200 homes remain earmarked for demolition on Hackney's Colville estate.
 
 The estate is situated between the Regents canal to the North and Shoreditch Park to the South. It originally comprised 432 homes around half of which have now been demolished.
 
-Phases 1, 2, 3 and 4 of the scheme are complete and the decant has now started on phase 6 of the 7-phase scheme.
+Phases 1, 2 and 3 of the scheme are nearing completion. At the end of 2023, Hackney announced that it was revising the masterplan for the remaining phases 4-7 of the redevelopment.
 
-The scheme 925 dwellings. Of these, 476 will be for market sale, 111 for shared ownership or shared equity, and 338 for social rent.
+> "The Masterplan for Colville was originally put together in 2012. Since then, a lot has changed both within the borough and the industry and we now need to work with our design team to bring the masterplan up-to-date for the remaining Phases 4-7 which cover all of the remaining older blocks.
 
 The scheme is being [funded](https://www.london.gov.uk/programmes-strategies/housing-and-land/homes-londoners/estate-regeneration/estate-regeneration-data) by the Mayor and [exempted](https://www.london.gov.uk/programmes-strategies/housing-and-land/homes-londoners/estate-regeneration/estate-regeneration-data) from his requirement to ballot residents on the demolition of their homes.
 
@@ -31,4 +27,4 @@ In August 2019, it was [reported](https://www.hackneygazette.co.uk/news/bridport
 
 Hackney Council subsequently decided on remediation works which are estimated to cost £6m. In January 2022, it was [reported](https://www.insidehousing.co.uk/news/news/london-council-warns-all-options-remain-open-to-recoup-costs-on-defect-ridden-block-as-repairs-start-73949) that the Council is considering legal action to recover the cost of these works.
 
-{% image "src/images/bridport.png", "alt text" %}
+---

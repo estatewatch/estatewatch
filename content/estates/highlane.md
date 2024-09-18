@@ -1,21 +1,18 @@
 ---
 name: High Lane estate
 borough: ealing
+tags: ealing
 location: '{"type":"Point","coordinates":[-0.344496,51.519802]}'
 ballot: Approved
 landlord: Ealing Council
 developer: Rydon
 itla: null
 total: 264
-thumb: /images/highlane3thumb.jpg
-images:
-  - src/images/highlane3.jpg
-  - src/images/highlane2.png
-  - src/images/highlane1.png
-  - src/images/highlane5.png
-  - src/images/highlaneaerial.png
 planning: Approved
+architect: Pollard Thomas Edwards
 ---
+ {% image "src/images/highlane2.png", "High Lane estate" %}
+
 264 council homes are earmarked for demolition on Ealing's High Lane estate in Hanwell.
 
 Located near the river Brent and Brent Valley Park, the estate comprises 264 homes in a mixture of two bed maisonettes and three bed flats, of which 51 households are leasehold owned.

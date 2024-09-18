@@ -1,12 +1,7 @@
 ---
 name: Grahame Park estate
 borough: barnet
-thumb: /images/grahamepark2thumb.jpg
-images:
-  - src/images/grahamepark2.jpg
-  - src/images/grahamepark.jpg
-  - src/images/grahamepark3.jpg
-  - src/images/grahamepark4.jpg
+tags: barnet
 location: '{"type":"Point","coordinates":[-0.244782,51.602271]}'
 landlord: Barnet Council
 developer: Notting Hill Genesis
@@ -14,7 +9,10 @@ itla:
 total: 1314
 ballot: Exempt
 planning: Approved
+architect: Mae/Peter Barber
 ---
+{% image "src/images/grahamepark4.jpg", "grahame park estate" %}
+
 1,314 homes are under threat of demolition at Barnet's Grahame Park Estate. The estate was constructed in the early 1970s by the GLC on the site of the former Hendon Aerodrome.
 
 It and is Barnet’s largest housing estate with [1,777 homes](https://www.barnet.gov.uk/planning-and-building/planning-policies/local-plan/grahame-park-july-2016). Barnet Council appointed Notting Hill Genesis in 2002 to [redevelop](https://www.barnet.gov.uk/grahame-park) approximately three quarters of the estate (463 homes will be retained).
@@ -51,8 +49,14 @@ Details of the planning consent for Phase A are available on Barnet's planning p
 
 The Grahame Park scheme is being funded by the Mayor and has been exempted from his requirement to ballot residents on the demolition of their homes. It is located directly adjacent to another large estate redevelopment scheme - the [Douglas Bader Park estate](https://estatewatch.london/estates/barnet/douglasbaderpark/).
 
+---
+
 __Links:__
 
 [Mayor's Stage 2 planning report](https://gla.force.com/pr/s/planning-application/a0i4J0000003Tu8QAE/20200543hs2?tabset-c2f3b=2)
 
 [Barnet Planning Portal - planning application supporting docs (ref:19/5493/OUT)](https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=PZ5MNBJI0I700)
+
+---
+
+{% image "src/images/grahamepark.jpg", "Grahame Park estate" %}

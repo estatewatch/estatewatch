@@ -1,8 +1,7 @@
 ---
 name: Shires estate 
 borough: enfield 
-images:
-  - src/images/cheshire.jpg
+tags: enfield
 location: '{"type":"Point","coordinates":[-0.05349,51.61517]}'
 landlord: Enfield Council 
 developer:
@@ -11,6 +10,8 @@ total: 200
 ballot: Pending
 planning: Pending
 ---
+{% image "src/images/cheshire.jpg", "shires estate" %}
+
 Circa 200 homes are earmarked for potential demolition on Enfield's Shires estate in Edmonton.
 
 Two 18 storey blocks (Shropshire House and Cheshire House) have been earmarked for potential redevelopment by Enfield Council.

@@ -1,12 +1,7 @@
 ---
 name: Friary Park estate 
 borough: ealing
-thumb: /images/fpark3thumb.jpg
-images:
-  - src/images/fpark3.jpg
-  - src/images/fparkaerial.png
-  - src/images/fpark1.png
-  - src/images/fpark2.png
+tags: ealing
 location: '{"type":"Point","coordinates":[-0.264300,51.516962]}'
 landlord: Catalyst Housing Group
 developer: Mount Anvil
@@ -14,7 +9,10 @@ itla:
 total: 230
 ballot: Exempt
 planning: Approved
+architect: Levitt Bernstein
 ---
+{% image "src/images/fpark2.png", "Friary Park estate" %}
+
 230 homes are under threat of demolition on Ealing's Friary Park estate in Acton.
 
 The estate comprises 230 homes, including 225 social rent units and 5 privately owned units. It was constructed in the 1980s and comprises predominantly flats and terraced homes laid out in buildings up to four stories in height.

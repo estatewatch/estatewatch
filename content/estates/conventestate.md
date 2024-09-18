@@ -1,28 +1,7 @@
 ---
 name: Convent Way estate
 borough: hounslow
-thumb: /images/cv12thumb.jpg
-images:
-  - src/images/cv12.jpg
-  - src/images/cv1.jpg
-  - src/images/cv2.jpg
-  - src/images/cv3.jpg
-  - src/images/cv4.jpg
-  - src/images/cv5.jpg
-  - src/images/cv6.jpg
-  - src/images/cv7.jpg
-  - src/images/cv8.jpg
-  - src/images/cv9.jpg
-  - src/images/cv10.jpg
-  - src/images/cv11.jpg
-  - src/images/cv13.jpg
-  - src/images/cv14.jpg
-  - src/images/cv15.jpg
-  - src/images/cv16.jpg
-  - src/images/cv17.jpg
-  - src/images/cv18.jpg
-  - src/images/cv19.jpg
-  - src/images/cv20.jpg
+tags: hounslow
 location: '{"type":"Point","coordinates":[-0.393576,51.494632]}'
 landlord: Hounslow Council
 developer:
@@ -30,7 +9,10 @@ itla:
 total: 440
 ballot: Approved
 planning: Approved
+architect: Bell Phillips
 ---
+{% image "src/images/cv20.jpg", "Collingwood estate" %}
+
 440 homes are earmarked for demolition on Hounslow's Convent Way estate.
 
 In January 2020, Hounslow's Cabinet [agreed a comprehensive review](https://democraticservices.hounslow.gov.uk/documents/s157644/CEX432%20Housing%20Estate%20Regeneration%20Programme.pdf) of its 171 council estates with a view to infill or redevelopment.
@@ -52,3 +34,8 @@ In April 2021, Hounslow started [consulting](https://haveyoursay.hounslow.gov.uk
 85% of residents subsquently voted in favour of redevelopment. It is not known how many residents turned out for the vote.
 
 A planning application was approved in 2022 for 967 new homes of which 50% affordable rent (up to 80% market rent). All of the new homes are proposed to be constructed to Passive House standards.
+
+---
+
+{% image "src/images/cv11.jpg", "Collingwood estate" %}
+{% image "src/images/cv13.jpg", "Collingwood estate" %}

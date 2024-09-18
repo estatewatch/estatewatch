@@ -1,32 +1,18 @@
 ---
 name: Gascoigne estate
 borough: barkinganddagenham
-thumb: /images/gascoigne1thumb.jpg
-images:
-  - src/images/Lor_gascoigne1.jpg
-  - src/images/Lor_gascoigne2.jpg
-  - src/images/Lor_gascoigne3.jpg
-  - src/images/Lor_gascoigne4.jpg
-  - src/images/Lor_gascoigne.jpg
-  - src/images/Lor_gascoigne6.jpg
-  - src/images/Lor_gascoigne5.jpg
-  - src/images/Lor_gascoigne7.jpg
-  - src/images/gascoigneab.jpg
-  - src/images/gascoigneab1.jpg
-  - src/images/gascoigneab2.jpg
-  - src/images/gascoigneab3.jpg
-  - src/images/gascoigneab4.jpg
-  - src/images/gascoigneab5.jpg
-  - src/images/gascoigneab6.jpg
-  - src/images/gascoigneab7.jpg
-landlord: Barking & Dagenham Council
+tags: barkinganddagenham
+landlord: Barking and Dagenham Council
 developer: BeFirst
 itla:
 location: '{"type":"Point","coordinates":[0.078037,51.533476]}'
 total: 179
 ballot: Exempt
 planning: Approved
+architect: Levitt Bernstein
 ---
+{% image "src/images/Lor_gascoigne2.jpg", "Gascoigne estate" %}
+
 In Dec 2018, the Mayor approved the demolition of 179 homes on the latest phase of Barking & Dagenham's Gascoigne estate regeneration, to be replaced by 850 new homes of which 78 at 'London Affordabe Rent' (defined as up to 80% market rent). Leaseholders have the 'right to return'  only if they can afford to pay the rent in one of the new shared-ownership flats. 
 
 The Mayor's [planning report](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/gascoigne-estate-west) approves the demolition of 179 homes on this latest phase of the scheme, Gascoigne estate West - the [east side of the estate](/casestudies/gascoigne/) having been approved for demolition in September 2015.
@@ -51,10 +37,31 @@ This goes against the legal “principle of equivalence” which says that perso
 
 Similarly unfair policies were [deemed unlawful](https://www.theguardian.com/society/2016/sep/16/government-blocks-controversial-plan-to-force-out-housing-estate-residents) by the Secretary of State at the 2015 Aylesbury estate CPO inquiry and required Southwark to [amend](http://moderngov.southwarksites.com/documents/s74901/Report%20Amending%20the%20shared%20equity%20rehousing%20policy%20for%20qualifying%20homeowners%20affected%20by%20regenerati.pdf) its policy.
 
+---
+
 __Links:__
 Mayor's stage 1 and 2 reports [https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/gascoigne-estate-west](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/gascoigne-estate-west)
 
 Planning consent's [section 106 agreement](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/gascoigne-estate-west)
+
+---
+
+ {% image "src/images/Lor_gascoigne1.jpg", "Gascoigne estate" %}
+  
+  {% image "src/images/Lor_gascoigne3.jpg", "Gascoigne estate" %}
+  {% image "src/images/Lor_gascoigne4.jpg", "Gascoigne estate" %}
+  {% image "src/images/Lor_gascoigne.jpg", "Gascoigne estate" %}
+  {% image "src/images/Lor_gascoigne6.jpg", "Gascoigne estate" %}
+  {% image "src/images/Lor_gascoigne5.jpg", "Gascoigne estate" %}
+  {% image "src/images/Lor_gascoigne7.jpg", "Gascoigne estate" %}
+  {% image "src/images/gascoigneab.jpg", "Gascoigne estate" %}
+  {% image "src/images/gascoigneab1.jpg", "Gascoigne estate" %}
+  {% image "src/images/gascoigneab2.jpg", "Gascoigne estate" %}
+  {% image "src/images/gascoigneab3.jpg", "Gascoigne estate" %}
+  {% image "src/images/gascoigneab4.jpg", "Gascoigne estate" %}
+  {% image "src/images/gascoigneab5.jpg", "Gascoigne estate" %}
+  {% image "src/images/gascoigneab6.jpg", "Gascoigne estate" %}
+  {% image "src/images/gascoigneab7.jpg", "Gascoigne estate" %}
 
 (Photo credits: Andrew Brown)
 

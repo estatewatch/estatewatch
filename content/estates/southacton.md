@@ -1,33 +1,18 @@
 ---
 name: South Acton estate
 borough: ealing
+tags: ealing
 location: '{"type":"Point","coordinates":[-0.272799,51.502295]}'
 ballot: Exempt
 landlord: Ealing Council
 developer: Countryside Properties
 itla: PEP
 total: 2100
-thumb: /images/sacton1thumb.jpg
-images:
-  - src/images/sacton1.jpg
-  - src/images/sacton2.jpg
-  - src/images/sacton3.jpg
-  - src/images/sacton4.jpg
-  - src/images/sacton5.jpg
-  - src/images/sacton6.jpg
-  - src/images/sacton7.jpg
-  - src/images/sacton8.jpg
-  - src/images/sacton9.jpg
-  - src/images/sacton10.jpg
-  - src/images/sacton12.jpg
-  - src/images/sacton13.jpg
-  - src/images/sacton14.jpg
-  - src/images/sacton15.jpg
-erg: noncompliant
 planning: Approved
-category: underthreat
-stage: Implementation
 ---
+
+{% image "src/images/sacton9.jpg", "south acton estate" %}
+
 In Dec 2018, the Mayor approved the demolition of 2,100 homes at Ealing's South Acton estate with all replacement 'social' housing at up to 80% of market rent.
 
 The South Acton estate is Ealing's and West London's largest council estate with 2,100 homes spanning 52 hectares of land. These are accommodated in a range of principally medium to high rise blocks. The estate also provides shops, a youth club, a community centre, a nursery, school buildings and open space. One of the blocks on the estate, Harlech Tower is well known as the backdrop for the BBC sitcom Only Fools and Horses.
@@ -55,6 +40,8 @@ The variation of the planning consent resulted in a [variation](/images/actons10
 Ealing says that tenants will have a right to return to the redeveloped estate and leaseholders too. But the small print in Ealing's [shared equity offer to leaseholders](https://ealing.cmis.uk.com/ealing/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=orv9zlc1hcwmefvl%2FzC77iPz0uNaQowGhPWmce8m8fB%2FMzqMI5BQBA%3D%3D&rUzwRPf%2BZ3zd4E7Ikn8Lyw%3D%3D=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2FLUQzgA2uL5jNRG4jdQ%3D%3D&mCTIbCubSFfXsDGW9IXnlg%3D%3D=hFflUdN3100%3D&kCx1AnS9%2FpWZQ40DXFvdEw%3D%3D=hFflUdN3100%3D&uJovDxwdjMPoYv%2BAJvYtyA%3D%3D=ctNJFf55vVA%3D&FgPlIEJYlotS%2BYGoBi5olA%3D%3D=NHdURQburHA%3D&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3D&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3D&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3D) requires them to invest their personal savings and take out a mortgage if they want to take up the offer (see para 2.2). This was [deemed unlawful](https://www.theguardian.com/society/2016/sep/16/government-blocks-controversial-plan-to-force-out-housing-estate-residents) by the Secretary of State at the 2015 Aylesbury estate CPO inquiry and required Southwark to [amend](http://moderngov.southwarksites.com/documents/s74901/Report%20Amending%20the%20shared%20equity%20rehousing%20policy%20for%20qualifying%20homeowners%20affected%20by%20regenerati.pdf) its policy.
 
 In January 2021, Ealing Council commenced compulsory purchase proceedings to remove remaining leaseholders from the next phase of the scheme.
+
+---
 
 __Links:__
 

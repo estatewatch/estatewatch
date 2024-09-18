@@ -1,11 +1,7 @@
 ---
 name: Roseberry Gardens estate 
 borough: sutton
-thumb: /images/roseberry1thumb.jpg
-images:
-  - src/images/roseberry1.jpg
-  - src/images/roseberry2.jpg
-  - src/images/roseberry3.jpg
+tags: sutton
 location: '{"type":"Point","coordinates":[-0.1929,51.3679]}'
 landlord: Sutton Council
 developer:
@@ -14,6 +10,8 @@ total: 150
 ballot: Required
 planning: Pending
 ---
+{% image "src/images/roseberry3.jpg", "roseberry gdns estate" %}
+
 Circa 150 homes have been earmarked for demolition on Sutton's Roseberry Gardens estate.
 
 The Roseberry Gardens estate is one of seven estates listed in [Sutton's Local Plan (2018)](https://drive.google.com/file/d/1MdX6GlaHDoBdG6CTsvjFaIuPtIa9id5O/view) for potential redevelopment:

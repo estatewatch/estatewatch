@@ -1,16 +1,7 @@
 ---
 name: Geoffrey Close (Lambeth) estate 
 borough: lambeth
-thumb: /images/clethumb.jpg
-images:
-  - src/images/cle8.jpg
-  - src/images/cle7.jpg
-  - src/images/cle6.jpg
-  - src/images/cle5.jpg
-  - src/images/cle4.jpg
-  - src/images/cle3.jpg
-  - src/images/cle2.jpg
-  - src/images/cle1.jpg
+tags: lambeth
 location: '{"type":"Point","coordinates":[-0.099011,51.469493]}'
 landlord: Riverside Homes
 developer:
@@ -18,7 +9,10 @@ itla: Source Partnership
 total: 134
 ballot: Approved
 planning: Approved
+architect: PRP
 ---
+{% image "src/images/cle3.jpg", "Geoffrey Close estate" %}
+
 134 homes are earmarked for demolition on Lambeth's Geoffrey Close estate near Coldharbour Lane.
 
 Housing association Riverside Homes, which manages the estate, [wants to replace it](https://www.riverside.org.uk/redevelopment-projects/lambeth-estate-revitalising-your-neighbourhood/about-the-redevelopment-of-the-lambeth-estate/) with 400 new homes, 135 of which at London Affordable Rent.
@@ -29,7 +23,7 @@ In November 2020, Riverside applied for planning permission to demolish the esta
 
 In December, the Mayor published his [stage 1 planning report](https://gla.force.com/pr/s/planning-application/a0i4J000002TXIGQA4/20206691?tabset-c2f3b=2) in response to the planning application. 
 
-{% image "src/images/cle8.jpg", "alt text" %}
+{% image "src/images/cle8.jpg", "Geoffrey Close estate" %}", "alt text" %}
 
 The report is critical of Riverside's proposal to gate the entire development (para 39) and failure to re-provide the ball court (para 43). It also criticises the uplift of just one social rented home, despite a near fourfold increase in the total number of homes - _"It is disappointing that, given the significant uplift in housing across the site, the uplift in affordable housing is just one unit."_ (para 49)
 
@@ -47,6 +41,18 @@ While it is good to see the Mayor's planning report pick this up, it is disappoi
 
 You can view the Mayor's report [here](https://gla.force.com/pr/s/planning-application/a0i4J000002TXIGQA4/20206691?tabset-c2f3b=2), the full planning application documents (except the financial viability assessment which hasn't been published) on Lambeth's planning portal [here](https://planning.lambeth.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QHD9R4BO08M00).
 
+---
 
 __Links:__  
 Riverside Homes website: [https://www.riverside.org.uk/redevelopment-projects/lambeth-estate-revitalising-your-neighbourhood/about-the-redevelopment-of-the-lambeth-estate/](https://www.riverside.org.uk/redevelopment-projects/lambeth-estate-revitalising-your-neighbourhood/about-the-redevelopment-of-the-lambeth-estate/)
+
+---
+
+  {% image "src/images/cle8.jpg", "Geoffrey Close estate" %}
+  {% image "src/images/cle7.jpg", "Geoffrey Close estate" %}
+  {% image "src/images/cle6.jpg", "Geoffrey Close estate" %}
+  {% image "src/images/cle5.jpg", "Geoffrey Close estate" %}
+  {% image "src/images/cle4.jpg", "Geoffrey Close estate" %}
+  
+  {% image "src/images/cle2.jpg", "Geoffrey Close estate" %}
+  {% image "src/images/cle1.jpg", "Geoffrey Close estate" %}

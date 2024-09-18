@@ -1,6 +1,7 @@
 ---
 name: Douglas Bader Park estate
 borough: barnet
+tags: barnet
 ballot: Approved
 landlord: Home Group (Housing Association)
 developer: Home/Hill Group
@@ -8,23 +9,17 @@ itla: null
 total: 271
 status: Planning and ballot approved
 location: '{"type":"Point","coordinates":[-0.249247,51.604697]}'
-thumb: /images/db1thumb.jpg
-images:
-  - src/images/db1.jpg
-  - src/images/db2.png
-  - src/images/db3.png
-  - src/images/db4.png
-  - src/images/db5.png
-  - src/images/baderscreenshot.png
 planning: Approved
 ---
+{% image "src/images/db3.png", "Dollis Valley" %}
+
 271 homes are earmarked for demolition on Barnet's Douglas Bader Park estate in Colindale.
 
 The estate is owned by housing association [Home Group](http://homegroup.org.uk) and housebuilder [Hill Group](http://hill.co.uk).
 
 In May 2019, residents were balloted on the redevelopment options for the estate, but were [told](/images/DouglasBaderParkBallot.pdf) that if they voted against full redevelopment then only essential repairs would be carried out on their homes:
 
-{% image "src/images/dbno.png", "alt text" %}
+{% image "src/images/dbno.png", "Dollis Valley" %}", "alt text" %}
 
 This is slowly [becoming standard practice](/approved/ballotexemptions/) in the ballot process - residents are faced with the choice of redevelopment or continued neglect and disinvestment; the option of having their homes refurbished is simply not on the table.
 
@@ -40,13 +35,15 @@ The Mayor's report is also silent on how the affordable housing offer (36% by un
 
 Neither does it say anything about the Mayor's requirement to show that alternatives to demolition have been properly considered. It is therefore impossible to know whether the Mayoral funding might have been better spent elsewhere, building new social rented homes rather than replacements.
 
-{% image "src/images/dbpcomment.png", "alt text" %}
+{% image "src/images/dbpcomment.png", "Dollis Valley" %}", "alt text" %}
 
-{% image "src/images/dbpcomment2.png", "alt text" %}
+{% image "src/images/dbpcomment2.png", "Dollis Valley" %}", "alt text" %}
 
 The estate is located directly adjacent to another of Barnet's large scale estate redevelopments - the [Grahame Park estate](https://estatewatch.london/estates/barnet/grahamepark/).
 
 In September 2021, Barnet's planning committee narrowly approved the planning application, with four Labour councillors and a Liberal Democrat member voting against the plan. Five Conservatives voted in favour, and committee chairman Cllr Eva Greenspan used her casting vote to approve the scheme. 
+
+---
 
 __Links:__ 
 Planning application and supporting documents: [https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QLUOGJJI09100](https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QLUOGJJI09100) (ref: 20/6277/FUL)
@@ -54,3 +51,11 @@ Planning application and supporting documents: [https://publicaccess.barnet.gov.
 Planning officer report for the rejected planning application: [https://barnet.moderngov.co.uk/documents/s65028/Douglas%20Bader%20Park%20Estate.pdf](https://barnet.moderngov.co.uk/documents/s65028/Douglas%20Bader%20Park%20Estate.pdf)
 
 The Mayor's stage 1 report: [https://gla.force.com/pr/s/planning-application/a0i4J000002fSv8QAE/20210141?tabset-c2f3b=2](https://gla.force.com/pr/s/planning-application/a0i4J000002fSv8QAE/20210141?tabset-c2f3b=2)
+
+---
+
+{% image "src/images/db1.jpg", "Dollis Valley" %}
+{% image "src/images/db2.png", "Dollis Valley" %}
+{% image "src/images/db4.png", "Dollis Valley" %}
+{% image "src/images/db5.png", "Dollis Valley" %}
+{% image "src/images/baderscreenshot.png", "Dollis Valley" %}

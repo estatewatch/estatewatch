@@ -1,21 +1,17 @@
 ---
 name: Eastfields estate
 borough: merton
+tags: merton
 location: '{"type":"Point","coordinates":[-0.149209,51.407168]}'
 ballot: Exempt
 landlord: Clarion Group
 developer: null
 itla: null
 total: 446
-thumb: /images/ef4thumb.jpg
-images:
-  - src/images/ef4.jpg
-  - src/images/ef1.jpg
-  - src/images/ef2.jpg
-  - src/images/ef3.jpg
-  - src/images/ef5.jpg
 planning: Approved
 ---
+{% image "src/images/ef3.jpg", "Eastfields estate" %}
+
 In Nov 2018, the Mayor approved the demolition of 446 homes on Merton's Eastfields estate, to be replaced by 800 homes of which only 262 affordable (all at affordable rent of up to 80% market rent or [LHA levels](https://www.gov.uk/government/publications/understanding-local-housing-allowances-rates-broad-rental-market-areas) - whichever is lower).
 
 The Mayor's [approval notice](https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_437651///eastfields_estate_report.pdf) confirms that replacement 'social' housing will be affordable rent tenure and confirms that he has granted an [exemption](/approved/ballotexemptions) from his requirement to ballot residents on the demolition of their homes.
@@ -68,6 +64,8 @@ No further information is available surrounding the ongoing and extensive delays
 
 In September 2021, Merton Council [agreed](https://www.housingtoday.co.uk/news/merton-council-agrees-deal-with-clarion-to-kickstart-unviable-2600-home-regen-project/5113627.article) to forgo a 5% profit share deal that it had with Clarion in order to help 'kick-start' the scheme, which had been declared unviable.
 
+---
+
 __Links:__  
 
 June 2021 ITV report - [https://www.itv.com/news/2021-06-16/collapsed-ceilings-mice-and-mould-appalling-conditions-uncovered-across-an-entire-housing-estate-of-nearly-500-homes](https://www.itv.com/news/2021-06-16/collapsed-ceilings-mice-and-mould-appalling-conditions-uncovered-across-an-entire-housing-estate-of-nearly-500-homes)
@@ -75,3 +73,10 @@ June 2021 ITV report - [https://www.itv.com/news/2021-06-16/collapsed-ceilings-m
 
 
 Mayor's [Stage 1 and Stage 2 planning reports](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/eastfields-estate) - approved Nov 2018
+
+---
+
+  {% image "src/images/ef4.jpg", "Eastfields estate" %}
+  {% image "src/images/ef1.jpg", "Eastfields estate" %}
+  {% image "src/images/ef2.jpg", "Eastfields estate" %}
+

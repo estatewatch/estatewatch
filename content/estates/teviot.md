@@ -1,43 +1,7 @@
 ---
-category: underthreat
-stage: Preparation
 name: Teviot estate 
 borough: towerhamlets 
-thumb: /images/te4thumb.jpg
-images:
-  - src/images/te4.jpg
-  - src/images/te1.jpg
-  - src/images/te2.jpg
-  - src/images/te3.jpg
-  - src/images/te5.jpg
-  - src/images/te6.jpg
-  - src/images/te7.jpg
-  - src/images/te8.jpg
-  - src/images/te9.jpg
-  - src/images/te10.jpg
-  - src/images/te11.jpg
-  - src/images/te12.jpg
-  - src/images/te13.jpg
-  - src/images/te14.jpg
-  - src/images/te15.jpg
-  - src/images/te16.jpg
-  - src/images/te17.jpg
-  - src/images/te18.jpg
-  - src/images/te19.jpg
-  - src/images/te20.jpg
-  - src/images/te21.jpg
-  - src/images/te22.jpg
-  - src/images/te23.jpg
-  - src/images/te24.jpg
-  - src/images/te25.jpg
-  - src/images/te26.jpg
-  - src/images/te27.jpg
-  - src/images/te28.jpg
-  - src/images/te29.jpg
-  - src/images/te30.jpg
-  - src/images/te31.jpg
-  - src/images/te32.jpg
-  - src/images/teaerial.png
+tags: towerhamlets
 location: '{"type":"Point","coordinates":[-0.012409,51.518195]}'
 landlord: Poplar HARCA
 developer:
@@ -46,6 +10,8 @@ total: 535
 ballot: Approved
 planning: Pending
 ---
+{% image "src/images/te4.jpg", "Teviot estate" %}
+
 535 homes have been earmarked for demolition by housing association Poplar HARCA at its Teviot estate in Tower Hamlets.
 
 The estate underwent a stock transfer to [Poplar HARCA housing association](https://www.poplarharca.co.uk/), which was [completed](http://democracy.towerhamlets.gov.uk/mgAi.aspx?ID=10064) in 2007.
@@ -71,3 +37,37 @@ Residents were also told that the scheme would take 7 to 10 years to complete bu
 {% image "src/images/teviothousingtoday.png", "teviot article" %}
 
 It is noteworthy that Poplar HARCA's [rehousing offer](/images/teviotoffer.pdf) to leaseholders is more generous than most (with the exception of Circle Housing's [offer in Merton](/images/mertonoffer.pdf) as it allows a certain amount of the shared equity loan to be written off after 7 years (Circle writes it off completely).
+
+---
+
+{% image "src/images/te1.jpg", "Teviot estate" %}
+  {% image "src/images/te2.jpg", "Teviot estate" %}
+  {% image "src/images/te3.jpg", "Teviot estate" %}
+  {% image "src/images/te5.jpg", "Teviot estate" %}
+  {% image "src/images/te6.jpg", "Teviot estate" %}
+  {% image "src/images/te7.jpg", "Teviot estate" %}
+  {% image "src/images/te8.jpg", "Teviot estate" %}
+  {% image "src/images/te9.jpg", "Teviot estate" %}
+  {% image "src/images/te10.jpg", "Teviot estate" %}
+  {% image "src/images/te11.jpg", "Teviot estate" %}
+  {% image "src/images/te12.jpg", "Teviot estate" %}
+  {% image "src/images/te13.jpg", "Teviot estate" %}
+  {% image "src/images/te14.jpg", "Teviot estate" %}
+  {% image "src/images/te15.jpg", "Teviot estate" %}
+  {% image "src/images/te16.jpg", "Teviot estate" %}
+  {% image "src/images/te17.jpg", "Teviot estate" %}
+  {% image "src/images/te18.jpg", "Teviot estate" %}
+  {% image "src/images/te19.jpg", "Teviot estate" %}
+  {% image "src/images/te20.jpg", "Teviot estate" %}
+  {% image "src/images/te21.jpg", "Teviot estate" %}
+  {% image "src/images/te22.jpg", "Teviot estate" %}
+  {% image "src/images/te23.jpg", "Teviot estate" %}
+  {% image "src/images/te24.jpg", "Teviot estate" %}
+  {% image "src/images/te25.jpg", "Teviot estate" %}
+  {% image "src/images/te26.jpg", "Teviot estate" %}
+  {% image "src/images/te27.jpg", "Teviot estate" %}
+  {% image "src/images/te28.jpg", "Teviot estate" %}
+  {% image "src/images/te29.jpg", "Teviot estate" %}
+  {% image "src/images/te30.jpg", "Teviot estate" %}
+  {% image "src/images/te31.jpg", "Teviot estate" %}
+  {% image "src/images/te32.jpg", "Teviot estate" %}

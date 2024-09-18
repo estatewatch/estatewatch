@@ -1,22 +1,7 @@
 ---
 name: Lisson Green estate
 borough: westminster
-thumb: /images/lissongreen3thumb.jpg
-images:
-  - src/images/lissongreen3.jpg
-  - src/images/lg1.jpg
-  - src/images/lg2.jpg
-  - src/images/lg3.jpg
-  - src/images/lg4.jpg
-  - src/images/lg5.jpg
-  - src/images/lg6.jpg
-  - src/images/lg7.jpg
-  - src/images/lg8.jpg
-  - src/images/lg9.jpg
-  - src/images/lg10.jpg
-  - src/images/lg11.jpg
-  - src/images/lg21.jpg
-  - src/images/lg22.jpg
+tags: westminster
 location: '{"type":"Point","coordinates":[-0.167721,51.525955]}'
 landlord: Westminster Council
 developer:
@@ -25,6 +10,8 @@ total: 500
 ballot: Required
 planning: Pending
 ---
+{% image "src/images/lissongreen3.jpg", "lisson green estate" %}
+
 Circa 500 homes are under threat of potential demolition on Westminster's Lisson Green estate in Maida Vale.
 
 The estate, which is situated beside the Regent's Canal and Regent's Park sits [within](https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=7cab3cdf6e344a0fb24df59ed6b9bdc5) an area that has been designated a __Housing Renewal__ zone in Westminster's [draft 2019-2040 Local Plan](https://www.westminster.gov.uk/cityplan2040).
@@ -39,3 +26,19 @@ In addition, the estate is within the boundary of the Church Street regeneration
 {% image "src/images/otheropportunities.png", "alt text" %}
 
 Two blocks on the estate have recently been incorporated into the Church St regeneration plans and are currently being demolished.
+
+---
+
+  {% image "src/images/lg1.jpg", "lisson green estate" %}
+  {% image "src/images/lg2.jpg", "lisson green estate" %}
+  {% image "src/images/lg3.jpg", "lisson green estate" %}
+  {% image "src/images/lg4.jpg", "lisson green estate" %}
+  {% image "src/images/lg5.jpg", "lisson green estate" %}
+  {% image "src/images/lg6.jpg", "lisson green estate" %}
+  {% image "src/images/lg7.jpg", "lisson green estate" %}
+  {% image "src/images/lg8.jpg", "lisson green estate" %}
+  {% image "src/images/lg9.jpg", "lisson green estate" %}
+  {% image "src/images/lg10.jpg", "lisson green estate" %}
+  {% image "src/images/lg11.jpg", "lisson green estate" %}
+  {% image "src/images/lg21.jpg", "lisson green estate" %}
+  {% image "src/images/lg22.jpg", "lisson green estate" %}

@@ -1,12 +1,7 @@
 ---
 name: Ladderswood estate 
 borough: enfield
-thumb: /images/lwoodthumb.jpg
-images:
-  - src/images/lwood.png
-  - src/images/lwood2.png
-  - src/images/lwood3.png
-  - src/images/lwood4.png
+tags: enfield
 location: '{"type":"Point","coordinates":[-0.137395,51.613312]}'
 landlord: Enfield Council
 developer: Mulalley/One Housing Group
@@ -14,7 +9,10 @@ itla:
 total: 100
 ballot: Exempt
 planning: Approved
+architect: VZDV
 ---
+{% image "src/images/lwood3.png", "ladderswood estate" %}
+
 Circa 100 homes remain earmarked for demolition on Enfield's Ladderswood estate. 
 
 Around 60 homes have already been demolished in phase one of the scheme which is nearing completion.

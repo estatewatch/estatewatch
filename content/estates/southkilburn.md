@@ -1,25 +1,16 @@
 ---
 name: South Kilburn estate
 borough: brent
+tags: brent
 location: '{"type":"Point","coordinates":[-0.198561,51.533219]}'
 ballot: Approved
 landlord: Brent Council
 itla: Communities First
 total: 800
-thumb: /images/southkilburnthumb.jpg
-images:
-  - src/images/skil1.png
-  - src/images/skil2.jpg
-  - src/images/skil3.png
-  - src/images/yanki1.jpeg
-  - src/images/yanki2.jpeg
-  - src/images/yanki3.jpeg
-  - src/images/yanki4.jpeg
-  - src/images/yanki5.jpeg
 planning: Approved 
-category: underthreat
-stage: Preparation
 ---
+{% image "src/images/skil2.jpg", "sth kilburn estate" %}
+
 Circa 800 homes remain under threat of demolition at Brent's redevelopment of the South Kilburn estate.
 
 The redevelopment of the current proposals for the South Kilburn estate are based on the [2017 approved masterplan.](https://www.brent.gov.uk/your-community/regeneration/south-kilburn-regeneration/the-development-process/masterplan-and-programme?tab=southkilburnsupplementaryplanningdocument2017). 
@@ -46,3 +37,5 @@ There is also a presentation of the plans by Dr Sendra online here:
 </center>
 
 In february 2022, the Guardian published a [detailed critique](https://www.theguardian.com/artanddesign/2022/feb/22/mellow-yellow-south-kilburn-feelgood-buttery-brick-revived-1960s-estate) of the scheme.
+
+In March 2024, the BBC published an article about the decanted estate being left in a state of severe decay: <https://www.bbc.co.uk/news/uk-england-london-68440067>

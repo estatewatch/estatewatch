@@ -1,22 +1,18 @@
 ---
 name: Ham Close estate 
 borough: richmond
-thumb: /images/hamclosethumb.jpg
-images:
-  - src/images/hamclose.jpg
-  - src/images/hcl1.jpg
-  - src/images/hcl2.jpg
-  - src/images/hcl3.jpg
-  - src/images/hcl4.jpg
-  - src/images/hcl5.jpg
+tags: richmond
 location: '{"type":"Point","coordinates":[-0.316239,51.437734]}'
-landlord: RHP
-developer:
+landlord: Richmond Housing Partnership
+developer: HILL
 itla:
 total: 192
 ballot: Exempt
 planning: Pending
+architect: BPTW
 ---
+{% image "src/images/hcl1.jpg", "Ham Close estate" %}
+
 192 homes are under threat of demolition at Richmond's Ham Close estate.
 
 Ham Close estate was built by Richmond council in the 1960s and comprises 192 homes across 14 blocks. It was handed over to Richmond Housing Partnership (RHP) 20 years ago when the council transferred all of its housing stock to the group.
@@ -36,3 +32,10 @@ In June 2021, RHP [selected](https://www.rhp.org.uk/news/news/rhp-chooses-hill-a
 A planning application was approved in December 2022 for 452 new homes of which 164 provided as 'low cost rent'.
 
 More information is available on RHP's dedicated website for the scheme [https://www.hamclose.co.uk/](https://www.hamclose.co.uk/).
+
+---
+
+  {% image "src/images/hcl2.jpg", "Ham Close estate" %}
+  {% image "src/images/hcl3.jpg", "Ham Close estate" %}
+  {% image "src/images/hcl4.jpg", "Ham Close estate" %}
+  {% image "src/images/hcl5.jpg", "Ham Close estate" %}

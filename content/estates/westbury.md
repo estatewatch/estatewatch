@@ -1,22 +1,7 @@
 ---
-erg: noncompliant
-category: underthreat
-stage: Implementation 
 name: Westbury estate 
 borough: lambeth
-thumb: /images/wb1thumb.jpg
-images:
-  - src/images/wb1.jpg
-  - src/images/wb2.jpg
-  - src/images/wb3.jpg
-  - src/images/wb4.jpg
-  - src/images/wb5.jpg
-  - src/images/wb6.jpg
-  - src/images/wb7.jpg
-  - src/images/wb8.jpg
-  - src/images/wb9.jpg
-  - src/images/wb10.jpg
-  - src/images/wb11.jpg
+tags: lambeth
 coordinates: 
 location: '{"type":"Point","coordinates":[-0.140646,51.470468]}'
 landlord: Lambeth Council
@@ -26,6 +11,8 @@ total: 82
 ballot: Exempt
 planning: Approved
 ---
+{% image "src/images/wb1.jpg", "westbury estate" %}
+
 In July 2019, the Mayor approved the demolition of 82 homes on Lambeth's Westbury estate, to provide 270 new homes of which just 38% affordable and only 48 social rent.
 
 All low-rise maisonette blocks on the Westbury estate have been earmarked for demolition as part of Lambeth's ongoing estate renewal programme.
@@ -38,8 +25,22 @@ In November 2019, the Council [resolved](https://moderngov.lambeth.gov.uk/mgIssu
 
 The estate was initially awarded grant funding by the Mayor and exempted from his requirement to ballot residents. In September 2020, the Mayor announced that funding had been [withdrawn from the scheme](https://www.insidehousing.co.uk/news/news/gla-funding-withdrawn-for-three-major-council-estate-regeneration-schemes-68045), but Lambeth vowed to proceed with demolition regardless using its own funds.
 
+---
+
 __Links:__
 [Mayor's stage 1 and 2 reports](https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_469670///westbury_estate_report.pdf)
 
+---
+
+ {% image "src/images/wb2.jpg", "westbury estate" %}
+  {% image "src/images/wb3.jpg", "westbury estate" %}
+  {% image "src/images/wb4.jpg", "westbury estate" %}
+  {% image "src/images/wb5.jpg", "westbury estate" %}
+  {% image "src/images/wb6.jpg", "westbury estate" %}
+  {% image "src/images/wb7.jpg", "westbury estate" %}
+  {% image "src/images/wb8.jpg", "westbury estate" %}
+  {% image "src/images/wb9.jpg", "westbury estate" %}
+  {% image "src/images/wb10.jpg", "westbury estate" %}
+  {% image "src/images/wb11.jpg", "westbury estate" %}
 
 

@@ -1,19 +1,7 @@
 ---
-category: underthreat
-stage: Proposal
 name: Wendling estate 
 borough: camden
-thumb: /images/wendling3thumb.jpg
-images:
-  - src/images/wendling3.jpg
-  - src/images/wg1.jpg
-  - src/images/wg2.jpg
-  - src/images/wg3.jpg
-  - src/images/wg4.jpg
-  - src/images/wg5.jpg
-  - src/images/wg6.jpg
-  - src/images/wg7.jpg
-  - src/images/wg8.jpg
+tags: camden
 location: '{"type":"Point","coordinates":[-0.156132,51.551117]}'
 landlord: Camden Council
 itla: Community Liaison Officers (Camden)
@@ -22,6 +10,8 @@ total: 241
 ballot: Approved
 planning: Approved
 ---
+{% image "src/images/wg5.jpg", "wendling estate" %}
+
 241 homes plus a health centre and nursery on Camden's Wendling estate have been [earmarked for demolition](https://www.camden.gov.uk/wendling-estate-and-st-stephens-close) in a 2019 options appraisal.  
 
 In July 2019, the Council's Cabinet [decided](http://democracy.camden.gov.uk/documents/s81826/12%20The%20Future%20of%20Wendling%20Estate.pdf) that its preferred option is full redevelopment and resolved to ballot residents on this option.
@@ -57,6 +47,8 @@ Residents have long since been reporting issues concerning the lack of maintenan
 <img src="/images/camdennewjournal.png" class="img-fluid rounded img-thumbnail">
 <figcaption class="figure-caption text-right">Article in the <a href="http://camdennewjournal.com/article/daily-battle-to-fix-estate-lifts-in-gospel-oak-estate">Camden New Journal</a> March 2020.</figcaption>
 </figure>
+
+---
 
 __Links:__  
 Camden Council's website: [https://www.camden.gov.uk/wendling-estate-and-st-stephens-close](hhttps://www.camden.gov.uk/wendling-estate-and-st-stephens-close)

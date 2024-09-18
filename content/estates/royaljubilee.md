@@ -1,11 +1,7 @@
 ---
-category: underthreat
-stage: Proposal
 name: Royal Jubilee Court 
 borough: havering
-thumb: /images/royaljubileeaerialthumb.jpg
-images:
-  - src/images/royaljubileeaerial.jpg
+tags: havering
 location: '{"type":"Point","coordinates":[0.193341,51.585675]}'
 landlord: Havering Council
 developer: Wates
@@ -14,6 +10,8 @@ total: 52
 ballot: Exempt
 planning: Pending
 ---
+{% image "src/images/royaljubileeaerial.jpg", "royal jubilee court" %}
+
 52 homes are under threat of demolition on Havering's Royal Jubilee Court.
 
 The estate has been earmarked for redevelopment as part of Havering's [£1bn joint venture with developer Wates Residential](https://www.wates.co.uk/articles/case-study/borough-of-havering-housing-redevelopment/) which will see 12 of the borough's estates redeveloped.

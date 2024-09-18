@@ -1,19 +1,18 @@
 ---
 name: Ledbury estate
 borough: southwark
+tags: southwark
 location: '{"type":"Point","coordinates":[-0.061766,51.481221]}'
 ballot: Approved
 landlord: Southwark Council
 developer: null
 itla: Open Communities
 total: 224
-thumb: /images/ledburythumb.jpeg
-images:
-  - src/images/ledbury1.jpg
-  - src/images/ledbury2.jpeg
-  - src/images/ledbury3.jpg
 planning: Approved
+architect: Karakusavic Carson
 ---
+{% image "src/images/ledbury3.jpg", "ledbury estate" %}
+
 224 homes have been earmarked for demolition on Southwark's Ledbury estate off the Old Kent Road.
 
 The estate was built between 1968 and 1970 using the Long Panel System (LPS) construction method.
@@ -28,6 +27,7 @@ The same report confirms that the Mayor has allocated £27m funding towards the 
 
 Planning was approved in 2022 for the construction of 340 new homes, of which 260 social rent.
 
+---
 
 __Links:__
 [https://www.ledburyestate.com/](https://www.ledburyestate.com/)

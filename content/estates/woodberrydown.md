@@ -1,15 +1,7 @@
 ---
-category: underthreat
-stage: Implementation 
 name: Woodberry Down estate 
 borough: hackney
-thumb: /images/woodberry1thumb.jpg
-images:
-  - https://municipaldreams.files.wordpress.com/2013/09/woodberry-down-27.jpg 
-  - https://municipaldreams.files.wordpress.com/2013/09/woodberry-down-5.jpg
-  - https://municipaldreams.files.wordpress.com/2013/09/woodberry-down-24.jpg
-  - https://municipaldreams.files.wordpress.com/2013/09/woodberry-down-estate-signboard.jpg
-  - src/images/woodberryaerial.jpg
+tags: hackney
 location: '{"type":"Point","coordinates":[-0.090658,51.572949]}'
 landlord: Hackney Council
 developer: Berkeley Homes
@@ -18,6 +10,8 @@ total: 1000
 ballot: Exempt
 planning: Approved
 ---
+{% image "src/images/woodberry-down-5.jpg", "woodberry down estate" %}
+
 Circa 1,000 homes on Hackney's Woodberry Down estate near Finsbury Park remain under threat of demolition.
 
 Circa 900 homes have already been demolished in the first two phases. Phase 3 of the scheme was granted planning permission in Summer 2019. The scheme proposes to build 5,782 new homes in total over eight phases of development.
@@ -67,6 +61,8 @@ At the end of the first two phases of redevelopment, 537 council tenant househol
 According to the latest figures provided by the Council in February 2023 (see Table 1.), on completion of the redevelopment there will be enough units (1,264) to relocate all existing remaining secure council housing tenants by the end of Phase 5.
 
 However, there will be a net loss of around 190 units for social rent as compared to pre-regeneration numbers.
+
+---
 
 __Links:__  
 [Mayor's planning reports.](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search?scheme_title=woodberry+down&postcode=&borough=All&planning_authority=All&lpa_case_number=&gla_case_number=&paws_decision_date_from=&paws_decision_date_to=)

@@ -1,13 +1,7 @@
 ---
 name: Farnham and Hilldene estate 
 borough: havering
-thumb: /images/farnham1thumb.jpg
-images:
-  - src/images/farnham1.jpg
-  - src/images/farnham2.png
-  - src/images/farnham3.png
-  - src/images/farnham5.png
-  - src/images/farnhamaerial.png
+tags: havering
 location: '{"type":"Point","coordinates":[0.219207,51.607002]}'
 landlord: Havering Council
 developer: Wates
@@ -16,6 +10,8 @@ total: 200
 ballot: Required
 planning: Pending
 ---
+{% image "src/images/farnham5.png", "Farhham hilldene estate" %}
+
 Circa 200 homes are under threat of demolition at Havering's Farnham and Hilldene estate in Harold Hill. 
 
 The proposals also include the parades of shops above which the homes are situated.

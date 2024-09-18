@@ -1,12 +1,7 @@
 ---
 name: Denby Court 
 borough: lambeth
-thumb: /images/denbythumb.jpg
-images:
-  - src/images/denby1.png
-  - src/images/denby2.png
-  - src/images/denby3.png
-  - src/images/denby4.png
+tags: lambeth
 location: '{"type":"Point","coordinates":[-0.115040,51.493660]}'
 landlord: Lambeth Council
 developer:
@@ -24,3 +19,9 @@ The site also contains a former education facility, which will also be demolishe
 In January 2021, residents were informed by the Council that they would be moved out imminently to temporary accommodation elsewhere. Residents are resisting the move and lobbying the Council to stay put until they are rehoused permanently in the local area. Many of them have lived in Denby Court for several years. Their plight was covered by the Guardian newspaper in [this Jan 2021 article](https://www.theguardian.com/society/2021/jan/31/dont-make-us-move-in-a-pandemic-plead-tenants-in-dire-council-housing).
 
 In March 2022, Lambeth Council granted itself planning permission for redevelopment of Denby Court. 
+
+---
+
+{% image "src/images/denby2.png", "Dell court" %}
+{% image "src/images/denby3.png", "Dell court" %}
+{% image "src/images/denby4.png", "Dell court" %}

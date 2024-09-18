@@ -1,16 +1,7 @@
 ---
 name: Havelock estate 
 borough: ealing
-thumb: /images/havelock1thumb.jpg
-images:
-  - src/images/havelockgreen.jpg
-  - src/images/havelock2.jpg
-  - src/images/havelock3.jpg
-  - src/images/havelock4.jpg
-  - src/images/havelock5.jpg
-  - src/images/havelock6.jpg
-  - src/images/havelock7.jpg
-  - src/images/havelock8.jpg
+tags: ealing
 location: '{"type":"Point","coordinates":[-0.370627,51.500392]}'
 landlord: Ealing Council
 developer: Catalyst Group
@@ -18,7 +9,10 @@ itla:
 total: 500
 ballot: Required
 planning: Approved
+architect: Pollard Thomas Edwards
 ---
+{% image "src/images/havelock4.jpg", "Havelock estate" %}
+
 Circa 500 homes of the 845 homes on Ealing's Havelock estate in Southall remain earmarked for demolition.
 
 The Havelock Estate is located in Southall, just to the north of the Grand Union Canal, and just to the south of the railway line to London Paddington. The estate exists within the wider context of the Southall Opportunity Area, which has been designated as the Mayor for intensive redevelopment.

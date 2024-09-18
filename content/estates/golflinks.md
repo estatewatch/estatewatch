@@ -1,14 +1,7 @@
 ---
 name: Golf Links estate 
 borough: ealing
-thumb: /images/glinksthumb.jpg
-images:
-  - src/images/glinks2.jpg
-  - src/images/glinks3.jpg
-  - src/images/glinks4.png
-  - src/images/glinks5.png
-  - src/images/glinks6.png
-coordinates: 
+tags: ealing
 location: '{"type":"Point","coordinates":[-0.357820,51.517047]}'
 landlord: Ealing Council
 developer:
@@ -16,7 +9,10 @@ itla:
 total: 500
 ballot: Exempt
 planning: Approved
+architect: Levitt Bernstein
 ---
+{% image "src/images/glinks3.jpg", " Golf links estate" %}
+
 Circa 500 homes on the Golf Links estate in Ealing are under threat of demolition.
 
 The regeneration of the Golf Links estate in Ealing was originally supposed to involve the redevelopment of just four low-rise blocks in 3 phases - (Phase 1 - Dormers Rise, Phase 2 - Peterhead Court, phase 3 - Alnmouth & Portrush blocks). 

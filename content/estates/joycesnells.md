@@ -1,19 +1,18 @@
 ---
 name: Joyce Avenue and Snells Park estates
 borough: enfield
+tags: enfield
 location: '{"type":"Point","coordinates":[-0.066698,51.612022]}'
 ballot: Approved 
 landlord: Enfield Council
 developer: null
 itla: Source Partnership
 total: 795
-thumb: /images/joycethumb.jpg
-images:
-  - src/images/jsnells.jpg
-  - src/images/joyce3.png
-  - src/images/joyce5.jpg
-planning: Pending
+planning: Approved
+Architect: HTA
 ---
+  {% image "src/images/jsnells.jpg", "joyce snells" %}
+
 795 homes on Enfield's Joyce Avenue and Snells Park estates in Edmonton have been [earmarked for demolition](https://new.enfield.gov.uk/services/housing/housing-development-and-renewal/joyce-avenue-and-snells-park-leaflet-housing.pdf) by Enfield Council.
 
 The Council is [reported](https://enfielddispatch.co.uk/major-estate-plans-to-go-to-vote/) to be intending to hold a ballot in October 2021. Its dedicated website for the scheme provides further details [here](http://www.joyceandsnells.co.uk/).
@@ -32,6 +31,8 @@ In September 2021, the Council [applied for a scoping opinion](https://planninga
 A ballot of estate residents was held in November 2021. 78% of eligible residents voted in favour of redevelopment on an 85% turnout.
 
 A planning application was approved in September 2022 for 1900 new homes.
+
+---
 
 __Links:__  
 [Application for scoping opinion (ref:21/03691/SCOP)](https://planningandbuildingcontrol.enfield.gov.uk/online-applications/simpleSearchResults.do?action=firstPage)

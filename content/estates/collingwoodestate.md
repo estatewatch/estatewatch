@@ -1,17 +1,7 @@
 ---
 name: Collingwood estate
 borough: sutton
-thumb: /images/cw8thumb.jpg
-images:
-  - src/images/cw8.jpg
-  - src/images/cw7.jpg
-  - src/images/cw6.jpg
-  - src/images/cw5.jpg
-  - src/images/cw4.jpg
-  - src/images/cw3.jpg
-  - src/images/cw2.jpg
-  - src/images/cw1.jpg
-  - src/images/collingwoodaerial.png
+tags: sutton
 location: '{"type":"Point","coordinates":[-0.1988,51.3691]}'
 landlord: Sutton Council
 developer:
@@ -20,6 +10,8 @@ total: 250
 ballot: Required
 planning: Pending
 ---
+{% image "src/images/cw3.jpg", "Collingwood estate" %}
+
 Circa 250 homes are under threat of potential demolition on Sutton's Collingwood estate.
 
 The Collingwood estate comprises one high-rise block surrounded by a dozen 4-6 storey maisonette blocks, situated behind Sutton High Street, near Collingwood park and West Sutton train station. 
@@ -36,3 +28,13 @@ It is also earmarked in Sutton's [Policy Map](http://sutton.addresscafe.com/app/
 
 The nearby [Chaucer estate](/estates/sutton/chaucerestate/) was clad with the same material and has also been listed as one of Sutton's five estates earmarked for renewal.
 
+---
+
+{% image "src/images/cw8.jpg", "Collingwood estate" %}
+{% image "src/images/cw7.jpg", "Collingwood estate" %}
+{% image "src/images/cw6.jpg", "Collingwood estate" %}
+{% image "src/images/cw5.jpg", "Collingwood estate" %}
+{% image "src/images/cw4.jpg", "Collingwood estate" %} 
+{% image "src/images/cw2.jpg", "Collingwood estate" %}
+{% image "src/images/cw1.jpg", "Collingwood estate" %}
+{% image "src/images/collingwoodaerial.png", "Collingwood estate" %}

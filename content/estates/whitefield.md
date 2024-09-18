@@ -1,21 +1,17 @@
 ---
 name: Whitefield estate
 borough: barnet
-thumb: /images/whitefieldthumb.jpg
-images:
-  - src/images/whitefield2.png
-  - src/images/whitefield3.jpg
-  - src/images/whitefield1.png
+tags: barnet
 location: '{"type":"Point","coordinates":[-0.219515,51.572426]}'
 landlord: Barnet Council
 developer: Argent/L&Q
 itla: PEP
 total: 243
-category: underthreat
-stage: Implementation
 ballot: Exempt
 planning: Approved
 ---
+{% image "src/images/whitefield3.jpg", "whitefield esate" %}
+
 243 homes are earmarked for demolition on Barnet's Whitefield estate in Cricklewood. 
 
 The estate is being demolished and redeveloped as part of the large Brent Cross shopping centre scheme.
@@ -25,6 +21,8 @@ The development will see the construction of 7,400 new homes across the entire B
 In 2017 Barnet Council was granted the first [compulsory purchase order](/images/whitefieldcpo.pdf) to remove the remaining leaseholders from the first phase.
 
 As of May 2023, the decant of the first phase has commenced.
+
+---
 
 **Links:**
 

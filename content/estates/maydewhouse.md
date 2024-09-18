@@ -1,8 +1,7 @@
 ---
 name: Maydew House (Abbeyfield estate)
 borough: southwark
-images:
-  - src/images/maydewmd.jpg
+tags: southwark
 location: '{"type":"Point","coordinates":[-0.056187,51.493029]}'
 landlord: Southwark Council
 developer: Southwark Council
@@ -11,11 +10,15 @@ total: 144
 ballot: Exempt
 planning: Pending
 ---
+{% image "src/images/maydewmd.jpg", "maydew house" %}
+
 This 24-storey block containing 144 council flats overlooking Southwark Park, has been decanted [(amidst protest)](https://www.facebook.com/pages/Save-Maydew-House/316012601837) after the council [declared](https://www.southwarknews.co.uk/00,news,20152,440,00.htm) (without disclosing the figures) that the cost of repair was _"difficult to justify"_. The Council served a Compulsory Purchase Order on the remaining leaseholders and tenants of the block (and neighbouring Abbeyfield estate) in 2012[^1].
 
 The block has since stood empty. In 2022, Southwark Council announced plans that it would be considering demolition of the block, following a cost appraisal assessment:
 
 [https://southwarknews.co.uk/news/housing/exclusive-bermondseys-maydew-house-set-for-demolition/](https://southwarknews.co.uk/news/housing/exclusive-bermondseys-maydew-house-set-for-demolition/)
+
+---
 
 __Links:__
 

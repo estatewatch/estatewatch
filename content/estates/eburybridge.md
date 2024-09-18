@@ -1,43 +1,18 @@
 ---
 name: Ebury Bridge estate
 borough: westminster
+tags: westminster
 location: '{"type":"Point","coordinates":[-0.149611,51.488945]}'
 ballot: Exempt
 landlord: Westminster Council
 developer: Westminster Council
 itla: Communities First
 total: 336
-thumb: /images/eb1thumb.jpg
-images:
-  - src/images/ebplan.png
-  - src/images/eb2.jpg
-  - src/images/eb3.jpg
-  - src/images/eb4.jpg
-  - src/images/eb5.jpg
-  - src/images/eb6.jpg
-  - src/images/eb8.jpg
-  - src/images/ebry.jpg
-  - src/images/ebry2.jpg
-  - src/images/ebry3.jpg
-  - src/images/eb10.jpg
-  - src/images/eb11.jpg
-  - src/images/eb13.jpg
-  - src/images/eb14.jpg
-  - src/images/eb15.jpg
-  - src/images/eb16.jpg
-  - src/images/eb17.jpg
-  - src/images/eb18.jpg
-  - src/images/eb19.jpg
-  - src/images/eb20.jpg
-  - src/images/eb22.jpg
-  - src/images/eb23.jpg
-  - src/images/eb24.jpg
-  - src/images/eb25.jpg
-  - src/images/eb26.jpg
-  - src/images/eb27.jpg
-  - src/images/eb28.jpg
 planning: Approved
+architect: Astudio
 ---
+{% image "src/images/eb6.jpg", "Ebury Bridge estate" %}
+
 Demolition is well underway of the 336 homes earmarked for demolition on Westminster's Ebury Bridge estate in Pimlico. Westminster has taken the [controversial decision](https://www.insidehousing.co.uk/news/news/westminster-city-council-accused-of-trying-to-dodge-scrutiny-over-estate-regeneration-63267) of decanting and demolishing the estate without first seeking planning permission or balloting residents.
 
 {% image "src/images/ebridgenews.png", "alt text" %}
@@ -51,8 +26,6 @@ The 2014 plans envisaged the retention of four of the estates grey brick blocks.
 In May 2021, Westminster Council approved its own planning application for the redevelopment of the estate. This was [signed off](https://idoxpa.westminster.gov.uk/online-applications/files/A3C491F071D3CB2DC5CC0848CFFD2F35/pdf/20_04366_COOUT-GLA_STAGE_2_CASE_REPORT-6995197.pdf) by the Mayor in August 2021. The Mayor's [report](https://idoxpa.westminster.gov.uk/online-applications/files/A3C491F071D3CB2DC5CC0848CFFD2F35/pdf/20_04366_COOUT-GLA_STAGE_2_CASE_REPORT-6995197.pdf) is silent on Westminster's failure to apply for grant funding, which would have triggered a ballot and says nothing about the failure to explore alternatvies to demolition.
 
 The estate comprising 336 homes (198 social rent/138 leasehold) will now be replaced by 781 homes of which 239 social rent - an uplift of just 41 social rented units despite more than doubling the density.
-
-{% image "src/images/eb2.jpg", "alt text" %}
 
 The estate is being redeveloped by the Council itself. Figures in the planning application [supporting documents](https://idoxpa.westminster.gov.uk/online-applications/files/33305033EC2B493EF178E8AB19BB85FF/pdf/20_04366_COOUT-FINANCIAL_VIABILITY_ASSESSMENT_REV01-6774119.pdf) show that Westminster Council is spending a staggering £108m on decanting and demolishing the estate and that despite the replacement social housing being partly cross-subsidised by the new private homes, it is estimated that Westminster will have to fork out a further £90m during the course of the estate's redevelopment.
 
@@ -70,7 +43,39 @@ Unfortunately the Mayor [signed off his approval](https://idoxpa.westminster.gov
 
 The CPO applies to the 30 remaining leaseholders and handful of commercial leaseholders incuding a cafe, hairdressers and pharmacy.
 
+The last phase of the estate is due to be demolished in Spring 2025.
+
+---
+
 __Links:__
 Westminster Council's planning application documents: [https://idoxpa.westminster.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QDECO3RP2RE00](https://idoxpa.westminster.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QDECO3RP2RE00)
 
 Mayor's planning reports: [https://gla.force.com/pr/s/planning-application/a0i4J000002RmHdQAK/20206100](https://gla.force.com/pr/s/planning-application/a0i4J000002RmHdQAK/20206100)
+
+---
+
+  {% image "src/images/eb2.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb3.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb4.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb5.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb8.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/ebry.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/ebry2.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/ebry3.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb10.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb11.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb13.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb14.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb15.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb16.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb17.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb18.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb19.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb20.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb22.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb23.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb24.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb25.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb26.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb27.jpg", "Ebury Bridge estate" %}
+  {% image "src/images/eb28.jpg", "Ebury Bridge estate" %}

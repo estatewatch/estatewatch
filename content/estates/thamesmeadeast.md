@@ -1,23 +1,17 @@
 ---
 name: Lesnes estate (Thamesmead East phase 2)
 borough: bexley
+tags: bexley
 location: '{"type":"Point","coordinates":[0.126122,51.495310]}'
 ballot: Approved
 landlord: Peabody
 developer: Peabody
 itla: Communities First
 total: 596
-thumb: /images/lesnesthumb.jpg
-images:
-  - src/images/wolvercoteaerial.jpg
-  - src/images/wolvercoteaerial2.png
-  - src/images/thamesmeadeast.jpg
-  - src/images/thamesmeadeast.png
-  - src/images/lesnesaerial.png
 planning: Approved
-category: underthreat
-stage: Proposal
 ---
+{% image "src/images/thamesmeadeast.jpg", "lesnes estate" %}
+
 596 homes (411 social rent & 185 leasehold) are earmarked for demolition on the Lesnes estate (part of the larger Thamesmead estate) situated in the borough of Bexley.
 
 This is the second phase of Peabody's redevelopment of the Bexley side of the Thamesmead estate. In 2017, Bexley approved the [first phase](/estates/bexley/thamesmeadsouth) highlighted below in orange:
@@ -60,6 +54,8 @@ We [reported last year](https://www.estatewatch.london/november-news-roundup/) t
 
 This is one of the first schemes which appears to be affected by that. The viability assessment explicitly acknowledges this. It will be interesting to see what the Mayor's stage 1 response to the planning application will look like - i.e. whether he will allow his change in grant funding rules, to be used in justifying failures to meet his basic affordable housing requirements for estate regeneration. Or whether he will insist that Peabody uses its £110m profit margin to improve its affordable housing offer. Watch this space!
 
+---
+
 __Links:__   
 Peabody's [2017 consultation documents](https://www.thamesmeadnow.org.uk/media/1726/wolvercote_road_next_steps.pdf) for the Lesnes estate scheme.
 
@@ -70,3 +66,11 @@ Peabody's website for the Lesnes estate regeneration - [http://www.lesnes.org.uk
 Peabody's website for the Thamesmead regeneration - [http://www.thamesmeadnow.org.uk](http://www.thamesmeadnow.org.uk)
 
 Local news website - [https://www.fromthemurkydepths.co.uk/category/thamesmead/](https://www.fromthemurkydepths.co.uk/category/thamesmead/)
+
+---
+
+{% image "src/images/wolvercoteaerial.jpg", "lsnes" %}
+  {% image "src/images/wolvercoteaerial2.png", "lsnes" %}
+  
+  {% image "src/images/thamesmeadeast.png", "lesnes" %}
+  {% image "src/images/lesnesaerial.png", "lesnes" %}

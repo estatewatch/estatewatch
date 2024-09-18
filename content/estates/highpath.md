@@ -2,12 +2,7 @@
 name: High Path estate
 stage: Implementation
 borough: merton
-thumb: /images/highpaththumb.jpg
-images:
-  - src/images/highpath.jpg
-  - src/images/highpath2.jpg
-  - src/images/highpath3.png
-  - src/images/highpath4.jpg
+tags: merton
 location: '{"type":"Point","coordinates":[-0.190444,51.414691]}'
 developer:
 itla:
@@ -15,6 +10,8 @@ total: 608
 ballot: Exempt
 planning: Approved
 ---
+{% image "src/images/highpath2.jpg", "high path estate" %}
+
 In Nov 2018, the Mayor approved the demolition of 608 homes on Merton's High Path estate, to be replaced by 1,570 homes of which 20% affordable - all at up to 80% market rent or LHA rates (whichever is lower). 
 
 The estate is located next to South Wimbledon underground station and comprises three 12-storey residential towers, a number of 2 to 4-storey low rise blocks, some houses and some sheltered flats. A small convenience store and church are also located within the estate. 251 of the 608 homes on the estate are under leasehold ownership.
@@ -47,8 +44,9 @@ Savills was later also instructed to produce a [financial viability appraisal](h
 
 It is worth noting that the three merton schemes provide something that no other regeneration scheme has offered - namely, a very generous [re-housing offer](http://35percent.org/img/mertonoffer.pdf) to leaseholders which gives them full equity of a replacement home after 11 years.
 
+---
 
-## Links
+__Links:__
 
 Merton's planning application docs - [ref:17/P1721](https://planning.merton.gov.uk/MVM/Online/DMS/DocumentViewer.aspx?pk=1000098159&SearchType=Planning%20Application)
 

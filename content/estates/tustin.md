@@ -1,15 +1,7 @@
 ---
-category: underthreat
-stage: Preparation 
 name: Tustin estate 
 borough: southwark
-thumb: /images/tustinthumb.jpeg
-images:
-  - src/images/tustin2.jpeg
-  - src/images/tustin3.jpeg
-  - src/images/tustin4.jpeg
-  - src/images/tustin5.jpeg
-  - src/images/tustin6.jpeg
+tags: southwark
 location: '{"type":"Point","coordinates":[-0.054867,51.480339]}'
 landlord: Southwark Council
 developer:
@@ -18,6 +10,8 @@ total: 298
 ballot: Approved
 planning: Approved
 ---
+{% image "src/images/tustin5.jpeg", "tustin estate" %}
+
 298 homes are earmarked for demolition on Southwark's Tustin estate on the Old Kent Road.
 
 In March 2017, a [council briefing report](http://moderngov.southwark.gov.uk/documents/s67406/Report.pdf) disclosed that _'there are initial plans being led by Regeneration for the overall development of the Tustin Estate, which would involve large scale demolition of the majority of the estate'._ (para 4)
@@ -50,8 +44,18 @@ There has been no cost/benefit analysis comparing demolition to refurbishment. N
 
 A planning application was approved in July 2022 for 690 new homes - 68% of which will be affordable, including a mix of council rent, shared ownership, key worker accommodation and homes for people aged over 55.
 
+---
+
 __Links:__  
 
 Southwark Council website: [https://www.southwark.gov.uk/housing/southwark-estates/tustin-estate](https://www.southwark.gov.uk/housing/southwark-estates/tustin-estate)
 
 Residents' Facebook Group: [https://www.facebook.com/tustinestateresidents/](https://www.facebook.com/tustinestateresidents/)
+
+---
+
+ {% image "src/images/tustin2.jpeg", "tustin estate" %}
+  {% image "src/images/tustin3.jpeg", "tustin estate" %}
+  {% image "src/images/tustin4.jpeg", "tustin estate" %}
+  
+  {% image "src/images/tustin6.jpeg", "tustin estate" %}

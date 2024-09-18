@@ -1,15 +1,7 @@
 ---
-category: underthreat
-stage: Implementation 
 name: South Lambeth estate 
 borough: lambeth
-thumb: /images/slb5thumb.jpg
-images:
-  - src/images/slb5.jpg
-  - src/images/slb4.jpg
-  - src/images/slb3.jpg
-  - src/images/slb2.jpg
-  - src/images/slb1.jpg
+tags: lambeth
 location: '{"type":"Point","coordinates":[-0.118861,51.478668]}'
 landlord: Lambeth Council
 developer:
@@ -18,6 +10,8 @@ total: 101
 ballot: Exempt
 planning: Approved
 ---
+{% image "src/images/slb5.jpg", "south lambeth estate" %}
+
 101 homes are earmarked for demolition on Lambeth's South Lambeth estate.
 
 South Lambeth Estate is located on the north-western side of Clapham Road, between Stockwell and Oval underground stations. It is a 2.26 hectare site and comprises six blocks in local authority ownership. The existing estate is comprised of 205 residential units and four retail units. The majority of residents are social housing tenants, although 63 of the dwellings on the estate are owned/occupied by leaseholders.
@@ -36,11 +30,20 @@ Lambeth's [Tenancy Strategy](https://www.lambeth.gov.uk/sites/default/files/ho-t
 
 In November 2020, residents [complained](https://www.wandsworthguardian.co.uk/news/19119129.south-lambeth-estate-residents-suffering-constant-works/) about ongoing disturbance from demolition works on the first phase of the scheme.
 
+---
+
 __Links:__
 
 [VOA website with LHA rates for Lambeth](https://lha-direct.voa.gov.uk/SearchResults.aspx?LocalAuthorityId=22&LHACategory=999&Month=6&Year=2020&SearchPageParameters=true)
 
 The Mayor's [Stage 1 and Stage 2 reports](https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_469672///south_lambeth_estate_report.pdf)
+
+---
+
+ {% image "src/images/slb4.jpg", "south lambeth estate" %}
+  {% image "src/images/slb3.jpg", "south lambeth estate" %}
+  {% image "src/images/slb2.jpg", "south lambeth estate" %}
+  {% image "src/images/slb1.jpg", "south lambeth estate" %}
 
 
 

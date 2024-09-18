@@ -1,19 +1,17 @@
 ---
 name: Milford Towers
 borough: lewisham
+tags: lewisham
 location: '{"type":"Point","coordinates":[-0.022020,51.446550]}'
 ballot: Required
 landlord: Lewisham Council
 developer: null
 itla: null
 total: 276
-thumb: /images/mtowersthumb.jpg
-images:
-  - src/images/mtowers1.jpg
-  - src/images/mtowers2.png
-  - src/images/mtowers3.png
 planning: Pending
 ---
+{% image "src/images/mtowers2.png", "milford towers" %}
+
 276 homes are under threat of demolition in Lewisham's Milford Towers estate in Catford.
 
 In September 2011, Lewisham Council agreed to redevelop the 276 council homes in Milford Towers along with the Catford Shopping centre (which it sits above) as part of its regeneration plans for Catford Town Centre. 

@@ -1,21 +1,7 @@
 ---
 name: Juniper Crescent and Gilbeys Yard estate 
 borough: camden
-thumb: /images/jp12thumb.jpg
-images:
-  - src/images/jp12.jpg
-  - src/images/jp1.jpg
-  - src/images/jp2.jpg
-  - src/images/jp3.jpg
-  - src/images/jp4.jpg
-  - src/images/jp5.jpg
-  - src/images/jp6.jpg
-  - src/images/jp7.jpg
-  - src/images/jp8.jpg
-  - src/images/jp9.jpg
-  - src/images/jp10.jpg
-  - src/images/jp11.jpg
-  - src/images/junipercrescent.jpg
+tags: camden
 location: '{"type":"Point","coordinates":[-0.150620,51.542436]}'
 developer: Countryside Properties
 landlord: One Housing Group
@@ -24,6 +10,8 @@ total: 200
 ballot: Approved
 planning: Pending
 ---
+{% image "src/images/jp5.jpg", "juniper crescent estate" %}
+
 Circa 200 homes on Camden's Juniper Crescent and Gilbey's yard estates have been earmarked for redevelopment as part of the [Camden Goods Yard regeneration](https://www.camden.gov.uk/documents/20142/145786127/Site+Allocations+2020+-+05+Camden+Goods+Yard.pdf)
 
 The neighbouring estates overlook the Regents Canal and are located between Camden Market and Camden Roundhouse.
@@ -46,9 +34,9 @@ This was reiterated in the formal ['Landlord Offer'](/images/juniperoffer.pdf) m
 
 In July 2020, it was confirmed that residents had voted against demolition in the ballot, which was held by Civica on behalf of the estate's Landlord - [One Housing](https://www.onehousing.co.uk/).
 
-A [letter](http://estatewatch.london/images/gilbeyresults.jpg) sent to residents following the ballot, confirms that of the 185 eligible residents, 91 voted against demolition while 68 voted in favour (26 failed to cast their votes).
+A [letter](http://estatewatch.london/images/gilbeyresults.jpg", "juniper crescent estate" %}) sent to residents following the ballot, confirms that of the 185 eligible residents, 91 voted against demolition while 68 voted in favour (26 failed to cast their votes).
 
-One Housing's head of Regeneration subsequently [wrote to residents](http://estatewatch.london/images/gilbeyletter.jpg) indicating that the housing association may try and run the ballot again, with revised proposals 'based on feedback'.
+One Housing's head of Regeneration subsequently [wrote to residents](http://estatewatch.london/images/gilbeyletter.jpg", "juniper crescent estate" %}) indicating that the housing association may try and run the ballot again, with revised proposals 'based on feedback'.
 
 A [newsletter](http://estatewatch.london/images/gilbeynewsletter.pdf) from the TRA and [report](http://estatewatch.london/images/gilbeyreport.pdf) from its Vice Chair Karl Lewkowicz, sets out residents' reasons for rejecting the proposals, including:
 
@@ -65,7 +53,25 @@ _"It feels to me as though repairs and maintenance have been considerably run do
 
 One Housing decided to ballot residients once again but this time just the Juniper Crescent estate, not Gilbey's Yard. The ballot was held in December 2022. In total, 116 votes were cast by Juniper Crescent residents with 73 saying yes (63 per cent) and 43 voting no. 
 
+---
+
 __Links:__
 
 Article in the local press: [http://camdennewjournal.com/article/now-listen-to-us-say-tenants-who-won-vote-against-demolition-bid](http://camdennewjournal.com/article/now-listen-to-us-say-tenants-who-won-vote-against-demolition-bid)
+
+---
+
+{% image "src/images/jp12.jpg", "juniper crescent estate" %}
+  {% image "src/images/jp1.jpg", "juniper crescent estate" %}
+  {% image "src/images/jp2.jpg", "juniper crescent estate" %}
+  {% image "src/images/jp3.jpg", "juniper crescent estate" %}
+  {% image "src/images/jp4.jpg", "juniper crescent estate" %}
+  
+  {% image "src/images/jp6.jpg", "juniper crescent estate" %}
+  {% image "src/images/jp7.jpg", "juniper crescent estate" %}
+  {% image "src/images/jp8.jpg", "juniper crescent estate" %}
+  {% image "src/images/jp9.jpg", "juniper crescent estate" %}
+  {% image "src/images/jp10.jpg", "juniper crescent estate" %}
+  {% image "src/images/jp11.jpg", "juniper crescent estate" %}
+  {% image "src/images/junipercrescent.jpg", "juniper crescent estate" %}
 

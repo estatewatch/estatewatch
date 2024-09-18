@@ -1,16 +1,7 @@
 ---
 name: Fenwick estate 
 borough: lambeth
-thumb: /images/fw7thumb.jpg
-images:
-  - src/images/fw7.jpg
-  - src/images/fw2.jpg
-  - src/images/fw3.jpg
-  - src/images/fw4.jpg
-  - src/images/fw5.jpg
-  - src/images/fw6.jpg
-  - src/images/fw1.jpg
-  - src/images/fwick.png
+tags: lambeth
 location: '{"type":"Point","coordinates":[-0.127468,51.464695]}'
 landlord: Lambeth Council
 developer:
