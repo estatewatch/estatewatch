@@ -55,7 +55,7 @@ eleventyNavigation:
 
 <details>
 
-<summary><b>When the majority of residents vote for the demolition of their own estates, why shouldn't their wishes be respected?</b></summary>
+<summary><b>What if the majority of residents vote for demolition, shouldn't their wishes be respected?</b></summary>
 
 > There are a number of problems with the current ballot process. Not least the fact that refurbishment is never an option on the ballot paper. Read our full review of the flaws in the ballot process [here](/ballots/).
 
