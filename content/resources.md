@@ -11,11 +11,11 @@ eleventyNavigation:
 
 <summary><b>What is wrong with redeveloping London's housing estates?</b></summary>
 
-> Despite best intentions, replacement housing invariably ends up in a loss of council and social rented housing. 
+1. Despite best intentions, replacement housing invariably ends up in a loss of social rented housing and/or increased rents. 
 
-> Schemes are routinely subjected to delays, sometimes lasting decades and long-standing communities suffer uncertainty, disruption and displacement.
+2. Schemes are routinely delayed, subjected to 'value engineering' or even 'landbanked' by developers. Housing waiting lists are impacted and long-standing communities suffer uncertainty, disruption and displacement.
 
-> Structurally sound homes are needlessly demolished and replaced, creating a significant uneccessary carbon impact on the environment.
+3. Structurally sound homes are needlessly demolished and replaced, creating a significant uneccessary carbon impact on the environment.
 
 </details>
 </div>
@@ -43,7 +43,7 @@ eleventyNavigation:
 
 <summary><b>But new private housing cross-subsidises the replacement social housing doesn't it?</b></summary>
 
-> Despite best intentions, developers' profit margins and the [viability testing loopholes](https://www.theguardian.com/cities/2015/jun/25/london-developers-viability-planning-affordable-social-housing-regeneration-oliver-wainwright) mean that the cost of replacement social housing and demolition/rehousing ends up being subsidised mainly by local authorities, grant funding or by reducing the quantum and increasing the rents of replacement affordable housing. See [here](https://www.paywallskip.com/article?url=https%3A%2F%2Fwww.insidehousing.co.uk%2Fnews%2Festate-regenerations-failed-to-replace-social-homes-due-to-cross-subsidy-model-nhf-boss-says-88513) and [here]() for evidence of this. 
+> Despite best intentions, developers' profit margins and the [viability testing loopholes](https://www.theguardian.com/cities/2015/jun/25/london-developers-viability-planning-affordable-social-housing-regeneration-oliver-wainwright) mean that the cost of replacement social housing and demolition/rehousing ends up being subsidised mainly by local authorities, grant funding or by reducing the quantum and affordability of replacement social housing. See [here](https://www.paywallskip.com/article?url=https%3A%2F%2Fwww.insidehousing.co.uk%2Fnews%2Festate-regenerations-failed-to-replace-social-homes-due-to-cross-subsidy-model-nhf-boss-says-88513) and [here]() for evidence of this. 
 
 </details>
 </div>

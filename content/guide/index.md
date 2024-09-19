@@ -34,6 +34,11 @@ The text editor differs from most word processing environments in that it uses '
 
 When you have finished editing, click on the green 'Commit Changes' button on the top right corner of the page. This will submit your proposed changes for review by a moderator before being published.
 
+{%- css %}{% include "public/css/message-box.css" %}{% endcss %}
+<div class="message-box-green">
+<b>Please make sure that you don't upload any images that you haven't taken yourself or that you haven't been given permission to use!
+</div>
+
 In the [discussions section](https://github.com/estatewatch/estatewatch/discussions) you will find a 'to-do' list and some ideas about how to research estates under threat. 
 
 
