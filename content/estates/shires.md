@@ -10,7 +10,7 @@ total: 200
 ballot: Pending
 planning: Pending
 ---
-{% image "src/images/cheshire.jpg", "shires estate" %}
+{% image "src/images/shropshire.png", "shires estate" %}
 
 Circa 200 homes are earmarked for potential demolition on Enfield's Shires estate in Edmonton.
 

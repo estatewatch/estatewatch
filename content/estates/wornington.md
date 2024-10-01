@@ -1,6 +1,4 @@
 ---
-category: underthreat
-stage: Implementation 
 name: Wornington Green estate 
 borough: kensingtonandchelsea
 tags: kensingtonandchelsea

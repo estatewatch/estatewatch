@@ -16,7 +16,7 @@ As the research project drew to a close, this website was developed as a resourc
 
 {%- css %}{% include "public/css/message-box-green.css" %}{% endcss %}
 <div class="message-box-green">
-The Estate Watch website is now maintained as an open-source project and is being kept up to date by voluntary contributors via its Github interface. If you would like to get involved then read our <a href="/guide/"> Guide</a> on how to submit edits for review via Github.
+The Estate Watch website is now maintained as an open-source project and is being kept up to date by voluntary contributors via its Github interface. If you would like to get involved then read our <a href="/guide/"> Guide</a> on how to submit edits for review via Github. The raw data on estates can be accessed via our <a href="/estates.json">API.</a>
 </div>	
 
 <b>You can join our [discussion forum](https://github.com/estatewatch/estatewatch/discussions) or contact us at <a href="mailto:info@estatewatch.london">info@estatewatch.london</a></b>
