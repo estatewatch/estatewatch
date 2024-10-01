@@ -1,0 +1,1305 @@
+{
+  "estates": [
+    
+      {
+        "Name": "Aberfeldy estate (West)",
+        "Borough": "towerhamlets",
+        "Landlord": "Poplar HARCA",
+        "Existing Homes": "225",
+        "Developer": "Ecoworld",
+        "Architect": "Levitt Bernstein",
+        "ITLA": "PPCR",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.004851,51.512950]}"
+      },
+    
+      {
+        "Name": "Achilles Street area",
+        "Borough": "lewisham",
+        "Landlord": "Lewisham Council",
+        "Existing Homes": "87",
+        "Developer": "Lewisham Homes",
+        "Architect": "Levitt Bernstein",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.035341,51.476452]}"
+      },
+    
+      {
+        "Name": "Alma estate",
+        "Borough": "enfield",
+        "Landlord": "Enfield Council",
+        "Existing Homes": "746",
+        "Developer": "Countryside Properties",
+        "Architect": "Pollard Thomas Edwards",
+        "ITLA": "PEP",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.036348,51.643512]}"
+      },
+    
+      {
+        "Name": "Alton estate",
+        "Borough": "wandsworth",
+        "Landlord": "Wandsworth Council",
+        "Existing Homes": "288",
+        "Developer": "",
+        "Architect": "Hawkins Brown",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.243483,51.450221]}"
+      },
+    
+      {
+        "Name": "Austin Road estate",
+        "Borough": "hillingdon",
+        "Landlord": "Hillingdon Council",
+        "Existing Homes": "260",
+        "Developer": "Higgins",
+        "Architect": "Pollard Thomas Edwards",
+        "ITLA": "Public Voice",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.417528,51.505778]}"
+      },
+    
+      {
+        "Name": "Avenue Road estate",
+        "Borough": "walthamforest",
+        "Landlord": "Waltham Forest Council",
+        "Existing Homes": "258",
+        "Developer": "Bellway Homes",
+        "Architect": "HTA",
+        "ITLA": "Newman Francis",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.002466,51.554350]}"
+      },
+    
+      {
+        "Name": "Avondale Drive estate",
+        "Borough": "hillingdon",
+        "Landlord": "Hillingdon Council",
+        "Existing Homes": "144",
+        "Developer": "Higgins",
+        "Architect": "Pollard Thomas Edwards",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.406199,51.510758]}"
+      },
+    
+      {
+        "Name": "Aylesbury estate",
+        "Borough": "southwark",
+        "Landlord": "Southwark Council",
+        "Existing Homes": "2000",
+        "Developer": "Notting Hill Genesis",
+        "Architect": "HTA",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.084806,51.485789]}"
+      },
+    
+      {
+        "Name": "Barkantine estate",
+        "Borough": "towerhamlets",
+        "Landlord": "One Housing Group",
+        "Existing Homes": "72",
+        "Developer": "Mount Anvil",
+        "Architect": "",
+        "ITLA": "Open Communities",
+        "Planning Status": "Pending",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.024181,51.498528]}"
+      },
+    
+      {
+        "Name": "Barnsbury estate",
+        "Borough": "islington",
+        "Landlord": "Newlon Housing Association",
+        "Existing Homes": "371",
+        "Developer": "Mount Anvil",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.114844,51.536269]}"
+      },
+    
+      {
+        "Name": "Benhill estate",
+        "Borough": "sutton",
+        "Landlord": "Sutton Council",
+        "Existing Homes": "429",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Communities First",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.1901,51.3673]}"
+      },
+    
+      {
+        "Name": "Brabazon estate",
+        "Borough": "hounslow",
+        "Landlord": "Hounslow Council",
+        "Existing Homes": "300",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.395689,51.484513]}"
+      },
+    
+      {
+        "Name": "Broadwater Farm estate",
+        "Borough": "haringey",
+        "Landlord": "Haringey Council",
+        "Existing Homes": "200",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "PPCR",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.080927,51.594340]}"
+      },
+    
+      {
+        "Name": "Brookhill Close estate",
+        "Borough": "greenwich",
+        "Landlord": "Hyde Housing Association",
+        "Existing Homes": "80",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.065543,51.483649]}"
+      },
+    
+      {
+        "Name": "Brookwood Road estate",
+        "Borough": "hounslow",
+        "Landlord": "Hounslow Council",
+        "Existing Homes": "200",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.362360,51.475927]}"
+      },
+    
+      {
+        "Name": "Calverley Close estate",
+        "Borough": "bromley",
+        "Landlord": "Riverside Housing Association",
+        "Existing Homes": "150",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Source Partnership",
+        "Planning Status": "Pending",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.021422,51.419397]}"
+      },
+    
+      {
+        "Name": "Cambridge Road estate",
+        "Borough": "kingston",
+        "Landlord": "RB Kingston",
+        "Existing Homes": "820",
+        "Developer": "Countryside Properties",
+        "Architect": "",
+        "ITLA": "PPCR",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.287284,51.408046]}"
+      },
+    
+      {
+        "Name": "Carpenters estate",
+        "Borough": "newham",
+        "Landlord": "Newham Council",
+        "Existing Homes": "710",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "TPAS/Source Partnership",
+        "Planning Status": "Pending",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.004882,51.537846]}"
+      },
+    
+      {
+        "Name": "Central Hill estate",
+        "Borough": "lambeth",
+        "Landlord": "Lambeth Council",
+        "Existing Homes": "476",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "PPCR",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.085651,51.420034]}"
+      },
+    
+      {
+        "Name": "Charlton House",
+        "Borough": "hounslow",
+        "Landlord": "Hounslow Council",
+        "Existing Homes": "100",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.300195,51.486105]}"
+      },
+    
+      {
+        "Name": "Chaucer Gardens estate",
+        "Borough": "sutton",
+        "Landlord": "Sutton Council",
+        "Existing Homes": "250",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.2008,51.3705]}"
+      },
+    
+      {
+        "Name": "Church Street Area",
+        "Borough": "westminster",
+        "Landlord": "Westminster Council",
+        "Existing Homes": "300",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "PPCR",
+        "Planning Status": "Approved",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.170681,51.523316]}"
+      },
+    
+      {
+        "Name": "Clapham Park estate",
+        "Borough": "lambeth",
+        "Landlord": "Metropolitan TV Housing Association",
+        "Existing Homes": "864",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.133379,51.449331]}"
+      },
+    
+      {
+        "Name": "Clare House",
+        "Borough": "towerhamlets",
+        "Landlord": "Clarion Housing Association",
+        "Existing Homes": "129",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.030492,51.536511]}"
+      },
+    
+      {
+        "Name": "Clichy estate",
+        "Borough": "towerhamlets",
+        "Landlord": "Tower Hamlets Council",
+        "Existing Homes": "100",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.048942,51.516104]}"
+      },
+    
+      {
+        "Name": "Collingwood estate",
+        "Borough": "sutton",
+        "Landlord": "Sutton Council",
+        "Existing Homes": "250",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.1988,51.3691]}"
+      },
+    
+      {
+        "Name": "Colville estate",
+        "Borough": "hackney",
+        "Landlord": "Hackney Council",
+        "Existing Homes": "200",
+        "Developer": "",
+        "Architect": "Karakusevic Carson",
+        "ITLA": "PPCR",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.083684,51.536318]}"
+      },
+    
+      {
+        "Name": "Concorde Close",
+        "Borough": "hounslow",
+        "Landlord": "Home Group",
+        "Existing Homes": "43",
+        "Developer": "",
+        "Architect": "Farrells",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.366567,51.471914]}"
+      },
+    
+      {
+        "Name": "Convent Way estate",
+        "Borough": "hounslow",
+        "Landlord": "Hounslow Council",
+        "Existing Homes": "440",
+        "Developer": "",
+        "Architect": "Bell Phillips",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.393576,51.494632]}"
+      },
+    
+      {
+        "Name": "Cressingham Gardens estate",
+        "Borough": "lambeth",
+        "Landlord": "Lambeth Council",
+        "Existing Homes": "306",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Public Voice/PPCR",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.111587,51.446517]}"
+      },
+    
+      {
+        "Name": "Custom House regeneration",
+        "Borough": "newham",
+        "Landlord": "Newham Council",
+        "Existing Homes": "300",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Newman Francis",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.021314,51.510722]}"
+      },
+    
+      {
+        "Name": "Dell Court",
+        "Borough": "havering",
+        "Landlord": "Havering Council",
+        "Existing Homes": "29",
+        "Developer": "Wates",
+        "Architect": "",
+        "ITLA": "TPAS",
+        "Planning Status": "Pending",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.225340,51.557480]}"
+      },
+    
+      {
+        "Name": "Denby Court",
+        "Borough": "lambeth",
+        "Landlord": "Lambeth Council",
+        "Existing Homes": "42",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.115040,51.493660]}"
+      },
+    
+      {
+        "Name": "Dollis Valley estate",
+        "Borough": "barnet",
+        "Landlord": "Barnet Council",
+        "Existing Homes": "363",
+        "Developer": "Countryside Properties",
+        "Architect": "",
+        "ITLA": "PPCR",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.197573,51.644001]}"
+      },
+    
+      {
+        "Name": "Douglas Bader Park estate",
+        "Borough": "barnet",
+        "Landlord": "Home Group (Housing Association)",
+        "Existing Homes": "271",
+        "Developer": "Home/Hill Group",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.249247,51.604697]}"
+      },
+    
+      {
+        "Name": "Eastfields estate",
+        "Borough": "merton",
+        "Landlord": "Clarion Group",
+        "Existing Homes": "446",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.149209,51.407168]}"
+      },
+    
+      {
+        "Name": "Ebury Bridge estate",
+        "Borough": "westminster",
+        "Landlord": "Westminster Council",
+        "Existing Homes": "336",
+        "Developer": "Westminster Council",
+        "Architect": "Astudio",
+        "ITLA": "Communities First",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.149611,51.488945]}"
+      },
+    
+      {
+        "Name": "Elm Grove estate",
+        "Borough": "sutton",
+        "Landlord": "Sutton Council",
+        "Existing Homes": "73",
+        "Developer": "Lovell",
+        "Architect": "",
+        "ITLA": "PPCR",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.193505,51.366883]}"
+      },
+    
+      {
+        "Name": "Fenwick estate",
+        "Borough": "lambeth",
+        "Landlord": "Lambeth Council",
+        "Existing Homes": "431",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Christine Searle (Public Voice)",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.127468,51.464695]}"
+      },
+    
+      {
+        "Name": "Friary Park estate",
+        "Borough": "ealing",
+        "Landlord": "Catalyst Housing Group",
+        "Existing Homes": "230",
+        "Developer": "Mount Anvil",
+        "Architect": "Levitt Bernstein",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.264300,51.516962]}"
+      },
+    
+      {
+        "Name": "Gascoigne estate",
+        "Borough": "barkinganddagenham",
+        "Landlord": "Barking and Dagenham Council",
+        "Existing Homes": "179",
+        "Developer": "BeFirst",
+        "Architect": "Levitt Bernstein",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.078037,51.533476]}"
+      },
+    
+      {
+        "Name": "Geoffrey Close (Lambeth) estate",
+        "Borough": "lambeth",
+        "Landlord": "Riverside Homes",
+        "Existing Homes": "134",
+        "Developer": "",
+        "Architect": "PRP",
+        "ITLA": "Source Partnership",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.099011,51.469493]}"
+      },
+    
+      {
+        "Name": "Golf Links estate",
+        "Borough": "ealing",
+        "Landlord": "Ealing Council",
+        "Existing Homes": "500",
+        "Developer": "",
+        "Architect": "Levitt Bernstein",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.357820,51.517047]}"
+      },
+    
+      {
+        "Name": "Grahame Park estate",
+        "Borough": "barnet",
+        "Landlord": "Barnet Council",
+        "Existing Homes": "1314",
+        "Developer": "Notting Hill Genesis",
+        "Architect": "Mae/Peter Barber",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.244782,51.602271]}"
+      },
+    
+      {
+        "Name": "Grange Farm estate",
+        "Borough": "harrow",
+        "Landlord": "LB Harrow",
+        "Existing Homes": "282",
+        "Developer": "Higgins",
+        "Architect": "Hawkins Brown",
+        "ITLA": "One Enterprise",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.350978,51.568998]}"
+      },
+    
+      {
+        "Name": "Green Man Lane estate",
+        "Borough": "ealing",
+        "Landlord": "Ealing Council",
+        "Existing Homes": "464",
+        "Developer": "Real/A2Dominion",
+        "Architect": "Conran and Partners",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.325448,51.511542]}"
+      },
+    
+      {
+        "Name": "Hall Place estate",
+        "Borough": "westminster",
+        "Landlord": "Westminster Council",
+        "Existing Homes": "500",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.175467,51.523358]}"
+      },
+    
+      {
+        "Name": "Ham Close estate",
+        "Borough": "richmond",
+        "Landlord": "Richmond Housing Partnership",
+        "Existing Homes": "192",
+        "Developer": "HILL",
+        "Architect": "BPTW",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.316239,51.437734]}"
+      },
+    
+      {
+        "Name": "Farnham and Hilldene estate",
+        "Borough": "havering",
+        "Landlord": "Havering Council",
+        "Existing Homes": "200",
+        "Developer": "Wates",
+        "Architect": "",
+        "ITLA": "TPAS",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.219207,51.607002]}"
+      },
+    
+      {
+        "Name": "Havelock estate",
+        "Borough": "ealing",
+        "Landlord": "Ealing Council",
+        "Existing Homes": "500",
+        "Developer": "Catalyst Group",
+        "Architect": "Pollard Thomas Edwards",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.370627,51.500392]}"
+      },
+    
+      {
+        "Name": "High Lane estate",
+        "Borough": "ealing",
+        "Landlord": "Ealing Council",
+        "Existing Homes": "264",
+        "Developer": "Rydon",
+        "Architect": "Pollard Thomas Edwards",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.344496,51.519802]}"
+      },
+    
+      {
+        "Name": "High Path estate",
+        "Borough": "merton",
+        "Landlord": "",
+        "Existing Homes": "608",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.190444,51.414691]}"
+      },
+    
+      {
+        "Name": "Joyce Avenue and Snells Park estates",
+        "Borough": "enfield",
+        "Landlord": "Enfield Council",
+        "Existing Homes": "795",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Source Partnership",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.066698,51.612022]}"
+      },
+    
+      {
+        "Name": "Juniper Crescent and Gilbeys Yard estate",
+        "Borough": "camden",
+        "Landlord": "One Housing Group",
+        "Existing Homes": "200",
+        "Developer": "Countryside Properties",
+        "Architect": "",
+        "ITLA": "Communities First",
+        "Planning Status": "Pending",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.150620,51.542436]}"
+      },
+    
+      {
+        "Name": "Kingsbridge estate",
+        "Borough": "towerhamlets",
+        "Landlord": "One Housing Group",
+        "Existing Homes": "134",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Mike Tyrell",
+        "Planning Status": "Pending",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.025874,51.493200]}"
+      },
+    
+      {
+        "Name": "Ladderswood estate",
+        "Borough": "enfield",
+        "Landlord": "Enfield Council",
+        "Existing Homes": "100",
+        "Developer": "Mulalley/One Housing Group",
+        "Architect": "VZDV",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.137395,51.613312]}"
+      },
+    
+      {
+        "Name": "Leabank View estate",
+        "Borough": "haringey",
+        "Landlord": "Haringey Council",
+        "Existing Homes": "60",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.062836,51.578949]}"
+      },
+    
+      {
+        "Name": "Ledbury estate",
+        "Borough": "southwark",
+        "Landlord": "Southwark Council",
+        "Existing Homes": "224",
+        "Developer": "",
+        "Architect": "Karakusavic Carson",
+        "ITLA": "Open Communities",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.061766,51.481221]}"
+      },
+    
+      {
+        "Name": "Lisson Green estate",
+        "Borough": "westminster",
+        "Landlord": "Westminster Council",
+        "Existing Homes": "500",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.167721,51.525955]}"
+      },
+    
+      {
+        "Name": "Love Lane estate",
+        "Borough": "haringey",
+        "Landlord": "Haringey Council",
+        "Existing Homes": "297",
+        "Developer": "Lendlease",
+        "Architect": "",
+        "ITLA": "Damian Tissier Microfish Communications",
+        "Planning Status": "Pending",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.069012,51.604415]}"
+      },
+    
+      {
+        "Name": "Mansell Street estate",
+        "Borough": "cityoflondon",
+        "Landlord": "Guiness Housing Association",
+        "Existing Homes": "249",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.073840,51.512782]}"
+      },
+    
+      {
+        "Name": "Marks Gate estate",
+        "Borough": "barkinganddagenham",
+        "Landlord": "Barking and Dagenham Council",
+        "Existing Homes": "500",
+        "Developer": "BeFirst",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.138200,51.581715]}"
+      },
+    
+      {
+        "Name": "Marlowe Road estate",
+        "Borough": "walthamforest",
+        "Landlord": "Waltham Forest Council",
+        "Existing Homes": "150",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.006070,51.587181]}"
+      },
+    
+      {
+        "Name": "Maryon Grove estate",
+        "Borough": "greenwich",
+        "Landlord": "Greenwich Council",
+        "Existing Homes": "172",
+        "Developer": "Lovell",
+        "Architect": "Pollard Thomas Edwards",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.049174,51.487680]}"
+      },
+    
+      {
+        "Name": "Maydew House (Abbeyfield estate)",
+        "Borough": "southwark",
+        "Landlord": "Southwark Council",
+        "Existing Homes": "144",
+        "Developer": "Southwark Council",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.056187,51.493029]}"
+      },
+    
+      {
+        "Name": "Maygreen Crescent estate",
+        "Borough": "havering",
+        "Landlord": "Havering Council",
+        "Existing Homes": "150",
+        "Developer": "Wates",
+        "Architect": "",
+        "ITLA": "TPAS",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.193681,51.566629]}"
+      },
+    
+      {
+        "Name": "Edmonton Green estate",
+        "Borough": "enfield",
+        "Landlord": "Metropolitan Thames Valley",
+        "Existing Homes": "350",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.057982,51.623503]}"
+      },
+    
+      {
+        "Name": "Milford Towers",
+        "Borough": "lewisham",
+        "Landlord": "Lewisham Council",
+        "Existing Homes": "276",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.022020,51.446550]}"
+      },
+    
+      {
+        "Name": "Fred Wigg and John Walsh Towers",
+        "Borough": "walthamforest",
+        "Landlord": "Waltham Forest Council",
+        "Existing Homes": "200",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.013773,51.560912]}"
+      },
+    
+      {
+        "Name": "Norman Crescent estate",
+        "Borough": "hounslow",
+        "Landlord": "Hounslow Council",
+        "Existing Homes": "300",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.393027,51.481943]}"
+      },
+    
+      {
+        "Name": "Northumberland Park estates",
+        "Borough": "haringey",
+        "Landlord": "Haringey Council",
+        "Existing Homes": "1027",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "PPCR",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.058280,51.604419]}"
+      },
+    
+      {
+        "Name": "Oldchurch Gardens estate",
+        "Borough": "havering",
+        "Landlord": "Havering Council",
+        "Existing Homes": "84",
+        "Developer": "Wates",
+        "Architect": "",
+        "ITLA": "TPAS",
+        "Planning Status": "Pending",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.175872,51.568833]}"
+      },
+    
+      {
+        "Name": "Oriel estate",
+        "Borough": "hounslow",
+        "Landlord": "Hounslow Council",
+        "Existing Homes": "300",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.390207,51.435475]}"
+      },
+    
+      {
+        "Name": "Picardy Street estate",
+        "Borough": "bexley",
+        "Landlord": "",
+        "Existing Homes": "150",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.150198,51.490741]}"
+      },
+    
+      {
+        "Name": "Regina Road estate",
+        "Borough": "croydon",
+        "Landlord": "Croydon Council",
+        "Existing Homes": "191",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Pending",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.069866,51.400864]}"
+      },
+    
+      {
+        "Name": "Roseberry Gardens estate",
+        "Borough": "sutton",
+        "Landlord": "Sutton Council",
+        "Existing Homes": "150",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.1929,51.3679]}"
+      },
+    
+      {
+        "Name": "Rosehill Court",
+        "Borough": "sutton",
+        "Landlord": "Sutton Council",
+        "Existing Homes": "50",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.189415,51.385183]}"
+      },
+    
+      {
+        "Name": "Royal Jubilee Court",
+        "Borough": "havering",
+        "Landlord": "Havering Council",
+        "Existing Homes": "52",
+        "Developer": "Wates",
+        "Architect": "",
+        "ITLA": "TPAS",
+        "Planning Status": "Pending",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.193341,51.585675]}"
+      },
+    
+      {
+        "Name": "Samuda estate",
+        "Borough": "towerhamlets",
+        "Landlord": "One Housing Group",
+        "Existing Homes": "317",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Open Communities",
+        "Planning Status": "pending",
+        "Ballot Status": "pending",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.008458,51.496571]}"
+      },
+    
+      {
+        "Name": "Severn Way",
+        "Borough": "brent",
+        "Landlord": "Brent Council",
+        "Existing Homes": "50",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.246721,51.552401]}"
+      },
+    
+      {
+        "Name": "Shires estate",
+        "Borough": "enfield",
+        "Landlord": "Enfield Council",
+        "Existing Homes": "200",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Pending",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.05349,51.61517]}"
+      },
+    
+      {
+        "Name": "Parkhill and Sunrise estate",
+        "Borough": "havering",
+        "Landlord": "Havering Council",
+        "Existing Homes": "100",
+        "Developer": "Wates",
+        "Architect": "",
+        "ITLA": "TPAS",
+        "Planning Status": "Pending",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.206760,51.556744]}"
+      },
+    
+      {
+        "Name": "South Acton estate",
+        "Borough": "ealing",
+        "Landlord": "Ealing Council",
+        "Existing Homes": "2100",
+        "Developer": "Countryside Properties",
+        "Architect": "",
+        "ITLA": "PEP",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.272799,51.502295]}"
+      },
+    
+      {
+        "Name": "South Kilburn estate",
+        "Borough": "brent",
+        "Landlord": "Brent Council",
+        "Existing Homes": "800",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Communities First",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.198561,51.533219]}"
+      },
+    
+      {
+        "Name": "South Lambeth estate",
+        "Borough": "lambeth",
+        "Landlord": "Lambeth Council",
+        "Existing Homes": "101",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "TPAS",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.118861,51.478668]}"
+      },
+    
+      {
+        "Name": "Stellar House &amp; Atlair Close",
+        "Borough": "haringey",
+        "Landlord": "Haringey Council",
+        "Existing Homes": "300",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.066563,51.608284]}"
+      },
+    
+      {
+        "Name": "St John&#39;s estate",
+        "Borough": "towerhamlets",
+        "Landlord": "One Housing Group",
+        "Existing Homes": "84",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "TPAS",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.008984,51.499039]}"
+      },
+    
+      {
+        "Name": "Sutton Court estate",
+        "Borough": "sutton",
+        "Landlord": "Sutton Council",
+        "Existing Homes": "150",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Pending",
+        "Ballot Status": "Required",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.1901,51.3577]}"
+      },
+    
+      {
+        "Name": "Teviot estate",
+        "Borough": "towerhamlets",
+        "Landlord": "Poplar HARCA",
+        "Existing Homes": "535",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Mike Tyrell",
+        "Planning Status": "Pending",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.012409,51.518195]}"
+      },
+    
+      {
+        "Name": "Lesnes estate (Thamesmead East phase 2)",
+        "Borough": "bexley",
+        "Landlord": "Peabody",
+        "Existing Homes": "596",
+        "Developer": "Peabody",
+        "Architect": "",
+        "ITLA": "Communities First",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.126122,51.495310]}"
+      },
+    
+      {
+        "Name": "Tustin estate",
+        "Borough": "southwark",
+        "Landlord": "Southwark Council",
+        "Existing Homes": "298",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Open Communities/Neal Purvis",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.054867,51.480339]}"
+      },
+    
+      {
+        "Name": "Walbrook House",
+        "Borough": "enfield",
+        "Landlord": "LB Enfield",
+        "Existing Homes": "126",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.045066,51.628832]}"
+      },
+    
+      {
+        "Name": "Waterloo Road estate",
+        "Borough": "havering",
+        "Landlord": "Havering Council",
+        "Existing Homes": "290",
+        "Developer": "Wates",
+        "Architect": "",
+        "ITLA": "TPAS",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.176900,51.574334]}"
+      },
+    
+      {
+        "Name": "Wendling estate",
+        "Borough": "camden",
+        "Landlord": "Camden Council",
+        "Existing Homes": "241",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Community Liaison Officers (Camden)",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.156132,51.551117]}"
+      },
+    
+      {
+        "Name": "Westbury estate",
+        "Borough": "lambeth",
+        "Landlord": "Lambeth Council",
+        "Existing Homes": "82",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "Norman Francis",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.140646,51.470468]}"
+      },
+    
+      {
+        "Name": "West Kentish Town estate",
+        "Borough": "camden",
+        "Landlord": "Camden Council",
+        "Existing Homes": "316",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Approved",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.149254,51.549409]}"
+      },
+    
+      {
+        "Name": "Whitefield estate",
+        "Borough": "barnet",
+        "Landlord": "Barnet Council",
+        "Existing Homes": "243",
+        "Developer": "Argent/L&amp;Q",
+        "Architect": "",
+        "ITLA": "PEP",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.219515,51.572426]}"
+      },
+    
+      {
+        "Name": "Winstanley &amp; York Road estates",
+        "Borough": "wandsworth",
+        "Landlord": "Wandsworth Council",
+        "Existing Homes": "759",
+        "Developer": "Taylor Wimpey",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.176427,51.464762]}"
+      },
+    
+      {
+        "Name": "Woodberry Down estate",
+        "Borough": "hackney",
+        "Landlord": "Hackney Council",
+        "Existing Homes": "1000",
+        "Developer": "Berkeley Homes",
+        "Architect": "",
+        "ITLA": "Simon Slater (Public Voice)",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.090658,51.572949]}"
+      },
+    
+      {
+        "Name": "Wornington Green estate",
+        "Borough": "kensingtonandchelsea",
+        "Landlord": "RBKC",
+        "Existing Homes": "150",
+        "Developer": "Catalyst Housing Association",
+        "Architect": "PRP",
+        "ITLA": "Newman Francis",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.212212,51.523537]}"
+      }
+    
+  ]
+}
