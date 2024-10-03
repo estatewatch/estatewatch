@@ -23,7 +23,7 @@ In November 2020, Riverside applied for planning permission to demolish the esta
 
 In December, the Mayor published his [stage 1 planning report](https://gla.force.com/pr/s/planning-application/a0i4J000002TXIGQA4/20206691?tabset-c2f3b=2) in response to the planning application. 
 
-{% image "src/images/cle8.jpg", "Geoffrey Close estate" %}", "alt text" %}
+{% image "src/images/cle8.jpg", "Geoffrey Close estate" %}
 
 The report is critical of Riverside's proposal to gate the entire development (para 39) and failure to re-provide the ball court (para 43). It also criticises the uplift of just one social rented home, despite a near fourfold increase in the total number of homes - _"It is disappointing that, given the significant uplift in housing across the site, the uplift in affordable housing is just one unit."_ (para 49)
 
