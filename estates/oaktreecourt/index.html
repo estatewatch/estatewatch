@@ -9,7 +9,175 @@
 		<link rel="alternate" href="/estatewatch/feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
 		<link rel="alternate" href="/estatewatch/feed/feed.json" type="application/json" title="ESTATE WATCH">
 		
-		<style>* { box-sizing: border-box; }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -367,104 +535,27 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			<h1>Tags</h1>
+			
+<h1>Oaktree Court</h1>
 
-<ul>
-
-	
-	<li><a href="/estatewatch/tags/towerhamlets/" class="post-tag">towerhamlets</a></li>
-
-	
-	<li><a href="/estatewatch/tags/lewisham/" class="post-tag">lewisham</a></li>
-
-	
-	<li><a href="/estatewatch/tags/enfield/" class="post-tag">enfield</a></li>
-
-	
-	<li><a href="/estatewatch/tags/wandsworth/" class="post-tag">wandsworth</a></li>
-
-	
-	<li><a href="/estatewatch/tags/hillingdon/" class="post-tag">hillingdon</a></li>
-
-	
-	<li><a href="/estatewatch/tags/walthamforest/" class="post-tag">walthamforest</a></li>
-
-	
-	<li><a href="/estatewatch/tags/southwark/" class="post-tag">southwark</a></li>
-
-	
-	<li><a href="/estatewatch/tags/islington/" class="post-tag">islington</a></li>
-
-	
-	<li><a href="/estatewatch/tags/sutton/" class="post-tag">sutton</a></li>
-
-	
-	<li><a href="/estatewatch/tags/hounslow/" class="post-tag">hounslow</a></li>
-
-	
-	<li><a href="/estatewatch/tags/haringey/" class="post-tag">haringey</a></li>
-
-	
-	<li><a href="/estatewatch/tags/greenwich/" class="post-tag">greenwich</a></li>
-
-	
-	<li><a href="/estatewatch/tags/bromley/" class="post-tag">bromley</a></li>
-
-	
-	<li><a href="/estatewatch/tags/kingston/" class="post-tag">kingston</a></li>
-
-	
-	<li><a href="/estatewatch/tags/newham/" class="post-tag">newham</a></li>
-
-	
-	<li><a href="/estatewatch/tags/lambeth/" class="post-tag">lambeth</a></li>
-
-	
-	<li><a href="/estatewatch/tags/westminster/" class="post-tag">westminster</a></li>
-
-	
-	<li><a href="/estatewatch/tags/hackney/" class="post-tag">hackney</a></li>
-
-	
-	<li><a href="/estatewatch/tags/ealing/" class="post-tag">ealing</a></li>
-
-	
-	<li><a href="/estatewatch/tags/havering/" class="post-tag">havering</a></li>
-
-	
-	<li><a href="/estatewatch/tags/barnet/" class="post-tag">barnet</a></li>
-
-	
-	<li><a href="/estatewatch/tags/merton/" class="post-tag">merton</a></li>
-
-	
-	<li><a href="/estatewatch/tags/barkinganddagenham/" class="post-tag">barkinganddagenham</a></li>
-
-	
-	<li><a href="/estatewatch/tags/harrow/" class="post-tag">harrow</a></li>
-
-	
-	<li><a href="/estatewatch/tags/richmond/" class="post-tag">richmond</a></li>
-
-	
-	<li><a href="/estatewatch/tags/camden/" class="post-tag">camden</a></li>
-
-	
-	<li><a href="/estatewatch/tags/cityoflondon/" class="post-tag">cityoflondon</a></li>
-
-	
-	<li><a href="/estatewatch/tags/bexley/" class="post-tag">bexley</a></li>
-
-	
-	<li><a href="/estatewatch/tags/croydon/" class="post-tag">croydon</a></li>
-
-	
-	<li><a href="/estatewatch/tags/brent/" class="post-tag">brent</a></li>
-
-	
-	<li><a href="/estatewatch/tags/kensingtonandchelsea/" class="post-tag">kensingtonandchelsea</a></li>
-
+<ul class="post-metadata">
+	<li><a href="/estatewatch/tags/ealing/" class="post-tag">Ealing</a></li>
 </ul>
+
+<pre class="language-yaml" tabindex="0"><code class="language-yaml"><span class="token key atrule">Homes under threat</span><span class="token punctuation">:</span> <span class="token number">50</span>
+<span class="token key atrule">Landlord</span><span class="token punctuation">:</span> Housing Association<span class="token punctuation">?</span>
+<span class="token key atrule">Developer</span><span class="token punctuation">:</span> 
+<span class="token key atrule">Itla</span><span class="token punctuation">:</span> 
+<span class="token key atrule">Architect</span><span class="token punctuation">:</span> 
+<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> 
+Planning Status<span class="token punctuation">:</span></code></pre>
+
+<p><picture><source type="image/avif" srcset="/estatewatch/img/59HCzI-2wH-676.avif 676w"><source type="image/webp" srcset="/estatewatch/img/59HCzI-2wH-676.webp 676w"><img alt="Oaktree court" loading="lazy" decoding="async" src="/estatewatch/img/59HCzI-2wH-676.png" width="676" height="362"></picture></p>
+<p>Circa 50 homes at Dean Court in Acton have been earmarked for demolition in Ealing's <a href="https://www.ealing.gov.uk/download/downloads/id/19587/appendix_e_-_results.pdf">2024 Local Plan</a>.</p>
+<p><picture><source type="image/avif" srcset="/estatewatch/img/FYgCd_QmoT-940.avif 940w"><source type="image/webp" srcset="/estatewatch/img/FYgCd_QmoT-940.webp 940w"><img alt="Dean Court site allocation" loading="lazy" decoding="async" src="/estatewatch/img/FYgCd_QmoT-940.png" width="940" height="493"></picture></p>
+<p>The Local Plan's site allocation states that <em>&quot;The site is in single ownership and was submitted through Call for Sites by the Housing Association, who are keen to see it regenerated and the site optimised.&quot;</em></p>
+<p>It is not known if residents have been made aware of the proposals.</p>
+<hr>
 
 
 		</main>
@@ -474,7 +565,7 @@ h2 + .header-anchor {
   <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
   <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"></path>
 </svg>
-		      <a href="https://github.com/estatewatch/estatewatch/blob/main/./content/tags-list.njk">Edit this page on GitHub</a>
+		      <a href="https://github.com/estatewatch/estatewatch/blob/main/./content/estates/oaktreecourt.md">Edit this page on GitHub</a>
 		</footer>
 
 		

@@ -182,6 +182,11 @@
 	</url>
 	
 	<url>
+		<loc>https://estatewatch.london/estatewatch/estates/deancourt/</loc>
+		<lastmod>2024-10-03</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://estatewatch.london/estatewatch/estates/dellcourt/</loc>
 		<lastmod>2024-10-03</lastmod>
 	</url>
@@ -402,6 +407,11 @@
 	</url>
 	
 	<url>
+		<loc>https://estatewatch.london/estatewatch/estates/oaktreecourt/</loc>
+		<lastmod>2024-10-03</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://estatewatch.london/estatewatch/estates/oldchurchgardens/</loc>
 		<lastmod>2024-10-03</lastmod>
 	</url>
@@ -587,12 +597,12 @@
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/wandsworth/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/hillingdon/</loc>
 		<lastmod>2024-10-03</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/hillingdon/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/wandsworth/</loc>
 		<lastmod>2024-10-03</lastmod>
 	</url>
 	
@@ -617,6 +627,11 @@
 	</url>
 	
 	<url>
+		<loc>https://estatewatch.london/estatewatch/tags/hounslow/</loc>
+		<lastmod>2024-10-03</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/haringey/</loc>
 		<lastmod>2024-10-03</lastmod>
 	</url>
@@ -627,7 +642,7 @@
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/hounslow/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/kingston/</loc>
 		<lastmod>2024-10-03</lastmod>
 	</url>
 	
@@ -637,17 +652,12 @@
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/kingston/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/lambeth/</loc>
 		<lastmod>2024-10-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/newham/</loc>
-		<lastmod>2024-10-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/lambeth/</loc>
 		<lastmod>2024-10-03</lastmod>
 	</url>
 	
@@ -658,6 +668,11 @@
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/hackney/</loc>
+		<lastmod>2024-10-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://estatewatch.london/estatewatch/tags/ealing/</loc>
 		<lastmod>2024-10-03</lastmod>
 	</url>
 	
@@ -673,11 +688,6 @@
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/merton/</loc>
-		<lastmod>2024-10-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/ealing/</loc>
 		<lastmod>2024-10-03</lastmod>
 	</url>
 	

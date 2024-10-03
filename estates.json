@@ -431,6 +431,19 @@
       },
     
       {
+        "Name": "Dean Court",
+        "Borough": "ealing",
+        "Landlord": "Housing Association?",
+        "Existing Homes": "50",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.263030,51.517792]}"
+      },
+    
+      {
         "Name": "Dell Court",
         "Borough": "havering",
         "Landlord": "Havering Council",
@@ -1000,6 +1013,19 @@
         "Planning Status": "Pending",
         "Ballot Status": "Required",
         "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.058280,51.604419]}"
+      },
+    
+      {
+        "Name": "Oaktree Court",
+        "Borough": "ealing",
+        "Landlord": "Housing Association?",
+        "Existing Homes": "50",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.272706,51.514864]}"
       },
     
       {
