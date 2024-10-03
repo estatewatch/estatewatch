@@ -444,6 +444,19 @@
       },
     
       {
+        "Name": "Devons Road estate",
+        "Borough": "towerhamlets",
+        "Landlord": "Poplar HARCA",
+        "Existing Homes": "300",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.019264,51.522289]}"
+      },
+    
+      {
         "Name": "Dollis Valley estate",
         "Borough": "barnet",
         "Landlord": "Barnet Council",
