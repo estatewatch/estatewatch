@@ -132,6 +132,19 @@
       },
     
       {
+        "Name": "Battersea Park Road estate",
+        "Borough": "wandsworth",
+        "Landlord": "",
+        "Existing Homes": "100",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.142430,51.478880]}"
+      },
+    
+      {
         "Name": "Benhill estate",
         "Borough": "sutton",
         "Landlord": "Sutton Council",
@@ -935,6 +948,19 @@
         "Planning Status": "",
         "Ballot Status": "",
         "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.013773,51.560912]}"
+      },
+    
+      {
+        "Name": "Neville Close estate",
+        "Borough": "ealing",
+        "Landlord": "Ealing Council",
+        "Existing Homes": "50",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.266707,51.505661]}"
       },
     
       {
