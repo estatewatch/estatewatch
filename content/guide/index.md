@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 # Github Guide
-## How to make edits to the Estate Watch website and submit them for review
+## How to edit the Estate Watch website
 {%- css %}{% include "public/css/message-box.css" %}{% endcss %}
 <div class="message-box">
 The Estate Watch website uses a static site generator <a href="https://www.11ty.dev/"> (11ty)</a> together with <a href="https://pages.github.com/"> Github Pages</a> to store and publish data. To edit the site you will first need to sign up for a (free) github account at <a href="https://github.com/signup"> https://github.com/signup</a>.
@@ -24,13 +24,13 @@ Click the green 'fork this repository' button and you will then be taken to the 
 
 > **Note:** You will only have to fork the repository once - the first time you make an edit.
 
-Once you have been redirected to the source text page, you will see something like the screenshot below. You will need to click on the pencil icon at the top right of the page to enter editing mode:
+Once you have been redirected to the source text page, you will see a page shown in the screenshot below. You will need to click on the pencil icon at the top right of the page to enter editing mode:
 
 {% image "./githubedit.png", "A screenshot of github" %}
 
-Once in editing mode, you can add or amend the text accordingly and also add images or files by simply copying and pasting them or dragging and dropping them into the editing page.
+Once in editing mode, you can add or amend the page accordingly. You can edit the text directly or add images using the add image icon at the bottom.
 
-The text editor differs from most word processing environments in that it uses 'Markdown' -  lightweight markup language for creating formatted text using a plain-text editor. You can read a brief guide on using Markdown here: <https://piccalil.li/blog/a-quick-and-easy-guide-to-markdown/>
+This text editor differs from most word processing environments in that it uses 'Markdown' - a lightweight markup language for creating formatted text using a plain-text editor. You can read a brief guide on using Markdown here: <https://piccalil.li/blog/a-quick-and-easy-guide-to-markdown/>
 
 When you have finished editing, click on the green 'Commit Changes' button on the top right corner of the page. This will submit your proposed changes for review by a moderator before being published.
 
@@ -39,7 +39,7 @@ When you have finished editing, click on the green 'Commit Changes' button on th
 <b>Please make sure that you don't upload any images that you haven't taken yourself or that you haven't been given permission to use!
 </div>
 
-In the [discussions section](https://github.com/estatewatch/estatewatch/discussions) you will find a 'to-do' list and some ideas about how to research estates under threat. 
+In the [discussions section](https://github.com/estatewatch/estatewatch/discussions) you will find a 'to-do' list as well as some ideas about how to research estates under threat. 
 
 
 
