@@ -16,4 +16,4 @@ Circa 100 homes have been earmarked for redevelopment in Wandsworth's 2023 [Loca
 
 The blocks situated between Battersea Park road, Thessaly road and Stewarts road have been identified as suitable for potential redevelopment with tall buildings up to 13 storeys.
 
-{% image "src/images/batterseaparkroad.png", "battersea park road" %}
+{% image "src/images/batterseaparkroadsite.png", "battersea park road" %}
