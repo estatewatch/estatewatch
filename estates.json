@@ -28,6 +28,19 @@
       },
     
       {
+        "Name": "Airways estate",
+        "Borough": "ealing",
+        "Landlord": "Unknown RSL",
+        "Existing Homes": "150",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.370230,51.536168]}"
+      },
+    
+      {
         "Name": "Alma estate",
         "Borough": "enfield",
         "Landlord": "Enfield Council",
@@ -194,6 +207,19 @@
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
         "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.065543,51.483649]}"
+      },
+    
+      {
+        "Name": "Brook House",
+        "Borough": "ealing",
+        "Landlord": "RSL",
+        "Existing Homes": "50",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.280070,51.503540]}"
       },
     
       {
@@ -402,6 +428,19 @@
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
         "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.393576,51.494632]}"
+      },
+    
+      {
+        "Name": "Copley Close estate",
+        "Borough": "ealing",
+        "Landlord": "LB Ealing",
+        "Existing Homes": "333",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.330991,51.520018]}"
       },
     
       {
@@ -626,6 +665,19 @@
       },
     
       {
+        "Name": "Grange Court estate",
+        "Borough": "ealing",
+        "Landlord": "LB Ealing",
+        "Existing Homes": "150",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.397191,51.537050]}"
+      },
+    
+      {
         "Name": "Grange Farm estate",
         "Borough": "harrow",
         "Landlord": "LB Harrow",
@@ -730,6 +782,19 @@
       },
     
       {
+        "Name": "Islip Manor estate",
+        "Borough": "ealing",
+        "Landlord": "LB Ealing",
+        "Existing Homes": "300",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.381975,51.547140]}"
+      },
+    
+      {
         "Name": "Joyce Avenue and Snells Park estates",
         "Borough": "enfield",
         "Landlord": "Enfield Council",
@@ -779,6 +844,19 @@
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
         "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.137395,51.613312]}"
+      },
+    
+      {
+        "Name": "Lambourne Close estate",
+        "Borough": "ealing",
+        "Landlord": "LB Ealing",
+        "Existing Homes": "100",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.335400,51.503159]}"
       },
     
       {
@@ -922,6 +1000,19 @@
         "Planning Status": "Pending",
         "Ballot Status": "Required",
         "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.193681,51.566629]}"
+      },
+    
+      {
+        "Name": "Medlar Farm estate",
+        "Borough": "ealing",
+        "Landlord": "LB Ealing",
+        "Existing Homes": "500",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.389080,51.535476]}"
       },
     
       {
@@ -1276,6 +1367,32 @@
       },
     
       {
+        "Name": "Toplocks estate",
+        "Borough": "ealing",
+        "Landlord": "Unknown RSL",
+        "Existing Homes": "150",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.364982,51.501843]}"
+      },
+    
+      {
+        "Name": "Trinity Way estate",
+        "Borough": "ealing",
+        "Landlord": "LB Ealing",
+        "Existing Homes": "150",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.247614,51.512025]}"
+      },
+    
+      {
         "Name": "Tustin estate",
         "Borough": "southwark",
         "Landlord": "Southwark Council",
@@ -1403,6 +1520,32 @@
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
         "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.212212,51.523537]}"
+      },
+    
+      {
+        "Name": "Yeading Lane 1 estate",
+        "Borough": "ealing",
+        "Landlord": "LB Ealing",
+        "Existing Homes": "500",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.394019,51.533307]}"
+      },
+    
+      {
+        "Name": "Yeading Lane 2 estate",
+        "Borough": "ealing",
+        "Landlord": "LB Ealing",
+        "Existing Homes": "150",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.381707,51.531224]}"
       }
     
   ]
