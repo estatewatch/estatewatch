@@ -32,7 +32,7 @@ We note that the proposed tenure mix is different from the tenure mix presented 
 This raises a question about the integrity of the Mayor's ballot requirement. The Mayor's [policy on ballots](https://www.london.gov.uk/sites/default/files/gla_cfg_section_8._resident_ballots_-_18_july_2018.pdf) is clear that he may terminate funding for schemes, which have deviated from the original tenure mix that residents were balloted on (see para 8.7.3). It remains to be seen whether the Mayor will pick this up or take any action.
 
 In July 2021, Ealing's planning committee [approved](https://ealing.cmis.uk.com/ealing/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=bUieVZnWOS0tTI3Bj9sRKXwmZtamxCf6KTAbFBvU6FZ9z58fxKuigQ%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d) its development partner Rydon's application for the demolition of the estate. 
-﻿
+
 
 {% image "src/images/highlaneaerial.png", "alt text" %}
 
@@ -42,9 +42,9 @@ You can view the planning application documents on Ealing's planning portal [her
 
 The Mayor's stage 1 planning report giving 'in principle' approval to the scheme is available on the GLA planning portal here: [https://gla.force.com/pr/s/planning-application/a0i4J000002V7cwQAC/20210031?tabset-c2f3b=2](https://gla.force.com/pr/s/planning-application/a0i4J000002V7cwQAC/20210031?tabset-c2f3b=2)
 
-Ealing says that tenants will have a right to return to the redeveloped estate and leaseholders too. But the small print in Ealing's [shared equity offer to leaseholders](https://ealing.cmis.uk.com/ealing/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=orv9zlc1hcwmefvl%2FzC77iPz0uNaQowGhPWmce8m8fB%2FMzqMI5BQBA%3D%3D&rUzwRPf%2BZ3zd4E7Ikn8Lyw%3D%3D=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2FLUQzgA2uL5jNRG4jdQ%3D%3D&mCTIbCubSFfXsDGW9IXnlg%3D%3D=hFflUdN3100%3D&kCx1AnS9%2FpWZQ40DXFvdEw%3D%3D=hFflUdN3100%3D&uJovDxwdjMPoYv%2BAJvYtyA%3D%3D=ctNJFf55vVA%3D&FgPlIEJYlotS%2BYGoBi5olA%3D%3D=NHdURQburHA%3D&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3D&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3D&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3D) requires them to invest their personal savings and take out a mortgage if they want to take up the offer (see para 2.2).
+The site was granted outline planning permission in March 2023 but works are yet to commence.
 
-This was [deemed unlawful](https://www.theguardian.com/society/2016/sep/16/government-blocks-controversial-plan-to-force-out-housing-estate-residents) by the Secretary of State at the 2015 Aylesbury estate CPO inquiry and required Southwark to [amend](http://moderngov.southwarksites.com/documents/s74901/Report%20Amending%20the%20shared%20equity%20rehousing%20policy%20for%20qualifying%20homeowners%20affected%20by%20regenerati.pdf) its policy.
+---
 
 __Links:__  
 Ealing Council website - [https://www.ealing.gov.uk/info/201104/housing_regeneration/2346/high_lane_estate/1](https://www.ealing.gov.uk/info/201104/housing_regeneration/2346/high_lane_estate/1)

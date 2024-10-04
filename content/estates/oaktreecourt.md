@@ -13,7 +13,7 @@ architect:
 ---
 {% image "src/images/oaktreecourt.png", "Oaktree court" %}
 
-Circa 50 homes at Dean Court in Acton have been earmarked for demolition in Ealing's [2024 Local Plan](https://www.ealing.gov.uk/download/downloads/id/19587/appendix_e_-_results.pdf).
+Circa 50 homes at Dean Court in Acton have been earmarked for potential redevelopment in Ealing's [2024 Local Plan](https://www.ealing.gov.uk/download/downloads/id/19587/appendix_e_-_results.pdf).
 
 {% image "src/images/oaktreecourtsite.png", "Dean Court site allocation" %}
 
