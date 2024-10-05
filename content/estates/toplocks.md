@@ -2,7 +2,7 @@
 name: Toplocks estate
 borough: ealing
 tags: ealing
-location: '51.501843,-0.364982'
+location: '[51.501843,-0.364982]'
 landlord: Unknown RSL
 developer:
 itla:
@@ -23,4 +23,20 @@ It is not known if residents have been made aware of the designation.
 
 ---
 
-{% staticmap location %}
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>

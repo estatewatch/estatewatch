@@ -10,15 +10,8 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
-require('dotenv').config();
-const GOOGLE_MAPS_KEY = process.env.GOOGLE_MAPS_KEY;
-
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = function(eleventyConfig) {
-
-	eleventyConfig.addShortcode("staticmap", function(location) {
-		return `<iframe width="100%" height="300" frameborder="0" style="border:0" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/view?key=${GOOGLE_MAPS_KEY}&center=${encodeURIComponent(location)}&zoom=17&maptype=satellite" allowfullscreen></iframe>`;
-	});
 	
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
