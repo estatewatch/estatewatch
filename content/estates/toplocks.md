@@ -2,7 +2,7 @@
 name: Toplocks estate
 borough: ealing
 tags: ealing
-location: '{"type":"Point","coordinates":[-0.364982,51.501843]}'
+location: '51.501843,-0.364982'
 landlord: Unknown RSL
 developer:
 itla:
@@ -22,3 +22,5 @@ The site allocation states that the site was _"submitted through the Call for Si
 It is not known if residents have been made aware of the designation. 
 
 ---
+
+{% staticmap location %}
