@@ -191,6 +191,10 @@ img {
  filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
 }
   
+map {
+	width: 100% 
+	height: 180px;
+}
 
 /* Theme colors */
 :root {
@@ -536,6 +540,8 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <h1>Toplocks estate</h1>
 
 <ul class="post-metadata">
@@ -550,13 +556,27 @@ h2 + .header-anchor {
 <span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> 
 Planning Status<span class="token punctuation">:</span></code></pre>
 
-<p><picture><source type="image/avif" srcset="/estatewatch/img/0fbAZx3xhC-519.avif 519w"><source type="image/webp" srcset="/estatewatch/img/0fbAZx3xhC-519.webp 519w"><img alt="Toplocks estate" loading="lazy" decoding="async" src="/estatewatch/img/0fbAZx3xhC-519.png" width="519" height="319"></picture></p>
+<p><picture><source type="image/avif" srcset="/estatewatch/img/cVB94OW2iE-610.avif 610w"><source type="image/webp" srcset="/estatewatch/img/cVB94OW2iE-610.webp 610w"><img alt="Toplocks estate" loading="lazy" decoding="async" src="/estatewatch/img/cVB94OW2iE-610.png" width="610" height="375"></picture></p>
 <p>Circa 150 homes at the Toplocks estate in Southall have been earmarked for potential redevelopment in Ealing's <a href="https://www.ealing.gov.uk/download/downloads/id/19587/appendix_e_-_results.pdf">2024 Local Plan</a>.</p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/HfPLvrMAmZ-959.avif 959w"><source type="image/webp" srcset="/estatewatch/img/HfPLvrMAmZ-959.webp 959w"><img alt="Toplocks site allocation" loading="lazy" decoding="async" src="/estatewatch/img/HfPLvrMAmZ-959.png" width="959" height="498"></picture></p>
 <p>The site allocation states that the site was <em>&quot;submitted through the Call for Sites exercise the regeneration of this site is supported by its (RSL) owner. The site is not currently being marketed. Development is expected to come forward within 6-10 years.&quot;</em></p>
 <p>It is not known if residents have been made aware of the designation.</p>
 <hr>
-<iframe width="100%" height="300" frameborder="0" style="border:0" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/view?key=undefined&center=51.501843%2C-0.364982&zoom=17&maptype=satellite" allowfullscreen=""></iframe>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.501843,-0.364982], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.501843,-0.364982], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 		</main>
 
