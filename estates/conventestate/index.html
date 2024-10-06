@@ -569,6 +569,22 @@ h2 + .header-anchor {
 <p>85% of residents subsquently voted in favour of redevelopment. It is not known how many residents turned out for the vote.</p>
 <p>A planning application was approved in 2022 for 967 new homes of which 50% affordable rent (up to 80% market rent). All of the new homes are proposed to be constructed to Passive House standards.</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.494632,-0.393576], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.494632,-0.393576], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/0b0WwyshIg-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/0b0WwyshIg-1067.webp 1067w"><img alt="Collingwood estate" loading="lazy" decoding="async" src="/estatewatch/img/0b0WwyshIg-1067.jpeg" width="1067" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/jKb31oQHRt-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/jKb31oQHRt-1067.webp 1067w"><img alt="Collingwood estate" loading="lazy" decoding="async" src="/estatewatch/img/jKb31oQHRt-1067.jpeg" width="1067" height="800"></picture></p>
 

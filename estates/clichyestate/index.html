@@ -576,6 +576,22 @@ h2 + .header-anchor {
 GLA Stage 1 report:
 <a href="https://gla.force.com/pr/s/planning-application/a0i4J000006cArbQAE/20211263?tabset-c2f3b=2">https://gla.force.com/pr/s/planning-application/a0i4J000006cArbQAE/20211263?tabset-c2f3b=2</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.516104,-0.048942], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.516104,-0.048942], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/ziiKvTy2St-633.avif 633w"><source type="image/webp" srcset="/estatewatch/img/ziiKvTy2St-633.webp 633w"><img alt="Clichy estate aerial" loading="lazy" decoding="async" src="/estatewatch/img/ziiKvTy2St-633.png" width="633" height="443"></picture></p>
 
 

@@ -560,6 +560,23 @@ Planning Status<span class="token punctuation">:</span></code></pre>
 <p>Circa 100 homes have been earmarked for redevelopment in Wandsworth's 2023 <a href="https://www.wandsworth.gov.uk/media/large/adopted_local_plan.pdf">Local Plan</a></p>
 <p>The blocks situated between Battersea Park road, Thessaly road and Stewarts road have been identified as suitable for potential redevelopment with tall buildings up to 13 storeys.</p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/baiUSqWFtJ-662.avif 662w"><source type="image/webp" srcset="/estatewatch/img/baiUSqWFtJ-662.webp 662w"><img alt="battersea park road" loading="lazy" decoding="async" src="/estatewatch/img/baiUSqWFtJ-662.png" width="662" height="556"></picture></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.478880,-0.142430], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.478880,-0.142430], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

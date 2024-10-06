@@ -578,6 +578,22 @@ h2 + .header-anchor {
 Westminster Council's planning application documents: <a href="https://idoxpa.westminster.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=QDECO3RP2RE00">https://idoxpa.westminster.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=QDECO3RP2RE00</a></p>
 <p>Mayor's planning reports: <a href="https://gla.force.com/pr/s/planning-application/a0i4J000002RmHdQAK/20206100">https://gla.force.com/pr/s/planning-application/a0i4J000002RmHdQAK/20206100</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.488945,-0.149611], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.488945,-0.149611], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/hfVsNoRXis-1422.avif 1422w"><source type="image/webp" srcset="/estatewatch/img/hfVsNoRXis-1422.webp 1422w"><img alt="Ebury Bridge estate" loading="lazy" decoding="async" src="/estatewatch/img/hfVsNoRXis-1422.jpeg" width="1422" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/w9nziJLC7O-1422.avif 1422w"><source type="image/webp" srcset="/estatewatch/img/w9nziJLC7O-1422.webp 1422w"><img alt="Ebury Bridge estate" loading="lazy" decoding="async" src="/estatewatch/img/w9nziJLC7O-1422.jpeg" width="1422" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/e6jg4FwcO8-1422.avif 1422w"><source type="image/webp" srcset="/estatewatch/img/e6jg4FwcO8-1422.webp 1422w"><img alt="Ebury Bridge estate" loading="lazy" decoding="async" src="/estatewatch/img/e6jg4FwcO8-1422.jpeg" width="1422" height="800"></picture>

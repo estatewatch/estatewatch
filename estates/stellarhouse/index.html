@@ -560,6 +560,23 @@ h2 + .header-anchor {
 <p>Circa 300 homes at Atlair Close including Stellar House have been earmarked for redevelopment in Tottenham.</p>
 <p>They have been identified for redevelopment in Haringey's <a href="https://www.haringey.gov.uk/sites/haringeygovuk/files/final_haringey_tottenham_aap_dtp_online.pdf">Tottenham Area Action Plan</a> (site NT3).</p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/lTfvN6it0z-504.avif 504w"><source type="image/webp" srcset="/estatewatch/img/lTfvN6it0z-504.webp 504w"><img alt="stellar image" loading="lazy" decoding="async" src="/estatewatch/img/lTfvN6it0z-504.png" width="504" height="430"></picture></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.608284,-0.066563], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.608284,-0.066563], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

@@ -562,6 +562,23 @@ h2 + .header-anchor {
 <p>Following the decant of most of the secure tenants the scheme stalled and in 2013 Lewisham signed an agreement with Notting Hill Genesis Housing Association to let the homes out at intermediate rents.</p>
 <p>In 2018, further delays saw the Council <a href="http://councilmeetings.lewisham.gov.uk/documents/s58205/Secretary%20of%20State%20Approval%20Milford%20Towers.pdf">extend its agreement with Notting Hill</a> until 2024. In July 2018 there were 17 remaining secure tenants, 18 leaseholders, 49 temporary tenants and a total of 191 homes let to Notting Hill, which it in turn is letting to private tenants at intermediate/market rents.</p>
 <p>In October 2021, residents <a href="https://londonnewsonline.co.uk/tower-block-residents-march-on-council-offices-in-protest-of-slum-living/">marched</a> on the Town Hall in protest at the living conditions on the estate.</p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.446550,-0.022020], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.446550,-0.022020], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

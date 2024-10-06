@@ -563,6 +563,22 @@ Planning Status<span class="token punctuation">:</span></code></pre>
 <p>The Local Plan's capacity study shows how the estate could look after redevelopment:</p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/rejRsuiKFx-1214.avif 1214w"><source type="image/webp" srcset="/estatewatch/img/rejRsuiKFx-1214.webp 1214w"><img alt="Devons rd massing" loading="lazy" decoding="async" src="/estatewatch/img/rejRsuiKFx-1214.png" width="1214" height="531"></picture></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.522289,-0.019264], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.522289,-0.019264], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

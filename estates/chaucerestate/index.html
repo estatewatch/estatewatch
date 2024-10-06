@@ -566,6 +566,22 @@ h2 + .header-anchor {
 <p><picture><source type="image/avif" srcset="/estatewatch/img/35-znor9s1-632.avif 632w"><source type="image/webp" srcset="/estatewatch/img/35-znor9s1-632.webp 632w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/35-znor9s1-632.png" width="632" height="447"></picture></p>
 <p>The nearby <a href="/estatewatch/estates/sutton/collingwoodestate/">Collingwood estate</a> was clad with the same material and also numbers among the five estates earmarked for potential redevelopment.</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.3705,-0.2008], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.3705,-0.2008], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/QVCvjlMr3d-729.avif 729w"><source type="image/webp" srcset="/estatewatch/img/QVCvjlMr3d-729.webp 729w"><img alt="chaucer gardens estate" loading="lazy" decoding="async" src="/estatewatch/img/QVCvjlMr3d-729.jpeg" width="729" height="547"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/M5KfIClQLp-729.avif 729w"><source type="image/webp" srcset="/estatewatch/img/M5KfIClQLp-729.webp 729w"><img alt="chaucer gardens estate" loading="lazy" decoding="async" src="/estatewatch/img/M5KfIClQLp-729.jpeg" width="729" height="547"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/VO-lxMwxWm-729.avif 729w"><source type="image/webp" srcset="/estatewatch/img/VO-lxMwxWm-729.webp 729w"><img alt="chaucer gardens estate" loading="lazy" decoding="async" src="/estatewatch/img/VO-lxMwxWm-729.jpeg" width="729" height="547"></picture>

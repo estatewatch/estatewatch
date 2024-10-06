@@ -570,6 +570,23 @@ h2 + .header-anchor {
 <p><picture><source type="image/avif" srcset="/estatewatch/img/qNev3l5jiI-839.avif 839w"><source type="image/webp" srcset="/estatewatch/img/qNev3l5jiI-839.webp 839w"><img alt="waterloo road first refusal" loading="lazy" decoding="async" src="/estatewatch/img/qNev3l5jiI-839.png" width="839" height="281"></picture></p>
 <p>The <a href="https://www.havering.gov.uk/download/downloads/id/1851/local_lettings_plan.pdf">re-housing offer</a> for tenants is not much better. There is no guarantee of a tenancy in one of the replacement social/affordable homes or a right to return. The only guarantee is two direct offers of a tenancy in a home on an estate elsewhere in the borough, albeit selected by the Council.</p>
 <p>The Waterloo road scheme is a good example of how the offer to residents on estates exempted by the Mayor from his ballot requirement, is inferior to those subject to ballots. It is difficult to believe that, had they been asked, residents of the Waterloo Road estate would have voted for demolition based on Havering's poor re-housing offer to residents.</p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.574334,0.176900], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.574334,0.176900], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

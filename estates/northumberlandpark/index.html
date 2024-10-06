@@ -565,6 +565,23 @@ h2 + .header-anchor {
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="/estatewatch/images/northumberlandpark.mp4" allowfullscreen=""></iframe>
 </div>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.604419,-0.058280], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.604419,-0.058280], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

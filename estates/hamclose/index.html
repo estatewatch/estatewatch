@@ -568,6 +568,22 @@ h2 + .header-anchor {
 <p>A planning application was approved in December 2022 for 452 new homes of which 164 provided as 'low cost rent'.</p>
 <p>More information is available on RHP's dedicated website for the scheme <a href="https://www.hamclose.co.uk/">https://www.hamclose.co.uk/</a>.</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.437734,-0.316239], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.437734,-0.316239], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/Sq7ejVSh8O-1000.avif 1000w"><source type="image/webp" srcset="/estatewatch/img/Sq7ejVSh8O-1000.webp 1000w"><img alt="Ham Close estate" loading="lazy" decoding="async" src="/estatewatch/img/Sq7ejVSh8O-1000.jpeg" width="1000" height="751"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/b62SzrQTle-1000.avif 1000w"><source type="image/webp" srcset="/estatewatch/img/b62SzrQTle-1000.webp 1000w"><img alt="Ham Close estate" loading="lazy" decoding="async" src="/estatewatch/img/b62SzrQTle-1000.jpeg" width="1000" height="751"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/cUVxRt5zxg-1000.avif 1000w"><source type="image/webp" srcset="/estatewatch/img/cUVxRt5zxg-1000.webp 1000w"><img alt="Ham Close estate" loading="lazy" decoding="async" src="/estatewatch/img/cUVxRt5zxg-1000.jpeg" width="1000" height="751"></picture>

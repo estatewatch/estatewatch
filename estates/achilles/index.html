@@ -573,6 +573,22 @@ h2 + .header-anchor {
 <p><a href="https://www.yumpu.com/en/document/view/63260301/deptford-is-changing-a-creative-exploration-of-gentrification">Deptford is Changing</a> book by local resident and PhD student Anita Strasser.</p>
 <p><a href="https://lewisham.gov.uk/organizations/achilles-street-redevelopment">Lewisham Council's web page for the scheme</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.476452,-0.035341], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.476452,-0.035341], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/d9H0e4WwFZ-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/d9H0e4WwFZ-1067.webp 1067w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/d9H0e4WwFZ-1067.jpeg" width="1067" height="600"></picture></p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/niq_B0GFZx-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/niq_B0GFZx-1067.webp 1067w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/niq_B0GFZx-1067.jpeg" width="1067" height="600"></picture></p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/HxZYYUSmGN-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/HxZYYUSmGN-1067.webp 1067w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/HxZYYUSmGN-1067.jpeg" width="1067" height="600"></picture></p>

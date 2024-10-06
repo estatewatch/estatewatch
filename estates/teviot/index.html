@@ -571,6 +571,22 @@ h2 + .header-anchor {
 <p><picture><source type="image/avif" srcset="/estatewatch/img/hYypfd9Wv5-992.avif 992w"><source type="image/webp" srcset="/estatewatch/img/hYypfd9Wv5-992.webp 992w"><img alt="teviot article" loading="lazy" decoding="async" src="/estatewatch/img/hYypfd9Wv5-992.png" width="992" height="326"></picture></p>
 <p>It is noteworthy that Poplar HARCA's <a href="/estatewatch/images/teviotoffer.pdf">rehousing offer</a> to leaseholders is more generous than most (with the exception of Circle Housing's <a href="/estatewatch/images/mertonoffer.pdf">offer in Merton</a> as it allows a certain amount of the shared equity loan to be written off after 7 years (Circle writes it off completely).</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.518195,-0.012409], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.518195,-0.012409], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/XPyN0yXUIx-1422.avif 1422w"><source type="image/webp" srcset="/estatewatch/img/XPyN0yXUIx-1422.webp 1422w"><img alt="Teviot estate" loading="lazy" decoding="async" src="/estatewatch/img/XPyN0yXUIx-1422.jpeg" width="1422" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/7SwbF1uZN3-1422.avif 1422w"><source type="image/webp" srcset="/estatewatch/img/7SwbF1uZN3-1422.webp 1422w"><img alt="Teviot estate" loading="lazy" decoding="async" src="/estatewatch/img/7SwbF1uZN3-1422.jpeg" width="1422" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/McJdhC942S-1422.avif 1422w"><source type="image/webp" srcset="/estatewatch/img/McJdhC942S-1422.webp 1422w"><img alt="Teviot estate" loading="lazy" decoding="async" src="/estatewatch/img/McJdhC942S-1422.jpeg" width="1422" height="800"></picture>

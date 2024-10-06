@@ -567,6 +567,22 @@ h2 + .header-anchor {
 <p>In August 2019, it was <a href="https://www.hackneygazette.co.uk/news/bridport-house-tenants-told-hoxton-block-could-be-demolished-rather-than-repaired-1-6243329">reported</a> that one of the first buildings completed in the regeneration may be demolished because of structural defects.</p>
 <p>Hackney Council subsequently decided on remediation works which are estimated to cost £6m. In January 2022, it was <a href="https://www.insidehousing.co.uk/news/news/london-council-warns-all-options-remain-open-to-recoup-costs-on-defect-ridden-block-as-repairs-start-73949">reported</a> that the Council is considering legal action to recover the cost of these works.</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.536318,-0.083684], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.536318,-0.083684], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

@@ -559,6 +559,23 @@ h2 + .header-anchor {
 <p><picture><source type="image/avif" srcset="/estatewatch/img/A8_pwk2b2U-800.avif 800w"><source type="image/webp" srcset="/estatewatch/img/A8_pwk2b2U-800.webp 800w"><img alt="severn way" loading="lazy" decoding="async" src="/estatewatch/img/A8_pwk2b2U-800.jpeg" width="800" height="600"></picture></p>
 <p>Circa 50 homes on Severn Way Crescent in Brent are under threat of demolition.</p>
 <p>The crescent comprises two dozen post-war terraced Council homes which have been earmarked for redevelopment under the NEASDEN STATIONS GROWTH AREA development site in Brent's <a href="https://www.brent.gov.uk/media/16411848/draft-local-plan-east.pdf">Local plan.</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.552401,-0.246721], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.552401,-0.246721], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

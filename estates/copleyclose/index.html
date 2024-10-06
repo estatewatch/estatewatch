@@ -563,6 +563,22 @@ Planning Status<span class="token punctuation">:</span></code></pre>
 <p>The northern part of the estate has undergone some refurbishment works and this part was also scheduled to undergo refurbishment but redevelopment has now been listed as an option in the Local Plan's site allocation.</p>
 <p>It is not known if residents have been made aware of the designation.</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.520018,-0.330991], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.520018,-0.330991], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

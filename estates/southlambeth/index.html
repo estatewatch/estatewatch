@@ -570,11 +570,27 @@ h2 + .header-anchor {
 <p><strong>Links:</strong></p>
 <p><a href="https://lha-direct.voa.gov.uk/SearchResults.aspx?LocalAuthorityId=22&amp;LHACategory=999&amp;Month=6&amp;Year=2020&amp;SearchPageParameters=true">VOA website with LHA rates for Lambeth</a></p>
 <p>The Mayor's <a href="https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_469672///south_lambeth_estate_report.pdf">Stage 1 and Stage 2 reports</a></p>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.478668,-0.118861], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.478668,-0.118861], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 <hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/Pyr0PPOOCf-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/Pyr0PPOOCf-1067.webp 1067w"><img alt="south lambeth estate" loading="lazy" decoding="async" src="/estatewatch/img/Pyr0PPOOCf-1067.jpeg" width="1067" height="600"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/dEKFwGa3zy-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/dEKFwGa3zy-1067.webp 1067w"><img alt="south lambeth estate" loading="lazy" decoding="async" src="/estatewatch/img/dEKFwGa3zy-1067.jpeg" width="1067" height="600"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/i2LZ7GWpif-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/i2LZ7GWpif-1067.webp 1067w"><img alt="south lambeth estate" loading="lazy" decoding="async" src="/estatewatch/img/i2LZ7GWpif-1067.jpeg" width="1067" height="600"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/M14esc_KJF-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/M14esc_KJF-1067.webp 1067w"><img alt="south lambeth estate" loading="lazy" decoding="async" src="/estatewatch/img/M14esc_KJF-1067.jpeg" width="1067" height="600"></picture></p>
+<hr>
 
 
 		</main>

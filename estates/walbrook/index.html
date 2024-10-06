@@ -565,6 +565,23 @@ Planning Status<span class="token punctuation">:</span></code></pre>
 <hr>
 <p><strong>Links:</strong></p>
 <p>April 2023 <a href="https://governance.enfield.gov.uk/documents/s97590/HRD2324_007%20Walbrook%20House%20Part%201%20-%2018%20April%2023.pdf">council report</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.628832,-0.045066], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.628832,-0.045066], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

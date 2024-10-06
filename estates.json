@@ -11,7 +11,7 @@
         "ITLA": "PPCR",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.004851,51.512950]}"
+        "Location": "[51.512950,-0.004851]"
       },
     
       {
@@ -24,7 +24,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.035341,51.476452]}"
+        "Location": "[51.476452,-0.035341]"
       },
     
       {
@@ -37,7 +37,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.370230,51.536168]}"
+        "Location": "[51.536168,-0.370230]"
       },
     
       {
@@ -50,7 +50,7 @@
         "ITLA": "PEP",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.036348,51.643512]}"
+        "Location": "[51.643512,-0.036348]"
       },
     
       {
@@ -63,7 +63,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.243483,51.450221]}"
+        "Location": "[51.450221,-0.243483]"
       },
     
       {
@@ -76,7 +76,7 @@
         "ITLA": "Public Voice",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.417528,51.505778]}"
+        "Location": "[51.505778,-0.417528]"
       },
     
       {
@@ -89,7 +89,7 @@
         "ITLA": "Newman Francis",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.002466,51.554350]}"
+        "Location": "[51.554350,-0.002466]"
       },
     
       {
@@ -102,7 +102,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.406199,51.510758]}"
+        "Location": "[51.510758,-0.406199]"
       },
     
       {
@@ -115,7 +115,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.084806,51.485789]}"
+        "Location": "[51.485789,-0.084806]"
       },
     
       {
@@ -128,7 +128,7 @@
         "ITLA": "Open Communities",
         "Planning Status": "Pending",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.024181,51.498528]}"
+        "Location": "[51.498528,-0.024181]"
       },
     
       {
@@ -141,7 +141,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.114844,51.536269]}"
+        "Location": "[51.536269,-0.114844]"
       },
     
       {
@@ -154,7 +154,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.142430,51.478880]}"
+        "Location": "[51.478880,-0.142430]"
       },
     
       {
@@ -167,7 +167,7 @@
         "ITLA": "Communities First",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.1901,51.3673]}"
+        "Location": "[51.3673,-0.1901]"
       },
     
       {
@@ -180,7 +180,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.395689,51.484513]}"
+        "Location": "[51.484513,-0.395689]"
       },
     
       {
@@ -193,7 +193,7 @@
         "ITLA": "PPCR",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.080927,51.594340]}"
+        "Location": "[51.594340,-0.080927]"
       },
     
       {
@@ -206,7 +206,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.065543,51.483649]}"
+        "Location": "[51.483649,0.065543]"
       },
     
       {
@@ -219,7 +219,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.280070,51.503540]}"
+        "Location": "[51.503540,-0.280070]"
       },
     
       {
@@ -232,7 +232,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.362360,51.475927]}"
+        "Location": "[51.475927,-0.362360]"
       },
     
       {
@@ -245,7 +245,7 @@
         "ITLA": "Source Partnership",
         "Planning Status": "Pending",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.021422,51.419397]}"
+        "Location": "[51.419397,0.021422]"
       },
     
       {
@@ -258,7 +258,7 @@
         "ITLA": "PPCR",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.287284,51.408046]}"
+        "Location": "[51.408046,-0.287284]"
       },
     
       {
@@ -271,7 +271,7 @@
         "ITLA": "TPAS/Source Partnership",
         "Planning Status": "Pending",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.004882,51.537846]}"
+        "Location": "[51.537846,-0.004882]"
       },
     
       {
@@ -284,7 +284,7 @@
         "ITLA": "PPCR",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.085651,51.420034]}"
+        "Location": "[51.420034,-0.085651]"
       },
     
       {
@@ -297,7 +297,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.300195,51.486105]}"
+        "Location": "[51.486105,-0.300195]"
       },
     
       {
@@ -310,7 +310,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.2008,51.3705]}"
+        "Location": "[51.3705,-0.2008]"
       },
     
       {
@@ -323,7 +323,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.057194,51.627168]}"
+        "Location": "[51.627168,-0.057194]"
       },
     
       {
@@ -336,7 +336,7 @@
         "ITLA": "PPCR",
         "Planning Status": "Approved",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.170681,51.523316]}"
+        "Location": "[51.523316,-0.170681]"
       },
     
       {
@@ -349,7 +349,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.133379,51.449331]}"
+        "Location": "[51.449331,-0.133379]"
       },
     
       {
@@ -362,7 +362,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.030492,51.536511]}"
+        "Location": "[51.536511,-0.030492]"
       },
     
       {
@@ -375,7 +375,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.048942,51.516104]}"
+        "Location": "[51.516104,-0.048942]"
       },
     
       {
@@ -388,7 +388,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.1988,51.3691]}"
+        "Location": "[51.3691,-0.1988]"
       },
     
       {
@@ -401,7 +401,7 @@
         "ITLA": "PPCR",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.083684,51.536318]}"
+        "Location": "[51.536318,-0.083684]"
       },
     
       {
@@ -414,7 +414,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.366567,51.471914]}"
+        "Location": "[51.471914,-0.366567]"
       },
     
       {
@@ -427,7 +427,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.393576,51.494632]}"
+        "Location": "[51.494632,-0.393576]"
       },
     
       {
@@ -440,7 +440,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.330991,51.520018]}"
+        "Location": "[51.520018,-0.330991]"
       },
     
       {
@@ -453,7 +453,7 @@
         "ITLA": "Public Voice/PPCR",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.111587,51.446517]}"
+        "Location": "[51.446517,-0.111587]"
       },
     
       {
@@ -466,7 +466,7 @@
         "ITLA": "Newman Francis",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.021314,51.510722]}"
+        "Location": "[51.510722,0.021314]"
       },
     
       {
@@ -479,7 +479,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.263030,51.517792]}"
+        "Location": "[51.517792,-0.263030]"
       },
     
       {
@@ -492,7 +492,7 @@
         "ITLA": "TPAS",
         "Planning Status": "Pending",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.225340,51.557480]}"
+        "Location": "[51.557480,0.225340]"
       },
     
       {
@@ -505,7 +505,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.115040,51.493660]}"
+        "Location": "[51.493660,-0.115040]"
       },
     
       {
@@ -518,7 +518,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.019264,51.522289]}"
+        "Location": "[51.522289,-0.019264]"
       },
     
       {
@@ -531,7 +531,7 @@
         "ITLA": "PPCR",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.197573,51.644001]}"
+        "Location": "[51.644001,-0.197573]"
       },
     
       {
@@ -544,7 +544,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.249247,51.604697]}"
+        "Location": "[51.604697,-0.249247]"
       },
     
       {
@@ -557,7 +557,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.149209,51.407168]}"
+        "Location": "[51.407168,-0.149209]"
       },
     
       {
@@ -570,7 +570,7 @@
         "ITLA": "Communities First",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.149611,51.488945]}"
+        "Location": "[51.488945,-0.149611]"
       },
     
       {
@@ -583,7 +583,7 @@
         "ITLA": "PPCR",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.193505,51.366883]}"
+        "Location": "[51.366883,-0.193505,]"
       },
     
       {
@@ -596,7 +596,7 @@
         "ITLA": "Christine Searle (Public Voice)",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.127468,51.464695]}"
+        "Location": "[51.464695,-0.127468]"
       },
     
       {
@@ -609,7 +609,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.264300,51.516962]}"
+        "Location": "[51.516962,-0.264300]"
       },
     
       {
@@ -622,7 +622,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.078037,51.533476]}"
+        "Location": "[51.533476,0.078037]"
       },
     
       {
@@ -635,7 +635,7 @@
         "ITLA": "Source Partnership",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.099011,51.469493]}"
+        "Location": "[51.469493,-0.099011]"
       },
     
       {
@@ -648,7 +648,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.357820,51.517047]}"
+        "Location": "[51.517047,-0.357820]"
       },
     
       {
@@ -661,7 +661,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.244782,51.602271]}"
+        "Location": "[51.602271,-0.244782]"
       },
     
       {
@@ -674,7 +674,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.397191,51.537050]}"
+        "Location": "[51.537050,-0.397191]"
       },
     
       {
@@ -687,7 +687,7 @@
         "ITLA": "One Enterprise",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.350978,51.568998]}"
+        "Location": "[51.568998,-0.350978]"
       },
     
       {
@@ -700,7 +700,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.325448,51.511542]}"
+        "Location": "[51.511542,-0.325448]"
       },
     
       {
@@ -713,7 +713,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.175467,51.523358]}"
+        "Location": "[51.523358,-0.175467]"
       },
     
       {
@@ -726,7 +726,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.316239,51.437734]}"
+        "Location": "[51.437734,-0.316239]"
       },
     
       {
@@ -739,7 +739,7 @@
         "ITLA": "TPAS",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.219207,51.607002]}"
+        "Location": "[51.607002,0.219207]"
       },
     
       {
@@ -752,7 +752,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.370627,51.500392]}"
+        "Location": "[51.500392,-0.370627]"
       },
     
       {
@@ -765,7 +765,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.344496,51.519802]}"
+        "Location": "[51.519802,-0.344496]"
       },
     
       {
@@ -778,7 +778,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.190444,51.414691]}"
+        "Location": "[51.414691,-0.190444]"
       },
     
       {
@@ -791,7 +791,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.381975,51.547140]}"
+        "Location": "[51.547140,-0.381975]"
       },
     
       {
@@ -804,7 +804,7 @@
         "ITLA": "Source Partnership",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.066698,51.612022]}"
+        "Location": "[51.612022,-0.066698]"
       },
     
       {
@@ -817,7 +817,7 @@
         "ITLA": "Communities First",
         "Planning Status": "Pending",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.150620,51.542436]}"
+        "Location": "[51.542436,-0.150620]"
       },
     
       {
@@ -830,7 +830,7 @@
         "ITLA": "Mike Tyrell",
         "Planning Status": "Pending",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.025874,51.493200]}"
+        "Location": "[51.493200,-0.025874]"
       },
     
       {
@@ -843,7 +843,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.137395,51.613312]}"
+        "Location": "[51.613312,-0.137395]"
       },
     
       {
@@ -856,7 +856,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.335400,51.503159]}"
+        "Location": "[51.503159,-0.335400]"
       },
     
       {
@@ -869,7 +869,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.062836,51.578949]}"
+        "Location": "[51.578949,-0.062836]"
       },
     
       {
@@ -882,7 +882,7 @@
         "ITLA": "Open Communities",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.061766,51.481221]}"
+        "Location": "[51.481221,-0.061766]"
       },
     
       {
@@ -895,7 +895,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.167721,51.525955]}"
+        "Location": "[51.525955,-0.167721]"
       },
     
       {
@@ -908,7 +908,7 @@
         "ITLA": "Damian Tissier Microfish Communications",
         "Planning Status": "Pending",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.069012,51.604415]}"
+        "Location": "[51.604415,-0.069012]"
       },
     
       {
@@ -921,7 +921,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.065205,51.646181]}"
+        "Location": "[51.646181,-0.065205]"
       },
     
       {
@@ -934,7 +934,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.073840,51.512782]}"
+        "Location": "[51.512782,-0.073840]"
       },
     
       {
@@ -947,7 +947,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.138200,51.581715]}"
+        "Location": "[51.581715,0.138200]"
       },
     
       {
@@ -960,7 +960,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.006070,51.587181]}"
+        "Location": "[51.587181,-0.006070]"
       },
     
       {
@@ -973,7 +973,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.049174,51.487680]}"
+        "Location": "[51.487680,0.049174]"
       },
     
       {
@@ -986,7 +986,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.056187,51.493029]}"
+        "Location": "[51.493029,-0.056187]"
       },
     
       {
@@ -999,7 +999,7 @@
         "ITLA": "TPAS",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.193681,51.566629]}"
+        "Location": "[51.566629,0.193681]"
       },
     
       {
@@ -1012,7 +1012,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.389080,51.535476]}"
+        "Location": "[51.535476,-0.389080]"
       },
     
       {
@@ -1025,7 +1025,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.057982,51.623503]}"
+        "Location": "[51.623503,-0.057982]"
       },
     
       {
@@ -1038,7 +1038,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.022020,51.446550]}"
+        "Location": "[51.446550,-0.022020]"
       },
     
       {
@@ -1051,7 +1051,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.013773,51.560912]}"
+        "Location": "[51.560912,-0.013773]"
       },
     
       {
@@ -1064,7 +1064,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.266707,51.505661]}"
+        "Location": "[51.505661,-0.266707]"
       },
     
       {
@@ -1077,7 +1077,7 @@
         "ITLA": "PPCR",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.135530,51.639810]}"
+        "Location": "[51.639810,-0.135530]"
       },
     
       {
@@ -1090,7 +1090,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.393027,51.481943]}"
+        "Location": "[51.481943,-0.393027]"
       },
     
       {
@@ -1103,7 +1103,7 @@
         "ITLA": "PPCR",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.058280,51.604419]}"
+        "Location": "[51.604419,-0.058280]"
       },
     
       {
@@ -1116,7 +1116,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.272706,51.514864]}"
+        "Location": "[51.514864,-0.272706]"
       },
     
       {
@@ -1129,7 +1129,7 @@
         "ITLA": "TPAS",
         "Planning Status": "Pending",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.175872,51.568833]}"
+        "Location": "[51.568833,0.175872]"
       },
     
       {
@@ -1142,7 +1142,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.390207,51.435475]}"
+        "Location": "[51.435475,-0.390207]"
       },
     
       {
@@ -1155,7 +1155,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.150198,51.490741]}"
+        "Location": "[51.490741,0.150198]"
       },
     
       {
@@ -1168,7 +1168,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Pending",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.069866,51.400864]}"
+        "Location": "[51.400864,-0.069866]"
       },
     
       {
@@ -1181,7 +1181,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.1929,51.3679]}"
+        "Location": "[51.3679,-0.1929]"
       },
     
       {
@@ -1194,7 +1194,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.189415,51.385183]}"
+        "Location": "[51.385183,-0.189415]"
       },
     
       {
@@ -1207,7 +1207,7 @@
         "ITLA": "TPAS",
         "Planning Status": "Pending",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.193341,51.585675]}"
+        "Location": "[51.585675,0.193341]"
       },
     
       {
@@ -1220,7 +1220,7 @@
         "ITLA": "Open Communities",
         "Planning Status": "pending",
         "Ballot Status": "pending",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.008458,51.496571]}"
+        "Location": "[51.496571,-0.008458]"
       },
     
       {
@@ -1233,7 +1233,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.246721,51.552401]}"
+        "Location": "[51.552401,-0.246721]"
       },
     
       {
@@ -1246,7 +1246,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Pending",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.05349,51.61517]}"
+        "Location": "[51.61517,-0.05349]"
       },
     
       {
@@ -1259,7 +1259,7 @@
         "ITLA": "TPAS",
         "Planning Status": "Pending",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.206760,51.556744]}"
+        "Location": "[51.556744,0.206760]"
       },
     
       {
@@ -1272,7 +1272,7 @@
         "ITLA": "PEP",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.272799,51.502295]}"
+        "Location": "[51.502295,-0.272799]"
       },
     
       {
@@ -1285,7 +1285,7 @@
         "ITLA": "Communities First",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.198561,51.533219]}"
+        "Location": "[51.533219,-0.198561]"
       },
     
       {
@@ -1298,7 +1298,7 @@
         "ITLA": "TPAS",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.118861,51.478668]}"
+        "Location": "[51.478668,-0.118861]"
       },
     
       {
@@ -1311,7 +1311,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.066563,51.608284]}"
+        "Location": "[51.608284,-0.066563]"
       },
     
       {
@@ -1324,7 +1324,7 @@
         "ITLA": "TPAS",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.008984,51.499039]}"
+        "Location": "[51.499039,-0.008984]"
       },
     
       {
@@ -1337,7 +1337,7 @@
         "ITLA": "",
         "Planning Status": "Pending",
         "Ballot Status": "Required",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.1901,51.3577]}"
+        "Location": "[51.3577,-0.1901]"
       },
     
       {
@@ -1350,7 +1350,7 @@
         "ITLA": "Mike Tyrell",
         "Planning Status": "Pending",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.012409,51.518195]}"
+        "Location": "[51.518195,-0.012409]"
       },
     
       {
@@ -1363,7 +1363,7 @@
         "ITLA": "Communities First",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.126122,51.495310]}"
+        "Location": "[51.495310,0.126122]"
       },
     
       {
@@ -1389,7 +1389,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.247614,51.512025]}"
+        "Location": "[51.512025,-0.247614]"
       },
     
       {
@@ -1402,7 +1402,7 @@
         "ITLA": "Open Communities/Neal Purvis",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.054867,51.480339]}"
+        "Location": "[51.480339,-0.054867]"
       },
     
       {
@@ -1415,7 +1415,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.045066,51.628832]}"
+        "Location": "[51.628832,-0.045066]"
       },
     
       {
@@ -1428,7 +1428,7 @@
         "ITLA": "TPAS",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[0.176900,51.574334]}"
+        "Location": "[51.574334,0.176900]"
       },
     
       {
@@ -1441,7 +1441,7 @@
         "ITLA": "Community Liaison Officers (Camden)",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.156132,51.551117]}"
+        "Location": "[51.551117,-0.156132]"
       },
     
       {
@@ -1454,7 +1454,7 @@
         "ITLA": "Norman Francis",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.140646,51.470468]}"
+        "Location": "[51.470468,-0.140646]"
       },
     
       {
@@ -1467,7 +1467,7 @@
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.149254,51.549409]}"
+        "Location": "[51.549409,-0.149254]"
       },
     
       {
@@ -1480,7 +1480,7 @@
         "ITLA": "PEP",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.219515,51.572426]}"
+        "Location": "[51.572426,-0.219515]"
       },
     
       {
@@ -1489,11 +1489,11 @@
         "Landlord": "Wandsworth Council",
         "Existing Homes": "759",
         "Developer": "Taylor Wimpey",
-        "Architect": "",
+        "Architect": "HLM",
         "ITLA": "",
         "Planning Status": "Approved",
-        "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.176427,51.464762]}"
+        "Ballot Status": "Exempt",
+        "Location": "[51.464762,-0.176427]"
       },
     
       {
@@ -1502,11 +1502,11 @@
         "Landlord": "Hackney Council",
         "Existing Homes": "1000",
         "Developer": "Berkeley Homes",
-        "Architect": "",
+        "Architect": "Fletcher Priest/WE/SEH",
         "ITLA": "Simon Slater (Public Voice)",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.090658,51.572949]}"
+        "Location": "[51.572949,-0.090658]"
       },
     
       {
@@ -1519,7 +1519,7 @@
         "ITLA": "Newman Francis",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.212212,51.523537]}"
+        "Location": "[51.523537,-0.212212]"
       },
     
       {
@@ -1531,8 +1531,8 @@
         "Architect": "",
         "ITLA": "",
         "Planning Status": "",
-        "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.394019,51.533307]}"
+        "Ballot Status": "Required",
+        "Location": "[51.533307,-0.394019]"
       },
     
       {
@@ -1545,7 +1545,7 @@
         "ITLA": "",
         "Planning Status": "",
         "Ballot Status": "",
-        "Location": "{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-0.381707,51.531224]}"
+        "Location": "[51.531224,-0.381707]"
       }
     
   ]

@@ -563,6 +563,22 @@ h2 + .header-anchor {
 <p>It is also within the boundary of the <strong>Edgeware Road Housing Zone</strong>, one of <a href="https://www.london.gov.uk/what-we-do/housing-and-land/increasing-housing-supply/housing-zones#acc-i-42741">30 special housing zones</a> designated by the Mayor to deliver accelerated housing development. The Edgeware Road zone is expected to deliver 1700 new homes.</p>
 <p>The estate has already been subject to a small amount of in-fill development, with <a href="https://www.westminster.gov.uk/parsons-north-development">60 homes delivered</a> on open space at the foot of Parsons House.</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.523358,-0.175467], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.523358,-0.175467], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/doLNcG4KYY-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/doLNcG4KYY-1067.webp 1067w"><img alt="Hall Place estate" loading="lazy" decoding="async" src="/estatewatch/img/doLNcG4KYY-1067.jpeg" width="1067" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/i3KMt-W9q4-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/i3KMt-W9q4-1067.webp 1067w"><img alt="Hall Place estate" loading="lazy" decoding="async" src="/estatewatch/img/i3KMt-W9q4-1067.jpeg" width="1067" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/rY0Ulj2ZEd-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/rY0Ulj2ZEd-1067.webp 1067w"><img alt="Hall Place estate" loading="lazy" decoding="async" src="/estatewatch/img/rY0Ulj2ZEd-1067.jpeg" width="1067" height="800"></picture>

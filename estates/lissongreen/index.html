@@ -565,6 +565,22 @@ h2 + .header-anchor {
 <p><picture><source type="image/avif" srcset="/estatewatch/img/qGzPQxWsP2-596.avif 596w"><source type="image/webp" srcset="/estatewatch/img/qGzPQxWsP2-596.webp 596w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/qGzPQxWsP2-596.png" width="596" height="464"></picture></p>
 <p>Two blocks on the estate have recently been incorporated into the Church St regeneration plans and are currently being demolished.</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.525955,-0.167721], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.525955,-0.167721], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/pzUaEuDJgc-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/pzUaEuDJgc-1067.webp 1067w"><img alt="lisson green estate" loading="lazy" decoding="async" src="/estatewatch/img/pzUaEuDJgc-1067.jpeg" width="1067" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/IkXZoDjfYZ-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/IkXZoDjfYZ-1067.webp 1067w"><img alt="lisson green estate" loading="lazy" decoding="async" src="/estatewatch/img/IkXZoDjfYZ-1067.jpeg" width="1067" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/jUpQRKrgqE-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/jUpQRKrgqE-1067.webp 1067w"><img alt="lisson green estate" loading="lazy" decoding="async" src="/estatewatch/img/jUpQRKrgqE-1067.jpeg" width="1067" height="800"></picture>

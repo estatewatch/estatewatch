@@ -552,7 +552,7 @@ h2 + .header-anchor {
 <span class="token key atrule">Landlord</span><span class="token punctuation">:</span> Hackney Council
 <span class="token key atrule">Developer</span><span class="token punctuation">:</span> Berkeley Homes
 <span class="token key atrule">Itla</span><span class="token punctuation">:</span> Simon Slater (Public Voice)
-<span class="token key atrule">Architect</span><span class="token punctuation">:</span> 
+<span class="token key atrule">Architect</span><span class="token punctuation">:</span> Fletcher Priest/WE/SEH
 <span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Exempt
 <span class="token key atrule">Planning Status</span><span class="token punctuation">:</span> Approved</code></pre>
 
@@ -598,6 +598,23 @@ In 2020, Hackney Council’s Planning Committee has approved Phase 3, which is c
 <p>Municipal Dreams' 2013 blog post on the Woodberry Down regeneration: <a href="https://municipaldreams.wordpress.com/2013/09/17/woodberry-down-hackney-the-estate-of-the-future/">https://municipaldreams.wordpress.com/2013/09/17/woodberry-down-hackney-the-estate-of-the-future/</a></p>
 <p>Hackney Council. (2007). Woodberry Down residents’ charter. Redraft March. London: Hackney Council.</p>
 <p>Hackney Cabinet Meeting. 2022. “Hackney Cabinet Meeting 28 February 2022.”</p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.572949,-0.090658], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.572949,-0.090658], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><strong>Credits:</strong>
 Photos: <a href="municipaldreams.wordpress.com">Municipal Dreams</a>
 Text: Alessandro Busà, University of Leicester</p>

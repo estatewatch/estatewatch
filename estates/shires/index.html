@@ -561,8 +561,26 @@ h2 + .header-anchor {
 <p>Two 18 storey blocks (Shropshire House and Cheshire House) have been earmarked for potential redevelopment by Enfield Council.</p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/o5WYMD5_Nx-1000.avif 1000w"><source type="image/webp" srcset="/estatewatch/img/o5WYMD5_Nx-1000.webp 1000w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/o5WYMD5_Nx-1000.jpeg" width="1000" height="1333"></picture></p>
 <p>Enfield Council says: <em>“A hugely expensive and massively disruptive repairs programme - to the tune of £53 million - would be required to bring these blocks up to standard in the short term .. A decision on how to move forward will be made by the Summer of 2023.&quot;</em></p>
+<hr>
 <p><strong>Links:</strong><br>
 <a href="https://www.enfield.gov.uk/news-and-events/2023/02/the-future-of-cheshire-house-and-shropshire-house">https://www.enfield.gov.uk/news-and-events/2023/02/the-future-of-cheshire-house-and-shropshire-house</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.61517,-0.05349], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.61517,-0.05349], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

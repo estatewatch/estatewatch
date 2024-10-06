@@ -576,6 +576,23 @@ h2 + .header-anchor {
 <p><a href="https://democracy.walthamforest.gov.uk/documents/s77115/Avenue%20Road%20Estate%20Regeneration%20Project%20Update%20Report.pdf">February 2021 Cabinet report</a>.</p>
 <p>Waltham Forest's <a href="https://www.avenue-road-estate-regeneration.co.uk/storage/app/media/lwf-arl-hta-g-landlord-offer-main-webspreads.pdf">Landlord Offer</a> to residents ahead of the ballot.</p>
 <p><a href="https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&amp;id=110198">Planning application documents</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.554350,-0.002466], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.554350,-0.002466], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/NhtLzDzd-B-800.avif 800w"><source type="image/webp" srcset="/estatewatch/img/NhtLzDzd-B-800.webp 800w"><img alt="image of Avenue Road estate" loading="lazy" decoding="async" src="/estatewatch/img/NhtLzDzd-B-800.jpeg" width="800" height="600"></picture></p>
 
 

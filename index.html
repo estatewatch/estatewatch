@@ -390,15 +390,31 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			<div class="glitch-wrapper">
+			 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+     
+<div class="glitch-wrapper">
    <div class="glitch" data-text="ESTATES UNDER THREAT">ESTATES UNDER THREAT</div>
 </div>
-<!-- Delete this message, it will also remove the component CSS from the bundle -->
 <div class="message-box">
 	
-	<h2>Over 100 London housing estates are facing demolition. We show where they are and why refurbishment is almost always a better option:</h2>
+	<h2>119 London housing estates are facing demolition. We show where they are and why refurbishment is almost always a better option:</h2>
+
 </div>
-<!-- Stop deleting -->
+
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView([51.505, -0.09], 10);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+</script>
+
 
 
 
@@ -411,6 +427,14 @@ h2 + .header-anchor {
 		<img alt="Aberfeldy estate" loading="lazy" decoding="async" src="/estatewatch/img/JYNiYV-p8I-682.png" width="682" height="467">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.512950,-0.004851], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/achilles/" class="postlist-link">Achilles Street area</a>
@@ -419,6 +443,14 @@ h2 + .header-anchor {
 		<img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/Yy90CdZ9yY-1067.jpeg" width="1067" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.476452,-0.035341], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/airways/" class="postlist-link">Airways estate</a>
@@ -427,6 +459,14 @@ h2 + .header-anchor {
 		<img alt="Airways estate" loading="lazy" decoding="async" src="/estatewatch/img/zETKzQPkOS-610.png" width="610" height="338">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.536168,-0.370230], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/almaestate/" class="postlist-link">Alma estate</a>
@@ -435,6 +475,14 @@ h2 + .header-anchor {
 		<img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/VgQA7LZYvH-700.png" width="700" height="496">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.643512,-0.036348], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/altonarea/" class="postlist-link">Alton estate</a>
@@ -443,6 +491,14 @@ h2 + .header-anchor {
 		<img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/BSjXd-K9CA-1200.jpeg" width="1200" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.450221,-0.243483], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/austinroad/" class="postlist-link">Austin Road estate</a>
@@ -451,6 +507,14 @@ h2 + .header-anchor {
 		<img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/zJMV4HspV1-763.png" width="763" height="587">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.505778,-0.417528], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/avenueroad/" class="postlist-link">Avenue Road estate</a>
@@ -459,6 +523,14 @@ h2 + .header-anchor {
 		<img alt="first image of Avenue Rd estate" loading="lazy" decoding="async" src="/estatewatch/img/897MavCkfJ-800.jpeg" width="800" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.554350,-0.002466], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/avondaledrive/" class="postlist-link">Avondale Drive estate</a>
@@ -467,6 +539,14 @@ h2 + .header-anchor {
 		<img alt="image of Avondale Drive estate" loading="lazy" decoding="async" src="/estatewatch/img/Wu_5BHEmZZ-874.png" width="874" height="693">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.510758,-0.406199], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/aylesbury/" class="postlist-link">Aylesbury estate</a>
@@ -475,6 +555,14 @@ h2 + .header-anchor {
 		<img alt="Aylesbury image of wendover block" loading="lazy" decoding="async" src="/estatewatch/img/5H-nOOQuv6-1068.jpeg" width="1068" height="641">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.485789,-0.084806], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/barkantine/" class="postlist-link">Barkantine estate</a>
@@ -483,6 +571,14 @@ h2 + .header-anchor {
 		<img alt="Kedge house" loading="lazy" decoding="async" src="/estatewatch/img/urKmwDR9T6-689.png" width="689" height="466">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.498528,-0.024181], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/barnsbury/" class="postlist-link">Barnsbury estate</a>
@@ -491,6 +587,14 @@ h2 + .header-anchor {
 		<img alt="Barnsbury estate" loading="lazy" decoding="async" src="/estatewatch/img/boBiBDr6ND-1008.png" width="1008" height="756">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.536269,-0.114844], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/batterseaparkroad/" class="postlist-link">Battersea Park Road estate</a>
@@ -499,6 +603,14 @@ h2 + .header-anchor {
 		<img alt="battersea park road" loading="lazy" decoding="async" src="/estatewatch/img/OLI7C7G9Bl-639.png" width="639" height="356">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.478880,-0.142430], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/benhillestate/" class="postlist-link">Benhill estate</a>
@@ -507,6 +619,14 @@ h2 + .header-anchor {
 		<img alt="benhill estate" loading="lazy" decoding="async" src="/estatewatch/img/5cSn_wsvlO-800.jpeg" width="800" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.3673,-0.1901], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/brabazonestate/" class="postlist-link">Brabazon estate</a>
@@ -515,6 +635,14 @@ h2 + .header-anchor {
 		<img alt="Brabazon estate" loading="lazy" decoding="async" src="/estatewatch/img/6vQtTIQsvQ-1067.jpeg" width="1067" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.484513,-0.395689], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/broadwaterfarm/" class="postlist-link">Broadwater Farm estate</a>
@@ -523,6 +651,14 @@ h2 + .header-anchor {
 		<img alt="Broadwater Farm estate" loading="lazy" decoding="async" src="/estatewatch/img/uzrUk8w4Xt-1004.jpeg" width="1004" height="720">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.594340,-0.080927], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/brookhillclose/" class="postlist-link">Brookhill Close estate</a>
@@ -531,6 +667,14 @@ h2 + .header-anchor {
 		<img alt="Brookhill close" loading="lazy" decoding="async" src="/estatewatch/img/ez5idVMGb2-689.png" width="689" height="577">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.483649,0.065543], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/brookhouse/" class="postlist-link">Brook House</a>
@@ -539,6 +683,14 @@ h2 + .header-anchor {
 		<img alt="Brook house estate" loading="lazy" decoding="async" src="/estatewatch/img/rnHH1GOjtO-663.png" width="663" height="394">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.503540,-0.280070], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/brookwoodestate/" class="postlist-link">Brookwood Road estate</a>
@@ -547,6 +699,14 @@ h2 + .header-anchor {
 		<img alt="Brookwood Close" loading="lazy" decoding="async" src="/estatewatch/img/oFk8-IPpeY-1067.jpeg" width="1067" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.475927,-0.362360], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/calverleyclose/" class="postlist-link">Calverley Close estate</a>
@@ -555,6 +715,14 @@ h2 + .header-anchor {
 		<img alt="Calverley Close estate" loading="lazy" decoding="async" src="/estatewatch/img/UIP8-8GLtW-726.png" width="726" height="570">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.419397,0.021422], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/cambridgeroad/" class="postlist-link">Cambridge Road estate</a>
@@ -563,6 +731,14 @@ h2 + .header-anchor {
 		<img alt="Cambridge Rd estate" loading="lazy" decoding="async" src="/estatewatch/img/PaFeljduVs-993.jpeg" width="993" height="699">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.408046,-0.287284], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/carpenters/" class="postlist-link">Carpenters estate</a>
@@ -571,6 +747,14 @@ h2 + .header-anchor {
 		<img alt="carpenters estate" loading="lazy" decoding="async" src="/estatewatch/img/Zwt54fHaum-1024.jpeg" width="1024" height="682">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.537846,-0.004882], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/centrallhill/" class="postlist-link">Central Hill estate</a>
@@ -579,6 +763,14 @@ h2 + .header-anchor {
 		<img alt="central hill" loading="lazy" decoding="async" src="/estatewatch/img/n7rNKN1Ypp-720.jpeg" width="720" height="368">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.420034,-0.085651], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/charltonhouse/" class="postlist-link">Charlton House</a>
@@ -587,6 +779,14 @@ h2 + .header-anchor {
 		<img alt="charlton house" loading="lazy" decoding="async" src="/estatewatch/img/sfuG5ileiz-1067.jpeg" width="1067" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.486105,-0.300195], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/chaucerestate/" class="postlist-link">Chaucer Gardens estate</a>
@@ -595,6 +795,14 @@ h2 + .header-anchor {
 		<img alt="chaucer gardens estate" loading="lazy" decoding="async" src="/estatewatch/img/fzIHtrcXBI-860.jpeg" width="860" height="547">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.3705,-0.2008], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/chiswickroad/" class="postlist-link">Chiswick Road estate</a>
@@ -603,6 +811,14 @@ h2 + .header-anchor {
 		<img alt="Chiswick Road Avenue estate" loading="lazy" decoding="async" src="/estatewatch/img/KkevPW-k5z-687.png" width="687" height="392">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.627168,-0.057194], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/churchstreet/" class="postlist-link">Church Street Area</a>
@@ -611,6 +827,14 @@ h2 + .header-anchor {
 		<img alt="church street estate aerial" loading="lazy" decoding="async" src="/estatewatch/img/_KAPXY1Hxt-1200.jpeg" width="1200" height="700">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.523316,-0.170681], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/claphampark/" class="postlist-link">Clapham Park estate</a>
@@ -619,6 +843,14 @@ h2 + .header-anchor {
 		<img alt="clapham park estate" loading="lazy" decoding="async" src="/estatewatch/img/EiGpRxTdhk-738.png" width="738" height="463">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.449331,-0.133379], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/clarehouse/" class="postlist-link">Clare House</a>
@@ -627,6 +859,14 @@ h2 + .header-anchor {
 		<img alt="clare house" loading="lazy" decoding="async" src="/estatewatch/img/cGUfoKO0YX-800.jpeg" width="800" height="548">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.536511,-0.030492], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/clichyestate/" class="postlist-link">Clichy estate</a>
@@ -635,6 +875,14 @@ h2 + .header-anchor {
 		<img alt="Clichy estate" loading="lazy" decoding="async" src="/estatewatch/img/vCMs9Gv2KJ-652.jpeg" width="652" height="443">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.516104,-0.048942], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/collingwoodestate/" class="postlist-link">Collingwood estate</a>
@@ -643,6 +891,14 @@ h2 + .header-anchor {
 		<img alt="Collingwood estate" loading="lazy" decoding="async" src="/estatewatch/img/H-fPSwkJZd-800.jpeg" width="800" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.3691,-0.1988], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/colville/" class="postlist-link">Colville estate</a>
@@ -651,6 +907,14 @@ h2 + .header-anchor {
 		<img alt="Colville estate" loading="lazy" decoding="async" src="/estatewatch/img/qP9t3UbGHz-648.jpeg" width="648" height="465">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.536318,-0.083684], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/concordeclose/" class="postlist-link">Concorde Close</a>
@@ -659,6 +923,14 @@ h2 + .header-anchor {
 		<img alt="Concorde Close" loading="lazy" decoding="async" src="/estatewatch/img/c59NYYVUrO-672.png" width="672" height="515">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.471914,-0.366567], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/conventestate/" class="postlist-link">Convent Way estate</a>
@@ -667,6 +939,14 @@ h2 + .header-anchor {
 		<img alt="Collingwood estate" loading="lazy" decoding="async" src="/estatewatch/img/qxZIu2CJ1l-1067.jpeg" width="1067" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.494632,-0.393576], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/copleyclose/" class="postlist-link">Copley Close estate</a>
@@ -675,6 +955,14 @@ h2 + .header-anchor {
 		<img alt="Copley Close estate" loading="lazy" decoding="async" src="/estatewatch/img/dpGaO_nnor-639.png" width="639" height="429">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.520018,-0.330991], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/cressingham/" class="postlist-link">Cressingham Gardens estate</a>
@@ -683,6 +971,14 @@ h2 + .header-anchor {
 		<img alt="cressingham gardens estate" loading="lazy" decoding="async" src="/estatewatch/img/MwDTs0PWBU-817.jpeg" width="817" height="587">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.446517,-0.111587], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/customhouse/" class="postlist-link">Custom House regeneration</a>
@@ -691,6 +987,14 @@ h2 + .header-anchor {
 		<img alt=" Custom house" loading="lazy" decoding="async" src="/estatewatch/img/eoxJoQbtpT-634.png" width="634" height="433">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.510722,0.021314], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/deancourt/" class="postlist-link">Dean Court</a>
@@ -699,6 +1003,14 @@ h2 + .header-anchor {
 		<img alt="Dean court" loading="lazy" decoding="async" src="/estatewatch/img/exkCZmp0BX-628.png" width="628" height="417">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.517792,-0.263030], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/dellcourt/" class="postlist-link">Dell Court</a>
@@ -707,6 +1019,14 @@ h2 + .header-anchor {
 		<img alt=" Dell court" loading="lazy" decoding="async" src="/estatewatch/img/2DBVbOh8Xn-697.jpeg" width="697" height="525">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.557480,0.225340], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/denbycourt/" class="postlist-link">Denby Court</a>
@@ -715,6 +1035,14 @@ h2 + .header-anchor {
 		<img alt="Dell court" loading="lazy" decoding="async" src="/estatewatch/img/PlFUKqN8_j-739.png" width="739" height="561">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.493660,-0.115040], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/devonsroad/" class="postlist-link">Devons Road estate</a>
@@ -723,6 +1051,14 @@ h2 + .header-anchor {
 		<img alt="Devons Road estate" loading="lazy" decoding="async" src="/estatewatch/img/IXddcF0blm-635.png" width="635" height="425">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.522289,-0.019264], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/dollisvalley/" class="postlist-link">Dollis Valley estate</a>
@@ -731,6 +1067,14 @@ h2 + .header-anchor {
 		<img alt="Dollis Valley" loading="lazy" decoding="async" src="/estatewatch/img/C65OiC2ymp-705.webp" width="705" height="528">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.644001,-0.197573], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/douglasbaderpark/" class="postlist-link">Douglas Bader Park estate</a>
@@ -739,6 +1083,14 @@ h2 + .header-anchor {
 		<img alt="Dollis Valley" loading="lazy" decoding="async" src="/estatewatch/img/vee6Vkm-CT-651.png" width="651" height="521">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.604697,-0.249247], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/eastfields/" class="postlist-link">Eastfields estate</a>
@@ -747,6 +1099,14 @@ h2 + .header-anchor {
 		<img alt="Eastfields estate" loading="lazy" decoding="async" src="/estatewatch/img/_PxFddPHEC-1500.jpeg" width="1500" height="844">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.407168,-0.149209], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/eburybridge/" class="postlist-link">Ebury Bridge estate</a>
@@ -755,6 +1115,14 @@ h2 + .header-anchor {
 		<img alt="Ebury Bridge estate" loading="lazy" decoding="async" src="/estatewatch/img/xQTq-FfTMC-1422.jpeg" width="1422" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.488945,-0.149611], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/elmgrove/" class="postlist-link">Elm Grove estate</a>
@@ -763,6 +1131,14 @@ h2 + .header-anchor {
 		<img alt="elm grove estate" loading="lazy" decoding="async" src="/estatewatch/img/LSiQ1QFxDt-630.png" width="630" height="513">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.366883,-0.193505,], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/fenwick/" class="postlist-link">Fenwick estate</a>
@@ -771,6 +1147,14 @@ h2 + .header-anchor {
 		<img alt="central hill header photo" loading="lazy" decoding="async" src="/estatewatch/img/sSaS-fPSrL-1067.jpeg" width="1067" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.464695,-0.127468], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/friarypark/" class="postlist-link">Friary Park estate</a>
@@ -779,6 +1163,14 @@ h2 + .header-anchor {
 		<img alt="Friary Park estate" loading="lazy" decoding="async" src="/estatewatch/img/TeywjrOWwj-648.png" width="648" height="526">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.516962,-0.264300], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/gascoigne/" class="postlist-link">Gascoigne estate</a>
@@ -787,6 +1179,14 @@ h2 + .header-anchor {
 		<img alt="Gascoigne estate" loading="lazy" decoding="async" src="/estatewatch/img/3SJ0_llqmr-1000.jpeg" width="1000" height="750">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.533476,0.078037], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/geoffreyclose/" class="postlist-link">Geoffrey Close (Lambeth) estate</a>
@@ -795,6 +1195,14 @@ h2 + .header-anchor {
 		<img alt="Geoffrey Close estate" loading="lazy" decoding="async" src="/estatewatch/img/PBlacrBQ9l-1244.jpeg" width="1244" height="700">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.469493,-0.099011], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/golflinks/" class="postlist-link">Golf Links estate</a>
@@ -803,6 +1211,14 @@ h2 + .header-anchor {
 		<img alt=" Golf links estate" loading="lazy" decoding="async" src="/estatewatch/img/BuOlFBKWGR-640.jpeg" width="640" height="480">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.517047,-0.357820], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/grahamepark/" class="postlist-link">Grahame Park estate</a>
@@ -811,6 +1227,14 @@ h2 + .header-anchor {
 		<img alt="grahame park estate" loading="lazy" decoding="async" src="/estatewatch/img/G35XIMp4OY-2048.jpeg" width="2048" height="1738">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.602271,-0.244782], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/grangecourt/" class="postlist-link">Grange Court estate</a>
@@ -819,6 +1243,14 @@ h2 + .header-anchor {
 		<img alt="Grange Court estate" loading="lazy" decoding="async" src="/estatewatch/img/BxEL-YI4EN-724.png" width="724" height="283">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.537050,-0.397191], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/grangefarm/" class="postlist-link">Grange Farm estate</a>
@@ -827,6 +1259,14 @@ h2 + .header-anchor {
 		<img alt="Grange farm estate" loading="lazy" decoding="async" src="/estatewatch/img/bwagH4aqLa-734.png" width="734" height="574">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.568998,-0.350978], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/greenmanlane/" class="postlist-link">Green Man Lane estate</a>
@@ -835,6 +1275,14 @@ h2 + .header-anchor {
 		<img alt="Green man lane estate" loading="lazy" decoding="async" src="/estatewatch/img/rntfnvAFZl-1069.jpeg" width="1069" height="727">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.511542,-0.325448], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/hallplace/" class="postlist-link">Hall Place estate</a>
@@ -843,6 +1291,14 @@ h2 + .header-anchor {
 		<img alt="Hall Place estate" loading="lazy" decoding="async" src="/estatewatch/img/bS9rO2cs9X-1067.jpeg" width="1067" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.523358,-0.175467], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/hamclose/" class="postlist-link">Ham Close estate</a>
@@ -851,6 +1307,14 @@ h2 + .header-anchor {
 		<img alt="Ham Close estate" loading="lazy" decoding="async" src="/estatewatch/img/pff8TIl0tf-1000.jpeg" width="1000" height="751">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.437734,-0.316239], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/haroldhill/" class="postlist-link">Farnham and Hilldene estate</a>
@@ -859,6 +1323,14 @@ h2 + .header-anchor {
 		<img alt="Farhham hilldene estate" loading="lazy" decoding="async" src="/estatewatch/img/Cg7gRXMavP-719.png" width="719" height="438">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.607002,0.219207], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/havelock/" class="postlist-link">Havelock estate</a>
@@ -867,6 +1339,14 @@ h2 + .header-anchor {
 		<img alt="Havelock estate" loading="lazy" decoding="async" src="/estatewatch/img/MSTpja5wc3-1024.jpeg" width="1024" height="697">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.500392,-0.370627], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/highlane/" class="postlist-link">High Lane estate</a>
@@ -875,6 +1355,14 @@ h2 + .header-anchor {
 		<img alt="High Lane estate" loading="lazy" decoding="async" src="/estatewatch/img/2GDyHLBqbs-617.png" width="617" height="513">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.519802,-0.344496], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/highpath/" class="postlist-link">High Path estate</a>
@@ -883,6 +1371,14 @@ h2 + .header-anchor {
 		<img alt="high path estate" loading="lazy" decoding="async" src="/estatewatch/img/scEux8liKd-1024.jpeg" width="1024" height="683">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.414691,-0.190444], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/islipmanor/" class="postlist-link">Islip Manor estate</a>
@@ -891,6 +1387,14 @@ h2 + .header-anchor {
 		<img alt="Islip Manor estate" loading="lazy" decoding="async" src="/estatewatch/img/7to9-ynrge-593.png" width="593" height="346">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.547140,-0.381975], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/joycesnells/" class="postlist-link">Joyce Avenue and Snells Park estates</a>
@@ -899,6 +1403,14 @@ h2 + .header-anchor {
 		<img alt="joyce snells" loading="lazy" decoding="async" src="/estatewatch/img/i4ooh9r9Ty-900.jpeg" width="900" height="601">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.612022,-0.066698], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/junipercrescent/" class="postlist-link">Juniper Crescent and Gilbeys Yard estate</a>
@@ -907,6 +1419,14 @@ h2 + .header-anchor {
 		<img alt="juniper crescent estate" loading="lazy" decoding="async" src="/estatewatch/img/0ewUIjw33P-1422.jpeg" width="1422" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.542436,-0.150620], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/kingsbridge/" class="postlist-link">Kingsbridge estate</a>
@@ -915,6 +1435,14 @@ h2 + .header-anchor {
 		<img alt="kingsbridge estate" loading="lazy" decoding="async" src="/estatewatch/img/nL3y2_2NAV-1052.jpeg" width="1052" height="701">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.493200,-0.025874], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/ladderswood/" class="postlist-link">Ladderswood estate</a>
@@ -923,6 +1451,14 @@ h2 + .header-anchor {
 		<img alt="ladderswood estate" loading="lazy" decoding="async" src="/estatewatch/img/Ugrvo34im0-676.png" width="676" height="465">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.613312,-0.137395], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/lambourneclose/" class="postlist-link">Lambourne Close estate</a>
@@ -931,6 +1467,14 @@ h2 + .header-anchor {
 		<img alt="Lambourne Close estate" loading="lazy" decoding="async" src="/estatewatch/img/aixQ07FFOY-738.png" width="738" height="351">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.503159,-0.335400], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/leabank/" class="postlist-link">Leabank View estate</a>
@@ -939,6 +1483,14 @@ h2 + .header-anchor {
 		<img alt="leabank estate" loading="lazy" decoding="async" src="/estatewatch/img/8tiE4J2Dv9-666.jpeg" width="666" height="444">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.578949,-0.062836], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/ledbury/" class="postlist-link">Ledbury estate</a>
@@ -947,6 +1499,14 @@ h2 + .header-anchor {
 		<img alt="ledbury estate" loading="lazy" decoding="async" src="/estatewatch/img/B8oysOUWpP-640.jpeg" width="640" height="452">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.481221,-0.061766], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/lissongreen/" class="postlist-link">Lisson Green estate</a>
@@ -955,6 +1515,14 @@ h2 + .header-anchor {
 		<img alt="lisson green estate" loading="lazy" decoding="async" src="/estatewatch/img/YLQlhpAhxu-1067.jpeg" width="1067" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.525955,-0.167721], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/lovelane/" class="postlist-link">Love Lane estate</a>
@@ -963,6 +1531,14 @@ h2 + .header-anchor {
 		<img alt="love lane estate" loading="lazy" decoding="async" src="/estatewatch/img/LlQdENH49R-1000.jpeg" width="1000" height="750">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.604415,-0.069012], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/mainavenue/" class="postlist-link">Main Avenue estate</a>
@@ -971,6 +1547,14 @@ h2 + .header-anchor {
 		<img alt="Main Avenue estate" loading="lazy" decoding="async" src="/estatewatch/img/Cc6relx3DC-695.png" width="695" height="394">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.646181,-0.065205], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/mansellstreetestate/" class="postlist-link">Mansell Street estate</a>
@@ -979,6 +1563,14 @@ h2 + .header-anchor {
 		<img alt="mansell st estate" loading="lazy" decoding="async" src="/estatewatch/img/HR8AH9XlCk-1067.jpeg" width="1067" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.512782,-0.073840], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/marksgate/" class="postlist-link">Marks Gate estate</a>
@@ -987,6 +1579,14 @@ h2 + .header-anchor {
 		<img alt="Padnall and Reynolds Court" loading="lazy" decoding="async" src="/estatewatch/img/QlLmFGyiGs-1381.png" width="1381" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.581715,0.138200], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/marloweroad/" class="postlist-link">Marlowe Road estate</a>
@@ -995,6 +1595,14 @@ h2 + .header-anchor {
 		<img alt="Marlowe rd" loading="lazy" decoding="async" src="/estatewatch/img/n-wcGsejyx-729.jpeg" width="729" height="550">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.587181,-0.006070], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/maryongrove/" class="postlist-link">Maryon Grove estate</a>
@@ -1003,6 +1611,14 @@ h2 + .header-anchor {
 		<img alt="Maryon Grove estate" loading="lazy" decoding="async" src="/estatewatch/img/Yks1t2cnSb-697.png" width="697" height="560">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.487680,0.049174], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/maydewhouse/" class="postlist-link">Maydew House (Abbeyfield estate)</a>
@@ -1011,6 +1627,14 @@ h2 + .header-anchor {
 		<img alt="maydew house" loading="lazy" decoding="async" src="/estatewatch/img/8PX1Hf0vGT-1080.jpeg" width="1080" height="720">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.493029,-0.056187], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/maygreencrescent/" class="postlist-link">Maygreen Crescent estate</a>
@@ -1019,6 +1643,14 @@ h2 + .header-anchor {
 		<img alt="maygreen crescent estate" loading="lazy" decoding="async" src="/estatewatch/img/rLe9f92qJt-655.jpeg" width="655" height="516">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.566629,0.193681], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/medlarfarm/" class="postlist-link">Medlar Farm estate</a>
@@ -1027,6 +1659,14 @@ h2 + .header-anchor {
 		<img alt="Medlar Farm estate" loading="lazy" decoding="async" src="/estatewatch/img/NPsrNY_lI2-610.png" width="610" height="430">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.535476,-0.389080], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/mendippenine/" class="postlist-link">Edmonton Green Shopping Centre</a>
@@ -1035,6 +1675,14 @@ h2 + .header-anchor {
 		<img alt="Mendip and Penine House" loading="lazy" decoding="async" src="/estatewatch/img/fxLPGfqtlB-659.png" width="659" height="417">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.623503,-0.057982], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/milfordtowers/" class="postlist-link">Milford Towers</a>
@@ -1043,6 +1691,14 @@ h2 + .header-anchor {
 		<img alt="milford towers" loading="lazy" decoding="async" src="/estatewatch/img/ympxlFi3gh-725.png" width="725" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.446550,-0.022020], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/montagueroad/" class="postlist-link">Fred Wigg and John Walsh Towers</a>
@@ -1051,6 +1707,14 @@ h2 + .header-anchor {
 		<img alt="Wigg and walsh towers" loading="lazy" decoding="async" src="/estatewatch/img/4K85Xzy_91-800.jpeg" width="800" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.560912,-0.013773], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/nevilleclose/" class="postlist-link">Neville Close estate</a>
@@ -1059,6 +1723,14 @@ h2 + .header-anchor {
 		<img alt="neville close estate" loading="lazy" decoding="async" src="/estatewatch/img/7LVUV9UZWI-720.png" width="720" height="420">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.505661,-0.266707], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/newavenue/" class="postlist-link">New Avenue estate</a>
@@ -1067,6 +1739,14 @@ h2 + .header-anchor {
 		<img alt="new avenue estate" loading="lazy" decoding="async" src="/estatewatch/img/xr5mj0Fu8m-680.jpeg" width="680" height="497">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.639810,-0.135530], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/normancrescent/" class="postlist-link">Norman Crescent estate</a>
@@ -1075,6 +1755,14 @@ h2 + .header-anchor {
 		<img alt="norman crescent estate" loading="lazy" decoding="async" src="/estatewatch/img/HLXv4d-Y0V-1067.jpeg" width="1067" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.481943,-0.393027], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/northumberlandpark/" class="postlist-link">Northumberland Park estates</a>
@@ -1083,6 +1771,14 @@ h2 + .header-anchor {
 		<img alt="northumberland park estates" loading="lazy" decoding="async" src="/estatewatch/img/hmgrVWoMnx-645.jpeg" width="645" height="430">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.604419,-0.058280], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/oaktreecourt/" class="postlist-link">Oaktree Court</a>
@@ -1091,6 +1787,14 @@ h2 + .header-anchor {
 		<img alt="Oaktree court" loading="lazy" decoding="async" src="/estatewatch/img/59HCzI-2wH-676.png" width="676" height="362">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.514864,-0.272706], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/oldchurchgardens/" class="postlist-link">Oldchurch Gardens estate</a>
@@ -1099,6 +1803,14 @@ h2 + .header-anchor {
 		<img alt="oc gardens estate" loading="lazy" decoding="async" src="/estatewatch/img/vjmaS9eizL-600.png" width="600" height="435">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.568833,0.175872], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/orielestate/" class="postlist-link">Oriel estate</a>
@@ -1107,6 +1819,14 @@ h2 + .header-anchor {
 		<img alt="oriel estate" loading="lazy" decoding="async" src="/estatewatch/img/72TUmRGSDs-1067.jpeg" width="1067" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.435475,-0.390207], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/picardystreet/" class="postlist-link">Picardy Street estate</a>
@@ -1115,6 +1835,14 @@ h2 + .header-anchor {
 		<img alt="picardy st estate" loading="lazy" decoding="async" src="/estatewatch/img/-NzZnS5_HW-500.jpeg" width="500" height="375">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.490741,0.150198], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/reginaroad/" class="postlist-link">Regina Road estate</a>
@@ -1123,6 +1851,14 @@ h2 + .header-anchor {
 		<img alt="regina rd estate" loading="lazy" decoding="async" src="/estatewatch/img/85s8JX5yrg-593.jpeg" width="593" height="475">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.400864,-0.069866], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/roseberrygardens/" class="postlist-link">Roseberry Gardens estate</a>
@@ -1131,6 +1867,14 @@ h2 + .header-anchor {
 		<img alt="roseberry gdns estate" loading="lazy" decoding="async" src="/estatewatch/img/epRXdbWn93-800.jpeg" width="800" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.3679,-0.1929], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/rosehill/" class="postlist-link">Rosehill Court</a>
@@ -1139,6 +1883,14 @@ h2 + .header-anchor {
 		<img alt="rosehill court" loading="lazy" decoding="async" src="/estatewatch/img/zR7P8qoYoV-708.jpeg" width="708" height="466">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.385183,-0.189415], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/royaljubilee/" class="postlist-link">Royal Jubilee Court</a>
@@ -1147,6 +1899,14 @@ h2 + .header-anchor {
 		<img alt="royal jubilee court" loading="lazy" decoding="async" src="/estatewatch/img/lwS3UIrA8p-715.jpeg" width="715" height="548">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.585675,0.193341], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/samuda/" class="postlist-link">Samuda estate</a>
@@ -1155,6 +1915,14 @@ h2 + .header-anchor {
 		<img alt="samuda estate" loading="lazy" decoding="async" src="/estatewatch/img/uJx2_OfO0H-676.png" width="676" height="463">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.496571,-0.008458], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/severnway/" class="postlist-link">Severn Way</a>
@@ -1163,6 +1931,14 @@ h2 + .header-anchor {
 		<img alt="severn way" loading="lazy" decoding="async" src="/estatewatch/img/A8_pwk2b2U-800.jpeg" width="800" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.552401,-0.246721], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/shires/" class="postlist-link">Shires estate</a>
@@ -1171,6 +1947,14 @@ h2 + .header-anchor {
 		<img alt="shires estate" loading="lazy" decoding="async" src="/estatewatch/img/lVxvFe0P0x-745.png" width="745" height="476">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.61517,-0.05349], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/solarserena/" class="postlist-link">Parkhill and Sunrise estate</a>
@@ -1179,6 +1963,14 @@ h2 + .header-anchor {
 		<img alt="sunrise esatte" loading="lazy" decoding="async" src="/estatewatch/img/4aROh_9cHB-664.png" width="664" height="530">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.556744,0.206760], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/southacton/" class="postlist-link">South Acton estate</a>
@@ -1187,6 +1979,14 @@ h2 + .header-anchor {
 		<img alt="south acton estate" loading="lazy" decoding="async" src="/estatewatch/img/i5m4ao3BLd-1024.jpeg" width="1024" height="683">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.502295,-0.272799], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/southkilburn/" class="postlist-link">South Kilburn estate</a>
@@ -1195,6 +1995,14 @@ h2 + .header-anchor {
 		<img alt="sth kilburn estate" loading="lazy" decoding="async" src="/estatewatch/img/0h4efXK4mF-1082.jpeg" width="1082" height="844">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.533219,-0.198561], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/southlambeth/" class="postlist-link">South Lambeth estate</a>
@@ -1203,6 +2011,14 @@ h2 + .header-anchor {
 		<img alt="south lambeth estate" loading="lazy" decoding="async" src="/estatewatch/img/HFxm8e1a4U-1067.jpeg" width="1067" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.478668,-0.118861], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/stellarhouse/" class="postlist-link">Stellar House &amp; Atlair Close</a>
@@ -1211,6 +2027,14 @@ h2 + .header-anchor {
 		<img alt="stellar house" loading="lazy" decoding="async" src="/estatewatch/img/TA27pkr56U-968.webp" width="968" height="681">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.608284,-0.066563], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/stjohns/" class="postlist-link">St John&#39;s estate</a>
@@ -1219,6 +2043,14 @@ h2 + .header-anchor {
 		<img alt="alice shepherd house" loading="lazy" decoding="async" src="/estatewatch/img/8XgwGsW0Me-1024.jpeg" width="1024" height="682">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.499039,-0.008984], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/suttoncourt/" class="postlist-link">Sutton Court estate</a>
@@ -1227,6 +2059,14 @@ h2 + .header-anchor {
 		<img alt="sutton court estate" loading="lazy" decoding="async" src="/estatewatch/img/c7h3TS2ALn-800.jpeg" width="800" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.3577,-0.1901], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/teviot/" class="postlist-link">Teviot estate</a>
@@ -1235,6 +2075,14 @@ h2 + .header-anchor {
 		<img alt="Teviot estate" loading="lazy" decoding="async" src="/estatewatch/img/fzwTbpt6Oo-1422.jpeg" width="1422" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.518195,-0.012409], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/thamesmeadeast/" class="postlist-link">Lesnes estate (Thamesmead East phase 2)</a>
@@ -1243,6 +2091,14 @@ h2 + .header-anchor {
 		<img alt="lesnes estate" loading="lazy" decoding="async" src="/estatewatch/img/QsNL5E47Dp-620.jpeg" width="620" height="412">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.495310,0.126122], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/toplocks/" class="postlist-link">Toplocks estate</a>
@@ -1251,6 +2107,14 @@ h2 + .header-anchor {
 		<img alt="Toplocks estate" loading="lazy" decoding="async" src="/estatewatch/img/cVB94OW2iE-610.png" width="610" height="375">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.501843,-0.364982], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/trinityway/" class="postlist-link">Trinity Way estate</a>
@@ -1259,6 +2123,14 @@ h2 + .header-anchor {
 		<img alt="Trinity Way estate" loading="lazy" decoding="async" src="/estatewatch/img/aOvo0sYzpq-693.png" width="693" height="425">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.512025,-0.247614], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/tustin/" class="postlist-link">Tustin estate</a>
@@ -1267,6 +2139,14 @@ h2 + .header-anchor {
 		<img alt="tustin estate" loading="lazy" decoding="async" src="/estatewatch/img/6jrYMCFAkM-800.jpeg" width="800" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.480339,-0.054867], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/walbrook/" class="postlist-link">Walbrook House</a>
@@ -1275,6 +2155,14 @@ h2 + .header-anchor {
 		<img alt="Walbrook House" loading="lazy" decoding="async" src="/estatewatch/img/xg0X3yLC3b-650.png" width="650" height="431">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.628832,-0.045066], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/waterlooroad/" class="postlist-link">Waterloo Road estate</a>
@@ -1283,6 +2171,14 @@ h2 + .header-anchor {
 		<img alt="waterloo rd esate" loading="lazy" decoding="async" src="/estatewatch/img/JKstDzGU6Y-684.png" width="684" height="545">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.574334,0.176900], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/wendlingestate/" class="postlist-link">Wendling estate</a>
@@ -1291,6 +2187,14 @@ h2 + .header-anchor {
 		<img alt="wendling estate" loading="lazy" decoding="async" src="/estatewatch/img/Si3XkrRVzX-1422.jpeg" width="1422" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.551117,-0.156132], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/westbury/" class="postlist-link">Westbury estate</a>
@@ -1299,6 +2203,14 @@ h2 + .header-anchor {
 		<img alt="westbury estate" loading="lazy" decoding="async" src="/estatewatch/img/ea5tR5zIDc-1067.jpeg" width="1067" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.470468,-0.140646], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/westkentishtown/" class="postlist-link">West Kentish Town estate</a>
@@ -1307,6 +2219,14 @@ h2 + .header-anchor {
 		<img alt="west kentish town estate" loading="lazy" decoding="async" src="/estatewatch/img/GmkZMbSI77-1422.jpeg" width="1422" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.549409,-0.149254], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/whitefield/" class="postlist-link">Whitefield estate</a>
@@ -1315,6 +2235,14 @@ h2 + .header-anchor {
 		<img alt="whitefield esate" loading="lazy" decoding="async" src="/estatewatch/img/s28AERtzv2-980.jpeg" width="980" height="732">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.572426,-0.219515], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/winstanleyyork/" class="postlist-link">Winstanley &amp; York Road estates</a>
@@ -1323,6 +2251,14 @@ h2 + .header-anchor {
 		<img alt="Winstanley and york estate" loading="lazy" decoding="async" src="/estatewatch/img/Wu2T_2hjc5-1067.jpeg" width="1067" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.464762,-0.176427], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/woodberrydown/" class="postlist-link">Woodberry Down estate</a>
@@ -1331,6 +2267,14 @@ h2 + .header-anchor {
 		<img alt="woodberry down estate" loading="lazy" decoding="async" src="/estatewatch/img/Xh0YZmd800-640.jpeg" width="640" height="480">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.572949,-0.090658], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/wornington/" class="postlist-link">Wornington Green estate</a>
@@ -1339,6 +2283,14 @@ h2 + .header-anchor {
 		<img alt="description of development" loading="lazy" decoding="async" src="/estatewatch/img/FdSHmYYo9P-1422.jpeg" width="1422" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.523537,-0.212212], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/yeadinglane/" class="postlist-link">Yeading Lane 1 estate</a>
@@ -1347,6 +2299,14 @@ h2 + .header-anchor {
 		<img alt="Yeading Lane estate" loading="lazy" decoding="async" src="/estatewatch/img/e8AkdBDUEX-610.png" width="610" height="387">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.533307,-0.394019], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/yeadinglane2/" class="postlist-link">Yeading Lane 2 estate</a>
@@ -1355,8 +2315,17 @@ h2 + .header-anchor {
 		<img alt="Yeading Lane estate" loading="lazy" decoding="async" src="/estatewatch/img/U6OE1QnaOP-633.png" width="633" height="325">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.531224,-0.381707], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 </ol>
+
 
 
 

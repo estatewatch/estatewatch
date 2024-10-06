@@ -567,6 +567,22 @@ h2 + .header-anchor {
 <p><strong>Links:</strong></p>
 <p>Hounslow's <a href="https://www.hounslow.gov.uk/news/article/2311/residents_overwhelmingly_voted_yes_to_the_exciting_plans_to_transform_their_estate">website</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.486105,-0.300195], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.486105,-0.300195], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/akLuLGtRBw-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/akLuLGtRBw-1067.webp 1067w"><img alt="charlton house" loading="lazy" decoding="async" src="/estatewatch/img/akLuLGtRBw-1067.jpeg" width="1067" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/sYYOepITyB-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/sYYOepITyB-1067.webp 1067w"><img alt="charlton house" loading="lazy" decoding="async" src="/estatewatch/img/sYYOepITyB-1067.jpeg" width="1067" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/l0zQ1gSFWC-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/l0zQ1gSFWC-1067.webp 1067w"><img alt="charlton house" loading="lazy" decoding="async" src="/estatewatch/img/l0zQ1gSFWC-1067.jpeg" width="1067" height="800"></picture>

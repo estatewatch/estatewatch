@@ -578,6 +578,23 @@ h2 + .header-anchor {
 <p>Merton's planning application docs - <a href="https://planning.merton.gov.uk/MVM/Online/DMS/DocumentViewer.aspx?pk=1000098159&amp;SearchType=Planning%20Application">ref:17/P1721</a></p>
 <p>Mayor's <a href="https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/high-path-estate">stage 2 report</a> - approved Nov 2018</p>
 <p><a href="https://www.myclarionhousing.com/-/media/57A74ED432A347FE8636BFE20B10AB19.pdf?la=en&amp;sc_revision=de07b12b190e4b71a6bfde09c29e333c&amp;hash=9852FCA77FDFA41CC719944E317C4CB5E38CD263&amp;hash=9852FCA77FDFA41CC719944E317C4CB5E38CD263">Exhibition boards</a> for the consultation for phase 2 of the scheme.</p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.414691,-0.190444], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.414691,-0.190444], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1pe_DEn1TWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 

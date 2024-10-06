@@ -567,6 +567,22 @@ h2 + .header-anchor {
 <p><strong>Links:</strong>
 <a href="https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_469670///westbury_estate_report.pdf">Mayor's stage 1 and 2 reports</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.470468,-0.140646], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.470468,-0.140646], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/UsHVpWkQta-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/UsHVpWkQta-1067.webp 1067w"><img alt="westbury estate" loading="lazy" decoding="async" src="/estatewatch/img/UsHVpWkQta-1067.jpeg" width="1067" height="600"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/J5q8am2AXL-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/J5q8am2AXL-1067.webp 1067w"><img alt="westbury estate" loading="lazy" decoding="async" src="/estatewatch/img/J5q8am2AXL-1067.jpeg" width="1067" height="600"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/0cV_nA4JKt-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/0cV_nA4JKt-1067.webp 1067w"><img alt="westbury estate" loading="lazy" decoding="async" src="/estatewatch/img/0cV_nA4JKt-1067.jpeg" width="1067" height="600"></picture>

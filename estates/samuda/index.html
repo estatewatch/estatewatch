@@ -576,7 +576,23 @@ h2 + .header-anchor {
 <hr>
 <p><strong>Links:</strong></p>
 <p><a href="https://www.onehousing.co.uk/about-us/what-we-do/development-and-regeneration/isle-of-dogs/kelson-house,-dagmar-court,-halyard-house-and-talia-house">OHGs Website for the scheme</a></p>
-<p>Dedicated website for residents only - <a href="https://futuresamuda.co.uk">https://futuresamuda.co.uk</a></p>
+<p>Dedicated website for residents - <a href="https://futuresamuda.co.uk">https://futuresamuda.co.uk</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.496571,-0.008458], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.496571,-0.008458], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 <hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/Ka6cmeUc-O-677.avif 677w"><source type="image/webp" srcset="/estatewatch/img/Ka6cmeUc-O-677.webp 677w"><img alt="samuda estate" loading="lazy" decoding="async" src="/estatewatch/img/Ka6cmeUc-O-677.jpeg" width="677" height="483"></picture></p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/8QNA3vELwn-718.avif 718w"><source type="image/webp" srcset="/estatewatch/img/8QNA3vELwn-718.webp 718w"><img alt="samuda estate" loading="lazy" decoding="async" src="/estatewatch/img/8QNA3vELwn-718.png" width="718" height="535"></picture></p>

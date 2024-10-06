@@ -372,7 +372,10 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			<h1>Tagged “Merton”</h1>
+			 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+     
+<h1>Tagged “Merton”</h1>
 
 
 
@@ -385,6 +388,14 @@ h2 + .header-anchor {
 		<img alt="Eastfields estate" loading="lazy" decoding="async" src="/estatewatch/img/_PxFddPHEC-1500.jpeg" width="1500" height="844">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.407168,-0.149209], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/highpath/" class="postlist-link">High Path estate</a>
@@ -393,6 +404,14 @@ h2 + .header-anchor {
 		<img alt="high path estate" loading="lazy" decoding="async" src="/estatewatch/img/scEux8liKd-1024.jpeg" width="1024" height="683">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.414691,-0.190444], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 </ol>
 

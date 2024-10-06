@@ -372,7 +372,10 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			<h1>Tagged “City of London”</h1>
+			 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+     
+<h1>Tagged “City of London”</h1>
 
 
 
@@ -385,6 +388,14 @@ h2 + .header-anchor {
 		<img alt="mansell st estate" loading="lazy" decoding="async" src="/estatewatch/img/HR8AH9XlCk-1067.jpeg" width="1067" height="800">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.512782,-0.073840], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 </ol>
 

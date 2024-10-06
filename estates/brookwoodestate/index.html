@@ -562,6 +562,22 @@ h2 + .header-anchor {
 <p>In the <a href="https://democraticservices.hounslow.gov.uk/documents/s157644/CEX432%20Housing%20Estate%20Regeneration%20Programme.pdf">Cabinet report</a> it was agreed that six estates had already been identified as 'poor performing estates' and that these would be considered for early redevelopment.</p>
 <p>The six estates are: the Brabazon estate; the Brookwood estate; Charlton House; the Convent Way estate; the Norman Crescent estate and the Oriel estate.</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.475927,-0.362360], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.475927,-0.362360], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/c8wKwN4md--1164.avif 1164w"><source type="image/webp" srcset="/estatewatch/img/c8wKwN4md--1164.webp 1164w"><img alt="Brookwood estate aerial" loading="lazy" decoding="async" src="/estatewatch/img/c8wKwN4md--1164.png" width="1164" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/q8lNw88Dw2-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/q8lNw88Dw2-1067.webp 1067w"><img alt="Brookwood esatte" loading="lazy" decoding="async" src="/estatewatch/img/q8lNw88Dw2-1067.jpeg" width="1067" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/wyjWZ0qQpe-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/wyjWZ0qQpe-1067.webp 1067w"><img alt="Bkwood estate" loading="lazy" decoding="async" src="/estatewatch/img/wyjWZ0qQpe-1067.jpeg" width="1067" height="800"></picture>

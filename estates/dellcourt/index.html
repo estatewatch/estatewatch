@@ -562,6 +562,22 @@ h2 + .header-anchor {
 <p>It is unclear whether Havering intends to ballot residents at this stage.</p>
 <p>Havering's <a href="https://www.investinhavering.co.uk/wp-content/uploads/2017/03/Vision-interactive-map.pdf">investment prospectus</a> provides further details of the scheme.</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.557480,0.225340], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.557480,0.225340], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/kpUyRiUyBn-688.avif 688w"><source type="image/webp" srcset="/estatewatch/img/kpUyRiUyBn-688.webp 688w"><img alt="Dell court" loading="lazy" decoding="async" src="/estatewatch/img/kpUyRiUyBn-688.png" width="688" height="501"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/1RoYvxHh-V-668.avif 668w"><source type="image/webp" srcset="/estatewatch/img/1RoYvxHh-V-668.webp 668w"><img alt="Dell court" loading="lazy" decoding="async" src="/estatewatch/img/1RoYvxHh-V-668.png" width="668" height="510"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/hKnc3k1RCx-646.avif 646w"><source type="image/webp" srcset="/estatewatch/img/hKnc3k1RCx-646.webp 646w"><img alt="Dell court" loading="lazy" decoding="async" src="/estatewatch/img/hKnc3k1RCx-646.png" width="646" height="506"></picture></p>

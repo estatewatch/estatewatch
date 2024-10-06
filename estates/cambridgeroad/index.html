@@ -584,6 +584,22 @@ In October 2016, Kingston published a <a href="https://www.kingston.gov.uk/downl
 <p>The Mayor's stage 1 report is available <a href="https://gla.force.com/pr/s/planning-application/a0i4J000002UOhyQAG/20206860?tabset-c2f3b=2">here.</a></p>
 <p>The planning application was approved in January 2022.</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.408046,-0.287284], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.408046,-0.287284], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/GzdST5Q88w-968.avif 968w"><img alt="Cambridge Rd estate" loading="lazy" decoding="async" src="/estatewatch/img/GzdST5Q88w-968.webp" width="968" height="645"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/jPmEubJfLp-670.avif 670w"><source type="image/webp" srcset="/estatewatch/img/jPmEubJfLp-670.webp 670w"><img alt="Cambridge Rd estate aerial" loading="lazy" decoding="async" src="/estatewatch/img/jPmEubJfLp-670.png" width="670" height="435"></picture></p>
 

@@ -578,6 +578,22 @@ Planning application and supporting documents: <a href="https://publicaccess.bar
 <p>Planning officer report for the rejected planning application: <a href="https://barnet.moderngov.co.uk/documents/s65028/Douglas%20Bader%20Park%20Estate.pdf">https://barnet.moderngov.co.uk/documents/s65028/Douglas%20Bader%20Park%20Estate.pdf</a></p>
 <p>The Mayor's stage 1 report: <a href="https://gla.force.com/pr/s/planning-application/a0i4J000002fSv8QAE/20210141?tabset-c2f3b=2">https://gla.force.com/pr/s/planning-application/a0i4J000002fSv8QAE/20210141?tabset-c2f3b=2</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.604697,-0.249247], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.604697,-0.249247], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/KNocC6zbW8-737.avif 737w"><source type="image/webp" srcset="/estatewatch/img/KNocC6zbW8-737.webp 737w"><img alt="Dollis Valley" loading="lazy" decoding="async" src="/estatewatch/img/KNocC6zbW8-737.jpeg" width="737" height="543"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/5hUeBn49B--694.avif 694w"><source type="image/webp" srcset="/estatewatch/img/5hUeBn49B--694.webp 694w"><img alt="Dollis Valley" loading="lazy" decoding="async" src="/estatewatch/img/5hUeBn49B--694.png" width="694" height="528"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/dLY8UhozjP-705.avif 705w"><source type="image/webp" srcset="/estatewatch/img/dLY8UhozjP-705.webp 705w"><img alt="Dollis Valley" loading="lazy" decoding="async" src="/estatewatch/img/dLY8UhozjP-705.png" width="705" height="496"></picture>

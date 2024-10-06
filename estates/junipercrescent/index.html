@@ -585,6 +585,22 @@ h2 + .header-anchor {
 <p><strong>Links:</strong></p>
 <p>Article in the local press: <a href="http://camdennewjournal.com/article/now-listen-to-us-say-tenants-who-won-vote-against-demolition-bid">http://camdennewjournal.com/article/now-listen-to-us-say-tenants-who-won-vote-against-demolition-bid</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.542436,-0.150620], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.542436,-0.150620], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/YYR7qSmDZ9-1422.avif 1422w"><source type="image/webp" srcset="/estatewatch/img/YYR7qSmDZ9-1422.webp 1422w"><img alt="juniper crescent estate" loading="lazy" decoding="async" src="/estatewatch/img/YYR7qSmDZ9-1422.jpeg" width="1422" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/ahVXvt-qAk-1422.avif 1422w"><source type="image/webp" srcset="/estatewatch/img/ahVXvt-qAk-1422.webp 1422w"><img alt="juniper crescent estate" loading="lazy" decoding="async" src="/estatewatch/img/ahVXvt-qAk-1422.jpeg" width="1422" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/koOrTxHFWF-1422.avif 1422w"><source type="image/webp" srcset="/estatewatch/img/koOrTxHFWF-1422.webp 1422w"><img alt="juniper crescent estate" loading="lazy" decoding="async" src="/estatewatch/img/koOrTxHFWF-1422.jpeg" width="1422" height="800"></picture>

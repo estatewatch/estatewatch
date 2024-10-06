@@ -372,7 +372,10 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			<h1>Tagged “Greenwich”</h1>
+			 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+     
+<h1>Tagged “Greenwich”</h1>
 
 
 
@@ -385,6 +388,14 @@ h2 + .header-anchor {
 		<img alt="Brookhill close" loading="lazy" decoding="async" src="/estatewatch/img/ez5idVMGb2-689.png" width="689" height="577">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.483649,0.065543], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/maryongrove/" class="postlist-link">Maryon Grove estate</a>
@@ -393,6 +404,14 @@ h2 + .header-anchor {
 		<img alt="Maryon Grove estate" loading="lazy" decoding="async" src="/estatewatch/img/Yks1t2cnSb-697.png" width="697" height="560">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.487680,0.049174], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 </ol>
 

@@ -580,6 +580,22 @@ h2 + .header-anchor {
 <p><a href="https://gla.force.com/pr/s/planning-application/a0i4J0000003Tu8QAE/20200543hs2?tabset-c2f3b=2">Mayor's Stage 2 planning report</a></p>
 <p><a href="https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=PZ5MNBJI0I700">Barnet Planning Portal - planning application supporting docs (ref:19/5493/OUT)</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.602271,-0.244782], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.602271,-0.244782], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/r3qX8zgIFe-2048.avif 2048w"><source type="image/webp" srcset="/estatewatch/img/r3qX8zgIFe-2048.webp 2048w"><img alt="Grahame Park estate" loading="lazy" decoding="async" src="/estatewatch/img/r3qX8zgIFe-2048.jpeg" width="2048" height="1536"></picture></p>
 
 

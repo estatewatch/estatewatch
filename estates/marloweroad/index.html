@@ -574,6 +574,23 @@ h2 + .header-anchor {
 Waltham Forest's <a href="/estatewatch/images/MarloweRdCPO.pdf">Statement of Reasons</a> for its 2019 Compulsory Purchase Order.</p>
 <p><a href="https://planning.walthamforest.gov.uk/planning/search-applications?civica.query.FullTextSearch=151652#VIEW?RefType=APPPlanCase&amp;KeyText=151652">Waltham Forest's planning application docs (ref:151652)</a></p>
 <p><a href="https://gla.force.com/pr/s/planning-application/a0i4J0000003TaCQAU/20163106as2?tabset-c2f3b=2">The Mayor's Stage 1 and Stage 2 reports</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.587181,-0.006070], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.587181,-0.006070], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

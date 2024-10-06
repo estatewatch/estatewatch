@@ -571,6 +571,23 @@ h2 + .header-anchor {
 <p><strong>Links:</strong><br>
 <a href="https://planningandbuildingcontrol.enfield.gov.uk/online-applications/simpleSearchResults.do?action=firstPage">Application for scoping opinion (ref:21/03691/SCOP)</a></p>
 <p><a href="https://betterhomes-enfield.org/2022/11/28/the-demolition-of-joyce-avenue-snells-park/">Better Homes Enfield - report</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.612022,-0.066698], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.612022,-0.066698], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

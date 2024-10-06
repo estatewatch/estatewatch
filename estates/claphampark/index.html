@@ -569,6 +569,22 @@ h2 + .header-anchor {
 <p><a href="https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_482169///clapham_park_estate_report.pdf">GLA stage 1 and stage 2 reports</a></p>
 <p><a href="https://planning.lambeth.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=OTYBF7BOJXE00">Planning application documents</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.449331,-0.133379], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.449331,-0.133379], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/y0dcH2RBuJ-697.avif 697w"><source type="image/webp" srcset="/estatewatch/img/y0dcH2RBuJ-697.webp 697w"><img alt="clapham park estate" loading="lazy" decoding="async" src="/estatewatch/img/y0dcH2RBuJ-697.jpeg" width="697" height="526"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/RKKBsBXWA5-654.avif 654w"><source type="image/webp" srcset="/estatewatch/img/RKKBsBXWA5-654.webp 654w"><img alt="clapham park estate" loading="lazy" decoding="async" src="/estatewatch/img/RKKBsBXWA5-654.png" width="654" height="481"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/EJ8UwL-GWN-658.avif 658w"><source type="image/webp" srcset="/estatewatch/img/EJ8UwL-GWN-658.webp 658w"><img alt="clapham park estate" loading="lazy" decoding="async" src="/estatewatch/img/EJ8UwL-GWN-658.png" width="658" height="500"></picture>

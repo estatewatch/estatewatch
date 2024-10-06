@@ -574,6 +574,23 @@ h2 + .header-anchor {
 <p><strong>Links:</strong><br>
 <a href="/estatewatch/images/AD_Estate_Landlord_Offer.pdf">Landlord Offer document</a></p>
 <p>GLA <a href="https://planapps.london.gov.uk/planningapps/76551-APP-2021-4502">planning reports</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.510758,-0.406199], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.510758,-0.406199], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

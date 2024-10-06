@@ -566,6 +566,22 @@ h2 + .header-anchor {
 <a href="https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/mansell-street-estate-haydon-sqaure">GLA stage 1 report</a></p>
 <p><a href="https://www.guinnesspartnership.com/case-study/mansell-street-city-london/">Guiness website FAQs on the Mansell Street scheme</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.512782,-0.073840], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.512782,-0.073840], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/XjrZ3yuTMR-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/XjrZ3yuTMR-1067.webp 1067w"><img alt="mansell st estate" loading="lazy" decoding="async" src="/estatewatch/img/XjrZ3yuTMR-1067.jpeg" width="1067" height="800"></picture></p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/Fj8Ta2VuMr-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/Fj8Ta2VuMr-1067.webp 1067w"><img alt="mansell st estate" loading="lazy" decoding="async" src="/estatewatch/img/Fj8Ta2VuMr-1067.jpeg" width="1067" height="800"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/mkv7FPiP5w-1067.avif 1067w"><source type="image/webp" srcset="/estatewatch/img/mkv7FPiP5w-1067.webp 1067w"><img alt="mansell st estate" loading="lazy" decoding="async" src="/estatewatch/img/mkv7FPiP5w-1067.jpeg" width="1067" height="800"></picture>

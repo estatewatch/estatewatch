@@ -553,13 +553,29 @@ h2 + .header-anchor {
 <span class="token key atrule">Developer</span><span class="token punctuation">:</span> 
 <span class="token key atrule">Itla</span><span class="token punctuation">:</span> 
 <span class="token key atrule">Architect</span><span class="token punctuation">:</span> 
-<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> 
+<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Required
 Planning Status<span class="token punctuation">:</span></code></pre>
 
 <p><picture><source type="image/avif" srcset="/estatewatch/img/e8AkdBDUEX-610.avif 610w"><source type="image/webp" srcset="/estatewatch/img/e8AkdBDUEX-610.webp 610w"><img alt="Yeading Lane estate" loading="lazy" decoding="async" src="/estatewatch/img/e8AkdBDUEX-610.png" width="610" height="387"></picture></p>
 <p>Circa 500 homes at the Yeading Lane 1 estate in Northolt have been earmarked for potential redevelopment in Ealing's <a href="https://www.ealing.gov.uk/download/downloads/id/19587/appendix_e_-_results.pdf">2024 Local Plan</a>.</p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/TRcRa6ISG8-961.avif 961w"><source type="image/webp" srcset="/estatewatch/img/TRcRa6ISG8-961.webp 961w"><img alt="Yeading Lane site allocation" loading="lazy" decoding="async" src="/estatewatch/img/TRcRa6ISG8-961.png" width="961" height="499"></picture></p>
 <p>It is not known if residents have been made aware of the designation. The site allocation states that it <em>&quot;is a strategic site for Northolt. Although not actively being marketed, there is interest in regeneration of the site, which should come forward within 6-10 years.&quot;</em></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.533307,-0.394019], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.533307,-0.394019], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 <hr>
 
 

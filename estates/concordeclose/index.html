@@ -570,6 +570,23 @@ h2 + .header-anchor {
 Home Group's website - <a href="https://www.homegroup.org.uk/about-us/working-with-us/development-partners/regeneration/concorde-close/?">https://www.homegroup.org.uk/about-us/working-with-us/development-partners/regeneration/concorde-close/?</a></p>
 <p>TRA website - <a href="https://concordeclose.co.uk">https://concordeclose.co.uk</a></p>
 <p>2018 Planning Committee report: <a href="https://democraticservices.hounslow.gov.uk/documents/s147678/Concorde%20Close-Final1.pdf">https://democraticservices.hounslow.gov.uk/documents/s147678/Concorde Close-Final1.pdf</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.471914,-0.366567], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.471914,-0.366567], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

@@ -582,6 +582,22 @@ One Housing Group's website - <a href="https://www.onehousing.co.uk/about-us/wha
 <p>July 2021 Consultation Boards - <a href="https://www.onehousing.co.uk/__data/assets/pdf_file/0021/27633/20210616_Consultation-Event-Boards-for-web.pdf">https://www.onehousing.co.uk/__data/assets/pdf_file/0021/27633/20210616_Consultation-Event-Boards-for-web.pdf</a></p>
 <p><a href="src/images/stjohnslandoffer.pdf">Landlord Offer</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.499039,-0.008984], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.499039,-0.008984], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/VWpSuVVkXJ-4000.avif 4000w"><source type="image/webp" srcset="/estatewatch/img/VWpSuVVkXJ-4000.webp 4000w"><img alt="st john's estate" loading="lazy" decoding="async" src="/estatewatch/img/VWpSuVVkXJ-4000.jpeg" width="4000" height="3000"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/bDsok6R4HU-602.avif 602w"><source type="image/webp" srcset="/estatewatch/img/bDsok6R4HU-602.webp 602w"><img alt=" st john estate" loading="lazy" decoding="async" src="/estatewatch/img/bDsok6R4HU-602.png" width="602" height="486"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/PomrPQ8VV9-4000.avif 4000w"><source type="image/webp" srcset="/estatewatch/img/PomrPQ8VV9-4000.webp 4000w"><img alt="st john's estate" loading="lazy" decoding="async" src="/estatewatch/img/PomrPQ8VV9-4000.jpeg" width="4000" height="3000"></picture>

@@ -570,6 +570,22 @@ h2 + .header-anchor {
 <p>Enfield's <a href="https://planningandbuildingcontrol.enfield.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=O5KV2MJN04Y00">planning application documents</a></p>
 <p>The Mayor's <a href="https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_394835///new_avenue_estate_report.pdf">stage 1 and stage 2 reports</a> (April 2018)</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.639810,-0.135530], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.639810,-0.135530], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/Z-r1KmieNl-824.avif 824w"><source type="image/webp" srcset="/estatewatch/img/Z-r1KmieNl-824.webp 824w"><img alt="new avenue estate" loading="lazy" decoding="async" src="/estatewatch/img/Z-r1KmieNl-824.png" width="824" height="568"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/vEDt95E1iP-647.avif 647w"><source type="image/webp" srcset="/estatewatch/img/vEDt95E1iP-647.webp 647w"><img alt="new avenue estate" loading="lazy" decoding="async" src="/estatewatch/img/vEDt95E1iP-647.png" width="647" height="504"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/MripWRDMQq-803.avif 803w"><source type="image/webp" srcset="/estatewatch/img/MripWRDMQq-803.webp 803w"><img alt="new avenue estate" loading="lazy" decoding="async" src="/estatewatch/img/MripWRDMQq-803.png" width="803" height="572"></picture></p>

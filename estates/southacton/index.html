@@ -576,6 +576,22 @@ h2 + .header-anchor {
 <p>Mayor's planning report for the 2018 revised masterplan: <a href="https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/acton-gardens-masterplan">https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/acton-gardens-masterplan</a></p>
 <p>Ealing's planning documents for the original 2013 masterplan (first phase): <a href="https://pam.ealing.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=ZZZW7IJMTA900">https://pam.ealing.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=ZZZW7IJMTA900</a></p>
 <p>Ealing's planning documents for the revised 2018 masterplan: <a href="https://pam.ealing.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=P9JR5LJMI6Q00">https://pam.ealing.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=P9JR5LJMI6Q00</a></p>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.502295,-0.272799], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.502295,-0.272799], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

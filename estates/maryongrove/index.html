@@ -574,6 +574,23 @@ h2 + .header-anchor {
 <p><strong>Links:</strong></p>
 <p><a href="https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_251849///one_woolwich_maryon_road_report.pdf">GLA Stage 1 and 2 reports</a></p>
 <p>Greenwich Council's <a href="https://www.royalgreenwich.gov.uk/info/200200/regeneration/142/woolwich_regeneration/2">website</a> page with information about the scheme.</p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.487680,0.049174], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.487680,0.049174], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

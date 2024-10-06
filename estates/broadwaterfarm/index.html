@@ -567,6 +567,22 @@ h2 + .header-anchor {
 <p>Haringey's <a href="https://www.haringey.gov.uk/sites/haringeygovuk/files/broadwater_farm_rehousing_and_payments_policy.pdf">shared equity offer</a> for leaseholders requires them to be able to afford a 60% share in any replacement home, which may require them to take out a second mortgage or invest personal savings. It also prohibits descendants from inheriting the equity share, which means the leaseholder can't pass their home on to their children.</p>
 <p>A planning application was approved in 2022 for a total of 294 new homes.</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.594340,-0.080927], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.594340,-0.080927], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/7-zZ1vNr_G-1248.avif 1248w"><source type="image/webp" srcset="/estatewatch/img/7-zZ1vNr_G-1248.webp 1248w"><img alt="Broadwater Farm" loading="lazy" decoding="async" src="/estatewatch/img/7-zZ1vNr_G-1248.jpeg" width="1248" height="875"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/1t9amX6Ufh-851.avif 851w"><source type="image/webp" srcset="/estatewatch/img/1t9amX6Ufh-851.webp 851w"><img alt="Broadwater farm estate" loading="lazy" decoding="async" src="/estatewatch/img/1t9amX6Ufh-851.jpeg" width="851" height="646"></picture></p>
 

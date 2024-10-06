@@ -574,6 +574,23 @@ h2 + .header-anchor {
 <hr>
 <p><strong>Links:</strong></p>
 <p><a href="https://www.rbkc.gov.uk/planning/searches/details.aspx?adv=0&amp;simple=Wornington&amp;simpleBatch=20&amp;simSubmit=Search&amp;id=PP/21/07028&amp;cn=269186+CBRE+UK+Henrietta+House+8+Henrietta+Place+&amp;type=application&amp;tab=tabs-planning-1%3E">RBKC's planning application (ref:PP/21/07028)</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.523537,-0.212212], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.523537,-0.212212], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

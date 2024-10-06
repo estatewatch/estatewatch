@@ -372,7 +372,10 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			<h1>Tagged “Lewisham”</h1>
+			 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+     
+<h1>Tagged “Lewisham”</h1>
 
 
 
@@ -385,6 +388,14 @@ h2 + .header-anchor {
 		<img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/Yy90CdZ9yY-1067.jpeg" width="1067" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.476452,-0.035341], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/milfordtowers/" class="postlist-link">Milford Towers</a>
@@ -393,6 +404,14 @@ h2 + .header-anchor {
 		<img alt="milford towers" loading="lazy" decoding="async" src="/estatewatch/img/ympxlFi3gh-725.png" width="725" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.446550,-0.022020], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 </ol>
 

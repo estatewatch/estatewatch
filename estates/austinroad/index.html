@@ -575,6 +575,22 @@ h2 + .header-anchor {
 <p><a href="/estatewatch/images/HTC_Estate_Landlord_Offer.pdf">Landlord Offer</a></p>
 <p>GLA <a href="https://planning.london.gov.uk/pr/s/planning-application/a0i4J000006cAjLQAU/20211258?tabset-c2f3b=2">planning reports</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.505778,-0.417528], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.505778,-0.417528], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/_9ZoSl3gWr-770.avif 770w"><source type="image/webp" srcset="/estatewatch/img/_9ZoSl3gWr-770.webp 770w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/_9ZoSl3gWr-770.png" width="770" height="620"></picture></p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/fsPqvhOtKr-1007.avif 1007w"><source type="image/webp" srcset="/estatewatch/img/fsPqvhOtKr-1007.webp 1007w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/fsPqvhOtKr-1007.png" width="1007" height="725"></picture></p>
 

@@ -572,6 +572,22 @@ h2 + .header-anchor {
 <p>Newlon's <a href="/estatewatch/images/BansburyOffer.pdf">Landlord Offer</a></p>
 <p>GLA <a href="https://planning.london.gov.uk/pr/s/planning-application/a0i4J000006ceumQAA/20220438?tabset-c2f3b=2">planning report</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.536269,-0.114844], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.536269,-0.114844], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/t1n57zosRC-895.avif 895w"><source type="image/webp" srcset="/estatewatch/img/t1n57zosRC-895.webp 895w"><img alt="second barnsbury image" loading="lazy" decoding="async" src="/estatewatch/img/t1n57zosRC-895.png" width="895" height="625"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/U4eKpeh1WL-731.avif 731w"><source type="image/webp" srcset="/estatewatch/img/U4eKpeh1WL-731.webp 731w"><img alt="third barnsbury image" loading="lazy" decoding="async" src="/estatewatch/img/U4eKpeh1WL-731.png" width="731" height="581"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/AK7nfiQYqK-858.avif 858w"><source type="image/webp" srcset="/estatewatch/img/AK7nfiQYqK-858.webp 858w"><img alt="fourth barnsbury image" loading="lazy" decoding="async" src="/estatewatch/img/AK7nfiQYqK-858.png" width="858" height="600"></picture></p>

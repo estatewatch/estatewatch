@@ -572,12 +572,30 @@ It was <a href="https://lbhf.maps.arcgis.com/apps/webappviewer/index.html?id=7ca
 <p>In February 2021, Westminster Council came under fire after it was <a href="https://londonnewsonline.co.uk/residents-petrified-that-housing-development-could-destroy-businesses/">reported</a> that retailers had been served with notices to quit in the next phase of the Council's redevelopment of the <a href="https://estatewatch.london/estates/westminster/churchstreet/">Church Street area estates</a>.</p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/pxF_a3XDyY-880.avif 880w"><source type="image/webp" srcset="/estatewatch/img/pxF_a3XDyY-880.webp 880w"><img alt="alt text" loading="lazy" decoding="async" src="/estatewatch/img/pxF_a3XDyY-880.png" width="880" height="606"></picture></p>
 <p>Westminster's <a href="https://www.westminster.gov.uk/housing-policy-and-strategy/leaseholder-policy-housing-renewal-areas">policy for leaseholder re-housing</a> requires leaseholders to take out a new mortgage if they want to take up the Council's shared equity offer on a new home being built as part of the scheme.</p>
+<hr>
 <p><strong>Links:</strong>
 Westminster Council has a <a href="https://churchstreet.org/">dedicated website</a> for the Church Street regeneration.</p>
 <p><a href="https://churchstreet.org/assets/Documents/140_55-WCC-Church-Street-ABC-consultation-stage-2_Booklet_web_AW2.pdf">Pre-application consultation booklet</a></p>
 <p><a href="https://churchstreet.org/assets/Documents/Church-St-Consultation-Report.pdf">Resident consulation report</a></p>
 <p><a href="https://idoxpa.westminster.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=R3DM1ZRP02T00">Planning application documents, ref:021/08160/COOUT</a></p>
 <p>Westminster's <a href="/estatewatch/images/ChurchStreetLandlordOffer.pdf">Landlord Offer</a> to residents ahead of the 2022 ballot.</p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.523316,-0.170681], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.523316,-0.170681], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

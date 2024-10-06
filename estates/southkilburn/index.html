@@ -573,6 +573,22 @@ h2 + .header-anchor {
 </center>
 <p>In february 2022, the Guardian published a <a href="https://www.theguardian.com/artanddesign/2022/feb/22/mellow-yellow-south-kilburn-feelgood-buttery-brick-revived-1960s-estate">detailed critique</a> of the scheme.</p>
 <p>In March 2024, the BBC published an article about the decanted estate being left in a state of severe decay: <a href="https://www.bbc.co.uk/news/uk-england-london-68440067">https://www.bbc.co.uk/news/uk-england-london-68440067</a></p>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.533219,-0.198561], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.533219,-0.198561], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

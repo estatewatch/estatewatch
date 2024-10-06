@@ -561,6 +561,22 @@ Planning Status<span class="token punctuation">:</span></code></pre>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/3iLdkf1jlJ-964.avif 964w"><source type="image/webp" srcset="/estatewatch/img/3iLdkf1jlJ-964.webp 964w"><img alt="Medlar Farm site allocation" loading="lazy" decoding="async" src="/estatewatch/img/3iLdkf1jlJ-964.png" width="964" height="495"></picture></p>
 <p>It is not known if residents have been made aware of the designation. The site allocation states that it is expected to come forward in the next 6-15 years.</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.535476,-0.389080], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.535476,-0.389080], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

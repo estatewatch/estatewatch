@@ -569,6 +569,23 @@ h2 + .header-anchor {
 <hr>
 <p><strong>Links:</strong></p>
 <p>June 2024 <a href="https://democracy.croydon.gov.uk/documents/s59160/Regina%20Road%20Cabinet%20Report%20-%20Project%20Update%2015.07.24.pdf">Cabinet report</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.400864,-0.069866], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.400864,-0.069866], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 		</main>

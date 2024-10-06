@@ -372,7 +372,10 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			<h1>Tagged “Brent”</h1>
+			 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+     
+<h1>Tagged “Brent”</h1>
 
 
 
@@ -385,6 +388,14 @@ h2 + .header-anchor {
 		<img alt="severn way" loading="lazy" decoding="async" src="/estatewatch/img/A8_pwk2b2U-800.jpeg" width="800" height="600">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.552401,-0.246721], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 	<li class="estateslist-item">
 		<a href="/estatewatch/estates/southkilburn/" class="postlist-link">South Kilburn estate</a>
@@ -393,6 +404,14 @@ h2 + .header-anchor {
 		<img alt="sth kilburn estate" loading="lazy" decoding="async" src="/estatewatch/img/0h4efXK4mF-1082.jpeg" width="1082" height="844">
 		</a>
 	</li>
+	<script>
+var circle = L.circle([51.533219,-0.198561], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 
 </ol>
 

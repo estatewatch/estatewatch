@@ -578,6 +578,22 @@ h2 + .header-anchor {
 <p><a href="https://planning.southwark.gov.uk/online-applications/applicationDetails.do?keyVal=ZZZV1BKBWR660&amp;activeTab=summary">LA - Planning application documents</a></p>
 <p><a href="https://planapps.london.gov.uk/?planAppFilters=%255B%257B%2522or%2522%253A%255B%257B%2522name%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%252C%257B%2522glaReference%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%252C%257B%2522reference%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%252C%257B%2522postcode%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%255D%257D%252C%257B%2522project_id%2522%253A%257B%2522eq%2522%253A%2522637e245db0b8894bb2cb3034%2522%257D%257D%255D%2526planAppValues%253D%257B%2522general%2522%253A%2522aylesbury%2520estate%2522%257D">GLA - Planning reports</a></p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.485789,-0.084806], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.485789,-0.084806], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/ptQffLdCwD-855.avif 855w"><source type="image/webp" srcset="/estatewatch/img/ptQffLdCwD-855.webp 855w"><img alt="Aylesbury estate FDS green space" loading="lazy" decoding="async" src="/estatewatch/img/ptQffLdCwD-855.jpeg" width="855" height="641"></picture></p>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/7Yrq7DhBDa-868.avif 868w"><source type="image/webp" srcset="/estatewatch/img/7Yrq7DhBDa-868.webp 868w"><img alt="Aylesbury estate alternative ident" loading="lazy" decoding="async" src="/estatewatch/img/7Yrq7DhBDa-868.png" width="868" height="641"></picture></p>
 

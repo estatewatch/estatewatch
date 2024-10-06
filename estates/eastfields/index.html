@@ -588,6 +588,22 @@ h2 + .header-anchor {
 <p>June 2021 ITV report - <a href="https://www.itv.com/news/2021-06-16/collapsed-ceilings-mice-and-mould-appalling-conditions-uncovered-across-an-entire-housing-estate-of-nearly-500-homes">https://www.itv.com/news/2021-06-16/collapsed-ceilings-mice-and-mould-appalling-conditions-uncovered-across-an-entire-housing-estate-of-nearly-500-homes</a></p>
 <p>Mayor's <a href="https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/eastfields-estate">Stage 1 and Stage 2 planning reports</a> - approved Nov 2018</p>
 <hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.407168,-0.149209], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.407168,-0.149209], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 <p><picture><source type="image/avif" srcset="/estatewatch/img/UvBce8OMVw-1266.avif 1266w"><source type="image/webp" srcset="/estatewatch/img/UvBce8OMVw-1266.webp 1266w"><img alt="Eastfields estate" loading="lazy" decoding="async" src="/estatewatch/img/UvBce8OMVw-1266.jpeg" width="1266" height="844"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/P5il6q1_Z6-1125.avif 1125w"><source type="image/webp" srcset="/estatewatch/img/P5il6q1_Z6-1125.webp 1125w"><img alt="Eastfields estate" loading="lazy" decoding="async" src="/estatewatch/img/P5il6q1_Z6-1125.jpeg" width="1125" height="844"></picture>
 <picture><source type="image/avif" srcset="/estatewatch/img/XAPflveYPo-1287.avif 1287w"><source type="image/webp" srcset="/estatewatch/img/XAPflveYPo-1287.webp 1287w"><img alt="Eastfields estate" loading="lazy" decoding="async" src="/estatewatch/img/XAPflveYPo-1287.jpeg" width="1287" height="844"></picture></p>
