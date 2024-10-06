@@ -2,7 +2,7 @@
 name: St John's estate
 borough: towerhamlets
 tags: towerhamlets
-location: '{"type":"Point","coordinates":[-0.008984,51.499039]}'
+location: '[51.499039,-0.008984]'
 landlord: One Housing Group
 developer:
 itla: TPAS
@@ -53,6 +53,27 @@ July 2021 Consultation Boards - [https://www.onehousing.co.uk/__data/assets/pdf_
 [Landlord Offer](src/images/stjohnslandoffer.pdf)
 
 ---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
+
 
 {% image "src/images/sjn12.jpg", "st john's estate" %}
 {% image "src/images/oakhouse.png", " st john estate" %}

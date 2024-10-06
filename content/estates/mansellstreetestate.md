@@ -2,7 +2,7 @@
 name: Mansell Street estate
 borough: cityoflondon
 tags: cityoflondon
-location: '{"type":"Point","coordinates":[-0.073840,51.512782]}'
+location: '[51.512782,-0.073840]'
 landlord: Guiness Housing Association
 developer:
 itla:
@@ -26,6 +26,26 @@ __Links:__
 [GLA stage 1 report](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/mansell-street-estate-haydon-sqaure)
 
 [Guiness website FAQs on the Mansell Street scheme](https://www.guinnesspartnership.com/case-study/mansell-street-city-london/)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

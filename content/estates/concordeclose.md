@@ -2,7 +2,7 @@
 name: Concorde Close
 borough: hounslow
 tags: hounslow
-location: '{"type":"Point","coordinates":[-0.366567,51.471914]}'
+location: '[51.471914,-0.366567]'
 ballot: Exempt
 landlord: Home Group
 developer: null
@@ -37,3 +37,25 @@ Home Group's website - [https://www.homegroup.org.uk/about-us/working-with-us/de
 TRA website - [https://concordeclose.co.uk](https://concordeclose.co.uk)
 
 2018 Planning Committee report: <https://democraticservices.hounslow.gov.uk/documents/s147678/Concorde%20Close-Final1.pdf>
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

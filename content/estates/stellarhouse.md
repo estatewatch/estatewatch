@@ -2,7 +2,7 @@
 name: Stellar House & Atlair Close 
 borough: haringey
 tags: haringey
-location: '{"type":"Point","coordinates":[-0.066563,51.608284]}'
+location: '[51.608284,-0.066563]'
 landlord: Haringey Council
 developer:
 itla:
@@ -17,3 +17,26 @@ Circa 300 homes at Atlair Close including Stellar House have been earmarked for 
 They have been identified for redevelopment in Haringey's [Tottenham Area Action Plan](https://www.haringey.gov.uk/sites/haringeygovuk/files/final_haringey_tottenham_aap_dtp_online.pdf) (site NT3). 
 
 {% image "src/images/stellar2.png", "stellar image" %}
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
+

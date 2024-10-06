@@ -2,7 +2,7 @@
 name: Joyce Avenue and Snells Park estates
 borough: enfield
 tags: enfield
-location: '{"type":"Point","coordinates":[-0.066698,51.612022]}'
+location: '[51.612022,-0.066698]'
 ballot: Approved 
 landlord: Enfield Council
 developer: null
@@ -38,3 +38,25 @@ __Links:__
 [Application for scoping opinion (ref:21/03691/SCOP)](https://planningandbuildingcontrol.enfield.gov.uk/online-applications/simpleSearchResults.do?action=firstPage)
 
 [Better Homes Enfield - report](https://betterhomes-enfield.org/2022/11/28/the-demolition-of-joyce-avenue-snells-park/)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

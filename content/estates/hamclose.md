@@ -2,7 +2,7 @@
 name: Ham Close estate 
 borough: richmond
 tags: richmond
-location: '{"type":"Point","coordinates":[-0.316239,51.437734]}'
+location: '[51.437734,-0.316239]'
 landlord: Richmond Housing Partnership
 developer: HILL
 itla:
@@ -32,6 +32,26 @@ In June 2021, RHP [selected](https://www.rhp.org.uk/news/news/rhp-chooses-hill-a
 A planning application was approved in December 2022 for 452 new homes of which 164 provided as 'low cost rent'.
 
 More information is available on RHP's dedicated website for the scheme [https://www.hamclose.co.uk/](https://www.hamclose.co.uk/).
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

@@ -2,7 +2,7 @@
 name: Royal Jubilee Court 
 borough: havering
 tags: havering
-location: '{"type":"Point","coordinates":[0.193341,51.585675]}'
+location: '[51.585675,0.193341]'
 landlord: Havering Council
 developer: Wates
 itla: TPAS
@@ -21,4 +21,26 @@ The scheme has not yet applied for [funding](/approved/funding) from the Mayor o
 Havering's [investment prospectus](https://www.investinhavering.co.uk/wp-content/uploads/2017/03/Vision-interactive-map.pdf) provides further details of the scheme.
 
 {% image "src/images/jcinvest.png", "alt text" %}
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
 

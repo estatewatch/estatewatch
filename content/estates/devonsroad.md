@@ -2,7 +2,7 @@
 name: Devons Road estate 
 borough: towerhamlets 
 tags: towerhamlets
-location: '{"type":"Point","coordinates":[-0.019264,51.522289]}'
+location: '[51.522289,-0.019264]'
 landlord: Poplar HARCA
 developer:
 itla: 
@@ -22,6 +22,25 @@ The Local Plan's capacity study shows how the estate could look after redevelopm
 
 {% image "src/images/devonsroadmassing.png", "Devons rd massing" %}
 
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

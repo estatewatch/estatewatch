@@ -2,7 +2,7 @@
 name: Edmonton Green Shopping Centre
 borough: enfield
 tags: enfield
-location: '{"type":"Point","coordinates":[-0.057982,51.623503]}'
+location: '[51.623503,-0.057982]'
 ballot: 
 landlord: Metropolitan Thames Valley
 developer: 
@@ -46,3 +46,26 @@ __Links:__
 Local media article: <https://enfielddispatch.co.uk/two-edmonton-towers-face-demolition-over-safety-fears-with-hundreds-of-families-affected/>
 
 [PDF version](https://enfielddispatch.co.uk/wp-content/uploads/2024/03/Dispatch-67.pdf)
+
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

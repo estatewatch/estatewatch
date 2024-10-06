@@ -2,7 +2,7 @@
 name: Fred Wigg and John Walsh Towers
 borough: walthamforest
 tags: walthamforest
-location: '{"type":"Point","coordinates":[-0.013773,51.560912]}'
+location: '[51.560912,-0.013773]'
 landlord: Waltham Forest Council
 developer:
 itla:
@@ -34,3 +34,26 @@ __Links:__
 [https://walthamforestecho.co.uk/2023/07/28/council-confirms-plans-for-comprehensive-redevelopment-of-leytonstone-estate/](https://walthamforestecho.co.uk/2023/07/28/council-confirms-plans-for-comprehensive-redevelopment-of-leytonstone-estate/)
 
 [Local Plan site allocation - 2024](https://www.walthamforest.gov.uk/sites/default/files/2024-08/Montague%20Road%20Estate%20%28R19116%29_0.pdf) 
+
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

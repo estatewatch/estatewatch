@@ -2,7 +2,7 @@
 name: Teviot estate 
 borough: towerhamlets 
 tags: towerhamlets
-location: '{"type":"Point","coordinates":[-0.012409,51.518195]}'
+location: '[51.518195,-0.012409]'
 landlord: Poplar HARCA
 developer:
 itla: Mike Tyrell
@@ -39,6 +39,27 @@ Residents were also told that the scheme would take 7 to 10 years to complete bu
 It is noteworthy that Poplar HARCA's [rehousing offer](/images/teviotoffer.pdf) to leaseholders is more generous than most (with the exception of Circle Housing's [offer in Merton](/images/mertonoffer.pdf) as it allows a certain amount of the shared equity loan to be written off after 7 years (Circle writes it off completely).
 
 ---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
+
 
 {% image "src/images/te1.jpg", "Teviot estate" %}
   {% image "src/images/te2.jpg", "Teviot estate" %}

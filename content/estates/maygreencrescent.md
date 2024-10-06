@@ -2,7 +2,7 @@
 name: Maygreen Crescent estate 
 borough: havering
 tags: havering
-location: '{"type":"Point","coordinates":[0.193681,51.566629]}'
+location: '[51.566629,0.193681]'
 landlord: Havering Council
 developer: Wates
 itla: TPAS
@@ -19,4 +19,27 @@ The estate has been earmarked for redevelopment as part of Havering's [£1bn joi
 The scheme has not yet applied for [funding](/approved/funding) from the Mayor or been exempted from his [requirement](/approved/ballotexemptions) to ballot residents on the demolition of their homes. It is unclear whether Havering intends to ballot residents at this stage.
 
 {% image "src/images/maygreenaerial.png", "maygreen crescent" %}
+
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
 

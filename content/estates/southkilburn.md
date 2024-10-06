@@ -2,7 +2,7 @@
 name: South Kilburn estate
 borough: brent
 tags: brent
-location: '{"type":"Point","coordinates":[-0.198561,51.533219]}'
+location: '[51.533219,-0.198561]'
 ballot: Approved
 landlord: Brent Council
 itla: Communities First
@@ -39,3 +39,23 @@ There is also a presentation of the plans by Dr Sendra online here:
 In february 2022, the Guardian published a [detailed critique](https://www.theguardian.com/artanddesign/2022/feb/22/mellow-yellow-south-kilburn-feelgood-buttery-brick-revived-1960s-estate) of the scheme.
 
 In March 2024, the BBC published an article about the decanted estate being left in a state of severe decay: <https://www.bbc.co.uk/news/uk-england-london-68440067>
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

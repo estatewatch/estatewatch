@@ -2,7 +2,7 @@
 name: Church Street Area
 borough: westminster
 tags: westminster
-location: '{"type":"Point","coordinates":[-0.170681,51.523316]}'
+location: '[51.523316,-0.170681]'
 landlord: Westminster Council
 developer:
 itla: PPCR
@@ -41,6 +41,8 @@ In February 2021, Westminster Council came under fire after it was [reported](ht
 
 Westminster's [policy for leaseholder re-housing](https://www.westminster.gov.uk/housing-policy-and-strategy/leaseholder-policy-housing-renewal-areas) requires leaseholders to take out a new mortgage if they want to take up the Council's shared equity offer on a new home being built as part of the scheme. 
 
+---
+
 __Links:__
 Westminster Council has a [dedicated website](https://churchstreet.org/) for the Church Street regeneration.
 
@@ -51,3 +53,25 @@ Westminster Council has a [dedicated website](https://churchstreet.org/) for the
 [Planning application documents, ref:021/08160/COOUT](https://idoxpa.westminster.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=R3DM1ZRP02T00)
 
 Westminster's [Landlord Offer](/images/ChurchStreetLandlordOffer.pdf) to residents ahead of the 2022 ballot.
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

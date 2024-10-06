@@ -2,7 +2,7 @@
 name: Juniper Crescent and Gilbeys Yard estate 
 borough: camden
 tags: camden
-location: '{"type":"Point","coordinates":[-0.150620,51.542436]}'
+location: '[51.542436,-0.150620]'
 developer: Countryside Properties
 landlord: One Housing Group
 itla: Communities First
@@ -58,6 +58,26 @@ One Housing decided to ballot residients once again but this time just the Junip
 __Links:__
 
 Article in the local press: [http://camdennewjournal.com/article/now-listen-to-us-say-tenants-who-won-vote-against-demolition-bid](http://camdennewjournal.com/article/now-listen-to-us-say-tenants-who-won-vote-against-demolition-bid)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

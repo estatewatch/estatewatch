@@ -2,7 +2,7 @@
 name: Regina Road estate 
 borough: croydon
 tags: croydon
-location: '{"type":"Point","coordinates":[-0.069866,51.400864]}'
+location: '[51.400864,-0.069866]'
 landlord: Croydon Council
 developer:
 itla:
@@ -35,4 +35,26 @@ Croydon was awarded a grant allocation of £53.8m for the scheme by the GLA in M
 __Links:__
 
 June 2024 [Cabinet report](https://democracy.croydon.gov.uk/documents/s59160/Regina%20Road%20Cabinet%20Report%20-%20Project%20Update%2015.07.24.pdf)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
 

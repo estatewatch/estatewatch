@@ -2,7 +2,7 @@
 name: Dell Court 
 borough: havering
 tags: havering
-location: '{"type":"Point","coordinates":[0.225340,51.557480]}'
+location: '[51.557480,0.225340]'
 landlord: Havering Council
 developer: Wates
 itla: TPAS
@@ -19,6 +19,26 @@ The estate has been earmarked for redevelopment as part of Havering's [£1bn joi
 It is unclear whether Havering intends to ballot residents at this stage.
 
 Havering's [investment prospectus](https://www.investinhavering.co.uk/wp-content/uploads/2017/03/Vision-interactive-map.pdf) provides further details of the scheme.
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

@@ -2,7 +2,7 @@
 name: West Kentish Town estate 
 borough: camden
 tags: camden 
-location: '{"type":"Point","coordinates":[-0.149254,51.549409]}'
+location: '[51.549409,-0.149254]'
 landlord: Camden Council
 developer:
 itla:
@@ -25,7 +25,31 @@ Planning consent was approved in 2022, to build around 885 new homes over eight 
 
 In 2023, architect Alice Brown drew up an alternative plan for the regeneration of the estate. Backed by some residents, the plans show how the homes can be retrofitted adding insulation, reconfiguring internal walls and adding balconies to produce a climate impact estimated at six times smaller. 
 
+---
+
+__Links:__ 
+
 [https://www.theguardian.com/uk-news/2023/mar/22/rebuild-retrofit-carbon-row-breaks-out-plans-camden-council-estate](https://www.theguardian.com/uk-news/2023/mar/22/rebuild-retrofit-carbon-row-breaks-out-plans-camden-council-estate)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

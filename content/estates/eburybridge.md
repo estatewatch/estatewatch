@@ -2,7 +2,7 @@
 name: Ebury Bridge estate
 borough: westminster
 tags: westminster
-location: '{"type":"Point","coordinates":[-0.149611,51.488945]}'
+location: '[51.488945,-0.149611]'
 ballot: Exempt
 landlord: Westminster Council
 developer: Westminster Council
@@ -51,6 +51,26 @@ __Links:__
 Westminster Council's planning application documents: [https://idoxpa.westminster.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QDECO3RP2RE00](https://idoxpa.westminster.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QDECO3RP2RE00)
 
 Mayor's planning reports: [https://gla.force.com/pr/s/planning-application/a0i4J000002RmHdQAK/20206100](https://gla.force.com/pr/s/planning-application/a0i4J000002RmHdQAK/20206100)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

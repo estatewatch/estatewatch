@@ -2,7 +2,7 @@
 name: Custom House regeneration
 borough: newham
 tags: newham
-location: '{"type":"Point","coordinates":[0.021314,51.510722]}'
+location: '[51.510722,0.021314]'
 landlord: Newham Council
 developer: null
 itla: Newman Francis 
@@ -50,6 +50,26 @@ The estate's residents were balloted in December 2022 and a turnout of 62 percen
 
 __Links:__
 Newham Council's dedicated website for the Custom House scheme [(https://www.customhousee16.com)](https://www.customhousee16.com).
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

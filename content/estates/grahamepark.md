@@ -2,7 +2,7 @@
 name: Grahame Park estate
 borough: barnet
 tags: barnet
-location: '{"type":"Point","coordinates":[-0.244782,51.602271]}'
+location: '[51.602271,-0.244782]'
 landlord: Barnet Council
 developer: Notting Hill Genesis
 itla:
@@ -56,6 +56,26 @@ __Links:__
 [Mayor's Stage 2 planning report](https://gla.force.com/pr/s/planning-application/a0i4J0000003Tu8QAE/20200543hs2?tabset-c2f3b=2)
 
 [Barnet Planning Portal - planning application supporting docs (ref:19/5493/OUT)](https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=PZ5MNBJI0I700)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

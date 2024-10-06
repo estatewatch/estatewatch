@@ -2,7 +2,7 @@
 name: Milford Towers
 borough: lewisham
 tags: lewisham
-location: '{"type":"Point","coordinates":[-0.022020,51.446550]}'
+location: '[51.446550,-0.022020]'
 ballot: Required
 landlord: Lewisham Council
 developer: null
@@ -21,3 +21,26 @@ Following the decant of most of the secure tenants the scheme stalled and in 201
 In 2018, further delays saw the Council [extend its agreement with Notting Hill](http://councilmeetings.lewisham.gov.uk/documents/s58205/Secretary%20of%20State%20Approval%20Milford%20Towers.pdf) until 2024. In July 2018 there were 17 remaining secure tenants, 18 leaseholders, 49 temporary tenants and a total of 191 homes let to Notting Hill, which it in turn is letting to private tenants at intermediate/market rents.
 
 In October 2021, residents [marched](https://londonnewsonline.co.uk/tower-block-residents-march-on-council-offices-in-protest-of-slum-living/) on the Town Hall in protest at the living conditions on the estate.
+
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

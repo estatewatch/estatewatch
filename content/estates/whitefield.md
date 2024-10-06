@@ -2,7 +2,7 @@
 name: Whitefield estate
 borough: barnet
 tags: barnet
-location: '{"type":"Point","coordinates":[-0.219515,51.572426]}'
+location: '[51.572426,-0.219515]'
 landlord: Barnet Council
 developer: Argent/L&Q
 itla: PEP
@@ -31,3 +31,25 @@ Barnet's planning application portal documents and S106 agreement: <https://publ
 Mayor's stage 2 report: <https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_65975///brent_cross_cricklewood_report.pdf>
 
 2017 Compulsory Purchase Order [inspectors' report](/images/whitefieldcpo.pdf)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

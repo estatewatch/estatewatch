@@ -2,7 +2,7 @@
 name: Alma estate 
 borough: enfield
 tags: enfield
-location: '{"type":"Point","coordinates":[-0.036348,51.643512]}'
+location: '[51.643512,-0.036348]'
 landlord: Enfield Council
 developer: Countryside Properties
 itla: PEP
@@ -46,4 +46,25 @@ Enfield's [planning application documents](https://planningandbuildingcontrol.en
 
 The Mayor's [stage 1 and stage 2 reports](https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_285804///alma_estate_report.pdf)
 
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
 

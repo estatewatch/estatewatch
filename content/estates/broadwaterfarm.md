@@ -2,7 +2,7 @@
 name: Broadwater Farm estate 
 borough: haringey
 tags: haringey
-location: '{"type":"Point","coordinates":[-0.080927,51.594340]}'
+location: '[51.594340,-0.080927]'
 landlord: Haringey Council
 developer:
 itla: PPCR
@@ -29,6 +29,26 @@ A ballot was held in Spring 2022, in which 85% voted in favour of redevelopment 
 Haringey's [shared equity offer](https://www.haringey.gov.uk/sites/haringeygovuk/files/broadwater_farm_rehousing_and_payments_policy.pdf) for leaseholders requires them to be able to afford a 60% share in any replacement home, which may require them to take out a second mortgage or invest personal savings. It also prohibits descendants from inheriting the equity share, which means the leaseholder can't pass their home on to their children.
 
 A planning application was approved in 2022 for a total of 294 new homes.
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

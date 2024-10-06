@@ -2,7 +2,7 @@
 name: Grange Farm estate 
 borough: harrow
 tags: harrow
-location: '{"type":"Point","coordinates":[-0.350978,51.568998]}'
+location: '[51.568998,-0.350978]'
 landlord: LB Harrow
 developer: Higgins
 itla: One Enterprise
@@ -42,6 +42,26 @@ __Links:__
 [Planning application documents](https://planningsearch.harrow.gov.uk/planning/search-applications#VIEW?RefType=GFPlanning&KeyNo=852234&KeyText=Subject)
 
 [GLA stage 1 and stage 2 reports](https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_460660///grange_farm_estate_report.pdf)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

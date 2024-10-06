@@ -8,5 +8,13 @@
 		{% first_image estate %}
 		</a>
 	</li>
+	<script>
+var circle = L.circle({{ estate.data.location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map);
+</script>
 {% endfor %}
 </ol>

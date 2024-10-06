@@ -2,7 +2,7 @@
 name: Maryon Grove estate 
 borough: greenwich
 tags: greenwich
-location: '{"type":"Point","coordinates":[0.049174,51.487680]}'
+location: '[51.487680,0.049174]'
 landlord: Greenwich Council
 developer: Lovell
 itla:
@@ -47,3 +47,26 @@ __Links:__
 [GLA Stage 1 and 2 reports](https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_251849///one_woolwich_maryon_road_report.pdf)
 
 Greenwich Council's [website](https://www.royalgreenwich.gov.uk/info/200200/regeneration/142/woolwich_regeneration/2) page with information about the scheme.
+
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

@@ -2,7 +2,7 @@
 name: Aberfeldy estate (West)
 borough: towerhamlets
 tags: towerhamlets
-location: '{"type":"Point","coordinates":[-0.004851,51.512950]}'
+location: '[51.512950,-0.004851]'
 ballot: Approved
 landlord: Poplar HARCA
 developer: Ecoworld
@@ -54,3 +54,25 @@ __Links:__
 [Poplar HARCA's web page for Aberfeldy West](https://www.poplarharca.co.uk/new-homes-regeneration/development-projects/project/aberfeldy-west/)
 
 Poplar HARCA's [Landlord Offer](/images/Aberfeldy-West-Landlords-Offer.pdf)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

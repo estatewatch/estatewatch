@@ -86,7 +86,7 @@ We are campaigning for the Mayor to introduce a policy presumption against redev
 
 > In general, redeveloped estates do provide more homes in total but they tend to be smaller (1 & 2 bed, rather than the family size homes they are often replacing). See the Aylesbury estate for example. 
 
-> Studies have shown that in-fill development on estates can be more effective in increasing density than wholescale redevelopment. See the [St Raphael's estate](https://www.brent.gov.uk/housing/new-council-homes/where-we-are-building/st-raphaels-estate/about) in Brent for example.
+> Studies have shown that in-fill development on estates can be more effective in increasing density than wholescale redevelopment. See the [St Raphael's estate](https://www.brent.gov.uk/housing/new-council-homes/where-we-are-building/st-raphaels-estate/about), the [Alton estate](/estates/altonarea/) and the [West Ken and Gibbs estate] for examples of these.
 </details>
 </div>
 
@@ -104,9 +104,9 @@ We are campaigning for the Mayor to introduce a policy presumption against redev
 | <img src="../policybriefing.png" width="100"> | [Policy Briefing: Making decisions on demolition or refurbishment of social housing](https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/policy_brief_refurbishment_and_demolition_of_social_housing.pdf)  |
 | <img src="../toolkit.png" width="100"> | [Refurbishment and Demolition: Community Toolkit](https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/ucl150_a4-demolition-toolkit_v4_online.pdf)  |
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jFo_aFlg41Y?si=hI3fy1e0dJBFLwbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/jFo_aFlg41Y?si=hI3fy1e0dJBFLwbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VwO5lyUiZpc?si=R-XQMe2FVTSXUQaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/VwO5lyUiZpc?si=R-XQMe2FVTSXUQaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A1OaRsFgg-E?si=E8rZ_b6wJ9-umqDB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/A1OaRsFgg-E?si=E8rZ_b6wJ9-umqDB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

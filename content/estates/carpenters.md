@@ -2,7 +2,7 @@
 name: Carpenters estate
 borough: newham
 tags: newham
-location: '{"type":"Point","coordinates":[-0.004882,51.537846]}'
+location: '[51.537846,-0.004882]'
 ballot: Approved
 landlord: Newham Council
 developer: null
@@ -69,6 +69,26 @@ This leaves the door open to Newham 'gatekeeping' the shared equity offer as has
 __Links:__
 
 [Consultation website - https://thecarpentersestate.commonplace.is](https://thecarpentersestate.commonplace.is/)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

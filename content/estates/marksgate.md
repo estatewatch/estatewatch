@@ -6,7 +6,7 @@ landlord: Barking and Dagenham Council
 developer: BeFirst
 itla:
 total: 500
-location: '{"type":"Point","coordinates":[0.138200,51.581715]}'
+location: '[51.581715,0.138200]'
 ballot: Required
 planning: Pending
 ---
@@ -37,6 +37,26 @@ The Council says that tenants wanting to return to the redeveloped site will pay
 __Links:__
 
 BeFirst's dedicated website for the scheme: <https://yourcall.befirst.london/hub-page/marks-gate-matters>
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

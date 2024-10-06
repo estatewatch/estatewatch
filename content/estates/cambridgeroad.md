@@ -2,15 +2,13 @@
 name: Cambridge Road estate
 borough: kingston
 tags: kingston
-location: '{"type":"Point","coordinates":[-0.287284,51.408046]}'
+location: '[51.408046,-0.287284]'
 ballot: Approved
 landlord: RB Kingston
 developer: Countryside Properties
 itla: PPCR
 total: 820
 planning: Approved
-category: underthreat
-stage: Preparation
 ---
 {% image "src/images/cambridge3.jpg", "Cambridge Rd estate" %}
 
@@ -57,6 +55,26 @@ You can view the planning application documents on Kingston's planning portal [h
 The Mayor's stage 1 report is available [here.](https://gla.force.com/pr/s/planning-application/a0i4J000002UOhyQAG/20206860?tabset-c2f3b=2)
 
 The planning application was approved in January 2022.
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

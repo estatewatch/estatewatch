@@ -2,7 +2,7 @@
 name: Convent Way estate
 borough: hounslow
 tags: hounslow
-location: '{"type":"Point","coordinates":[-0.393576,51.494632]}'
+location: '[51.494632,-0.393576]'
 landlord: Hounslow Council
 developer:
 itla:
@@ -34,6 +34,26 @@ In April 2021, Hounslow started [consulting](https://haveyoursay.hounslow.gov.uk
 85% of residents subsquently voted in favour of redevelopment. It is not known how many residents turned out for the vote.
 
 A planning application was approved in 2022 for 967 new homes of which 50% affordable rent (up to 80% market rent). All of the new homes are proposed to be constructed to Passive House standards.
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

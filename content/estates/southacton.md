@@ -2,7 +2,7 @@
 name: South Acton estate
 borough: ealing
 tags: ealing
-location: '{"type":"Point","coordinates":[-0.272799,51.502295]}'
+location: '[51.502295,-0.272799]'
 ballot: Exempt
 landlord: Ealing Council
 developer: Countryside Properties
@@ -50,5 +50,25 @@ Mayor's planning report for the 2018 revised masterplan: [https://www.london.gov
 Ealing's planning documents for the original 2013 masterplan (first phase): [https://pam.ealing.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=ZZZW7IJMTA900](https://pam.ealing.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=ZZZW7IJMTA900)
 
 Ealing's planning documents for the revised 2018 masterplan: [https://pam.ealing.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=P9JR5LJMI6Q00](https://pam.ealing.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=P9JR5LJMI6Q00)
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
 
 

@@ -2,7 +2,7 @@
 name: Hall Place estate
 borough: westminster
 tags: westminster
-location: '{"type":"Point","coordinates":[-0.175467,51.523358]}'
+location: '[51.523358,-0.175467]'
 landlord: Westminster Council
 developer:
 itla:
@@ -21,6 +21,26 @@ The estate is situated off the Edgware road near the Regent's Canal. It sits [wi
 It is also within the boundary of the __Edgeware Road Housing Zone__, one of [30 special housing zones](https://www.london.gov.uk/what-we-do/housing-and-land/increasing-housing-supply/housing-zones#acc-i-42741) designated by the Mayor to deliver accelerated housing development. The Edgeware Road zone is expected to deliver 1700 new homes.
 
 The estate has already been subject to a small amount of in-fill development, with [60 homes delivered](https://www.westminster.gov.uk/parsons-north-development) on open space at the foot of Parsons House.
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

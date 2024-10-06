@@ -2,7 +2,7 @@
 name: Wendling estate 
 borough: camden
 tags: camden
-location: '{"type":"Point","coordinates":[-0.156132,51.551117]}'
+location: '[51.551117,-0.156132]'
 landlord: Camden Council
 itla: Community Liaison Officers (Camden)
 developer:
@@ -56,3 +56,25 @@ Camden Council's website: [https://www.camden.gov.uk/wendling-estate-and-st-step
 Camden's [Landlord Offer](/images/wendlingoffer.pdf)
 
 Camden New Journal article (March 2020) - [http://camdennewjournal.com/article/daily-battle-to-fix-estate-lifts-in-gospel-oak-estate](http://camdennewjournal.com/article/daily-battle-to-fix-estate-lifts-in-gospel-oak-estate)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

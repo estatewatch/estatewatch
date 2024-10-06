@@ -2,7 +2,7 @@
 name: Central Hill estate 
 borough: lambeth
 tags: lambeth
-location: '{"type":"Point","coordinates":[-0.085651,51.420034]}'
+location: '[51.420034,-0.085651]'
 landlord: Lambeth Council
 developer:
 itla: PPCR
@@ -41,5 +41,27 @@ Two primary recommendations emerged: first, to dissolve Homes for Lambeth and re
 These recommendations have led to a fundamental reshaping of Lambeth’s estate regeneration plans, effectively putting many estates back to square one.
 
 The Overview and Scrutiny report indicates that estates such as Central Hill, Cressingham Gardens, and Fenwick are facing a complete reset.
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
 
 {% image "src/images/centralhillaerial.jpg", "central hill estate" %}

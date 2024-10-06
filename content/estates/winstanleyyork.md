@@ -2,13 +2,14 @@
 name: Winstanley & York Road estates 
 borough: wandsworth
 tags: wandsworth
-location: '{"type":"Point","coordinates":[-0.176427,51.464762]}'
+location: '[51.464762,-0.176427]'
 landlord: Wandsworth Council
 developer: Taylor Wimpey
 itla:
 total: 759
-ballot:
+ballot: Exempt
 planning: Approved
+architect: HLM
 ---
 {% image "src/images/wy22.jpg", "Winstanley and york estate" %}
 
@@ -41,6 +42,26 @@ Mayor's stage 1 report: - [https://www.london.gov.uk/what-we-do/planning/plannin
 Mayor's stage 2 report: - [https://gla.force.com/pr/s/planning-application/a0i4J000002RqoBQAS/20206193?tabset-c2f3b=2](https://gla.force.com/pr/s/planning-application/a0i4J000002RqoBQAS/20206193?tabset-c2f3b=2)
 
 Jan 2020 Planning Committee report - [https://planning2.wandsworth.gov.uk/iam/IAMCache/5261134/5261134.pdf](https://planning2.wandsworth.gov.uk/iam/IAMCache/5261134/5261134.pdf)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
  {% image "src/images/wy1.jpg", "Winstanley and york estate" %}

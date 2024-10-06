@@ -2,7 +2,7 @@
 name: Wornington Green estate 
 borough: kensingtonandchelsea
 tags: kensingtonandchelsea
-location: '{"type":"Point","coordinates":[-0.212212,51.523537]}'
+location: '[51.523537,-0.212212]'
 landlord: RBKC
 developer: Catalyst Housing Association
 itla: Newman Francis
@@ -43,4 +43,26 @@ Planning permission for the remaining phase 3 of the scheme is due to be decided
 __Links:__  
 
 [RBKC's planning application (ref:PP/21/07028)](https://www.rbkc.gov.uk/planning/searches/details.aspx?adv=0&simple=Wornington&simpleBatch=20&simSubmit=Search&id=PP/21/07028&cn=269186+CBRE+UK+Henrietta+House+8+Henrietta+Place+&type=application&tab=tabs-planning-1>)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
 

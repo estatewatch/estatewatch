@@ -2,7 +2,7 @@
 name: Brookhill Close estate 
 borough: greenwich
 tags: greenwich
-location: '{"type":"Point","coordinates":[0.065543,51.483649]}'
+location: '[51.483649,0.065543]'
 landlord: Hyde Housing Association
 developer:
 itla:
@@ -26,6 +26,26 @@ __Links:__
 GLA [planning reports](https://planning.london.gov.uk/pr/s/planning-application/a0i4J000006cabPQAQ/20220377?tabset-c2f3b=2)
 
 LB Greenwich planning committee report: <https://committees.royalgreenwich.gov.uk/Data/Planning%20Board/202302211830/Agenda/4.0%20-%20Brookhill%20Close%20Report.pdf>
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

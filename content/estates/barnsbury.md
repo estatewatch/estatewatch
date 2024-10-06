@@ -2,7 +2,7 @@
 name: Barnsbury estate 
 borough: islington
 tags: islington
-location: '{"type":"Point","coordinates":[-0.114844,51.536269]}'
+location: '[51.536269,-0.114844]'
 landlord: Newlon Housing Association
 developer: Mount Anvil
 itla:
@@ -39,6 +39,26 @@ Newlon's website for the scheme: [https://betterbarnsbury.org.uk](https://better
 Newlon's [Landlord Offer](/images/BansburyOffer.pdf)
 
 GLA [planning report](https://planning.london.gov.uk/pr/s/planning-application/a0i4J000006ceumQAA/20220438?tabset-c2f3b=2)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

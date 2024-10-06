@@ -2,7 +2,7 @@
 name: Charlton House 
 borough: hounslow
 tags: hounslow
-location: '{"type":"Point","coordinates":[-0.300195,51.486105]}'
+location: '[51.486105,-0.300195]'
 landlord: Hounslow Council
 developer:
 itla:
@@ -29,6 +29,26 @@ Planning permission was granted in February 2023 for 209 new flats, which are to
 __Links:__  
 
 Hounslow's [website](https://www.hounslow.gov.uk/news/article/2311/residents_overwhelmingly_voted_yes_to_the_exciting_plans_to_transform_their_estate)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

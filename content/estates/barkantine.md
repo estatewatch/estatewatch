@@ -2,7 +2,7 @@
 name: Barkantine estate
 borough: towerhamlets
 tags: towerhamlets
-location: '{"type":"Point","coordinates":[-0.024181,51.498528]}'
+location: '[51.498528,-0.024181]'
 ballot: Approved 
 landlord: One Housing Group
 developer: Mount Anvil
@@ -55,6 +55,26 @@ One Housing's Landlord Offer - [https://www.onehousing.co.uk/__data/assets/pdf_f
 One Housing's website - [https://onehousing.co.uk/about-us/what-we-do/development-and-regeneration/isle-of-dogs](https://onehousing.co.uk/about-us/what-we-do/development-and-regeneration/isle-of-dogs)
 
 The [4 Estates Forum](http://4estatesforum.org.uk)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

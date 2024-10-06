@@ -2,7 +2,7 @@
 name: Clare House
 borough: towerhamlets
 tags: towerhamlets
-location: '{"type":"Point","coordinates":[-0.030492,51.536511]}'
+location: '[51.536511,-0.030492]'
 landlord: Clarion Housing Association
 developer: null
 itla: null
@@ -20,5 +20,29 @@ Clare House was also found to have been cladded with combustible materials durin
 
 Clarion says that it is investigating all options for the block, including remediation/refurbishment and full demolition/redevelopment.
 
+---
+
 __Links:__  
 [Clarion's website - https://www.myclarionhousing.com/my-community/regeneration-projects/clare-house-tower-hamlets](https://www.myclarionhousing.com/my-community/regeneration-projects/clare-house-tower-hamlets)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

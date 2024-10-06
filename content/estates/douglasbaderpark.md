@@ -8,7 +8,7 @@ developer: Home/Hill Group
 itla: null
 total: 271
 status: Planning and ballot approved
-location: '{"type":"Point","coordinates":[-0.249247,51.604697]}'
+location: '[51.604697,-0.249247]'
 planning: Approved
 ---
 {% image "src/images/db3.png", "Dollis Valley" %}
@@ -51,6 +51,26 @@ Planning application and supporting documents: [https://publicaccess.barnet.gov.
 Planning officer report for the rejected planning application: [https://barnet.moderngov.co.uk/documents/s65028/Douglas%20Bader%20Park%20Estate.pdf](https://barnet.moderngov.co.uk/documents/s65028/Douglas%20Bader%20Park%20Estate.pdf)
 
 The Mayor's stage 1 report: [https://gla.force.com/pr/s/planning-application/a0i4J000002fSv8QAE/20210141?tabset-c2f3b=2](https://gla.force.com/pr/s/planning-application/a0i4J000002fSv8QAE/20210141?tabset-c2f3b=2)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

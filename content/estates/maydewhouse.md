@@ -2,7 +2,7 @@
 name: Maydew House (Abbeyfield estate)
 borough: southwark
 tags: southwark
-location: '{"type":"Point","coordinates":[-0.056187,51.493029]}'
+location: '[51.493029,-0.056187]'
 landlord: Southwark Council
 developer: Southwark Council
 itla: 
@@ -26,3 +26,25 @@ __Links:__
 
 [^2]: See paragraph 132 of [this November 2014 Cabinet report](https://moderngov.southwark.gov.uk/documents/s49973/Report%20Qtr%202%202014-15%20Capital%20Monitor.pdf)
 
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---

@@ -2,7 +2,7 @@
 name: Samuda estate
 borough: towerhamlets 
 tags: towerhamlets
-location: '{"type":"Point","coordinates":[-0.008458,51.496571]}'
+location: '[51.496571,-0.008458]'
 landlord: One Housing Group
 developer:
 itla: Open Communities
@@ -43,7 +43,27 @@ __Links:__
 
 [OHGs Website for the scheme](https://www.onehousing.co.uk/about-us/what-we-do/development-and-regeneration/isle-of-dogs/kelson-house,-dagmar-court,-halyard-house-and-talia-house)
 
-Dedicated website for residents only - <https://futuresamuda.co.uk>
+Dedicated website for residents - <https://futuresamuda.co.uk>
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

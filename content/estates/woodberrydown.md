@@ -2,13 +2,14 @@
 name: Woodberry Down estate 
 borough: hackney
 tags: hackney
-location: '{"type":"Point","coordinates":[-0.090658,51.572949]}'
+location: '[51.572949,-0.090658]'
 landlord: Hackney Council
 developer: Berkeley Homes
 itla: Simon Slater (Public Voice)
 total: 1000
 ballot: Exempt
 planning: Approved
+architect: Fletcher Priest/WE/SEH
 ---
 {% image "src/images/woodberry-down-5.jpg", "woodberry down estate" %}
 
@@ -78,6 +79,28 @@ Municipal Dreams' 2013 blog post on the Woodberry Down regeneration: [https://mu
 Hackney Council. (2007). Woodberry Down residents’ charter. Redraft March. London: Hackney Council.
 
 Hackney Cabinet Meeting. 2022. “Hackney Cabinet Meeting 28 February 2022.”
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
 
 __Credits:__
 Photos: [Municipal Dreams](municipaldreams.wordpress.com)

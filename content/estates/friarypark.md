@@ -2,7 +2,7 @@
 name: Friary Park estate 
 borough: ealing
 tags: ealing
-location: '{"type":"Point","coordinates":[-0.264300,51.516962]}'
+location: '[51.516962,-0.264300]'
 landlord: Catalyst Housing Group
 developer: Mount Anvil
 itla:
@@ -28,5 +28,27 @@ The Mayor's [stage 1 planning report](https://www.london.gov.uk/sites/default/fi
 In November 2019, it was [reported](https://www.insidehousing.co.uk/news/news/london-housing-association-moves-step-closer-on-990-home-scheme-but-affordable-share-reduced-64284) that the proposed affordable housing quota had been reduced.
 
 There is no section 106 agreement publicly available so it is not clear exactly how many replacement social rented homes there will be or whether it will be truly social rented tenure or affordable rent (up to 80% market rent) - or whether it has been secured in perpetuity.
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
 
 

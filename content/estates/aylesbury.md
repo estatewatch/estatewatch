@@ -2,7 +2,7 @@
 name: Aylesbury estate 
 borough: southwark
 tags: southwark
-location: '{"type":"Point","coordinates":[-0.084806,51.485789]}'
+location: '[51.485789,-0.084806]'
 landlord: Southwark Council
 developer: Notting Hill Genesis
 itla:
@@ -52,6 +52,26 @@ __Links:__
 [LA - Planning application documents](https://planning.southwark.gov.uk/online-applications/applicationDetails.do?keyVal=ZZZV1BKBWR660&activeTab=summary)
 
 [GLA - Planning reports](https://planapps.london.gov.uk/?planAppFilters=%255B%257B%2522or%2522%253A%255B%257B%2522name%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%252C%257B%2522glaReference%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%252C%257B%2522reference%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%252C%257B%2522postcode%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%255D%257D%252C%257B%2522project_id%2522%253A%257B%2522eq%2522%253A%2522637e245db0b8894bb2cb3034%2522%257D%257D%255D%2526planAppValues%253D%257B%2522general%2522%253A%2522aylesbury%2520estate%2522%257D)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

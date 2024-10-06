@@ -2,7 +2,7 @@
 name: Collingwood estate
 borough: sutton
 tags: sutton
-location: '{"type":"Point","coordinates":[-0.1988,51.3691]}'
+location: '[51.3691,-0.1988]'
 landlord: Sutton Council
 developer:
 itla:
@@ -27,6 +27,26 @@ It is also earmarked in Sutton's [Policy Map](http://sutton.addresscafe.com/app/
 {% image "src/images/suttonpolicymap.png", "alt text" %}
 
 The nearby [Chaucer estate](/estates/sutton/chaucerestate/) was clad with the same material and has also been listed as one of Sutton's five estates earmarked for renewal.
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

@@ -2,7 +2,7 @@
 name: Avenue Road estate
 borough: walthamforest
 tags: walthamforest
-location: '{"type":"Point","coordinates":[-0.002466,51.554350]}'
+location: '[51.554350,-0.002466]'
 landlord: Waltham Forest Council
 developer: Bellway Homes
 itla: Newman Francis
@@ -50,5 +50,27 @@ In October 2023, it was [confirmed](https://www.london.gov.uk/who-we-are/what-lo
 Waltham Forest's [Landlord Offer](https://www.avenue-road-estate-regeneration.co.uk/storage/app/media/lwf-arl-hta-g-landlord-offer-main-webspreads.pdf) to residents ahead of the ballot.
 
 [Planning application documents](https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=110198)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
 
 {% image "src/images/Avenue_R5.jpg", "image of Avenue Road estate" %}

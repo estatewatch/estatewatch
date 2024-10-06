@@ -2,7 +2,7 @@
 name: Calverley Close estate 
 borough: bromley 
 tags: bromley
-location: '{"type":"Point","coordinates":[0.021422,51.419397]}'
+location: '[51.419397,0.021422]'
 landlord: Riverside Housing Association
 developer:
 itla: Source Partnership
@@ -32,6 +32,26 @@ A ballot was held in July 2021, with a majority of residents voting in favour of
 Planning permission was granted in 2023 for 275 new homes, of which 179 'affordable'.
 
 More information is available on Riverside's website here: [https://www.riverside.org.uk/redevelopment-projects/calverley-close-revitalising-your-neighbourhood/](https://www.riverside.org.uk/redevelopment-projects/calverley-close-revitalising-your-neighbourhood/)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

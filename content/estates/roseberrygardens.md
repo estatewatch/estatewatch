@@ -2,7 +2,7 @@
 name: Roseberry Gardens estate 
 borough: sutton
 tags: sutton
-location: '{"type":"Point","coordinates":[-0.1929,51.3679]}'
+location: '[51.3679,-0.1929]'
 landlord: Sutton Council
 developer:
 itla:
@@ -23,4 +23,26 @@ The estate is also clearly marked in Sutton's [Policy Map](http://sutton.address
 {% image "src/images/suttonpolicymap.png", "alt text" %}
 
 The estate comprises around a dozen blocks of 2-3 storey maisonettes and around a dozen rows of 2-storey terraced homes. It is located directly adjacent to the [Benhill estate](/estates/sutton/benhillestate/) which is a much larger estate, and also earmarked for redevelopment in the local plan. 
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
 

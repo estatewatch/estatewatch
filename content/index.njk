@@ -4,13 +4,28 @@ layout: layouts/home.njk
 <div class="glitch-wrapper">
    <div class="glitch" data-text="ESTATES UNDER THREAT">ESTATES UNDER THREAT</div>
 </div>
-<!-- Delete this message, it will also remove the component CSS from the bundle -->
+
 {%- css %}{% include "public/css/message-box.css" %}{% endcss %}
 <div class="message-box">
 	
-	<h2>Over 100 London housing estates are facing demolition. We show where they are and why refurbishment is almost always a better option:</h2>
+	<h2>{{ collections.estates.length }} London housing estates are facing demolition. We show where they are and why refurbishment is almost always a better option:</h2>
+
 </div>
-<!-- Stop deleting -->
+
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView([51.505, -0.09], 10);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+</script>
+
 
 {% set estateslist = collections.estates %}
 {% include "estateslist.njk" %}
+

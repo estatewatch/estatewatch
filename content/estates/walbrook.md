@@ -2,7 +2,7 @@
 name: Walbrook House
 borough: enfield
 tags: enfield
-location: '{"type":"Point","coordinates":[-0.045066,51.628832]}'
+location: '[51.628832,-0.045066]'
 ballot: 
 landlord: LB Enfield
 developer: 
@@ -28,4 +28,26 @@ Enfield council is underway with decanting tenants from the block and as at 2023
 __Links:__
 
 April 2023 [council report](https://governance.enfield.gov.uk/documents/s97590/HRD2324_007%20Walbrook%20House%20Part%201%20-%2018%20April%2023.pdf)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
 

@@ -2,7 +2,7 @@
 name: Achilles Street area
 borough: lewisham
 tags: lewisham
-location: '{"type":"Point","coordinates":[-0.035341,51.476452]}'
+location: '[51.476452,-0.035341]'
 landlord: Lewisham Council
 developer: Lewisham Homes
 itla:
@@ -43,6 +43,26 @@ The Council's [Achilles St Landlord offer](http://councilmeetings.lewisham.gov.u
 [Deptford is Changing](https://www.yumpu.com/en/document/view/63260301/deptford-is-changing-a-creative-exploration-of-gentrification) book by local resident and PhD student Anita Strasser.
 
 [Lewisham Council's web page for the scheme](https://lewisham.gov.uk/organizations/achilles-street-redevelopment)
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
 
 ---
 

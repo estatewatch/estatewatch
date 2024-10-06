@@ -2,7 +2,7 @@
 name: Love Lane estate
 borough: haringey
 tags: haringey
-location: '{"type":"Point","coordinates":[-0.069012,51.604415]}'
+location: '[51.604415,-0.069012]'
 ballot: Approved
 landlord: Haringey Council
 developer: Lendlease
@@ -29,3 +29,25 @@ A ballot took place in September 2021 in which 69% of 'eligible' residents voted
 The residents eligible to vote consisted primarily of temporary residents, which numbered 226 compared with 43 remaining secure tenants and 25 resident leaseholders. During the ballot, temporary residents were offered secure council tenancies in replacement homes if the scheme goes ahead.
 
 In January 2022, it was revealed that Haringey Council spent £350k on its campaign for a YES vote. As a result of this, a [petition](https://www.pilc.org.uk/tell-sadiq-to-say-yes-to-the-resident-empowerment-fund/) has been set up, calling on the Mayor to create a Resident Empowerment Fund that will level the playing field between councils and the local community in estate ballots.
+
+---
+
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script>
+  var map = L.map('map').setView({{ location }}, 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle({{ location }}, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+
+---
