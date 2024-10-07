@@ -642,17 +642,12 @@
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/towerhamlets/</loc>
-		<lastmod>2024-10-07</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/lewisham/</loc>
 		<lastmod>2024-10-07</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/enfield/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/towerhamlets/</loc>
 		<lastmod>2024-10-07</lastmod>
 	</url>
 	
@@ -662,17 +657,22 @@
 	</url>
 	
 	<url>
+		<loc>https://estatewatch.london/estatewatch/tags/enfield/</loc>
+		<lastmod>2024-10-07</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/wandsworth/</loc>
 		<lastmod>2024-10-07</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/hillingdon/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/walthamforest/</loc>
 		<lastmod>2024-10-07</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/walthamforest/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/hillingdon/</loc>
 		<lastmod>2024-10-07</lastmod>
 	</url>
 	
@@ -697,22 +697,12 @@
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/haringey/</loc>
-		<lastmod>2024-10-07</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/greenwich/</loc>
 		<lastmod>2024-10-07</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/kingston/</loc>
-		<lastmod>2024-10-07</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/bromley/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/haringey/</loc>
 		<lastmod>2024-10-07</lastmod>
 	</url>
 	
@@ -722,12 +712,22 @@
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/westminster/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/kingston/</loc>
 		<lastmod>2024-10-07</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/lambeth/</loc>
+		<lastmod>2024-10-07</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://estatewatch.london/estatewatch/tags/bromley/</loc>
+		<lastmod>2024-10-07</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://estatewatch.london/estatewatch/tags/westminster/</loc>
 		<lastmod>2024-10-07</lastmod>
 	</url>
 	
