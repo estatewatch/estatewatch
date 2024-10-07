@@ -7,8 +7,9 @@ landlord: Sutton Council
 developer:
 itla: Communities First
 total: 429
-ballot: Required
+ballot: Approved?
 planning: Pending
+architect: HTA
 ---
 {% image "src/images/bhs5.jpg", "benhill estate" %}
 
@@ -18,7 +19,15 @@ The Benhill estate comprising 429 homes near Sutton High Street, is one of seven
 
 {% image "src/images/suttonplan.png", "alt text" %}
 
-Sutton Council's website has a [dedicated website](https://www.sutton.gov.uk/info/200502/housing_advice_and_options/1781/benhill_estate_regeneration/3) for the Benhill estate regeneration, which it claims is in consultation stage and that no decision on the estate's future has yet been taken. It provides details of the rehousing commitment to tenants and leaseholders as well as information on forthcoming consultation events.
+There is little information about the scheme in the public realm.
+
+According to [this June newsletter](https://www.sutton.gov.uk/documents/20124/453607/SUT-BEN_RegenNewsletter_JUNE_edition_web_AW.pdf/bec92b34-34b2-130f-2e60-f7425e4a70c2?t=1654609076766) a ballot has been held:
+
+>In March 2022, residents of Elm Grove voted ‘Yes’ to regeneration in what was Sutton’s first estate regeneration ballot. 78.6% of residents supported plans for a new neighbourhood with modern homes and improved amenities for current and future residents to enjoy.
+
+It is not however clear what residents were balloted on. There is no Landlord Offer in the public domain. The scheme is not listed in the Mayor's [list](https://www.london.gov.uk/sites/default/files/2023-10/list-of-positive-ballot-9-October%202023.pdf) of schemes where there have been positive ballot results.
+
+The estate remains identified in Sutton's [draft 2024 Local Plan](https://www.sutton.gov.uk/documents/d/guest/local-plan-issues-and-preferred-options-2024-) as a site for redevelopment.
 
 ---
 

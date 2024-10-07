@@ -28,6 +28,8 @@ It is also earmarked in Sutton's [Policy Map](http://sutton.addresscafe.com/app/
 
 The nearby [Chaucer estate](/estates/sutton/chaucerestate/) was clad with the same material and has also been listed as one of Sutton's five estates earmarked for renewal.
 
+The estate remains identified in Sutton's [draft 2024 Local Plan](https://www.sutton.gov.uk/documents/d/guest/local-plan-issues-and-preferred-options-2024-) as a site for redevelopment.
+
 ---
 
 <!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
