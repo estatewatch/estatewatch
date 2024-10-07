@@ -14,7 +14,7 @@ var circle = L.circle({{ estate.data.location }}, {
     fillColor: '#f03',
     fillOpacity: 0.5,
     radius: 300
-}).addTo(map);
+}).addTo(map).bindPopup('<a href="{{ estate.url }}" class="postlist-link">{{ estate.data.name }}</a>');
 </script>
 {% endfor %}
 </ol>

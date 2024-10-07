@@ -20,7 +20,7 @@ We are campaigning for the Mayor to introduce a policy presumption against redev
 
 1. Despite best intentions, replacement 'affordable' housing invariably ends up in a loss of social rented housing and/or its substitution for market-related rents. 
 
-2. Schemes are routinely delayed, subject to value engineering or landbanking by developers. Housing waiting lists are impacted and long-standing communities suffer uncertainty, disruption and displacement.
+2. Schemes are routinely delayed and subject to value engineering or landbanking by developers. Housing waiting lists are impacted and long-standing communities suffer uncertainty, disruption and displacement.
 
 3. Structurally sound homes are needlessly demolished and replaced, creating a significant uneccessary carbon impact both from demolition and the construction of replacement housing, which further exacerbates climate change.
 
@@ -86,7 +86,7 @@ We are campaigning for the Mayor to introduce a policy presumption against redev
 
 > In general, redeveloped estates do provide more homes in total but they tend to be smaller (1 & 2 bed, rather than the family size homes they are often replacing). See the Aylesbury estate for example. 
 
-> Studies have shown that in-fill development on estates can be more effective in increasing density than wholescale redevelopment. See the [St Raphael's estate](https://www.brent.gov.uk/housing/new-council-homes/where-we-are-building/st-raphaels-estate/about), the [Alton estate](/estates/altonarea/) and the [West Ken and Gibbs estate] for examples of these.
+> Studies have shown that in-fill development on estates can be more effective in increasing density than wholescale redevelopment. See the [St Raphael's estate](https://www.brent.gov.uk/housing/new-council-homes/where-we-are-building/st-raphaels-estate/about), the [Alton estate](/estates/altonarea/) and the [West Ken and Gibbs estate](https://westkengibbsgreen.wordpress.com/neighbourhood-plan-2021/) for examples of these.
 </details>
 </div>
 
