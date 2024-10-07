@@ -163,10 +163,10 @@
         "Landlord": "Sutton Council",
         "Existing Homes": "429",
         "Developer": "",
-        "Architect": "",
+        "Architect": "HTA",
         "ITLA": "Communities First",
         "Planning Status": "Pending",
-        "Ballot Status": "Required",
+        "Ballot Status": "Approved?",
         "Location": "[51.3673,-0.1901]"
       },
     
@@ -376,6 +376,19 @@
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
         "Location": "[51.516104,-0.048942]"
+      },
+    
+      {
+        "Name": "Clockhouse estate",
+        "Borough": "sutton",
+        "Landlord": "Sutton Council",
+        "Existing Homes": "50",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "Exempt",
+        "Location": "[51.326066,-0.155669]"
       },
     
       {
@@ -1055,6 +1068,19 @@
       },
     
       {
+        "Name": "Morden Regeneration Zone",
+        "Borough": "merton",
+        "Landlord": "LB Merton",
+        "Existing Homes": "200",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "Exempt?",
+        "Location": "[51.402088, -0.192285]"
+      },
+    
+      {
         "Name": "Neville Close estate",
         "Borough": "ealing",
         "Landlord": "Ealing Council",
@@ -1182,19 +1208,6 @@
         "Planning Status": "Pending",
         "Ballot Status": "Required",
         "Location": "[51.3679,-0.1929]"
-      },
-    
-      {
-        "Name": "Rosehill Court",
-        "Borough": "sutton",
-        "Landlord": "Sutton Council",
-        "Existing Homes": "50",
-        "Developer": "",
-        "Architect": "",
-        "ITLA": "",
-        "Planning Status": "Pending",
-        "Ballot Status": "Exempt",
-        "Location": "[51.385183,-0.189415]"
       },
     
       {
