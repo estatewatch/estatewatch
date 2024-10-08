@@ -45,6 +45,8 @@ In addition, the development partners are now embarking on another review of the
 - Total shared ownership units proposed: 1,110
 - Total private sale units proposed: 3,408
 
+A reserved matters application was approved for phase 4 in May 2024. This comprised 511 new dwellings, the majority of these (289) are for private sale, 132 for shared ownership, and just 90 for social rent.
+
 __Tenure Breakdown__ for social rent (SR), shared ownership (SO) and private sale (PS) built, permitted and proposed as of 14 February 2023:
 
 {% image "src/images/wdnumbers.jpg", "Woodberry Down Numbers" %}

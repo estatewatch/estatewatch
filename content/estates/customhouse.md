@@ -4,11 +4,12 @@ borough: newham
 tags: newham
 location: '[51.510722,0.021314]'
 landlord: Newham Council
-developer: null
+developer: Countryside
 itla: Newman Francis 
 total: 300
 planning: Approved
-ballot: Approved 
+ballot: Approved
+architect: HTA
 ---
 {% image "src/images/customhouse4.png", " Custom house" %}
 
@@ -44,12 +45,20 @@ _"Eligibility criteria will be worked out via co-production within the legal pow
 
 This leaves the door open to Newham 'gatekeeping' the shared equity offer as has been seen in other schemes where leaseholders are required to undergo a financial assessment and are subsequently told that they don't qualify for shared equity and are offered only shared ownership (i.e. paying rent on the unowned part of their homes.)
 
-The estate's residents were balloted in December 2022 and a turnout of 62 percent saw 53 percent of residents vote ‘yes’ to demolition, while 47% voted against. 
+The estate's 'eligible' residents were balloted in December 2022 and a turnout of 62 percent saw just 53 percent of these vote ‘yes’ to demolition, while 47% voted against. 
+
+In Autumn 2023, The Custom House Strategic Masterplan was approved by Tower Hamlets' planning committee, comprising four of the five sub-phases of the scheme (phases 2-5).
+
+The application [approved](https://www.newham.gov.uk/news/article/1164/356-new-affordable-homes-approved-as-part-of-custom-house-regeneration-plans) the demolition of 116 existing homes, not including those already demolished at May Wynne House and the [construction](https://mgov.newham.gov.uk/documents/s168418/Custom%20House%20COMPLETE.pdf) of 629 new mixed-tenure homes of which just 50 social rent.
+
+{% image "src/images/customhousetenure.png", "custom house tenure mix" %}
 
 ---
 
 __Links:__
 Newham Council's dedicated website for the Custom House scheme [(https://www.customhousee16.com)](https://www.customhousee16.com).
+
+[Planning Committee report](https://mgov.newham.gov.uk/documents/s168418/Custom%20House%20COMPLETE.pdf)
 
 ---
 

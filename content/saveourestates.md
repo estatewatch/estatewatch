@@ -18,11 +18,11 @@ We are campaigning for the Mayor to introduce a policy presumption against redev
 
 <summary><b>What is wrong with redeveloping London's housing estates?</b></summary>
 
-1. Despite best intentions, replacement 'affordable' housing invariably ends up in a loss of social rented housing and/or its substitution for market-related rents. 
+1. Despite best intentions, replacement 'affordable' housing invariably ends up in a loss of social rented housing and/or [higher rents](https://www.pilc.org.uk/news/affordable-housing-increases-rents-for-low-income-londoners/). 
 
 2. Schemes are routinely delayed and subject to value engineering or landbanking by developers. Housing waiting lists are impacted and long-standing communities suffer uncertainty, disruption and displacement.
 
-3. Structurally sound homes are needlessly demolished and replaced, creating a significant uneccessary carbon impact both from demolition and the construction of replacement housing, which further exacerbates climate change.
+3. Structurally sound homes are needlessly demolished and replaced, creating significant uneccessary carbon emissions that further exacerbate climate change.
 
 </details>
 </div>
