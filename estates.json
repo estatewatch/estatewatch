@@ -1172,19 +1172,6 @@
       },
     
       {
-        "Name": "Picardy Street estate",
-        "Borough": "bexley",
-        "Landlord": "",
-        "Existing Homes": "150",
-        "Developer": "",
-        "Architect": "",
-        "ITLA": "",
-        "Planning Status": "Pending",
-        "Ballot Status": "Required",
-        "Location": "[51.490741,0.150198]"
-      },
-    
-      {
         "Name": "Regina Road estate",
         "Borough": "croydon",
         "Landlord": "Croydon Council",
@@ -1221,6 +1208,19 @@
         "Planning Status": "Pending",
         "Ballot Status": "Exempt",
         "Location": "[51.585675,0.193341]"
+      },
+    
+      {
+        "Name": "Saltford Close estate",
+        "Borough": "bexley",
+        "Landlord": "",
+        "Existing Homes": "150",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Masterplan pending",
+        "Ballot Status": "Required?",
+        "Location": "[51.481231, 0.178457]"
       },
     
       {
