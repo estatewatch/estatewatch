@@ -657,7 +657,7 @@
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/hillingdon/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/wandsworth/</loc>
 		<lastmod>2024-10-08</lastmod>
 	</url>
 	
@@ -667,7 +667,7 @@
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/wandsworth/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/hillingdon/</loc>
 		<lastmod>2024-10-08</lastmod>
 	</url>
 	
@@ -712,12 +712,12 @@
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/kingston/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/newham/</loc>
 		<lastmod>2024-10-08</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/newham/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/kingston/</loc>
 		<lastmod>2024-10-08</lastmod>
 	</url>
 	
@@ -737,6 +737,11 @@
 	</url>
 	
 	<url>
+		<loc>https://estatewatch.london/estatewatch/tags/havering/</loc>
+		<lastmod>2024-10-08</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/barnet/</loc>
 		<lastmod>2024-10-08</lastmod>
 	</url>
@@ -747,17 +752,12 @@
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/havering/</loc>
+		<loc>https://estatewatch.london/estatewatch/tags/barkinganddagenham/</loc>
 		<lastmod>2024-10-08</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://estatewatch.london/estatewatch/tags/harrow/</loc>
-		<lastmod>2024-10-08</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://estatewatch.london/estatewatch/tags/barkinganddagenham/</loc>
 		<lastmod>2024-10-08</lastmod>
 	</url>
 	
