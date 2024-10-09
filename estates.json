@@ -1250,6 +1250,19 @@
       },
     
       {
+        "Name": "Sheephouse Way estate",
+        "Borough": "kingston",
+        "Landlord": "RB Kingston",
+        "Existing Homes": "120",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "Exempt",
+        "Location": "[51.384434, -0.264362]"
+      },
+    
+      {
         "Name": "Shires estate",
         "Borough": "enfield",
         "Landlord": "Enfield Council",
@@ -1312,6 +1325,19 @@
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
         "Location": "[51.478668,-0.118861]"
+      },
+    
+      {
+        "Name": "South Lane estate",
+        "Borough": "kingston",
+        "Landlord": "RB Kingston",
+        "Existing Homes": "130",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "Exempt",
+        "Location": "[51.386237, -0.256749]"
       },
     
       {
@@ -1455,6 +1481,19 @@
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
         "Location": "[51.551117,-0.156132]"
+      },
+    
+      {
+        "Name": "Wessex Close estate",
+        "Borough": "kingston",
+        "Landlord": "RB Kingston",
+        "Existing Homes": "120",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "Exempt",
+        "Location": "[51.412340, -0.281306]"
       },
     
       {
