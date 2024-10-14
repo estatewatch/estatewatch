@@ -4,7 +4,9 @@ stage: Implementation
 borough: merton
 tags: merton
 location: '[51.414691,-0.190444]'
-developer:
+developer: Clarion
+landlord: Clarion
+architect: PRP
 itla:
 total: 608
 ballot: Exempt
@@ -42,7 +44,20 @@ Secondly, that whilst the cost of redevelopment was higher than that of refurbis
 
 Savills was later also instructed to produce a [financial viability appraisal](https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000098000/1000098159/17P1721_Clarions%20Financial%20Viability%20Appraisal%20Summary%20Report.pdf) justifying Clarion's claim that it couldn't provide a policy-compliant level of affordable housing for the scheme.
 
-It is worth noting that the three merton schemes provide something that no other regeneration scheme has offered - namely, a very generous [re-housing offer](http://35percent.org/img/mertonoffer.pdf) to leaseholders which gives them full equity of a replacement home after 11 years.
+It is worth noting that the three merton schemes provide something that no other regeneration scheme has offered - namely, a very generous [re-housing offer](http://35percent.org/img/mertonoffer.pdf) to leaseholders which gives them full equity of a replacement home after 11 years. Although these have reported that the replacement homes offered are smaller than their current homes.
+
+In 2023, a new Outline Planning Application (OPA) for the remaining phases (4-7B) of the estate was submitted and approved. This permitted the further densification of development in the later phases of the scheme, with the express intention of 'optimising development capacity'. 
+
+This incresed the permitted development to include a total of 2,272 homes of which 493 are described as 'social/affordable rent': 
+
+{% image "src/images/highpathtenure.png", "tenure mix for high path estate" %}
+
+The [revised section 106 agreement](https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000120000/1000120762/22P3686_Section%20106%20Agreement.pdf) replaces the previous definition of affordable housing with a much looser definition:
+
+{% image "src/images/highpaths106.png", "high path s106" %}
+
+This is confirmed in the scheme's [viability assessment](https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000120000/1000120762/22P3686_Financial%20Viability%20Assessment%2003.pdf) which says _"We have been advised by Clarion to assume that all rented homes will be let as Social Rent tenure homes, although note that the Section 106 agreement allows for a more flexible range of tenures to be provided."_ (para 6.2.4)
+
 
 ---
 
@@ -53,6 +68,10 @@ Merton's planning application docs - [ref:17/P1721](https://planning.merton.gov.
 Mayor's [stage 2 report](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/high-path-estate) - approved Nov 2018
 
 [Exhibition boards](https://www.myclarionhousing.com/-/media/57A74ED432A347FE8636BFE20B10AB19.pdf?la=en&sc_revision=de07b12b190e4b71a6bfde09c29e333c&hash=9852FCA77FDFA41CC719944E317C4CB5E38CD263&hash=9852FCA77FDFA41CC719944E317C4CB5E38CD263) for the consultation for phase 2 of the scheme.
+
+Revised outline application planning docs: <https://planning.merton.gov.uk/MVM/Online/DMS/DocumentViewer.aspx?pk=1000120762&SearchType=Planning%20Application> (Ref:22/P3686)
+
+2022 Compulsory Purchase Order Statement of Reasons: <https://www.merton.gov.uk/system/files/2022-06/Statement%20of%20Reasons%20-%20High%20Path%20No1-%20PDF.pdf>
 
 ---
 
@@ -76,4 +95,6 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1pe_DEn1TWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="610" height="325" src="https://www.youtube.com/embed/1pe_DEn1TWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="610" height="325" src="https://www.youtube.com/embed/OfMMGLSuzYw?si=lQ4-5SuHPkkhjkoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

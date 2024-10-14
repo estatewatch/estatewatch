@@ -4,11 +4,12 @@ borough: merton
 tags: merton
 location: '[51.407168,-0.149209]'
 ballot: Exempt
-landlord: Clarion Group
-developer: null
+landlord: Clarion
+developer: Clarion
 itla: null
 total: 446
 planning: Approved
+architect: Levitt Bernstein
 ---
 {% image "src/images/ef3.jpg", "Eastfields estate" %}
 
@@ -40,11 +41,13 @@ Thirdly, that whilst the cost of redevelopment was higher than that of refurbish
 
 Savills was later also instructed to produce a [financial viability appraisal](https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000098000/1000098159/17P1721_Clarions%20Financial%20Viability%20Appraisal%20Summary%20Report.pdf) justifying Clarion's claim that it couldn't provide a policy-compliant level of affordable housing for the scheme.
 
-It is worth noting that the three Merton estates provide something that no other regeneration scheme has offered - namely, a very generous [re-housing offer](http://35percent.org/img/mertonoffer.pdf) to leaseholders which gives them full equity of one of the new-build replacement homes after 11 years.
+It is worth noting that the three Merton estates provide something that no other regeneration scheme has offered - namely, a very generous [re-housing offer](http://35percent.org/img/mertonoffer.pdf) to leaseholders which gives them full equity of one of the new-build replacement homes after 11 years. Although these have reported that replacement properties offered are smaller than their existing ones.
 
 In June 2021, the estate was in the news after an [ITV investigation](https://www.itv.com/news/2021-06-16/collapsed-ceilings-mice-and-mould-appalling-conditions-uncovered-across-an-entire-housing-estate-of-nearly-500-homes) uncovered the apalling conditions that tenants were being made to endure in their homes.
 
+<center>
 {% image "src/images/screenshot-2021-08-18-at-09-04-28-10-daniel-hewitt-danielhewittitv-twitter.png", "alt text" %}
+</center>
 
 The rats, leaks and collapsed ceilings found in the ITV report led to an inquiry by the Social Housing Regulator. But in August that inquiry cleared Clarion of any wrongdoing, finding no evidence of “organisational failure.”
 
@@ -58,11 +61,13 @@ The stock transfer agreement committed Circle to improving the quality of accomm
 
 The Mayor then approved £15m grant funding for the Eastfields estate scheme in June 2017 and [signed off](https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_437651///eastfields_estate_report.pdf) outline planning permission for the scheme in November 2018, despite it not meeting with his minimum affordable housing requirements (30% instead of 50% affordable and affordable rent rather than social rent).
 
-The outline planning consent said that the scheme would be progressed in five phases over a 13-year period, each of the five phases requiring a detailed (reserved matters) planning application to be submitted. In Clarion's most recent [newsletter to tenants](https://www.myclarionhousing.com/-/jssmedia/clarion-housing-association/documents/regeneration-documents/eastfields/newsletters/20-03-eastfields-newsletter-spring-2020.ashx) (Spring 2020) it said that submission of the detailed application for phase 1 had been delayed because it was *"still reviewing our regeneration projects and costs, so we are not yet in the position to submit the planning application."*
-
-No further information is available surrounding the ongoing and extensive delays. Clarion hasn't even drawn up a roadmap for decanting the estate. Clarion's outline permission expires in April and the GLA grant funding requires a start on site by March next year. If Clarion doesn't submit and get a reserved matters approved by then it runs the risk of losing grant funding and also its ballot exemption (albeit at the Mayor's discretion).
-
 In September 2021, Merton Council [agreed](https://www.housingtoday.co.uk/news/merton-council-agrees-deal-with-clarion-to-kickstart-unviable-2600-home-regen-project/5113627.article) to forgo a 5% profit share deal that it had with Clarion in order to help 'kick-start' the scheme, which had been declared unviable.
+
+The 2018 outline planning consent said that the scheme would be progressed in five phases over a 13-year period, each of the five phases requiring a detailed (reserved matters) planning application to be submitted. In Clarion's most recent [Autumn 2023](https://eastfieldslive.com/pages/documents) it said that work is about to start on phase 1 of the scheme. As at October 2024, no further newsletters have been published.
+
+In 2023, Clarion negotiated a [revised section 106 agreement](https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000120000/1000120762/22P3686_Section%20106%20Agreement.pdf) with Merton Council, which replaces the previous definition of affordable housing with a much looser one:
+
+{% image "src/images/highpaths106.png", "high path s106" %}
 
 ---
 
@@ -72,6 +77,8 @@ June 2021 ITV report - [https://www.itv.com/news/2021-06-16/collapsed-ceilings-m
 
 
 Mayor's [Stage 1 and Stage 2 planning reports](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/eastfields-estate) - approved Nov 2018
+
+Clarion's website for the scheme: <https://eastfieldslive.com>
 
 ---
 
