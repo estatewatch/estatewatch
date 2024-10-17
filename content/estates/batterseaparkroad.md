@@ -1,20 +1,20 @@
 ---
-name: Battersea Park Road estate 
+name: Savona estate 
 borough: wandsworth
 tags: wandsworth
 location: '[51.478880,-0.142430]'
-landlord: 
+landlord: LB Wandsworth 
 developer: 
 itla:
-total: 100
-ballot:
+total: 130
+ballot: Exempt
 planning: 
 ---
-{% image "src/images/batterseaparkroad.png", "battersea park road" %}
+{% image "src/images/savona2.jpg", "battersea park road" %}
 
-Circa 100 homes have been earmarked for redevelopment in Wandsworth's 2023 [Local Plan](https://www.wandsworth.gov.uk/media/large/adopted_local_plan.pdf)
+Circa 130 homes have been earmarked for redevelopment in Wandsworth's 2023 [Local Plan](https://www.wandsworth.gov.uk/media/large/adopted_local_plan.pdf)
 
-The blocks situated between Battersea Park road, Thessaly road and Stewarts road have been identified as suitable for potential redevelopment with tall buildings up to 13 storeys.
+The blocks situated on Battersea Park road, opposite Batterea Power Station, have been identified as suitable for potential redevelopment with tall buildings up to 13 storeys.
 
 {% image "src/images/batterseaparkroadsite.png", "battersea park road" %}
 
@@ -39,3 +39,5 @@ var circle = L.circle({{ location }}, {
 </script>
 
 ---
+
+{% image "src/images/savona1.jpg", "Savona estate" %}

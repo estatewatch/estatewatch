@@ -57,6 +57,8 @@ __Links:__
 
 [Barnet Planning Portal - planning application supporting docs (ref:19/5493/OUT)](https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=PZ5MNBJI0I700)
 
+Municipal Dreams website: <https://municipaldreams.wordpress.com/2024/10/15/grahame-park-barnet-part-i/>
+
 ---
 
 <!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
