@@ -145,15 +145,15 @@
       },
     
       {
-        "Name": "Battersea Park Road estate",
+        "Name": "Savona estate",
         "Borough": "wandsworth",
-        "Landlord": "",
-        "Existing Homes": "100",
+        "Landlord": "LB Wandsworth",
+        "Existing Homes": "130",
         "Developer": "",
         "Architect": "",
         "ITLA": "",
         "Planning Status": "",
-        "Ballot Status": "",
+        "Ballot Status": "Exempt",
         "Location": "[51.478880,-0.142430]"
       },
     
