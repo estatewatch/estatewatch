@@ -5,7 +5,7 @@ layout: layouts/base.njk
 ## How to edit the Estate Watch website
 {%- css %}{% include "public/css/message-box.css" %}{% endcss %}
 <div class="message-box">
-The Estate Watch website uses a static site generator <a href="https://www.11ty.dev/"> (11ty)</a> together with <a href="https://pages.github.com/"> Github Pages</a> to store and publish data. To edit the site you will first need to sign up for a (free) github account at <a href="https://github.com/signup"> https://github.com/signup</a>.
+The Estate Watch website uses<a href="https://pages.github.com/"> Github</a> (a web-based platform which facilitates collaborative development of software projects) to store and publish data. The first step to getting involved is to sign up for a (free) github account at <a href="https://github.com/signup"> https://github.com/signup</a>.
 </div>
 
 Once you are signed up and logged in to Github you will be able to click on any of the _'edit this page'_ links on the Estate Watch website such as the one below:
