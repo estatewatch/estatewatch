@@ -4,12 +4,179 @@
 		<link rel="icon" type="image/x-icon" href="/estatewatch/favicon.ico">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “lambeth”</title>
+		<title>ESTATE WATCH</title>
 		<meta name="description" content="A resource for residents on London estates under threat of demolition.">
 		<link rel="alternate" href="/estatewatch/feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
 		<link rel="alternate" href="/estatewatch/feed/feed.json" type="application/json" title="ESTATE WATCH">
 		
-		<style>.postlist { counter-reset: start-from NaN }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 * { box-sizing: border-box; }
 /* Defaults */
 :root {
@@ -372,163 +539,45 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+			
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-     
-<h1>Tagged “Lambeth”</h1>
+<h1>OCCC estate</h1>
 
+<ul class="post-metadata">
+	<li><a href="/estatewatch/tags/lambeth/" class="post-tag">Lambeth</a></li>
+</ul>
 
+<pre class="language-yaml" tabindex="0"><code class="language-yaml"><span class="token key atrule">Homes under threat</span><span class="token punctuation">:</span> <span class="token number">100</span>
+<span class="token key atrule">Landlord</span><span class="token punctuation">:</span> Grainger
+<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Exempt
+<span class="token key atrule">Planning Status</span><span class="token punctuation">:</span> Approved
+<span class="token key atrule">Developer</span><span class="token punctuation">:</span> Grainger</code></pre>
 
-<ol reversed="" class="postlist">
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/centrallhill/" class="postlist-link">Central Hill estate</a>
-		 Lambeth
-		<a href="/estatewatch/estates/centrallhill/">
-		<img alt="central hill" loading="lazy" decoding="async" src="/estatewatch/img/n7rNKN1Ypp-720.jpeg" width="720" height="368">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.420034,-0.085651], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/centrallhill/" class="postlist-link">Central Hill estate</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/claphampark/" class="postlist-link">Clapham Park estate</a>
-		 Lambeth
-		<a href="/estatewatch/estates/claphampark/">
-		<img alt="clapham park estate" loading="lazy" decoding="async" src="/estatewatch/img/EiGpRxTdhk-738.png" width="738" height="463">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.449331,-0.133379], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/claphampark/" class="postlist-link">Clapham Park estate</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/cressingham/" class="postlist-link">Cressingham Gardens estate</a>
-		 Lambeth
-		<a href="/estatewatch/estates/cressingham/">
-		<img alt="cressingham gardens estate" loading="lazy" decoding="async" src="/estatewatch/img/MwDTs0PWBU-817.jpeg" width="817" height="587">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.446517,-0.111587], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/cressingham/" class="postlist-link">Cressingham Gardens estate</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/denbycourt/" class="postlist-link">Denby Court</a>
-		 Lambeth
-		<a href="/estatewatch/estates/denbycourt/">
-		<img alt="Dell court" loading="lazy" decoding="async" src="/estatewatch/img/PlFUKqN8_j-739.png" width="739" height="561">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.493660,-0.115040], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/denbycourt/" class="postlist-link">Denby Court</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/fenwick/" class="postlist-link">Fenwick estate</a>
-		 Lambeth
-		<a href="/estatewatch/estates/fenwick/">
-		<img alt="central hill header photo" loading="lazy" decoding="async" src="/estatewatch/img/sSaS-fPSrL-1067.jpeg" width="1067" height="600">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.464695,-0.127468], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/fenwick/" class="postlist-link">Fenwick estate</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/geoffreyclose/" class="postlist-link">Geoffrey Close (Lambeth) estate</a>
-		 Lambeth
-		<a href="/estatewatch/estates/geoffreyclose/">
-		<img alt="Geoffrey Close estate" loading="lazy" decoding="async" src="/estatewatch/img/PBlacrBQ9l-1244.jpeg" width="1244" height="700">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.469493,-0.099011], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/geoffreyclose/" class="postlist-link">Geoffrey Close (Lambeth) estate</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/occc/" class="postlist-link">OCCC estate</a>
-		 Lambeth
-		<a href="/estatewatch/estates/occc/">
-		<img alt="occc estate" loading="lazy" decoding="async" src="/estatewatch/img/wWtB2xCM7j-785.png" width="785" height="557">
-		</a>
-	</li>
-	<script>
+<p><picture><source type="image/avif" srcset="/estatewatch/img/wWtB2xCM7j-785.avif 785w"><source type="image/webp" srcset="/estatewatch/img/wWtB2xCM7j-785.webp 785w"><img alt="occc estate" loading="lazy" decoding="async" src="/estatewatch/img/wWtB2xCM7j-785.png" width="785" height="557"></picture></p>
+<p>Circa 100 homes have been approved for demolition on the OCCC estate near Waterloo.</p>
+<p>The estate – comprising Ospringe House, Croydon House, Charing House, Cornwall Flats and Ethelm House – was built in 1939 by the Church Commissioners.</p>
+<p>Developer Grainger bought the buildings it now calls the 'OCCC Estate' in 2005 as part of a £70 million deal with the Church Commissioners.</p>
+<p>Lambeth approved the redevelopment of the estate in 2019, allowing demolition of the existing buildings and their replacement by 215 new of which 34 homes will be provided for the 34 households on protected tenancies in the existing estate. The remainder will be a mix of private and affordable rented homes at up to 80% market rent.</p>
+<p>One of the smaller blocks on the north-east corner of the estate was demolished in 2022. However as at October 2024, the scheme has progressed no further. The remaining blocks remain occupied and it appears that the scheme has stalled.</p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.503522,-0.109505], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
 var circle = L.circle([51.503522,-0.109505], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/occc/" class="postlist-link">OCCC estate</a>');
+    radius: 500
+}).addTo(map);
 </script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/southlambeth/" class="postlist-link">South Lambeth estate</a>
-		 Lambeth
-		<a href="/estatewatch/estates/southlambeth/">
-		<img alt="south lambeth estate" loading="lazy" decoding="async" src="/estatewatch/img/HFxm8e1a4U-1067.jpeg" width="1067" height="600">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.478668,-0.118861], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/southlambeth/" class="postlist-link">South Lambeth estate</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/westbury/" class="postlist-link">Westbury estate</a>
-		 Lambeth
-		<a href="/estatewatch/estates/westbury/">
-		<img alt="westbury estate" loading="lazy" decoding="async" src="/estatewatch/img/ea5tR5zIDc-1067.jpeg" width="1067" height="600">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.470468,-0.140646], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/westbury/" class="postlist-link">Westbury estate</a>');
-</script>
-
-</ol>
-
-
-<p>See <a href="/estatewatch/tags/">all boroughs</a>.</p>
+<hr>
+<p><picture><source type="image/avif" srcset="/estatewatch/img/OPKz_Z8BD5-610.avif 610w"><source type="image/webp" srcset="/estatewatch/img/OPKz_Z8BD5-610.webp 610w"><img alt="occc estate pic" loading="lazy" decoding="async" src="/estatewatch/img/OPKz_Z8BD5-610.jpeg" width="610" height="458"></picture></p>
 
 
 		</main>
@@ -538,7 +587,7 @@ var circle = L.circle([51.470468,-0.140646], {
   <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
   <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"></path>
 </svg>
-		      <a href="https://github.com/estatewatch/estatewatch/blob/main/./content/tags.njk">Edit this page on GitHub</a>
+		      <a href="https://github.com/estatewatch/estatewatch/blob/main/./content/estates/occc.md">Edit this page on GitHub</a>
 		</footer>
 
 		

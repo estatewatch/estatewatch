@@ -1146,6 +1146,19 @@
       },
     
       {
+        "Name": "OCCC estate",
+        "Borough": "lambeth",
+        "Landlord": "Grainger",
+        "Existing Homes": "100",
+        "Developer": "Grainger",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "[51.503522,-0.109505]"
+      },
+    
+      {
         "Name": "Oldchurch Gardens estate",
         "Borough": "havering",
         "Landlord": "Havering Council",
