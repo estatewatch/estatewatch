@@ -9,7 +9,7 @@ itla:
 total: 1314
 ballot: Exempt
 planning: Approved
-architect: Mae/Peter Barber
+architect: Mae
 ---
 {% image "src/images/grahamepark4.jpg", "grahame park estate" %}
 
@@ -57,7 +57,7 @@ __Links:__
 
 [Barnet Planning Portal - planning application supporting docs (ref:19/5493/OUT)](https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=PZ5MNBJI0I700)
 
-Municipal Dreams website: <https://municipaldreams.wordpress.com/2024/10/15/grahame-park-barnet-part-i/>
+Municipal Dreams website: <https://municipaldreams.wordpress.com/2024/10/22/grahame-park-barnet-part-ii/>
 
 ---
 
