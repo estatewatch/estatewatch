@@ -600,6 +600,32 @@
       },
     
       {
+        "Name": "Eros House",
+        "Borough": "lewisham",
+        "Landlord": "District Homes (RSL)",
+        "Existing Homes": "60",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "[51.445520, -0.018815]"
+      },
+    
+      {
+        "Name": "Excalibur estate",
+        "Borough": "Lewisham",
+        "Landlord": "Lewisham Council",
+        "Existing Homes": "100",
+        "Developer": "London and Quadrant",
+        "Architect": "Hunters",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "[51.435624,-0.003185]"
+      },
+    
+      {
         "Name": "Fenwick estate",
         "Borough": "lambeth",
         "Landlord": "Lambeth Council",
@@ -670,7 +696,7 @@
         "Landlord": "Barnet Council",
         "Existing Homes": "1314",
         "Developer": "Notting Hill Genesis",
-        "Architect": "Mae/Peter Barber",
+        "Architect": "Mae",
         "ITLA": "",
         "Planning Status": "Approved",
         "Ballot Status": "Exempt",
@@ -753,6 +779,19 @@
         "Planning Status": "Pending",
         "Ballot Status": "Required",
         "Location": "[51.607002,0.219207]"
+      },
+    
+      {
+        "Name": "Harts Lane estate",
+        "Borough": "barkinganddagenham",
+        "Landlord": "Barking and Dagenham Council",
+        "Existing Homes": "500",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "[51.541150, 0.071866]"
       },
     
       {
@@ -1351,6 +1390,19 @@
         "Planning Status": "",
         "Ballot Status": "Exempt",
         "Location": "[51.386237, -0.256749]"
+      },
+    
+      {
+        "Name": "Southwold Drive",
+        "Borough": "barkinganddagenham",
+        "Landlord": "Barking and Dagenham Council",
+        "Existing Homes": "80",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "",
+        "Location": "[51.547526, 0.108163]"
       },
     
       {
