@@ -4,12 +4,179 @@
 		<link rel="icon" type="image/x-icon" href="/estatewatch/favicon.ico">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “barkinganddagenham”</title>
+		<title>ESTATE WATCH</title>
 		<meta name="description" content="A resource for residents on London estates under threat of demolition.">
 		<link rel="alternate" href="/estatewatch/feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
 		<link rel="alternate" href="/estatewatch/feed/feed.json" type="application/json" title="ESTATE WATCH">
 		
-		<style>.postlist { counter-reset: start-from NaN }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 * { box-sizing: border-box; }
 /* Defaults */
 :root {
@@ -372,147 +539,42 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+			
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-     
-<h1>Tagged “Barking &amp; Dagenham”</h1>
+<h1>Shipton Close estate</h1>
 
+<ul class="post-metadata">
+	<li><a href="/estatewatch/tags/barkinganddagenham/" class="post-tag">Barking &amp; Dagenham</a></li>
+</ul>
 
+<pre class="language-yaml" tabindex="0"><code class="language-yaml"><span class="token key atrule">Homes under threat</span><span class="token punctuation">:</span> <span class="token number">60</span>
+<span class="token key atrule">Landlord</span><span class="token punctuation">:</span> Barking and Dagenham Council
+<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Exempt<span class="token punctuation">?</span>
 
-<ol reversed="" class="postlist">
+<span class="token key atrule">Developer</span><span class="token punctuation">:</span> BeFirst<span class="token punctuation">?</span></code></pre>
 
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/gascoigne/" class="postlist-link">Gascoigne estate</a>
-		 Barking &amp; Dagenham
-		<a href="/estatewatch/estates/gascoigne/">
-		<img alt="Gascoigne estate" loading="lazy" decoding="async" src="/estatewatch/img/3SJ0_llqmr-1000.jpeg" width="1000" height="750">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.533476,0.078037], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/gascoigne/" class="postlist-link">Gascoigne estate</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/hartslane/" class="postlist-link">Harts Lane estate</a>
-		 Barking &amp; Dagenham
-		<a href="/estatewatch/estates/hartslane/">
-		<img alt="harts lane estate" loading="lazy" decoding="async" src="/estatewatch/img/pl49VL2YxJ-670.png" width="670" height="420">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.541150, 0.071866], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/hartslane/" class="postlist-link">Harts Lane estate</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/ibscottclose/" class="postlist-link">Ibscott Close estate</a>
-		 Barking &amp; Dagenham
-		<a href="/estatewatch/estates/ibscottclose/">
-		<img alt="ibscott close" loading="lazy" decoding="async" src="/estatewatch/img/CzOrlN8fWW-696.png" width="696" height="394">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.53991314131394, 0.16418543109642664], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/ibscottclose/" class="postlist-link">Ibscott Close estate</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/marksgate/" class="postlist-link">Marks Gate estate</a>
-		 Barking &amp; Dagenham
-		<a href="/estatewatch/estates/marksgate/">
-		<img alt="Padnall and Reynolds Court" loading="lazy" decoding="async" src="/estatewatch/img/QlLmFGyiGs-1381.png" width="1381" height="800">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.581715,0.138200], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/marksgate/" class="postlist-link">Marks Gate estate</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/rainhamroadsouth/" class="postlist-link">Rainham Road</a>
-		 Barking &amp; Dagenham
-		<a href="/estatewatch/estates/rainhamroadsouth/">
-		<img alt="rainham road south" loading="lazy" decoding="async" src="/estatewatch/img/JIGa0URjz3-687.png" width="687" height="528">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.547412,0.164733], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/rainhamroadsouth/" class="postlist-link">Rainham Road</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/shiptonclose/" class="postlist-link">Shipton Close estate</a>
-		 Barking &amp; Dagenham
-		<a href="/estatewatch/estates/shiptonclose/">
-		<img alt="shipton close" loading="lazy" decoding="async" src="/estatewatch/img/YjZZ6EABxp-661.png" width="661" height="399">
-		</a>
-	</li>
-	<script>
+<p><picture><source type="image/avif" srcset="/estatewatch/img/YjZZ6EABxp-661.avif 661w"><source type="image/webp" srcset="/estatewatch/img/YjZZ6EABxp-661.webp 661w"><img alt="shipton close" loading="lazy" decoding="async" src="/estatewatch/img/YjZZ6EABxp-661.png" width="661" height="399"></picture></p>
+<p>Circa 60 council homes have been earmarked for potential redevelopment on the Shipton Close estate in Dagenham.</p>
+<p>The estate has been identified in LBBD's new <a href="https://www.lbbd.gov.uk/sites/default/files/2024-10/Barking%20and%20Dagenham%20Local%20Plan%202037%20Appendix%202%20Site%20Allocation%20Proformas.pdf">Local Plan</a> as a potential site for redevelopment with capacity for 831 new homes (see site XE):</p>
+<p><picture><source type="image/avif" srcset="/estatewatch/img/d-sBBvuhvL-700.avif 700w"><source type="image/webp" srcset="/estatewatch/img/d-sBBvuhvL-700.webp 700w"><img alt="shipton road site" loading="lazy" decoding="async" src="/estatewatch/img/d-sBBvuhvL-700.png" width="700" height="498"></picture></p>
+<p>Like most of the borough's other estate renewal schemes, it is likely to be progressed by the Council in conjunction with its subsidiary affordable housing company <a href="https://www.lbbd.gov.uk/affordable-rents-reside-housing">Reside</a> which provides intermediate rented housing <em>&quot;to people who are in employment, but can’t afford to buy or rent privately and have limited access to social housing&quot;</em></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.55621041452271, 0.1287404051072312], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
 var circle = L.circle([51.55621041452271, 0.1287404051072312], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/shiptonclose/" class="postlist-link">Shipton Close estate</a>');
+    radius: 500
+}).addTo(map);
 </script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/southwolddrive/" class="postlist-link">Southwold Drive</a>
-		 Barking &amp; Dagenham
-		<a href="/estatewatch/estates/southwolddrive/">
-		<img alt="southwold drive" loading="lazy" decoding="async" src="/estatewatch/img/UFXphchW63-646.png" width="646" height="426">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.547526, 0.108163], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/southwolddrive/" class="postlist-link">Southwold Drive</a>');
-</script>
-
-	<li class="estateslist-item">
-		<a href="/estatewatch/estates/thamesview/" class="postlist-link">Thames View estate</a>
-		 Barking &amp; Dagenham
-		<a href="/estatewatch/estates/thamesview/">
-		<img alt="thames view estate" loading="lazy" decoding="async" src="/estatewatch/img/zqUPgz4OrO-942.png" width="942" height="637">
-		</a>
-	</li>
-	<script>
-var circle = L.circle([51.528893,0.109535], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 300
-}).addTo(map).bindPopup('<a href="/estates/thamesview/" class="postlist-link">Thames View estate</a>');
-</script>
-
-</ol>
-
-
-<p>See <a href="/estatewatch/tags/">all boroughs</a>.</p>
 
 
 		</main>
@@ -522,7 +584,7 @@ var circle = L.circle([51.528893,0.109535], {
   <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
   <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"></path>
 </svg>
-		      <a href="https://github.com/estatewatch/estatewatch/blob/main/./content/tags.njk">Edit this page on GitHub</a>
+		      <a href="https://github.com/estatewatch/estatewatch/blob/main/./content/estates/shiptonclose.md">Edit this page on GitHub</a>
 		</footer>
 
 		

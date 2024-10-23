@@ -834,6 +834,19 @@
       },
     
       {
+        "Name": "Ibscott Close estate",
+        "Borough": "barkinganddagenham",
+        "Landlord": "Barking and Dagenham Council",
+        "Existing Homes": "150",
+        "Developer": "BeFirst?",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "Exempt?",
+        "Location": "[51.53991314131394, 0.16418543109642664]"
+      },
+    
+      {
         "Name": "Islip Manor estate",
         "Borough": "ealing",
         "Landlord": "LB Ealing",
@@ -1224,6 +1237,19 @@
       },
     
       {
+        "Name": "Rainham Road",
+        "Borough": "barkinganddagenham",
+        "Landlord": "Barking and Dagenham Council",
+        "Existing Homes": "100",
+        "Developer": "BeFirst",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "[51.547412,0.164733]"
+      },
+    
+      {
         "Name": "Regina Road estate",
         "Borough": "croydon",
         "Landlord": "Croydon Council",
@@ -1312,6 +1338,19 @@
         "Planning Status": "",
         "Ballot Status": "Exempt",
         "Location": "[51.384434, -0.264362]"
+      },
+    
+      {
+        "Name": "Shipton Close estate",
+        "Borough": "barkinganddagenham",
+        "Landlord": "Barking and Dagenham Council",
+        "Existing Homes": "60",
+        "Developer": "BeFirst?",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "Exempt?",
+        "Location": "[51.55621041452271, 0.1287404051072312]"
       },
     
       {
@@ -1468,6 +1507,19 @@
         "Planning Status": "Approved",
         "Ballot Status": "Approved",
         "Location": "[51.495310,0.126122]"
+      },
+    
+      {
+        "Name": "Thames View estate",
+        "Borough": "barkinganddagenham",
+        "Landlord": "Barking and Dagenham Council",
+        "Existing Homes": "100",
+        "Developer": "BeFirst",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "Approved",
+        "Ballot Status": "Exempt",
+        "Location": "[51.528893,0.109535]"
       },
     
       {
