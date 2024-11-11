@@ -28,7 +28,7 @@ A ballot was held in Spring 2022, in which 85% voted in favour of redevelopment 
 
 Haringey's [shared equity offer](https://www.haringey.gov.uk/sites/haringeygovuk/files/broadwater_farm_rehousing_and_payments_policy.pdf) for leaseholders requires them to be able to afford a 60% share in any replacement home, which may require them to take out a second mortgage or invest personal savings. It also prohibits descendants from inheriting the equity share, which means the leaseholder can't pass their home on to their children.
 
-A planning application was approved in 2022 for a total of 294 new homes.
+A planning application was approved in 2022 for a total of 294 new homes, all supposedly council homes at council rents.
 
 ---
 

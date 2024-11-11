@@ -20,7 +20,7 @@ The development will see the construction of 7,400 new homes across the entire B
 
 In 2017 Barnet Council was granted the first [compulsory purchase order](/images/whitefieldcpo.pdf) to remove the remaining leaseholders from the first phase.
 
-As of May 2023, the decant of the first phase has commenced.
+In May 2023, the decanting of the first phase of the scheme commenced. In April 2024 it was [reported](https://barnetpost.co.uk/2024/04/18/delay-to-transfer-of-estate-residents-into-new-homes-at-brent-cross-redevelopment/) that the first new homes in the first phase of development had been delayed because of issues with the new gas-fired district heating system.
 
 ---
 

@@ -24,7 +24,7 @@ Newlon's formal [Landlord Offer](/images/BarnsburyOffer.pdf) made it clear that 
 
 {% image "src/images/BarnsburyNo.png", "alt text" %}
 
-This is an a recurring element in resident ballots, where residents are forced to choose between redevelopment or ongoing neglect. More examples can be found [here](https://estatewatch.london/approved/ballotexemptions/).
+This is an a recurring element in resident ballots, where residents are forced to choose between redevelopment or ongoing neglect. More examples can be found [here](/ballots).
 
 In 2018, residents [accused](https://www.islingtongazette.co.uk/news/has-newlon-housing-trust-left-barnsbury-estate-to-rot-3795818) Newlon of neglecting the estate and _'running it into the ground'_.
 

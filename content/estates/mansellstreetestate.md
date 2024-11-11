@@ -8,7 +8,7 @@ developer:
 itla:
 total: 249
 ballot: Required
-planning: Pending
+planning:
 ---
 {% image "src/images/mansell2.jpg", "mansell st estate" %}
 
@@ -20,10 +20,14 @@ In 2016, Guiness submitted a planning application for redevelopment of the estat
 
 In June 2019, it was [reported](https://www.citymatters.london/mansell-street-estate-residents-must-final-say/) that the stalled previous plans were currently being reworked before being presented to residents once again.
 
+The City of London's [draft 2024 Local Plan](https://www.cityoflondon.gov.uk/assets/Services-Environment/City-Plan-2040.pdf) lists the redevelopment of the Mansell Street estate as one of its key areas of change:
+
+{% image "src/images/mansell2024.png", "mansell 2024 local plan" %}
+
 ---
 
 __Links:__  
-[GLA stage 1 report](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/mansell-street-estate-haydon-sqaure)
+[GLA stage 1 report for the withdrawn 2016 application](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/mansell-street-estate-haydon-sqaure)
 
 [Guiness website FAQs on the Mansell Street scheme](https://www.guinnesspartnership.com/case-study/mansell-street-city-london/)
 

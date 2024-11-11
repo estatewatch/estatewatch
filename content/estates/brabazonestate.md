@@ -22,6 +22,8 @@ The six estates are: the Brabazon estate; the Brookwood estate; Charlton House; 
 
 The Brabazon estate comprises mostly two or three-storey terraced and semi-detached houses and a small community centre. It is located directly adjacent to the Norman Crescent estate to the east and green space to the west. Hounslow West tube station is approximately 10 minutes walk from the estate.
 
+The estate is not listed in Hounslow's most recent [2024 Local Plan site allocations list](https://lbhounslow.sharepoint.com/sites/InternetLinks/pp/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FInternetLinks%2Fpp%2FShared%20Documents%2FOther%20%28NOT%20on%20website%29%2FReg%2019%20Local%20Plan%202020%2D2041%20Site%20Allocations%20for%20consultation%20link%20from%20interactive%20Local%20Plan%2FHounslow%20Local%20Plan%202020%2D2041%20Chapter%2012%20%2D%20Site%20Allocations%20%28Reg%2019%29%2Epdf&parent=%2Fsites%2FInternetLinks%2Fpp%2FShared%20Documents%2FOther%20%28NOT%20on%20website%29%2FReg%2019%20Local%20Plan%202020%2D2041%20Site%20Allocations%20for%20consultation%20link%20from%20interactive%20Local%20Plan&p=true&ga=1).
+
 ---
 
 <!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->

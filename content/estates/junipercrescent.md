@@ -53,6 +53,10 @@ _"It feels to me as though repairs and maintenance have been considerably run do
 
 One Housing decided to ballot residients once again but this time just the Juniper Crescent estate, not Gilbey's Yard. The ballot was held in December 2022. In total, 116 votes were cast by Juniper Crescent residents with 73 saying yes (63 per cent) and 43 voting no. 
 
+Camden's [2024 draft Local Plan](https://res.cloudinary.com/commonplace-digital-limited/image/upload/v1705053253/projects/6544c670ccc53fe121da307b/media-upload/Draft%20Local%20Plan%20-%20Chapter%204%20-%20Central%20Camden.pdf/enqrxvow32pawu4yhyw1.pdf) lists Gilbey's Yard estate within its site allocations and describes the current situation as follows:
+
+{% image "src/images/gilbey2024.png", "gilbery plan 2024" %}
+
 ---
 
 __Links:__
