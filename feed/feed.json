@@ -2,7 +2,7 @@
 	"version": "https://jsonfeed.org/version/1.1",
 	"title": "ESTATE WATCH",
 	"language": "en",
-	"home_page_url": "https://estatewatch.london/estatewatch/estatewatch/",
+	"home_page_url": "https://estatewatch.london/estatewatch/",
 	"feed_url": "https://estatewatch.london/estatewatch/feed/feed.json",
 	"description": "A resource for residents on London estates under threat of demolition.",
 	"author": {
