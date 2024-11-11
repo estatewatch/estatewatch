@@ -997,7 +997,7 @@
         "Developer": "",
         "Architect": "",
         "ITLA": "",
-        "Planning Status": "Pending",
+        "Planning Status": "",
         "Ballot Status": "Required",
         "Location": "[51.512782,-0.073840]"
       },
@@ -1234,6 +1234,19 @@
         "Planning Status": "Pending",
         "Ballot Status": "Required",
         "Location": "[51.435475,-0.390207]"
+      },
+    
+      {
+        "Name": "RAF Uxbridge estate",
+        "Borough": "hillingdon",
+        "Landlord": "Hillingdon Council",
+        "Existing Homes": "89",
+        "Developer": "",
+        "Architect": "",
+        "ITLA": "",
+        "Planning Status": "",
+        "Ballot Status": "Exempt",
+        "Location": "[51.545461, -0.470859]"
       },
     
       {
