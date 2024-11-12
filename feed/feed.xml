@@ -3,9 +3,9 @@
 	<title>ESTATE WATCH</title>
 	<subtitle>A resource for residents on London estates under threat of demolition.</subtitle>
 	<link href="https://estatewatch.london/estatewatch/feed/feed.xml" rel="self"/>
-	<link href="https://estatewatch.london/estatewatch/"/>
-	<updated>2024-11-11T20:43:33Z</updated>
-	<id>https://estatewatch.london/</id>
+	<link href="https://estatewatch.london/estatewatch/estatewatch/"/>
+	<updated>2024-11-12T09:05:15Z</updated>
+	<id>https://estatewatch.london/estatewatch/</id>
 	<author>
 		<name>Estate Watch</name>
 		<email>info@estatewatch.london</email>
