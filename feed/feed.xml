@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>ESTATE WATCH</title>
 	<subtitle>A resource for residents on London estates under threat of demolition.</subtitle>
-	<link href="https://estatewatch.london/estatewatch/feed/feed.xml" rel="self"/>
-	<link href="https://estatewatch.london/estatewatch/"/>
-	<updated>2024-11-12T09:48:04Z</updated>
+	<link href="https://estatewatch.london/feed/feed.xml" rel="self"/>
+	<link href="https://estatewatch.london/"/>
+	<updated>2024-11-13T19:05:32Z</updated>
 	<id>https://estatewatch.london</id>
 	<author>
 		<name>Estate Watch</name>
